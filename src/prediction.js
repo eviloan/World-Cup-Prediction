@@ -122,7 +122,7 @@ export async function predictMatch({
   kimiApiKey = "",
   kimiBaseUrl = "https://api.xiaomimimo.com/v1/chat/completions",
   kimiModel = "mimo-v2.5-pro",
-  kimiTimeoutMs = 20_000,
+  kimiTimeoutMs = 60_000,
   fetchImpl = globalThis.fetch
 }) {
   const baseline = createLocalPrediction(match, teams, rules, presetRules);
