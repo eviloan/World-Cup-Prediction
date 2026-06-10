@@ -113,8 +113,9 @@ export async function predictMatch({
   fetchImpl = globalThis.fetch
 }) {
   const baseline = createLocalPrediction(match, teams, rules, presetRules);
+  const apiKey = normalizeApiKey(kimiApiKey);
 
-  if (!kimiApiKey) {
+  if (!apiKey) {
     return {
       ...baseline,
       fallbackReason: "MIMO_API_KEY is not configured."
@@ -132,7 +133,7 @@ export async function predictMatch({
     const response = await fetchImpl(kimiBaseUrl, {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${kimiApiKey}`,
+        Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -227,4 +228,10 @@ function summarizeRules(value) {
 
 function truncate(value, maxLength) {
   return value.length > maxLength ? `${value.slice(0, maxLength - 1)}…` : value;
+}
+
+function normalizeApiKey(value) {
+  return String(value ?? "")
+    .split(/\s+/)
+    .find(Boolean) ?? "";
 }

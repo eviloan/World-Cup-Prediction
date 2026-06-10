@@ -147,3 +147,34 @@ test("predictMatch parses MiMo JSON predictions when available", async () => {
   assert.equal(result.predictedScore, "2-1");
   assert.deepEqual(result.probabilities, { homeWin: 56, draw: 25, awayWin: 19 });
 });
+
+test("predictMatch sanitizes multiline API keys before building headers", async () => {
+  let authorizationHeader = "";
+  const result = await predictMatch({
+    match,
+    teams,
+    kimiApiKey: "  test-key\n test-key\n",
+    fetchImpl: async (_url, options) => {
+      authorizationHeader = options.headers.Authorization;
+      return {
+        ok: true,
+        json: async () => ({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({
+                  predictedScore: "1-1",
+                  probabilities: { homeWin: 35, draw: 35, awayWin: 30 },
+                  reasoning: ["Header was accepted."]
+                })
+              }
+            }
+          ]
+        })
+      };
+    }
+  });
+
+  assert.equal(result.source, "mimo");
+  assert.equal(authorizationHeader, "Bearer test-key");
+});
