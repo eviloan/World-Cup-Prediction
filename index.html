@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WorldCup AI Predictor</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">2026 FIFA World Cup</p>
+          <h1>2026 World Cup Prediction</h1>
+        </div>
+        <div class="status-pill" id="api-status">本地数据</div>
+      </header>
+
+      <nav class="page-tabs" aria-label="页面切换">
+        <button class="page-tab active" type="button" data-page-tab="predict">赛程预测</button>
+        <button class="page-tab" type="button" data-page-tab="teams">球队与名单</button>
+      </nav>
+
+      <main>
+        <section class="page-view active" data-page="predict">
+          <div class="workspace">
+            <section class="panel schedule-panel" aria-labelledby="schedule-title">
+              <div class="section-heading">
+                <p class="eyebrow">Schedule</p>
+                <h2 id="schedule-title">赛程</h2>
+              </div>
+              <div class="match-list" id="match-list"></div>
+            </section>
+
+            <section class="panel match-panel" aria-labelledby="match-title">
+              <div class="match-visual" aria-hidden="true">
+                <div class="pitch-line center"></div>
+                <div class="pitch-line box left"></div>
+                <div class="pitch-line box right"></div>
+                <div class="pitch-dot"></div>
+              </div>
+
+              <div class="selected-match">
+                <p class="eyebrow" id="selected-stage">Match</p>
+                <h2 id="match-title">选择一场比赛</h2>
+                <p id="match-meta" class="muted"></p>
+              </div>
+
+              <div class="scoreboard" id="scoreboard"></div>
+
+              <label class="rules-box">
+                <span>你的预测规则</span>
+                <textarea
+                  id="rules-input"
+                  rows="5"
+                  placeholder="例如：优先考虑近期伤病、连续客场、淘汰赛保守倾向、主场压力等。"
+                ></textarea>
+              </label>
+
+              <button class="primary-action" id="predict-button" type="button">预测比分与胜平负</button>
+
+              <div class="prediction-result" id="prediction-result" hidden></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="page-view" data-page="teams" aria-labelledby="teams-title">
+          <div class="section-heading">
+            <p class="eyebrow">Teams</p>
+            <h2 id="teams-title">球队与名单</h2>
+          </div>
+          <div class="teams-layout">
+            <section class="panel teams-panel" aria-label="球队分组">
+              <div class="team-tabs" id="team-tabs"></div>
+            </section>
+            <section class="panel team-detail-panel" aria-label="球队名单">
+              <div class="team-detail" id="team-detail"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

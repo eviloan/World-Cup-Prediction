@@ -1,0 +1,58 @@
+const FLAG_CODES = {
+  alg: "dz",
+  arg: "ar",
+  aus: "au",
+  aut: "at",
+  bel: "be",
+  bih: "ba",
+  bra: "br",
+  can: "ca",
+  civ: "ci",
+  cod: "cd",
+  col: "co",
+  cpv: "cv",
+  cro: "hr",
+  cuw: "cw",
+  cze: "cz",
+  ecu: "ec",
+  egy: "eg",
+  eng: "gb-eng",
+  esp: "es",
+  fra: "fr",
+  ger: "de",
+  gha: "gh",
+  hai: "ht",
+  irn: "ir",
+  irq: "iq",
+  jor: "jo",
+  jpn: "jp",
+  kor: "kr",
+  ksa: "sa",
+  mar: "ma",
+  mex: "mx",
+  ned: "nl",
+  nor: "no",
+  nzl: "nz",
+  pan: "pa",
+  par: "py",
+  por: "pt",
+  qat: "qa",
+  rsa: "za",
+  sco: "gb-sct",
+  sen: "sn",
+  sui: "ch",
+  swe: "se",
+  tun: "tn",
+  tur: "tr",
+  uru: "uy",
+  usa: "us",
+  uzb: "uz",
+  wal: "gb-wls"
+};
+
+export function getFlagUrl(teamId, size = "svg") {
+  const code = FLAG_CODES[String(teamId).toLowerCase()];
+  if (!code) return "";
+
+  return size === "svg" ? `https://flagcdn.com/${code}.svg` : `https://flagcdn.com/w80/${code}.png`;
+}

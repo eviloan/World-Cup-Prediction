@@ -1,0 +1,14 @@
+{
+  "name": "worldcup-ai-predictor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "cache:photos": "node scripts/cache-player-photos.mjs",
+    "fetch:fifa": "node scripts/fetch-fifa-data.mjs",
+    "build:transfermarkt": "node scripts/build-transfermarkt-data.mjs",
+    "update:ratings": "node scripts/update-team-ratings.mjs",
+    "test": "node --test tests/*.test.js"
+  }
+}
