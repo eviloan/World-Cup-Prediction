@@ -178,3 +178,20 @@ test("predictMatch sanitizes multiline API keys before building headers", async 
   assert.equal(result.source, "mimo");
   assert.equal(authorizationHeader, "Bearer test-key");
 });
+
+test("predictMatch redacts API keys from fallback errors", async () => {
+  const result = await predictMatch({
+    match,
+    teams,
+    kimiApiKey: "sk-secret-value\nsk-secret-value",
+    fetchImpl: async () => {
+      throw new Error(
+        'Headers.append: "Bearer sk-secret-value\nsk-secret-value" is an invalid header value.'
+      );
+    }
+  });
+
+  assert.equal(result.source, "local-rules");
+  assert.doesNotMatch(result.fallbackReason, /sk-secret-value/);
+  assert.match(result.fallbackReason, /invalid Authorization header value/);
+});

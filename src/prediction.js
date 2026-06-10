@@ -160,7 +160,7 @@ export async function predictMatch({
   } catch (error) {
     return {
       ...baseline,
-      fallbackReason: error instanceof Error ? error.message : "MiMo prediction failed."
+      fallbackReason: fallbackReason(error)
     };
   }
 }
@@ -234,4 +234,19 @@ function normalizeApiKey(value) {
   return String(value ?? "")
     .split(/\s+/)
     .find(Boolean) ?? "";
+}
+
+function fallbackReason(error) {
+  if (!(error instanceof Error)) return "MiMo prediction failed.";
+
+  const message = error.message;
+  if (/headers?\.append|authorization|invalid header value/i.test(message)) {
+    return "MiMo request failed: invalid Authorization header value.";
+  }
+
+  return redactSecrets(message);
+}
+
+function redactSecrets(value) {
+  return String(value).replace(/sk-[a-zA-Z0-9_-]+/g, "sk-***");
 }
