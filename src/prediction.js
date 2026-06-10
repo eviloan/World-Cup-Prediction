@@ -121,7 +121,7 @@ export async function predictMatch({
   presetRules = "",
   kimiApiKey = "",
   kimiBaseUrl = "https://api.xiaomimimo.com/v1/chat/completions",
-  kimiModel = "mimo-v2.5-pro",
+  kimiModel = "mimo-v2-flash",
   kimiTimeoutMs = 60_000,
   fetchImpl = globalThis.fetch
 }) {
@@ -156,6 +156,9 @@ export async function predictMatch({
       body: JSON.stringify({
         model: kimiModel,
         temperature: 0.35,
+        max_completion_tokens: 512,
+        response_format: { type: "json_object" },
+        thinking: { type: "disabled" },
         messages: buildPredictionMessages(match, teams, rules, baseline, presetRules)
       })
     });

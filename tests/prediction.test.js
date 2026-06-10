@@ -217,6 +217,45 @@ test("predictMatch sanitizes multiline API keys before building headers", async 
   assert.equal(authorizationHeader, "Bearer test-key");
 });
 
+test("predictMatch constrains MiMo generation for low latency JSON output", async () => {
+  let requestBody = {};
+  const result = await predictMatch({
+    match,
+    teams,
+    kimiApiKey: "test-key",
+    fetchImpl: async (_url, options) => {
+      requestBody = JSON.parse(options.body);
+      return {
+        ok: true,
+        json: async () => ({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({
+                  predictedScore: "1-1",
+                  scoreOptions: [
+                    { score: "1-1", probability: 36 },
+                    { score: "2-1", probability: 24 },
+                    { score: "1-0", probability: 18 }
+                  ],
+                  probabilities: { homeWin: 35, draw: 35, awayWin: 30 },
+                  reasoning: ["Fast JSON output."]
+                })
+              }
+            }
+          ]
+        })
+      };
+    }
+  });
+
+  assert.equal(result.source, "mimo");
+  assert.equal(requestBody.model, "mimo-v2-flash");
+  assert.deepEqual(requestBody.thinking, { type: "disabled" });
+  assert.equal(requestBody.max_completion_tokens, 512);
+  assert.deepEqual(requestBody.response_format, { type: "json_object" });
+});
+
 test("predictMatch redacts API keys from fallback errors", async () => {
   const result = await predictMatch({
     match,
