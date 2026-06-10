@@ -503,6 +503,41 @@ button {
   margin: 18px 0;
 }
 
+.score-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.score-option {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--surface-strong);
+}
+
+.score-option.primary {
+  border-color: rgba(255, 211, 77, 0.45);
+  background: rgba(255, 211, 77, 0.12);
+}
+
+.score-option span,
+.score-option small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.score-option strong {
+  display: block;
+  margin: 4px 0;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 950;
+}
+
 .probability-row {
   display: grid;
   grid-template-columns: 44px 1fr 44px;
@@ -1026,6 +1061,19 @@ button {
   .probability-list {
     gap: 9px;
     margin: 12px 0;
+  }
+
+  .score-options {
+    gap: 7px;
+    margin: 12px 0;
+  }
+
+  .score-option {
+    padding: 8px;
+  }
+
+  .score-option strong {
+    font-size: 19px;
   }
 
   .group-teams {

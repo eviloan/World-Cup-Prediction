@@ -47,6 +47,8 @@ test("createLocalPrediction returns score and probability guidance", () => {
 
   assert.equal(result.source, "local-rules");
   assert.match(result.predictedScore, /^\d+-\d+$/);
+  assert.equal(result.scoreOptions.length, 3);
+  assert.equal(result.scoreOptions[0].score, result.predictedScore);
   assert.equal(
     result.probabilities.homeWin + result.probabilities.draw + result.probabilities.awayWin,
     100
@@ -132,10 +134,15 @@ test("predictMatch parses MiMo JSON predictions when available", async () => {
           {
             message: {
               content: JSON.stringify({
-                predictedScore: "2-1",
-                probabilities: { homeWin: 56, draw: 25, awayWin: 19 },
-                reasoning: ["MiMo says Mexico has the stronger attack."]
-              })
+                  predictedScore: "2-1",
+                  scoreOptions: [
+                    { score: "2-1", probability: 42 },
+                    { score: "1-1", probability: 28 },
+                    { score: "1-0", probability: 18 }
+                  ],
+                  probabilities: { homeWin: 56, draw: 25, awayWin: 19 },
+                  reasoning: ["MiMo says Mexico has the stronger attack."]
+                })
             }
           }
         ]
@@ -145,7 +152,33 @@ test("predictMatch parses MiMo JSON predictions when available", async () => {
 
   assert.equal(result.source, "mimo");
   assert.equal(result.predictedScore, "2-1");
+  assert.deepEqual(result.scoreOptions, [
+    { score: "2-1", probability: 42 },
+    { score: "1-1", probability: 28 },
+    { score: "1-0", probability: 18 }
+  ]);
   assert.deepEqual(result.probabilities, { homeWin: 56, draw: 25, awayWin: 19 });
+});
+
+test("buildKimiMessages sends compact match and team summaries", () => {
+  const playerHeavyTeams = {
+    mex: {
+      ...teams.mex,
+      players: [{ name: "Player A" }, { name: "Player B" }]
+    },
+    can: {
+      ...teams.can,
+      players: [{ name: "Player C" }]
+    }
+  };
+  const baseline = createLocalPrediction(match, playerHeavyTeams);
+  const messages = buildKimiMessages(match, playerHeavyTeams, "", baseline);
+  const payload = JSON.parse(messages[1].content);
+
+  assert.equal(payload.match.id, match.id);
+  assert.equal(payload.teams.home.name, "Mexico");
+  assert.equal(payload.teams.home.players, undefined);
+  assert.equal(payload.teams.away.players, undefined);
 });
 
 test("predictMatch sanitizes multiline API keys before building headers", async () => {
@@ -164,6 +197,11 @@ test("predictMatch sanitizes multiline API keys before building headers", async 
               message: {
                 content: JSON.stringify({
                   predictedScore: "1-1",
+                  scoreOptions: [
+                    { score: "1-1", probability: 36 },
+                    { score: "2-1", probability: 24 },
+                    { score: "1-0", probability: 18 }
+                  ],
                   probabilities: { homeWin: 35, draw: 35, awayWin: 30 },
                   reasoning: ["Header was accepted."]
                 })
@@ -194,4 +232,20 @@ test("predictMatch redacts API keys from fallback errors", async () => {
   assert.equal(result.source, "local-rules");
   assert.doesNotMatch(result.fallbackReason, /sk-secret-value/);
   assert.match(result.fallbackReason, /invalid Authorization header value/);
+});
+
+test("predictMatch falls back when MiMo request exceeds timeout", async () => {
+  const result = await predictMatch({
+    match,
+    teams,
+    kimiApiKey: "test-key",
+    kimiTimeoutMs: 5,
+    fetchImpl: async (_url, options) =>
+      new Promise((_resolve, reject) => {
+        options.signal.addEventListener("abort", () => reject(new Error("aborted")));
+      })
+  });
+
+  assert.equal(result.source, "local-rules");
+  assert.match(result.fallbackReason, /timed out/);
 });

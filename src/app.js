@@ -322,6 +322,20 @@ function renderPrediction(prediction) {
       </div>
       ${prediction.fallbackReason ? `<span class="source-note">${fallbackLabel(prediction.fallbackReason)}</span>` : ""}
     </div>
+    <div class="score-options">
+      ${(prediction.scoreOptions ?? [{ score: prediction.predictedScore }])
+        .slice(0, 3)
+        .map(
+          (option, index) => `
+            <div class="score-option${index === 0 ? " primary" : ""}">
+              <span>${index === 0 ? "首选" : `备选 ${index}`}</span>
+              <strong>${option.score}</strong>
+              ${option.probability ? `<small>${option.probability}%</small>` : ""}
+            </div>
+          `
+        )
+        .join("")}
+    </div>
     <div class="probability-list">
       ${probabilityBar("主胜", prediction.probabilities.homeWin)}
       ${probabilityBar("平局", prediction.probabilities.draw)}

@@ -32,9 +32,10 @@ test("Vercel POST /api/predict returns local fallback without API key", async ()
   );
 
   assert.equal(response.statusCode, 200);
-  assert.equal(response.body.match.id, confirmedMatch.id);
+  assert.equal(response.body.match, undefined);
   assert.equal(response.body.prediction.source, "local-rules");
   assert.match(response.body.prediction.predictedScore, /^\d+-\d+$/);
+  assert.equal(response.body.prediction.scoreOptions.length, 3);
 });
 
 function createMockResponse() {

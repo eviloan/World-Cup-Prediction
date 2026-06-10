@@ -23,8 +23,9 @@ test("POST /api/predict returns a prediction for a known match", async () => {
 
     assert.equal(response.status, 200);
     const body = await response.json();
-    assert.equal(body.match.id, confirmedMatch.id);
+    assert.equal(body.match, undefined);
     assert.equal(body.prediction.source, "local-rules");
+    assert.equal(body.prediction.scoreOptions.length, 3);
     assert.equal(
       body.prediction.probabilities.homeWin +
         body.prediction.probabilities.draw +
@@ -88,6 +89,11 @@ test("POST /api/predict sends preset rules separately from user rules", async ()
               message: {
                 content: JSON.stringify({
                   predictedScore: "1-0",
+                  scoreOptions: [
+                    { score: "1-0", probability: 38 },
+                    { score: "1-1", probability: 24 },
+                    { score: "2-0", probability: 18 }
+                  ],
                   probabilities: { homeWin: 45, draw: 30, awayWin: 25 },
                   reasoning: ["Preset and user rules were considered."]
                 })

@@ -73,10 +73,7 @@ export function createServer(options = {}) {
           fetchImpl: config.fetchImpl
         });
 
-        sendJson(response, {
-          match: serializeMatchWithTeams(match, config.teams),
-          prediction
-        });
+        sendJson(response, { prediction });
         return;
       }
 

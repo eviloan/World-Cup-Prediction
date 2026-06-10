@@ -80,10 +80,7 @@ export async function handlePredict(request, response) {
     kimiModel: process.env.MIMO_MODEL ?? process.env.KIMI_MODEL ?? "mimo-v2.5-pro"
   });
 
-  sendJson(response, {
-    match: serializeMatchWithTeams(match),
-    prediction
-  });
+  sendJson(response, { prediction });
 }
 
 async function readPresetRules() {
