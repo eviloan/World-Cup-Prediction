@@ -2,6 +2,7 @@ import { matches as localMatches, teams as localTeams, serializeMatch } from "./
 import { getFlagUrl } from "./flags.js";
 import { formatDisplayName, formatMarketValue, formatStat } from "./formatters.js";
 import { groupMatchesByDate, toggleFavoriteMatch } from "./matchSchedule.js";
+import { formatOddsValue, getMatchOdds } from "./odds.js";
 import { localPlayerPhotosByFifaId } from "./playerPhotoManifest.js";
 import { createLocalPrediction } from "./prediction.js";
 import { groupPlayersByPosition } from "./roster.js";
@@ -27,6 +28,7 @@ const elements = {
   matchTitle: document.querySelector("#match-title"),
   matchMeta: document.querySelector("#match-meta"),
   scoreboard: document.querySelector("#scoreboard"),
+  oddsPanel: document.querySelector("#odds-panel"),
   rulesInput: document.querySelector("#rules-input"),
   predictButton: document.querySelector("#predict-button"),
   predictionResult: document.querySelector("#prediction-result"),
@@ -176,9 +178,39 @@ function renderSelectedMatch() {
     <div class="score-divider">VS</div>
     ${teamBlock(match.awayTeam, match.awayPlaceholder)}
   `;
+  renderOdds(match);
   const canPredict = Boolean(match.homeTeam && match.awayTeam);
   elements.predictButton.disabled = !canPredict;
   elements.predictButton.textContent = canPredict ? "预测比分与胜平负" : "该场对阵尚未确定";
+}
+
+function renderOdds(match) {
+  const odds = getMatchOdds(match);
+  const updatedText = odds.updatedText || (odds.updatedAt ? `更新 ${formatDateTime(odds.updatedAt)}` : "等待赔率源同步");
+
+  elements.oddsPanel.innerHTML = `
+    <div class="odds-heading">
+      <div>
+        <p class="eyebrow">Market Odds</p>
+        <h3>胜平负赔率</h3>
+      </div>
+      <a href="${odds.sourceUrl}" target="_blank" rel="noreferrer">${odds.source}</a>
+    </div>
+    <div class="odds-grid">
+      ${odds.selections
+        .map(
+          (selection) => `
+            <div class="odds-cell ${selection.value ? "" : "pending"}">
+              <span>${selection.label}</span>
+              <strong>${formatOddsValue(selection.value)}</strong>
+              <small>${selection.team}</small>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+    <p class="odds-note">${updatedText}</p>
+  `;
 }
 
 function renderTeams() {
@@ -451,6 +483,15 @@ function probabilityBar(label, value) {
 }
 
 function formatDate(value) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  }).format(new Date(value));
+}
+
+function formatDateTime(value) {
   return new Intl.DateTimeFormat("zh-CN", {
     month: "2-digit",
     day: "2-digit",

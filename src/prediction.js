@@ -1,3 +1,6 @@
+import { getMatchOdds } from "./odds.js";
+import { teamHistoryByTeamId } from "./teamHistoryData.js";
+
 const SCORE_PATTERN = /^\d{1,2}-\d{1,2}$/;
 
 export function normalizeProbabilities(input) {
@@ -22,6 +25,7 @@ export function normalizeProbabilities(input) {
 export function createLocalPrediction(match, teams, rules = "", presetRules = "") {
   const home = teams[match.homeTeamId];
   const away = teams[match.awayTeamId];
+  const marketOdds = summarizeMarketOdds(match);
 
   if (!home || !away) {
     throw new Error("Match references an unknown team.");
@@ -61,12 +65,15 @@ export function createLocalPrediction(match, teams, rules = "", presetRules = ""
         : "No project preset rules were provided.",
       rules.trim()
         ? `User rules considered locally: ${summarizeRules(rules)}`
-        : "No extra user rules were provided."
+        : "No extra user rules were provided.",
+      marketOdds.status === "available"
+        ? `Market odds considered locally: ${marketOdds.selections.map((selection) => `${selection.label} ${selection.value}`).join(", ")}.`
+        : "Market odds were not available for this match."
     ]
   };
 }
 
-export function buildPredictionMessages(match, teams, rules, baseline, presetRules = "") {
+export function buildPredictionMessages(match, teams, rules, baseline, presetRules = "", teamHistory = teamHistoryByTeamId) {
   const home = teams[match.homeTeamId];
   const away = teams[match.awayTeamId];
   const matchSummary = summarizeMatch(match);
@@ -74,6 +81,8 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
     home: summarizeTeam(home),
     away: summarizeTeam(away)
   };
+  const history = summarizeHistory(match, teamHistory);
+  const marketOdds = summarizeMarketOdds(match);
 
   return [
     {
@@ -87,6 +96,12 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
         {
           task:
             "Predict this World Cup match. Output strict JSON only. Keep the response compact.",
+          instructions: [
+            "Reasoning must explicitly cover recent form for both teams, using the provided form rating and any recent-performance rules in presetRules/userRules.",
+            "Reasoning must explicitly cover head-to-head or historical record. If reliable head-to-head data is not present in the provided context, say the available context is limited instead of inventing results.",
+            "Use market odds as one reference condition. Do not blindly copy the odds; explain any major difference between your prediction and the market odds.",
+            "At least one reasoning item must mention 历史战绩, and at least one reasoning item must mention 最近表现."
+          ],
           requiredShape: {
             predictedScore: "number-number, for example 2-1",
             scoreOptions: [
@@ -99,10 +114,17 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
               draw: "integer percentage",
               awayWin: "integer percentage"
             },
-            reasoning: ["short reason 1", "short reason 2", "short reason 3"]
+            reasoning: [
+              "最近表现: compare both teams' recent form / form rating in one short sentence",
+              "历史战绩: compare head-to-head or World Cup historical context; state limited context if no reliable data is provided",
+              "赔率参考: summarize how market odds influenced the result, or say odds are unavailable",
+              "one short tactical or squad-value reason"
+            ]
           },
           match: matchSummary,
           teams: teamSummaries,
+          history,
+          marketOdds,
           baseline,
           presetRules: presetRules || "No project preset rules.",
           userRules: rules || "No extra user rules."
@@ -285,6 +307,40 @@ function summarizeTeam(team) {
     coach: team.coach,
     marketValue: team.marketValue,
     keyPlayers: summarizeKeyPlayers(team.players)
+  };
+}
+
+function summarizeHistory(match, teamHistory) {
+  const homeHistory = teamHistory?.[match.homeTeamId] ?? {};
+  const awayHistory = teamHistory?.[match.awayTeamId] ?? {};
+
+  return {
+    home: {
+      worldCupRecord: homeHistory.worldCupRecord ?? null,
+      recentForm: homeHistory.recentForm ?? null
+    },
+    away: {
+      worldCupRecord: awayHistory.worldCupRecord ?? null,
+      recentForm: awayHistory.recentForm ?? null
+    },
+    headToHead: homeHistory.headToHead?.[match.awayTeamId] ?? null
+  };
+}
+
+function summarizeMarketOdds(match) {
+  const odds = getMatchOdds(match);
+
+  return {
+    source: odds.source,
+    sourceUrl: odds.sourceUrl,
+    status: odds.status,
+    updatedText: odds.updatedText || odds.updatedAt || "",
+    selections: odds.selections.map((selection) => ({
+      key: selection.key,
+      label: selection.label,
+      team: selection.team,
+      value: selection.value
+    }))
   };
 }
 

@@ -36,6 +36,27 @@ const teams = {
   }
 };
 
+const oddsMatch = {
+  id: "400021443",
+  stage: "Group A",
+  kickoff: "2026-06-11T19:00:00Z",
+  venue: "Mexico City Stadium",
+  homeTeamId: "mex",
+  awayTeamId: "rsa"
+};
+
+const oddsTeams = {
+  mex: teams.mex,
+  rsa: {
+    id: "rsa",
+    name: "South Africa",
+    fifaRank: 56,
+    attack: 69,
+    defense: 70,
+    form: 68
+  }
+};
+
 test("normalizeProbabilities returns percentages that add to 100", () => {
   const result = normalizeProbabilities({ homeWin: 3, draw: 2, awayWin: 1 });
 
@@ -74,6 +95,53 @@ test("buildKimiMessages keeps preset rules separate from user rules", () => {
 
   assert.equal(payload.presetRules, "项目预设：东道主加成");
   assert.equal(payload.userRules, "用户偏向小比分");
+});
+
+test("buildKimiMessages asks MiMo to emphasize history and recent form", () => {
+  const baseline = createLocalPrediction(match, teams, "", "项目预设：历史交锋和近期状态要单独分析");
+  const messages = buildKimiMessages(match, teams, "", baseline, "项目预设：历史交锋和近期状态要单独分析");
+  const payload = JSON.parse(messages[1].content);
+
+  assert.match(payload.instructions.join("\n"), /head-to-head/i);
+  assert.match(payload.instructions.join("\n"), /recent form/i);
+  assert.match(JSON.stringify(payload.requiredShape), /历史战绩/);
+  assert.match(JSON.stringify(payload.requiredShape), /最近表现/);
+});
+
+test("buildKimiMessages includes structured Transfermarkt history context", () => {
+  const baseline = createLocalPrediction(match, teams);
+  const messages = buildKimiMessages(match, teams, "", baseline, "", {
+    mex: {
+      worldCupRecord: { matches: 8, wins: 3, draws: 2, losses: 3, goalsFor: 10, goalsAgainst: 9, bestStage: "Round of 16" },
+      recentForm: { record: { matches: 10, wins: 6, draws: 2, losses: 2 }, goalsFor: 18, goalsAgainst: 9, avgGoalsFor: 1.8, avgGoalsAgainst: 0.9 },
+      headToHead: {
+        can: { matches: 4, wins: 2, draws: 1, losses: 1, goalsFor: 7, goalsAgainst: 5 }
+      }
+    },
+    can: {
+      worldCupRecord: { matches: 3, wins: 0, draws: 1, losses: 2, goalsFor: 2, goalsAgainst: 6, bestStage: "Group Stage" },
+      recentForm: { record: { matches: 10, wins: 4, draws: 3, losses: 3 }, goalsFor: 12, goalsAgainst: 11, avgGoalsFor: 1.2, avgGoalsAgainst: 1.1 },
+      headToHead: {}
+    }
+  });
+  const payload = JSON.parse(messages[1].content);
+
+  assert.equal(payload.history.home.worldCupRecord.bestStage, "Round of 16");
+  assert.equal(payload.history.away.recentForm.record.matches, 10);
+  assert.equal(payload.history.headToHead.matches, 4);
+});
+
+test("buildKimiMessages includes synced market odds as prediction context", () => {
+  const baseline = createLocalPrediction(oddsMatch, oddsTeams);
+  const messages = buildKimiMessages(oddsMatch, oddsTeams, "", baseline);
+  const payload = JSON.parse(messages[1].content);
+
+  assert.equal(payload.marketOdds.status, "available");
+  assert.deepEqual(
+    payload.marketOdds.selections.map((selection) => selection.value),
+    ["1.42", "4.65", "8.90"]
+  );
+  assert.match(payload.instructions.join("\n"), /market odds/i);
 });
 
 test("createLocalPrediction mentions preset rules and user rules separately", () => {

@@ -7,6 +7,7 @@
     "start": "node --env-file=.env server.js",
     "cache:photos": "node scripts/cache-player-photos.mjs",
     "fetch:fifa": "node scripts/fetch-fifa-data.mjs",
+    "build:odds": "node scripts/build-worldcup-odds-data.mjs",
     "build:transfermarkt": "node scripts/build-transfermarkt-data.mjs",
     "update:ratings": "node scripts/update-team-ratings.mjs",
     "test": "node --test tests/*.test.js"

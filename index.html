@@ -9,9 +9,12 @@
   <body>
     <div class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">2026 FIFA World Cup</p>
-          <h1>2026 World Cup Prediction</h1>
+        <div class="brand-lockup">
+          <img class="worldcup-logo" src="/assets/logo.webp" alt="FIFA World Cup trophy" />
+          <div>
+            <p class="eyebrow">2026 FIFA World Cup</p>
+            <h1>2026 World Cup Prediction</h1>
+          </div>
         </div>
         <div class="status-pill" id="api-status">本地数据</div>
       </header>
@@ -47,6 +50,8 @@
               </div>
 
               <div class="scoreboard" id="scoreboard"></div>
+
+              <div class="odds-panel" id="odds-panel" aria-live="polite"></div>
 
               <label class="rules-box">
                 <span>你的预测规则</span>
