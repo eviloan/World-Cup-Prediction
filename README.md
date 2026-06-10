@@ -54,6 +54,31 @@ npm start
 
 预测请求不会把 API Key 暴露到浏览器，浏览器只调用本地的 `/api/predict`。
 
+## Vercel 部署
+
+项目已包含 Vercel 打包文件：
+
+- `vercel.json`：Vercel 部署配置。
+- `api/worldcup.js`：世界杯赛程与球队数据接口。
+- `api/predict.js`：MiMo / 本地规则预测接口。
+
+在 Vercel 项目设置里添加环境变量：
+
+```text
+MIMO_API_KEY=你的 MiMo API Key
+MIMO_MODEL=mimo-v2.5-pro
+MIMO_BASE_URL=https://api.xiaomimimo.com/v1/chat/completions
+```
+
+部署后页面仍然调用：
+
+```text
+/api/worldcup
+/api/predict
+```
+
+API Key 只在 Vercel serverless function 中使用，不会打包到浏览器端。
+
 ## 数据说明
 
 当前 `src/data.js` 已由 FIFA API 生成。球队能力值目前仍是本地预测模型的中性默认值，后续可以把 FIFA 排名、近期战绩或你给的预测规则接入到预测模型。
