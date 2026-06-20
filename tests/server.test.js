@@ -4,6 +4,25 @@ import test from "node:test";
 import { createServer } from "../server.js";
 import { matches } from "../src/data.js";
 
+test("GET /api/worldcup includes finished match results", async () => {
+  const server = createServer({ kimiApiKey: "" });
+
+  await new Promise((resolve) => server.listen(0, resolve));
+  const { port } = server.address();
+
+  try {
+    const response = await fetch(`http://127.0.0.1:${port}/api/worldcup`);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    const opener = body.matches.find((match) => match.id === "400021443");
+
+    assert.equal(opener.result.homeScore, 2);
+    assert.equal(opener.result.awayScore, 0);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+  }
+});
+
 test("POST /api/predict returns a prediction for a known match", async () => {
   const server = createServer({ kimiApiKey: "" });
   const confirmedMatch = matches.find((match) => match.homeTeamId && match.awayTeamId);

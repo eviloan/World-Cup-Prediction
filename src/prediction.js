@@ -1,4 +1,5 @@
 import { getMatchOdds } from "./odds.js";
+import { teamTournamentStatsById } from "./matchResultsData.js";
 import { teamHistoryByTeamId } from "./teamHistoryData.js";
 
 const SCORE_PATTERN = /^\d{1,2}-\d{1,2}$/;
@@ -26,6 +27,9 @@ export function createLocalPrediction(match, teams, rules = "", presetRules = ""
   const home = teams[match.homeTeamId];
   const away = teams[match.awayTeamId];
   const marketOdds = summarizeMarketOdds(match);
+  const currentTournament = summarizeCurrentTournament(match);
+  const homeTournamentAdjustment = tournamentFormAdjustment(currentTournament.home);
+  const awayTournamentAdjustment = tournamentFormAdjustment(currentTournament.away);
 
   if (!home || !away) {
     throw new Error("Match references an unknown team.");
@@ -36,12 +40,14 @@ export function createLocalPrediction(match, teams, rules = "", presetRules = ""
     home.defense * 0.18 +
     home.form * 0.28 +
     rankScore(home.fifaRank) * 0.12 +
+    homeTournamentAdjustment +
     4;
   const awayScore =
     away.attack * 0.36 +
     away.defense * 0.18 +
     away.form * 0.28 +
-    rankScore(away.fifaRank) * 0.12;
+    rankScore(away.fifaRank) * 0.12 +
+    awayTournamentAdjustment;
   const delta = homeScore - awayScore;
   const drawBase = Math.max(18, 30 - Math.abs(delta) * 0.65);
   const probabilities = normalizeProbabilities({
@@ -68,7 +74,10 @@ export function createLocalPrediction(match, teams, rules = "", presetRules = ""
         : "No extra user rules were provided.",
       marketOdds.status === "available"
         ? `Market odds considered locally: ${marketOdds.selections.map((selection) => `${selection.label} ${selection.value}`).join(", ")}.`
-        : "Market odds were not available for this match."
+        : "Market odds were not available for this match.",
+      currentTournament.home || currentTournament.away
+        ? `Current tournament form considered locally: ${home.name} ${formatTournamentStats(currentTournament.home)}, ${away.name} ${formatTournamentStats(currentTournament.away)}.`
+        : "No current tournament results were available for these teams."
     ]
   };
 }
@@ -83,6 +92,7 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
   };
   const history = summarizeHistory(match, teamHistory);
   const marketOdds = summarizeMarketOdds(match);
+  const currentTournament = summarizeCurrentTournament(match);
 
   return [
     {
@@ -100,6 +110,7 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
             "Reasoning must explicitly cover recent form for both teams, using the provided form rating and any recent-performance rules in presetRules/userRules.",
             "Reasoning must explicitly cover head-to-head or historical record. If reliable head-to-head data is not present in the provided context, say the available context is limited instead of inventing results.",
             "Use market odds as one reference condition. Do not blindly copy the odds; explain any major difference between your prediction and the market odds.",
+            "Use current tournament results as one reference condition, especially points, goal difference, and most recent form.",
             "At least one reasoning item must mention 历史战绩, and at least one reasoning item must mention 最近表现."
           ],
           requiredShape: {
@@ -117,6 +128,7 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
             reasoning: [
               "最近表现: compare both teams' recent form / form rating in one short sentence",
               "历史战绩: compare head-to-head or World Cup historical context; state limited context if no reliable data is provided",
+              "本届状态: compare current tournament points, goal difference, and form if available",
               "赔率参考: summarize how market odds influenced the result, or say odds are unavailable",
               "one short tactical or squad-value reason"
             ]
@@ -125,6 +137,7 @@ export function buildPredictionMessages(match, teams, rules, baseline, presetRul
           teams: teamSummaries,
           history,
           marketOdds,
+          currentTournament,
           baseline,
           presetRules: presetRules || "No project preset rules.",
           userRules: rules || "No extra user rules."
@@ -342,6 +355,32 @@ function summarizeMarketOdds(match) {
       value: selection.value
     }))
   };
+}
+
+function summarizeCurrentTournament(match, statsByTeamId = teamTournamentStatsById) {
+  return {
+    home: statsByTeamId[match.homeTeamId] ?? null,
+    away: statsByTeamId[match.awayTeamId] ?? null
+  };
+}
+
+function tournamentFormAdjustment(stats) {
+  if (!stats?.played) return 0;
+
+  const pointsPerGame = stats.points / stats.played;
+  const goalDifferencePerGame = stats.goalDifference / stats.played;
+  const recentSignal = stats.form.slice(-2).reduce((sum, result) => {
+    if (result === "W") return sum + 0.5;
+    if (result === "L") return sum - 0.35;
+    return sum + 0.05;
+  }, 0);
+
+  return Math.max(-4, Math.min(4, (pointsPerGame - 1.2) * 1.4 + goalDifferencePerGame * 0.8 + recentSignal));
+}
+
+function formatTournamentStats(stats) {
+  if (!stats?.played) return "no current tournament record";
+  return `${stats.played} matches, ${stats.points} pts, GD ${stats.goalDifference}, form ${stats.form.join("")}`;
 }
 
 function summarizeKeyPlayers(players = []) {

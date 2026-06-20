@@ -2,6 +2,8 @@ import { matches as localMatches, teams as localTeams, serializeMatch } from "./
 import { getFlagUrl } from "./flags.js";
 import { formatDisplayName, formatMarketValue, formatStat } from "./formatters.js";
 import { groupMatchesByDate, toggleFavoriteMatch } from "./matchSchedule.js";
+import { canPredictMatch } from "./matchPredictionState.js";
+import { matchResultsById, teamTournamentStatsById } from "./matchResultsData.js";
 import { formatOddsValue, getMatchOdds } from "./odds.js";
 import { localPlayerPhotosByFifaId } from "./playerPhotoManifest.js";
 import { createLocalPrediction } from "./prediction.js";
@@ -12,8 +14,8 @@ const FAVORITES_STORAGE_KEY = "worldcup.favoriteMatches";
 
 const state = {
   activePage: "predict",
-  matches: localMatches.map(serializeMatch),
-  teams: enrichTeamsWithTransfermarkt(Object.values(localTeams)),
+  matches: localMatches.map(serializeMatch).map(enrichMatchResult),
+  teams: enrichTeamsWithStats(enrichTeamsWithTransfermarkt(Object.values(localTeams))),
   selectedMatchId: localMatches[0]?.id,
   selectedTeamId: localMatches[0]?.homeTeamId,
   favoriteMatchIds: loadFavoriteMatchIds()
@@ -29,6 +31,8 @@ const elements = {
   matchMeta: document.querySelector("#match-meta"),
   scoreboard: document.querySelector("#scoreboard"),
   oddsPanel: document.querySelector("#odds-panel"),
+  predictionControls: document.querySelector("#prediction-controls"),
+  predictionClosed: document.querySelector("#prediction-closed"),
   rulesInput: document.querySelector("#rules-input"),
   predictButton: document.querySelector("#predict-button"),
   predictionResult: document.querySelector("#prediction-result"),
@@ -96,8 +100,8 @@ async function hydrateFromApi() {
     if (!response.ok) throw new Error("API unavailable");
 
     const data = await response.json();
-    state.matches = data.matches;
-    state.teams = enrichTeamsWithTransfermarkt(data.teams);
+    state.matches = data.matches.map(enrichMatchResult);
+    state.teams = enrichTeamsWithStats(enrichTeamsWithTransfermarkt(data.teams));
     elements.apiStatus.textContent = "";
     render();
   } catch {
@@ -172,16 +176,25 @@ function renderSelectedMatch() {
 
   elements.selectedStage.textContent = match.stage;
   elements.matchTitle.textContent = `${teamNameForMatch(match, "home")} vs ${teamNameForMatch(match, "away")}`;
-  elements.matchMeta.textContent = `${formatDate(match.kickoff)} · ${match.venue}`;
+  elements.matchMeta.textContent = match.result
+    ? `${formatDate(match.kickoff)} · 已完赛 ${match.result.homeScore}-${match.result.awayScore} · ${match.venue}`
+    : `${formatDate(match.kickoff)} · ${match.venue}`;
   elements.scoreboard.innerHTML = `
     ${teamBlock(match.homeTeam, match.homePlaceholder)}
-    <div class="score-divider">VS</div>
+    <div class="score-divider">${scoreDivider(match)}</div>
     ${teamBlock(match.awayTeam, match.awayPlaceholder)}
   `;
   renderOdds(match);
-  const canPredict = Boolean(match.homeTeam && match.awayTeam);
+  const canPredict = canPredictMatch(match);
+  elements.predictionControls.hidden = !canPredict;
+  elements.predictionClosed.hidden = !match.result;
+  elements.predictionResult.hidden = !canPredict || elements.predictionResult.hidden;
   elements.predictButton.disabled = !canPredict;
-  elements.predictButton.textContent = canPredict ? "预测比分与胜平负" : "该场对阵尚未确定";
+  elements.predictButton.textContent = match.result
+    ? "已完赛"
+    : canPredict
+      ? "预测比分与胜平负"
+      : "该场对阵尚未确定";
 }
 
 function renderOdds(match) {
@@ -262,6 +275,7 @@ function renderTeams() {
         <div><dt>状态</dt><dd>${team.form}</dd></div>
         <div><dt>总身价</dt><dd>${formatMarketValue(team.marketValue)}</dd></div>
       </dl>
+      ${teamTournamentSummary(team.currentTournamentStats)}
       <p class="market-source">身价、俱乐部和球员数据来源：${team.transfermarktSource?.name ?? "Transfermarkt"} 本地数据集。</p>
     </div>
     <div class="roster-sections">
@@ -290,12 +304,13 @@ function matchRow(match) {
   const homeName = teamNameForMatch(match, "home");
   const awayName = teamNameForMatch(match, "away");
   const favoriteLabel = state.favoriteMatchIds.has(match.id) ? "取消收藏" : "收藏比赛";
+  const resultLabel = match.result ? `${match.result.homeScore}-${match.result.awayScore}` : "vs";
   return `
     <div class="match-row${active}${favorite}" role="button" tabindex="0" data-match-id="${match.id}">
       <div class="match-row-main">
         <span class="match-teams">
           <strong>${flagImage(match.homeTeam)}${homeName}</strong>
-          <span class="versus">vs</span>
+          <span class="versus ${match.result ? "finished-score" : ""}">${resultLabel}</span>
           <strong>${flagImage(match.awayTeam)}${awayName}</strong>
         </span>
         <small>#${match.matchNumber ?? ""} · ${match.stage} · ${formatTime(match.kickoff)}</small>
@@ -390,6 +405,18 @@ function selectedMatch() {
   return state.matches.find((match) => match.id === state.selectedMatchId);
 }
 
+function enrichMatchResult(match) {
+  const result = matchResultsById[match.id] ?? null;
+  return result ? { ...match, result } : match;
+}
+
+function enrichTeamsWithStats(teams) {
+  return teams.map((team) => ({
+    ...team,
+    currentTournamentStats: teamTournamentStatsById[team.id] ?? null
+  }));
+}
+
 function teamBlock(team, placeholder = "") {
   if (!team) {
     return `
@@ -408,6 +435,25 @@ function teamBlock(team, placeholder = "") {
       <strong>${team.name}</strong>
       <small>Rank ${team.fifaRank} · ${team.coach}</small>
     </div>
+  `;
+}
+
+function scoreDivider(match) {
+  return match.result ? `${match.result.homeScore}-${match.result.awayScore}` : "VS";
+}
+
+function teamTournamentSummary(stats) {
+  if (!stats?.played) return "";
+
+  return `
+    <dl class="tournament-stats">
+      <div><dt>本届</dt><dd>${stats.played} 场</dd></div>
+      <div><dt>积分</dt><dd>${stats.points}</dd></div>
+      <div><dt>胜平负</dt><dd>${stats.wins}-${stats.draws}-${stats.losses}</dd></div>
+      <div><dt>进失球</dt><dd>${stats.goalsFor}-${stats.goalsAgainst}</dd></div>
+      <div><dt>净胜球</dt><dd>${stats.goalDifference}</dd></div>
+      <div><dt>走势</dt><dd>${stats.form.join("")}</dd></div>
+    </dl>
   `;
 }
 

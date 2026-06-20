@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 
 import { matches, teams } from "../src/data.js";
+import { matchResultsById } from "../src/matchResultsData.js";
 import { predictMatch } from "../src/prediction.js";
 
 export function sendJson(response, payload, status = 200) {
@@ -30,6 +31,7 @@ export function serializeMatchWithTeams(match, teamMap = teams) {
 
   return {
     ...match,
+    result: matchResultsById[match.id] ?? null,
     homeTeam: home,
     awayTeam: away
   };

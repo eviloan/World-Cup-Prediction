@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { formatOddsValue, getMatchOdds, WORLD_CUP_ODDS_URL } from "../src/odds.js";
+import { worldCupOddsByMatchId } from "../src/oddsData.js";
 
 test("getMatchOdds returns World Cup odds placeholders without inventing odds", () => {
   const odds = getMatchOdds({
@@ -20,17 +21,18 @@ test("getMatchOdds returns World Cup odds placeholders without inventing odds", 
 });
 
 test("getMatchOdds returns synced wc-2026 match odds when available", () => {
+  const syncedOdds = worldCupOddsByMatchId["400021444"];
   const odds = getMatchOdds({
-    id: "400021443",
-    homeTeam: { name: "Mexico" },
-    awayTeam: { name: "South Africa" }
+    id: "400021444",
+    homeTeam: { name: "Czechia" },
+    awayTeam: { name: "Mexico" }
   });
 
   assert.equal(odds.status, "available");
-  assert.equal(odds.updatedText, "更新于 2 小时 前");
+  assert.match(odds.updatedText, /^更新于 /);
   assert.deepEqual(
     odds.selections.map((selection) => selection.value),
-    ["1.42", "4.65", "8.90"]
+    [syncedOdds.homeWin, syncedOdds.draw, syncedOdds.awayWin]
   );
 });
 

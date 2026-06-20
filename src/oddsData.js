@@ -4,584 +4,328 @@
 export const worldCupOddsSource = {
   name: "World Cup Odds",
   sourceUrl: "https://wc-2026.com/world-cup-odds/#match-odds",
-  syncedAt: "2026-06-10T15:38:58.755Z"
+  syncedAt: "2026-06-20T08:18:52.859Z"
 };
 
 export const worldCupOddsByMatchId = {
-  "400021440": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.00",
-    "draw": "3.30",
-    "awayWin": "4.00"
-  },
-  "400021441": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.67",
-    "draw": "3.16",
-    "awayWin": "2.93"
-  },
-  "400021442": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.82",
-    "draw": "3.45",
-    "awayWin": "4.75"
-  },
-  "400021443": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.42",
-    "draw": "4.65",
-    "awayWin": "8.90"
-  },
   "400021444": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.80",
-    "draw": "3.15",
-    "awayWin": "1.64"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "3.55",
+    "draw": "4.00",
+    "awayWin": "2.04"
   },
   "400021445": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.30",
-    "draw": "3.05",
-    "awayWin": "1.80"
-  },
-  "400021446": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.57",
-    "draw": "3.90",
-    "awayWin": "6.10"
-  },
-  "400021447": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "16.00",
-    "draw": "7.00",
-    "awayWin": "1.21"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "5.85",
+    "draw": "3.95",
+    "awayWin": "1.64"
   },
   "400021448": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.52",
-    "draw": "4.10",
-    "awayWin": "6.30"
-  },
-  "400021449": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.79",
-    "draw": "3.75",
-    "awayWin": "4.90"
-  },
-  "400021450": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.26",
-    "draw": "4.80",
-    "awayWin": "8.50"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.45",
+    "draw": "4.75",
+    "awayWin": "7.50"
   },
   "400021451": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.10",
-    "draw": "3.20",
-    "awayWin": "3.40"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.50",
+    "draw": "3.05",
+    "awayWin": "3.30"
   },
   "400021452": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.30",
-    "draw": "4.80",
-    "awayWin": "9.00"
-  },
-  "400021453": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.95",
-    "draw": "4.40",
-    "awayWin": "1.57"
-  },
-  "400021454": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.65",
-    "draw": "3.15",
-    "awayWin": "1.90"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.17",
+    "draw": "7.50",
+    "awayWin": "15.00"
   },
   "400021455": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "6.50",
-    "draw": "4.70",
-    "awayWin": "1.45"
-  },
-  "400021456": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.69",
-    "draw": "3.78",
-    "awayWin": "5.70"
-  },
-  "400021457": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.08",
-    "draw": "11.50",
-    "awayWin": "31.00"
-  },
-  "400021458": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.93",
-    "draw": "3.55",
-    "awayWin": "4.30"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "7.50",
+    "draw": "4.90",
+    "awayWin": "1.36"
   },
   "400021459": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.40",
-    "draw": "3.10",
-    "awayWin": "2.25"
-  },
-  "400021460": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.28",
-    "draw": "3.30",
-    "awayWin": "3.55"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.70",
+    "draw": "3.45",
+    "awayWin": "1.94"
   },
   "400021461": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.00",
-    "draw": "3.05",
-    "awayWin": "3.10"
-  },
-  "400021462": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.77",
-    "draw": "4.00",
-    "awayWin": "4.70"
-  },
-  "400021463": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.25",
-    "draw": "3.85",
-    "awayWin": "1.72"
-  },
-  "400021464": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.05",
-    "draw": "16.75",
-    "awayWin": "58.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.50",
+    "draw": "2.30",
+    "awayWin": "3.40"
   },
   "400021465": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.15",
-    "draw": "6.75",
-    "awayWin": "10.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.12",
+    "draw": "10.00",
+    "awayWin": "18.00"
   },
   "400021466": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "4.00",
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "4.10",
     "draw": "3.35",
-    "awayWin": "1.56"
-  },
-  "400021467": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.66",
-    "draw": "2.83",
-    "awayWin": "2.46"
+    "awayWin": "1.54"
   },
   "400021468": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "8.50",
-    "draw": "5.00",
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "22.50",
+    "draw": "8.50",
     "awayWin": "1.15"
   },
   "400021469": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.57",
-    "draw": "4.10",
-    "awayWin": "5.80"
-  },
-  "400021470": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.03",
-    "draw": "3.62",
-    "awayWin": "3.80"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.49",
+    "draw": "4.40",
+    "awayWin": "5.75"
   },
   "400021471": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.94",
-    "draw": "3.15",
-    "awayWin": "3.15"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.17",
+    "draw": "3.50",
+    "awayWin": "3.50"
   },
   "400021472": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.65",
-    "draw": "3.95",
-    "awayWin": "5.30"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.72",
+    "draw": "4.10",
+    "awayWin": "4.70"
   },
   "400021473": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.00",
-    "draw": "3.70",
-    "awayWin": "1.39"
-  },
-  "400021474": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.93",
-    "draw": "3.52",
-    "awayWin": "4.35"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "11.00",
+    "draw": "5.25",
+    "awayWin": "1.34"
   },
   "400021475": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.10",
-    "draw": "3.60",
-    "awayWin": "1.74"
-  },
-  "400021476": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.89",
-    "draw": "3.50",
-    "awayWin": "4.51"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "6.25",
+    "draw": "3.85",
+    "awayWin": "1.53"
   },
   "400021477": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.37",
-    "draw": "4.61",
-    "awayWin": "7.67"
-  },
-  "400021478": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.69",
-    "draw": "3.90",
-    "awayWin": "5.45"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.43",
+    "draw": "4.77",
+    "awayWin": "7.68"
   },
   "400021479": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.38",
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.14",
     "draw": "3.08",
-    "awayWin": "3.62"
+    "awayWin": "3.82"
   },
   "400021480": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.20",
-    "draw": "3.60",
-    "awayWin": "1.72"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "5.75",
+    "draw": "4.10",
+    "awayWin": "1.54"
   },
   "400021481": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "10.02",
-    "draw": "5.58",
-    "awayWin": "1.30"
-  },
-  "400021482": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.11",
-    "draw": "11.00",
-    "awayWin": "26.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "14.00",
+    "draw": "6.25",
+    "awayWin": "1.25"
   },
   "400021483": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.09",
-    "draw": "10.40",
-    "awayWin": "28.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.10",
+    "draw": "12.60",
+    "awayWin": "39.00"
   },
   "400021484": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.30",
-    "draw": "3.80",
-    "awayWin": "1.57"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "6.50",
+    "draw": "4.30",
+    "awayWin": "1.50"
   },
   "400021485": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.55",
-    "draw": "3.20",
-    "awayWin": "2.60"
-  },
-  "400021486": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "8.20",
-    "draw": "4.45",
-    "awayWin": "1.46"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.85",
+    "draw": "3.60",
+    "awayWin": "2.35"
   },
   "400021487": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
+    "updatedText": "更新于 1 分 前",
     "homeWin": "1.45",
-    "draw": "4.35",
-    "awayWin": "7.50"
-  },
-  "400021488": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "16.00",
-    "draw": "7.00",
-    "awayWin": "1.21"
+    "draw": "4.10",
+    "awayWin": "8.00"
   },
   "400021489": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
+    "updatedText": "更新于 1 分 前",
     "homeWin": "4.39",
     "draw": "3.66",
     "awayWin": "1.78"
   },
-  "400021490": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.49",
-    "draw": "4.40",
-    "awayWin": "7.50"
-  },
   "400021491": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.18",
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.41",
     "draw": "3.55",
-    "awayWin": "3.50"
+    "awayWin": "3.13"
   },
   "400021492": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.13",
-    "draw": "8.50",
-    "awayWin": "21.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.08",
+    "draw": "10.00",
+    "awayWin": "26.00"
   },
   "400021493": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.53",
-    "draw": "4.31",
-    "awayWin": "6.94"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.32",
+    "draw": "5.25",
+    "awayWin": "12.00"
   },
   "400021494": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.66",
-    "draw": "3.90",
-    "awayWin": "5.20"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.56",
+    "draw": "3.80",
+    "awayWin": "6.00"
   },
   "400021495": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "14.00",
-    "draw": "6.50",
-    "awayWin": "1.16"
-  },
-  "400021496": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.42",
-    "draw": "4.55",
-    "awayWin": "9.30"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "15.00",
+    "draw": "7.50",
+    "awayWin": "1.17"
   },
   "400021497": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.05",
-    "draw": "2.90",
-    "awayWin": "1.94"
-  },
-  "400021498": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.34",
-    "draw": "5.50",
-    "awayWin": "10.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.60",
+    "draw": "2.80",
+    "awayWin": "2.25"
   },
   "400021499": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "6.50",
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "6.26",
     "draw": "4.25",
-    "awayWin": "1.56"
+    "awayWin": "1.61"
   },
   "400021500": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.15",
-    "draw": "3.10",
-    "awayWin": "2.80"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "2.20",
+    "draw": "3.60",
+    "awayWin": "3.40"
   },
   "400021501": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.53",
-    "draw": "4.20",
-    "awayWin": "7.50"
-  },
-  "400021502": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.29",
-    "draw": "6.00",
-    "awayWin": "12.00"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.50",
+    "draw": "4.35",
+    "awayWin": "8.00"
   },
   "400021503": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.21",
-    "draw": "5.80",
-    "awayWin": "8.50"
-  },
-  "400021504": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "9.10",
-    "draw": "4.60",
-    "awayWin": "1.42"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.17",
+    "draw": "7.25",
+    "awayWin": "13.50"
   },
   "400021505": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "3.60",
-    "draw": "3.30",
-    "awayWin": "2.12"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "3.55",
+    "draw": "3.50",
+    "awayWin": "2.10"
   },
   "400021506": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.26",
-    "draw": "5.10",
-    "awayWin": "7.75"
-  },
-  "400021507": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "1.76",
-    "draw": "3.84",
-    "awayWin": "4.95"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "1.21",
+    "draw": "6.50",
+    "awayWin": "11.50"
   },
   "400021508": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "8.50",
-    "draw": "5.50",
-    "awayWin": "1.27"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "10.00",
+    "draw": "7.20",
+    "awayWin": "1.22"
   },
   "400021509": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
+    "updatedText": "更新于 1 分 前",
     "homeWin": "1.60",
-    "draw": "3.70",
-    "awayWin": "5.20"
-  },
-  "400021510": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "2.06",
-    "draw": "3.60",
-    "awayWin": "3.72"
+    "draw": "4.00",
+    "awayWin": "5.50"
   },
   "400021511": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 2 小时 前",
-    "homeWin": "5.50",
-    "draw": "3.85",
-    "awayWin": "1.49"
+    "updatedText": "更新于 1 分 前",
+    "homeWin": "6.00",
+    "draw": "4.00",
+    "awayWin": "1.52"
   }
 };

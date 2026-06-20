@@ -359,6 +359,16 @@ button {
   font-weight: 800;
 }
 
+.finished-score {
+  min-width: 46px;
+  border: 1px solid rgba(248, 223, 99, 0.42);
+  border-radius: 8px;
+  padding: 3px 8px;
+  color: var(--gold);
+  text-align: center;
+  background: rgba(248, 223, 99, 0.12);
+}
+
 .match-visual {
   position: relative;
   min-height: 168px;
@@ -416,7 +426,8 @@ button {
 .selected-match,
 .scoreboard,
 .odds-panel,
-.rules-box,
+.prediction-controls,
+.prediction-closed,
 .prediction-result {
   margin: 20px;
 }
@@ -464,8 +475,12 @@ button {
 .score-divider {
   display: grid;
   place-items: center;
-  width: 46px;
+  min-width: 54px;
+  border: 1px solid rgba(248, 223, 99, 0.32);
+  border-radius: 8px;
+  padding: 8px 10px;
   color: var(--gold);
+  background: rgba(248, 223, 99, 0.1);
   font-weight: 900;
 }
 
@@ -543,6 +558,7 @@ button {
 .rules-box {
   display: grid;
   gap: 9px;
+  margin: 0 0 20px;
   color: var(--muted);
   font-weight: 700;
 }
@@ -558,8 +574,8 @@ button {
 }
 
 .primary-action {
-  width: calc(100% - 40px);
-  margin: 0 20px 20px;
+  width: 100%;
+  margin: 0 0 20px;
   border: 0;
   border-radius: 8px;
   padding: 14px 16px;
@@ -579,8 +595,19 @@ button {
   padding-top: 18px;
 }
 
+.prediction-controls[hidden],
+.prediction-closed[hidden],
 .prediction-result[hidden] {
   display: none;
+}
+
+.prediction-closed {
+  border: 1px solid rgba(248, 223, 99, 0.28);
+  border-radius: 8px;
+  padding: 14px;
+  color: var(--gold);
+  background: rgba(248, 223, 99, 0.08);
+  font-weight: 850;
 }
 
 .prediction-head {
@@ -777,6 +804,33 @@ button {
 .metric-grid dd {
   margin: 4px 0 0;
   font-size: 22px;
+  font-weight: 900;
+}
+
+.tournament-stats {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.tournament-stats div {
+  border: 1px solid rgba(248, 223, 99, 0.26);
+  border-radius: 8px;
+  padding: 9px;
+  background: rgba(248, 223, 99, 0.08);
+}
+
+.tournament-stats dt {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.tournament-stats dd {
+  margin: 3px 0 0;
+  color: var(--ink);
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -1071,7 +1125,8 @@ button {
   .selected-match,
   .scoreboard,
   .odds-panel,
-  .rules-box,
+  .prediction-controls,
+  .prediction-closed,
   .prediction-result {
     margin: 12px;
   }
@@ -1268,6 +1323,20 @@ button {
 
   .metric-grid dd {
     font-size: 16px;
+  }
+
+  .tournament-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .tournament-stats div {
+    padding: 8px 6px;
+  }
+
+  .tournament-stats dd {
+    font-size: 13px;
   }
 
   .team-summary .market-source {

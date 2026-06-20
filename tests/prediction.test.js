@@ -7,6 +7,7 @@ import {
   predictMatch,
   normalizeProbabilities
 } from "../src/prediction.js";
+import { worldCupOddsByMatchId } from "../src/oddsData.js";
 
 const match = {
   id: "m1",
@@ -36,24 +37,24 @@ const teams = {
   }
 };
 
-const oddsMatch = {
-  id: "400021443",
+const currentFormMatch = {
+  id: "400021444",
   stage: "Group A",
-  kickoff: "2026-06-11T19:00:00Z",
+  kickoff: "2026-06-25T01:00:00Z",
   venue: "Mexico City Stadium",
-  homeTeamId: "mex",
-  awayTeamId: "rsa"
+  homeTeamId: "cze",
+  awayTeamId: "mex"
 };
 
-const oddsTeams = {
+const currentFormTeams = {
   mex: teams.mex,
-  rsa: {
-    id: "rsa",
-    name: "South Africa",
-    fifaRank: 56,
-    attack: 69,
-    defense: 70,
-    form: 68
+  cze: {
+    id: "cze",
+    name: "Czechia",
+    fifaRank: 39,
+    attack: 72,
+    defense: 73,
+    form: 70
   }
 };
 
@@ -132,16 +133,28 @@ test("buildKimiMessages includes structured Transfermarkt history context", () =
 });
 
 test("buildKimiMessages includes synced market odds as prediction context", () => {
-  const baseline = createLocalPrediction(oddsMatch, oddsTeams);
-  const messages = buildKimiMessages(oddsMatch, oddsTeams, "", baseline);
+  const syncedOdds = worldCupOddsByMatchId[currentFormMatch.id];
+  const baseline = createLocalPrediction(currentFormMatch, currentFormTeams);
+  const messages = buildKimiMessages(currentFormMatch, currentFormTeams, "", baseline);
   const payload = JSON.parse(messages[1].content);
 
   assert.equal(payload.marketOdds.status, "available");
   assert.deepEqual(
     payload.marketOdds.selections.map((selection) => selection.value),
-    ["1.42", "4.65", "8.90"]
+    [syncedOdds.homeWin, syncedOdds.draw, syncedOdds.awayWin]
   );
   assert.match(payload.instructions.join("\n"), /market odds/i);
+});
+
+test("buildKimiMessages includes current tournament results as prediction context", () => {
+  const baseline = createLocalPrediction(currentFormMatch, currentFormTeams);
+  const messages = buildKimiMessages(currentFormMatch, currentFormTeams, "", baseline);
+  const payload = JSON.parse(messages[1].content);
+
+  assert.equal(payload.currentTournament.home.played, 2);
+  assert.equal(payload.currentTournament.away.points, 6);
+  assert.deepEqual(payload.currentTournament.away.form, ["W", "W"]);
+  assert.match(payload.instructions.join("\n"), /current tournament/i);
 });
 
 test("createLocalPrediction mentions preset rules and user rules separately", () => {

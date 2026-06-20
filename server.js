@@ -5,6 +5,7 @@ import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { matches, teams } from "./src/data.js";
+import { matchResultsById } from "./src/matchResultsData.js";
 import { predictMatch } from "./src/prediction.js";
 
 const rootDir = fileURLToPath(new URL(".", import.meta.url));
@@ -108,6 +109,7 @@ function serializeMatchWithTeams(match, teamMap) {
 
   return {
     ...match,
+    result: matchResultsById[match.id] ?? null,
     homeTeam: home,
     awayTeam: away
   };

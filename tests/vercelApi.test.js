@@ -14,6 +14,7 @@ test("Vercel GET /api/worldcup returns matches and teams", async () => {
   assert.equal(response.headers["content-type"], "application/json; charset=utf-8");
   assert.ok(response.body.matches.length > 0);
   assert.ok(response.body.teams.length > 0);
+  assert.equal(response.body.matches.find((match) => match.id === "400021443").result.homeScore, 2);
 });
 
 test("Vercel POST /api/predict returns local fallback without API key", async () => {

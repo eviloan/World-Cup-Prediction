@@ -53,18 +53,22 @@
 
               <div class="odds-panel" id="odds-panel" aria-live="polite"></div>
 
-              <label class="rules-box">
-                <span>你的预测规则</span>
-                <textarea
-                  id="rules-input"
-                  rows="5"
-                  placeholder="例如：优先考虑近期伤病、连续客场、淘汰赛保守倾向、主场压力等。"
-                ></textarea>
-              </label>
+              <div class="prediction-controls" id="prediction-controls">
+                <label class="rules-box">
+                  <span>你的预测规则</span>
+                  <textarea
+                    id="rules-input"
+                    rows="5"
+                    placeholder="例如：优先考虑近期伤病、连续客场、淘汰赛保守倾向、主场压力等。"
+                  ></textarea>
+                </label>
 
-              <button class="primary-action" id="predict-button" type="button">预测比分与胜平负</button>
+                <button class="primary-action" id="predict-button" type="button">预测比分与胜平负</button>
 
-              <div class="prediction-result" id="prediction-result" hidden></div>
+                <div class="prediction-result" id="prediction-result" hidden></div>
+              </div>
+
+              <div class="prediction-closed" id="prediction-closed" hidden>已完赛，预测入口已关闭。</div>
             </section>
           </div>
         </section>
