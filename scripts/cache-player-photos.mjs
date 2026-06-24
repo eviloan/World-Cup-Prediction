@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 import { teams } from "../src/data.js";
@@ -6,6 +6,7 @@ import { teams } from "../src/data.js";
 const outputDir = "assets/players";
 const manifestPath = "src/playerPhotoManifest.js";
 const concurrency = 8;
+const requestTimeoutMs = 15_000;
 
 async function main() {
   await mkdir(outputDir, { recursive: true });
@@ -23,7 +24,14 @@ async function main() {
     const filePath = join(outputDir, fileName);
 
     try {
-      const response = await fetch(player.photoUrl);
+      if (await fileExists(filePath)) {
+        manifest[String(player.fifaId)] = relativeUrl;
+        return;
+      }
+
+      const response = await fetch(player.photoUrl, {
+        signal: AbortSignal.timeout(requestTimeoutMs)
+      });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const bytes = new Uint8Array(await response.arrayBuffer());
@@ -44,6 +52,15 @@ async function main() {
   await writeFile(manifestPath, contents);
 
   console.log(`Cached ${downloaded}/${players.length} player photos. Failed: ${failed}.`);
+}
+
+async function fileExists(filePath) {
+  try {
+    await access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 async function runPool(items, limit, worker) {

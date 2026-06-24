@@ -1698,25 +1698,6 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/igor-sergeev/profil/spieler/185372"
   },
-  "368560": {
-    "transfermarktId": "274536",
-    "marketValue": {
-      "amount": 1700000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 3000000,
-      "currency": "EUR"
-    },
-    "club": "",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/jaloliddin-masharipov/profil/spieler/274536"
-  },
   "368649": {
     "transfermarktId": "182712",
     "marketValue": {
@@ -3285,6 +3266,25 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/callum-mccowatt/profil/spieler/400797"
   },
+  "390205": {
+    "transfermarktId": "312317",
+    "marketValue": {
+      "amount": 400000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 450000,
+      "currency": "EUR"
+    },
+    "club": "Auckland Football Club",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/logan-rogerson/profil/spieler/312317"
+  },
   "390209": {
     "transfermarktId": "350357",
     "marketValue": {
@@ -3831,25 +3831,6 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/ken-sema/profil/spieler/252345"
   },
-  "395318": {
-    "transfermarktId": "146310",
-    "marketValue": {
-      "amount": 5000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 13000000,
-      "currency": "EUR"
-    },
-    "club": "Liverpool Football Club",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/wataru-endo/profil/spieler/146310"
-  },
   "395321": {
     "transfermarktId": "348791",
     "marketValue": {
@@ -4014,6 +3995,25 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/munir-el-kajoui/profil/spieler/97925"
+  },
+  "395760": {
+    "transfermarktId": "210009",
+    "marketValue": {
+      "amount": 450000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 1100000,
+      "currency": "EUR"
+    },
+    "club": "Al-Fateh Club",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/marwane-saadane/profil/spieler/210009"
   },
   "395986": {
     "transfermarktId": "175577",
@@ -4813,6 +4813,25 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/gonzalo-montiel/profil/spieler/402733"
+  },
+  "402934": {
+    "transfermarktId": "469781",
+    "marketValue": {
+      "amount": 22000000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 24000000,
+      "currency": "EUR"
+    },
+    "club": "Association Football Club Bournemouth",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/marcos-senesi/profil/spieler/469781"
   },
   "402974": {
     "transfermarktId": "450241",
@@ -6349,25 +6368,6 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/jesse-randall/profil/spieler/677509"
   },
-  "416723": {
-    "transfermarktId": "575998",
-    "marketValue": {
-      "amount": 18000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 20000000,
-      "currency": "EUR"
-    },
-    "club": "Olympique de Marseille",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/leonardo-balerdi/profil/spieler/575998"
-  },
   "416989": {
     "transfermarktId": "249360",
     "marketValue": {
@@ -7359,25 +7359,6 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/marko-stamenic/profil/spieler/617018"
   },
-  "423596": {
-    "transfermarktId": "617019",
-    "marketValue": {
-      "amount": 500000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 500000,
-      "currency": "EUR"
-    },
-    "club": "",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/matthew-garbett/profil/spieler/617019"
-  },
   "423646": {
     "transfermarktId": "683840",
     "marketValue": {
@@ -7434,6 +7415,25 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/joe-scally/profil/spieler/504153"
+  },
+  "423933": {
+    "transfermarktId": "635445",
+    "marketValue": {
+      "amount": 2500000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 4000000,
+      "currency": "EUR"
+    },
+    "club": "Austin FC",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/jayden-nelson/profil/spieler/635445"
   },
   "424031": {
     "transfermarktId": "659813",
@@ -9839,6 +9839,25 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/reece-james/profil/spieler/472423"
   },
+  "439691": {
+    "transfermarktId": "346314",
+    "marketValue": {
+      "amount": 40000000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 40000000,
+      "currency": "EUR"
+    },
+    "club": "Chelsea Football Club",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/trevoh-chalobah/profil/spieler/346314"
+  },
   "439956": {
     "transfermarktId": "676318",
     "marketValue": {
@@ -9915,24 +9934,24 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/stefan-posch/profil/spieler/223974"
   },
-  "441069": {
-    "transfermarktId": "324278",
+  "441068": {
+    "transfermarktId": "287188",
     "marketValue": {
-      "amount": 30000000,
+      "amount": 5000000,
       "currency": "EUR"
     },
     "highestMarketValue": {
-      "amount": 30000000,
+      "amount": 10000000,
       "currency": "EUR"
     },
-    "club": "RasenBallsport Leipzig",
+    "club": "1. Fußball-Club Köln",
     "stats": {
       "appearances": 0,
       "goals": 0,
       "assists": 0,
       "minutesPlayed": 0
     },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/christoph-baumgartner/profil/spieler/324278"
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/dejan-ljubicic/profil/spieler/287188"
   },
   "441088": {
     "transfermarktId": "404950",
@@ -10467,25 +10486,6 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/israel-reyes/profil/spieler/687558"
   },
-  "441304": {
-    "transfermarktId": "361914",
-    "marketValue": {
-      "amount": 20000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 38000000,
-      "currency": "EUR"
-    },
-    "club": "Olympique de Marseille",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/nayef-aguerd/profil/spieler/361914"
-  },
   "441307": {
     "transfermarktId": "593482",
     "marketValue": {
@@ -10504,25 +10504,6 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/azzedine-ounahi/profil/spieler/593482"
-  },
-  "441310": {
-    "transfermarktId": "724520",
-    "marketValue": {
-      "amount": 30000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 30000000,
-      "currency": "EUR"
-    },
-    "club": "Real Betis Balompié S.A.D.",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/abde-ezzalzouli/profil/spieler/724520"
   },
   "441316": {
     "transfermarktId": "388165",
@@ -10992,25 +10973,6 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/luis-chavez/profil/spieler/331059"
-  },
-  "448053": {
-    "transfermarktId": "668495",
-    "marketValue": {
-      "amount": 4000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 4000000,
-      "currency": "EUR"
-    },
-    "club": "Club Tigres UANL Sinergia Deportiva S.A. de C.V.",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/marcelo-flores/profil/spieler/668495"
   },
   "448081": {
     "transfermarktId": "550550",
@@ -12171,6 +12133,25 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/daichi-kamada/profil/spieler/356141"
+  },
+  "448569": {
+    "transfermarktId": "550580",
+    "marketValue": {
+      "amount": 5000000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 7000000,
+      "currency": "EUR"
+    },
+    "club": "Borussia Verein für Leibesübungen 1900 Mönchengladbach",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/shuto-machino/profil/spieler/550580"
   },
   "448598": {
     "transfermarktId": "702869",
@@ -15118,6 +15099,25 @@ export const transfermarktPlayersByFifaId = {
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/marko-farji/profil/spieler/663153"
   },
+  "484303": {
+    "transfermarktId": "754040",
+    "marketValue": {
+      "amount": 400000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 450000,
+      "currency": "EUR"
+    },
+    "club": "",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/ruslanbek-jiyanov/profil/spieler/754040"
+  },
   "484320": {
     "transfermarktId": "937958",
     "marketValue": {
@@ -16279,25 +16279,6 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/renato-veiga/profil/spieler/805714"
-  },
-  "489731": {
-    "transfermarktId": "503981",
-    "marketValue": {
-      "amount": 40000000,
-      "currency": "EUR"
-    },
-    "highestMarketValue": {
-      "amount": 40000000,
-      "currency": "EUR"
-    },
-    "club": "Newcastle United Football Club",
-    "stats": {
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "minutesPlayed": 0
-    },
-    "transfermarktUrl": "https://www.transfermarkt.co.uk/tino-livramento/profil/spieler/503981"
   },
   "489732": {
     "transfermarktId": "503987",
@@ -18761,6 +18742,25 @@ export const transfermarktPlayersByFifaId = {
       "minutesPlayed": 0
     },
     "transfermarktUrl": "https://www.transfermarkt.co.uk/bara-sapoko-ndiaye/profil/spieler/1497653"
+  },
+  "524320": {
+    "transfermarktId": "851220",
+    "marketValue": {
+      "amount": 2500000,
+      "currency": "EUR"
+    },
+    "highestMarketValue": {
+      "amount": 2500000,
+      "currency": "EUR"
+    },
+    "club": "Angers Sporting Club de l'Ouest",
+    "stats": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutesPlayed": 0
+    },
+    "transfermarktUrl": "https://www.transfermarkt.co.uk/amine-sbai/profil/spieler/851220"
   }
 };
 

@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { formatOddsValue, getMatchOdds, WORLD_CUP_ODDS_URL } from "../src/odds.js";
-import { worldCupOddsByMatchId } from "../src/oddsData.js";
+import { formatOddsValue, getChampionOdds, getMatchOdds, WORLD_CUP_ODDS_URL } from "../src/odds.js";
+import { worldCupChampionOdds, worldCupOddsByMatchId } from "../src/oddsData.js";
 
 test("getMatchOdds returns World Cup odds placeholders without inventing odds", () => {
   const odds = getMatchOdds({
@@ -40,4 +40,11 @@ test("formatOddsValue renders available odds with two decimals", () => {
   assert.equal(formatOddsValue("1.8"), "1.80");
   assert.equal(formatOddsValue(3.45), "3.45");
   assert.equal(formatOddsValue(null), "待同步");
+});
+
+test("getChampionOdds returns synced champion odds sorted by rank", () => {
+  const odds = getChampionOdds();
+
+  assert.deepEqual(odds.items, worldCupChampionOdds);
+  assert.equal(odds.items[0].rank, 1);
 });

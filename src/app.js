@@ -2,22 +2,29 @@ import { matches as localMatches, teams as localTeams, serializeMatch } from "./
 import { getFlagUrl } from "./flags.js";
 import { formatDisplayName, formatMarketValue, formatStat } from "./formatters.js";
 import { groupMatchesByDate, toggleFavoriteMatch } from "./matchSchedule.js";
+import { nextUpcomingMatchId } from "./matchSelection.js";
 import { canPredictMatch } from "./matchPredictionState.js";
 import { matchResultsById, teamTournamentStatsById } from "./matchResultsData.js";
-import { formatOddsValue, getMatchOdds } from "./odds.js";
+import { formatOddsValue, getChampionOdds, getMatchOdds } from "./odds.js";
 import { localPlayerPhotosByFifaId } from "./playerPhotoManifest.js";
+import { assistLeaderboard, enrichTeamsWithWorldCupStats, goalLeaderboard, playerWorldCupStatsSource } from "./playerWorldCupStats.js";
 import { createLocalPrediction } from "./prediction.js";
 import { groupPlayersByPosition } from "./roster.js";
+import { buildGroupStandings } from "./standings.js";
 import { enrichTeamsWithTransfermarkt } from "./transfermarktData.js";
 
 const FAVORITES_STORAGE_KEY = "worldcup.favoriteMatches";
+const initialMatches = localMatches.map(serializeMatch).map(enrichMatchResult);
+const initialTeams = enrichTeamsWithStats(enrichTeamsWithWorldCupStats(enrichTeamsWithTransfermarkt(Object.values(localTeams))));
+const initialMatchId = nextUpcomingMatchId(initialMatches) ?? initialMatches[0]?.id;
+const initialMatch = initialMatches.find((match) => match.id === initialMatchId) ?? initialMatches[0];
 
 const state = {
   activePage: "predict",
-  matches: localMatches.map(serializeMatch).map(enrichMatchResult),
-  teams: enrichTeamsWithStats(enrichTeamsWithTransfermarkt(Object.values(localTeams))),
-  selectedMatchId: localMatches[0]?.id,
-  selectedTeamId: localMatches[0]?.homeTeamId,
+  matches: initialMatches,
+  teams: initialTeams,
+  selectedMatchId: initialMatchId,
+  selectedTeamId: initialMatch?.homeTeamId ?? initialTeams[0]?.id,
   favoriteMatchIds: loadFavoriteMatchIds()
 };
 
@@ -31,11 +38,13 @@ const elements = {
   matchMeta: document.querySelector("#match-meta"),
   scoreboard: document.querySelector("#scoreboard"),
   oddsPanel: document.querySelector("#odds-panel"),
+  championOddsPanel: document.querySelector("#champion-odds-panel"),
   predictionControls: document.querySelector("#prediction-controls"),
   predictionClosed: document.querySelector("#prediction-closed"),
   rulesInput: document.querySelector("#rules-input"),
   predictButton: document.querySelector("#predict-button"),
   predictionResult: document.querySelector("#prediction-result"),
+  playerLeaderboards: document.querySelector("#player-leaderboards"),
   teamTabs: document.querySelector("#team-tabs"),
   teamDetail: document.querySelector("#team-detail")
 };
@@ -101,7 +110,10 @@ async function hydrateFromApi() {
 
     const data = await response.json();
     state.matches = data.matches.map(enrichMatchResult);
-    state.teams = enrichTeamsWithStats(enrichTeamsWithTransfermarkt(data.teams));
+    state.teams = enrichTeamsWithStats(enrichTeamsWithWorldCupStats(enrichTeamsWithTransfermarkt(data.teams)));
+    state.selectedMatchId = nextUpcomingMatchId(state.matches) ?? state.selectedMatchId ?? state.matches[0]?.id;
+    const match = selectedMatch();
+    state.selectedTeamId = match?.homeTeam?.id ?? state.selectedTeamId ?? state.teams[0]?.id;
     elements.apiStatus.textContent = "";
     render();
   } catch {
@@ -114,6 +126,7 @@ function render() {
   renderMatches();
   renderSelectedMatch();
   renderTeams();
+  renderChampionOdds();
 }
 
 function renderPage() {
@@ -168,6 +181,10 @@ function renderMatches() {
       renderPage();
     });
   });
+
+  elements.matchList.querySelector(".match-row.active")?.scrollIntoView({
+    block: "center"
+  });
 }
 
 function renderSelectedMatch() {
@@ -195,6 +212,37 @@ function renderSelectedMatch() {
     : canPredict
       ? "预测比分与胜平负"
       : "该场对阵尚未确定";
+}
+
+function renderChampionOdds() {
+  const championOdds = getChampionOdds();
+  elements.championOddsPanel.innerHTML = `
+    <div class="champion-odds-heading">
+      <div>
+        <p class="eyebrow">Tournament Odds</p>
+        <h3>世界杯冠军赔率</h3>
+      </div>
+      <a href="${championOdds.sourceUrl}" target="_blank" rel="noreferrer">${championOdds.source}</a>
+    </div>
+    <div class="champion-odds-list">
+      ${
+        championOdds.items.length
+          ? championOdds.items
+              .map(
+                (item) => `
+                  <div class="champion-odds-row">
+                    <span>${item.rank}</span>
+                    <strong>${flagImage({ id: item.teamId, name: item.teamName })}${item.teamName}</strong>
+                    <em>${formatOddsValue(item.odds)}</em>
+                  </div>
+                `
+              )
+              .join("")
+          : `<p class="muted">等待冠军赔率同步</p>`
+      }
+    </div>
+    <p class="odds-note">${championOdds.items[0]?.updatedText ?? "等待赔率源同步"}</p>
+  `;
 }
 
 function renderOdds(match) {
@@ -227,25 +275,43 @@ function renderOdds(match) {
 }
 
 function renderTeams() {
-  elements.teamTabs.innerHTML = groupedTeams()
+  renderPlayerLeaderboards();
+  elements.teamTabs.innerHTML = buildGroupStandings(state.teams)
     .map(
-      ([group, teams]) => `
-        <div class="group-block">
+      ({ group, teams }) => `
+        <section class="group-block standings-block" aria-label="${group} 积分榜">
           <div class="group-title">${group}</div>
-          <div class="group-teams">
+          <div class="standings-table" role="table" aria-label="${group} standings">
+            <div class="standings-row standings-head" role="row">
+              <span role="columnheader">#</span>
+              <span role="columnheader">球队</span>
+              <span role="columnheader">赛</span>
+              <span role="columnheader">胜</span>
+              <span role="columnheader">平</span>
+              <span role="columnheader">负</span>
+              <span role="columnheader">净</span>
+              <span role="columnheader">分</span>
+            </div>
             ${teams
-              .map((team) => {
+              .map((team, index) => {
                 const active = team.id === state.selectedTeamId ? " active" : "";
+                const stats = team.standings;
                 return `
-                  <button class="team-tab${active}" type="button" data-team-id="${team.id}">
-                    ${flagImage(team)}
-                    <span>${team.name}</span>
+                  <button class="standings-row${active}" type="button" role="row" data-team-id="${team.id}">
+                    <span role="cell">${index + 1}</span>
+                    <strong role="cell">${flagImage(team)}<span>${team.name}</span></strong>
+                    <span role="cell">${stats.played}</span>
+                    <span role="cell">${stats.wins}</span>
+                    <span role="cell">${stats.draws}</span>
+                    <span role="cell">${stats.losses}</span>
+                    <span role="cell">${formatSignedNumber(stats.goalDifference)}</span>
+                    <span role="cell">${stats.points}</span>
                   </button>
                 `;
               })
               .join("")}
           </div>
-        </div>
+        </section>
       `
     )
     .join("");
@@ -298,6 +364,44 @@ function renderTeams() {
   `;
 }
 
+function renderPlayerLeaderboards() {
+  elements.playerLeaderboards.innerHTML = `
+    ${leaderboardCard("世界杯进球榜", goalLeaderboard, "球")}
+    ${leaderboardCard("世界杯助攻榜", assistLeaderboard, "次")}
+    <p class="leaderboard-source">球员出场、进球、助攻、分钟数据来源：${playerWorldCupStatsSource.name} 官方比赛数据。</p>
+  `;
+}
+
+function leaderboardCard(title, items, unit) {
+  return `
+    <section class="panel leaderboard-card" aria-label="${title}">
+      <div class="leaderboard-title">
+        <p class="eyebrow">Official Stats</p>
+        <h3>${title}</h3>
+      </div>
+      <div class="leaderboard-list">
+        ${
+          items.length
+            ? items
+                .slice(0, 8)
+                .map(
+                  (item) => `
+                    <div class="leaderboard-row">
+                      <span>${item.rank}</span>
+                      <strong>${flagImage({ id: item.teamId, name: item.teamName })}${formatDisplayName(item.name)}</strong>
+                      <small>${item.teamName}</small>
+                      <em>${item.value}${unit}</em>
+                    </div>
+                  `
+                )
+                .join("")
+            : `<p class="muted">暂无数据</p>`
+        }
+      </div>
+    </section>
+  `;
+}
+
 function matchRow(match) {
   const active = match.id === state.selectedMatchId ? " active" : "";
   const favorite = state.favoriteMatchIds.has(match.id) ? " favorite" : "";
@@ -313,7 +417,7 @@ function matchRow(match) {
           <span class="versus ${match.result ? "finished-score" : ""}">${resultLabel}</span>
           <strong>${flagImage(match.awayTeam)}${awayName}</strong>
         </span>
-        <small>#${match.matchNumber ?? ""} · ${match.stage} · ${formatTime(match.kickoff)}</small>
+        <small>#${match.matchNumber ?? ""} · ${match.stage} · ${formatTime(match.kickoff)} 北京时间</small>
       </div>
       <button
         class="favorite-button"
@@ -492,25 +596,15 @@ function playerPhotoUrl(player) {
   return localPlayerPhotosByFifaId[String(player.fifaId)] || "";
 }
 
-function groupedTeams() {
-  const collator = new Intl.Collator("en");
-  const groups = new Map();
-
-  for (const team of state.teams) {
-    const group = team.group || "Unassigned";
-    if (!groups.has(group)) groups.set(group, []);
-    groups.get(group).push(team);
-  }
-
-  return [...groups.entries()]
-    .sort(([a], [b]) => collator.compare(a, b))
-    .map(([group, teams]) => [group, teams.sort((a, b) => collator.compare(a.name, b.name))]);
-}
-
 function flagImage(team) {
   const flagUrl = resolvedFlagUrl(team);
   if (!flagUrl) return "";
   return `<img class="inline-flag" src="${flagUrl}" alt="${team.name} flag" loading="lazy" />`;
+}
+
+function formatSignedNumber(value) {
+  const numeric = Number(value) || 0;
+  return numeric > 0 ? `+${numeric}` : String(numeric);
 }
 
 function resolvedFlagUrl(team) {
@@ -533,8 +627,9 @@ function formatDate(value) {
     month: "2-digit",
     day: "2-digit",
     hour: "2-digit",
-    minute: "2-digit"
-  }).format(new Date(value));
+    minute: "2-digit",
+    timeZone: "Asia/Shanghai"
+  }).format(new Date(value)) + " 北京时间";
 }
 
 function formatDateTime(value) {
@@ -542,14 +637,16 @@ function formatDateTime(value) {
     month: "2-digit",
     day: "2-digit",
     hour: "2-digit",
-    minute: "2-digit"
-  }).format(new Date(value));
+    minute: "2-digit",
+    timeZone: "Asia/Shanghai"
+  }).format(new Date(value)) + " 北京时间";
 }
 
 function formatTime(value) {
   return new Intl.DateTimeFormat("zh-CN", {
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
+    timeZone: "Asia/Shanghai"
   }).format(new Date(value));
 }
 

@@ -2,7 +2,7 @@
 // Team ratings updated by scripts/update-team-ratings.mjs.
 // Source: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
 // FIFA rankings: https://api.fifa.com/api/v3/rankings?gender=1&count=300&language=en
-// Generated at: 2026-06-10T05:16:46.925Z
+// Generated at: 2026-06-22T07:40:04.356Z
 
 export const teams = {
   "alg": {
@@ -30,7 +30,7 @@ export const teams = {
         "birthDate": "2000-02-19T00:00:00Z",
         "heightCm": 194,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6d85724d-c5a6-400d-acb9-df73451a4bf4/MASTIL-Melvin_520070"
       },
       {
         "fifaId": "376285",
@@ -43,7 +43,7 @@ export const teams = {
         "birthDate": "1991-10-22T00:00:00Z",
         "heightCm": 184,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/dc4250ac-0a37-44da-9ae0-c858225ad8a1/MANDI-Aissa_376285"
       },
       {
         "fifaId": "512127",
@@ -56,7 +56,7 @@ export const teams = {
         "birthDate": "1999-06-15T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8b3d3f92-a378-40d7-92d2-85eed4a732d3/ABADA-Achraf_512127"
       },
       {
         "fifaId": "433600",
@@ -69,7 +69,7 @@ export const teams = {
         "birthDate": "2000-01-22T00:00:00Z",
         "heightCm": 186,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/08ab7f46-1067-4c5a-9a23-64bda657aca0/TOUGAI-Mohamed-Amine_433600"
       },
       {
         "fifaId": "480983",
@@ -82,7 +82,7 @@ export const teams = {
         "birthDate": "1999-03-20T00:00:00Z",
         "heightCm": 186,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f638bd61-6020-4634-bb13-4c19e3b209de/BELAID-Zineddine_480983"
       },
       {
         "fifaId": "433679",
@@ -95,12 +95,12 @@ export const teams = {
         "birthDate": "1998-05-26T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/48a3b28e-cee7-4c5b-87b9-6344b3977983/ZERROUKI-Ramiz_433679"
       },
       {
         "fifaId": "379942",
         "name": "Riyad Mahrez",
-        "shortName": "Mahrez",
+        "shortName": "MAHREZ",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -108,7 +108,7 @@ export const teams = {
         "birthDate": "1991-02-21T00:00:00Z",
         "heightCm": 179,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/172fb59c-24f2-4bc0-82a2-cdc869badf53/MAHREZ-Riyad_379942"
       },
       {
         "fifaId": "430698",
@@ -121,7 +121,7 @@ export const teams = {
         "birthDate": "1998-06-30T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ac743888-d671-4971-9df9-594b591f2425/AOUAR-Houssem_430698"
       },
       {
         "fifaId": "405877",
@@ -134,7 +134,7 @@ export const teams = {
         "birthDate": "2000-02-16T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4818d176-036a-4494-b53e-ada08bba749c/GOUIRI-Amine_405877"
       },
       {
         "fifaId": "477795",
@@ -147,7 +147,7 @@ export const teams = {
         "birthDate": "2002-11-28T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/81f29a61-d5a0-466a-86dd-d52b61f29462/CHAIBI-Fares_477795"
       },
       {
         "fifaId": "482874",
@@ -160,7 +160,7 @@ export const teams = {
         "birthDate": "2002-02-11T00:00:00Z",
         "heightCm": 176,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7446a4bb-0884-461c-8fd7-7ce4c93a0a46/HADJ-MOUSSA-Anis_482874"
       },
       {
         "fifaId": "520071",
@@ -173,7 +173,7 @@ export const teams = {
         "birthDate": "2000-04-17T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9e9811da-2a8a-48cd-9088-1a45b6f90e0a/BENBOUALI-Nadhir_520071"
       },
       {
         "fifaId": "482869",
@@ -186,7 +186,7 @@ export const teams = {
         "birthDate": "2003-03-26T00:00:00Z",
         "heightCm": 185,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c24e6b93-736c-41a7-be57-2e165509ce5c/HADJAM-Jaouen_482869"
       },
       {
         "fifaId": "441350",
@@ -199,7 +199,7 @@ export const teams = {
         "birthDate": "1999-09-23T00:00:00Z",
         "heightCm": 175,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/76a28e94-3869-40e2-a82e-9fb973181eb6/BOUDAOUI-Hicham_441350"
       },
       {
         "fifaId": "431858",
@@ -212,7 +212,7 @@ export const teams = {
         "birthDate": "2001-06-06T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7d7c26f5-81ee-4c6b-97b5-a8c6f67f0772/ZIZO_431858"
       },
       {
         "fifaId": "477817",
@@ -225,7 +225,7 @@ export const teams = {
         "birthDate": "1994-10-11T00:00:00Z",
         "heightCm": 188,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/884914ab-5fde-4b43-a31a-99b35849afc8/BENBOT-Oussama_477817"
       },
       {
         "fifaId": "511009",
@@ -238,7 +238,7 @@ export const teams = {
         "birthDate": "2002-06-07T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0007b754-4911-4f39-8c81-df2c156f7aa5/BELGHALI-Rafik_511009"
       },
       {
         "fifaId": "477790",
@@ -251,7 +251,7 @@ export const teams = {
         "birthDate": "2000-05-09T00:00:00Z",
         "heightCm": 170,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5aa32614-1ae5-49be-aed3-f9636a556385/AMOURA-Mohamed_477790"
       },
       {
         "fifaId": "379939",
@@ -264,7 +264,7 @@ export const teams = {
         "birthDate": "1994-11-24T00:00:00Z",
         "heightCm": 189,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/02fbf423-afa1-4863-8ddc-af2136fb5685/BENTALEB-Nabil_379939"
       },
       {
         "fifaId": "512132",
@@ -277,7 +277,7 @@ export const teams = {
         "birthDate": "2003-05-02T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/167d2400-d78c-4931-8a84-7b27284bd386/BOULBINA-Adil_512132"
       },
       {
         "fifaId": "395113",
@@ -290,7 +290,7 @@ export const teams = {
         "birthDate": "1995-04-16T00:00:00Z",
         "heightCm": 187,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/329752fa-e310-4124-8fb2-be7cc478b929/BENSEBAINI-Ramy_395113"
       },
       {
         "fifaId": "494291",
@@ -303,12 +303,12 @@ export const teams = {
         "birthDate": "2005-11-24T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d1a9f2e9-3dda-4bdb-b2a1-f026bb97d9ce/MAZA-Ibrahim_494291"
       },
       {
         "fifaId": "389879",
         "name": "Luca ZIDANE",
-        "shortName": "LUCA",
+        "shortName": "ZIDANE",
         "jerseyNumber": 23,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -316,20 +316,20 @@ export const teams = {
         "birthDate": "1998-05-13T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9a389290-d443-4b83-8e3a-70e481bca3f1/ZIDANE-Luca_389879"
       },
       {
         "fifaId": "433631",
         "name": "Yassine TITRAOUI",
-        "shortName": "Yassine TITRAOUI",
+        "shortName": "TITRAOUI",
         "jerseyNumber": 24,
         "position": "MF",
         "positionLabel": "Midfielder",
         "club": "",
-        "birthDate": "2003-08-26T00:00:00Z",
+        "birthDate": "2003-07-26T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d5bf01cd-ba36-4a99-80c8-9287c6df0069/TITRAOUI-Yassine_433631"
       },
       {
         "fifaId": "520072",
@@ -342,7 +342,7 @@ export const teams = {
         "birthDate": "2002-09-06T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/39118134-164a-4baa-9884-de4f4821a0b7/GHEDJEMIS-Fares_520072"
       },
       {
         "fifaId": "511010",
@@ -355,7 +355,7 @@ export const teams = {
         "birthDate": "1999-02-06T00:00:00Z",
         "heightCm": 185,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a1d62d5-a732-4036-b925-d011389a66fb/CHERGUI-Samir_511010"
       }
     ]
   },
@@ -365,10 +365,10 @@ export const teams = {
     "name": "Argentina",
     "group": "Group J",
     "confederation": "CONMEBOL",
-    "fifaRank": 3,
+    "fifaRank": 1,
     "attack": 91,
     "defense": 91,
-    "form": 87,
+    "form": 88,
     "coach": "Lionel SCALONI",
     "flagUrl": "https://flagcdn.com/ar.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/ARG",
@@ -376,7 +376,7 @@ export const teams = {
       {
         "fifaId": "430624",
         "name": "Juan MUSSO",
-        "shortName": "J. MUSSO",
+        "shortName": "MUSSO",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -384,20 +384,20 @@ export const teams = {
         "birthDate": "1994-05-06T00:00:00Z",
         "heightCm": 193,
         "weightKg": 94,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c4a2b6b7-378f-422d-b2d1-42a04e5b1dfb/MUSSO-Juan_430624"
       },
       {
-        "fifaId": "416723",
-        "name": "Leonardo BALERDI",
-        "shortName": "BALERDI",
+        "fifaId": "402934",
+        "name": "Marcos SENESI",
+        "shortName": "SENESI",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
         "club": "",
-        "birthDate": "1999-01-26T00:00:00Z",
-        "heightCm": 188,
-        "weightKg": 85,
-        "photoUrl": ""
+        "birthDate": "1997-05-10T00:00:00Z",
+        "heightCm": 185,
+        "weightKg": 80,
+        "photoUrl": "https://digitalhub.fifa.com/transform/6e675b37-0a1a-4b1e-8ec8-34425ac08d86/MARCOS-SENESI_402934"
       },
       {
         "fifaId": "308322",
@@ -410,7 +410,7 @@ export const teams = {
         "birthDate": "1992-08-31T00:00:00Z",
         "heightCm": 172,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/dd4d5f75-b3d4-4ff2-81bf-c16bf0b0a061/TAGLIAFICO-Nicolas_308322"
       },
       {
         "fifaId": "402926",
@@ -423,7 +423,7 @@ export const teams = {
         "birthDate": "1997-01-01T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b8cd278f-c843-4b99-9fb3-c8f081fbb2a8/MONTIEL-Gonzalo_402926"
       },
       {
         "fifaId": "332847",
@@ -436,12 +436,12 @@ export const teams = {
         "birthDate": "1994-06-29T00:00:00Z",
         "heightCm": 182,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/76c073ae-2d3c-47b6-8fb5-698893f91a6f/PAREDES-Leandro_332847"
       },
       {
         "fifaId": "402921",
         "name": "Lisandro MARTINEZ",
-        "shortName": "MARTINEZ",
+        "shortName": "MARTÍNEZ",
         "jerseyNumber": 6,
         "position": "DF",
         "positionLabel": "Defender",
@@ -449,12 +449,12 @@ export const teams = {
         "birthDate": "1998-01-18T00:00:00Z",
         "heightCm": 175,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1b4390f3-e94f-4851-a36b-595356b3d414/MARTINEZ-Lisandro_402921"
       },
       {
         "fifaId": "428882",
         "name": "Rodrigo DE PAUL",
-        "shortName": "R. DE PAUL",
+        "shortName": "DE PAUL",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -462,7 +462,7 @@ export const teams = {
         "birthDate": "1994-05-24T00:00:00Z",
         "heightCm": 178,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/314bcb4c-8c81-4bce-9750-85827a209c1b/DE-PAUL-Rodrigo_428882"
       },
       {
         "fifaId": "463661",
@@ -475,7 +475,7 @@ export const teams = {
         "birthDate": "2004-07-23T00:00:00Z",
         "heightCm": 172,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b3a01b61-2e37-439e-b277-5d37c89923ab/BARCO-Valentin_463661"
       },
       {
         "fifaId": "416081",
@@ -488,7 +488,7 @@ export const teams = {
         "birthDate": "2000-01-31T00:00:00Z",
         "heightCm": 170,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c7715f12-adb9-4504-9be2-e2899bdbd172/ALVAREZ-Julian_416081"
       },
       {
         "fifaId": "229397",
@@ -501,7 +501,7 @@ export const teams = {
         "birthDate": "1987-06-24T00:00:00Z",
         "heightCm": 170,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/19823774-fac0-485a-8a8f-572e7324c6c2/MESSI-Lionel_229397"
       },
       {
         "fifaId": "395414",
@@ -514,7 +514,7 @@ export const teams = {
         "birthDate": "1996-04-09T00:00:00Z",
         "heightCm": 177,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ddda0414-89fe-4118-9830-8ef417990db4/LO-CELSO-Giovani_395414"
       },
       {
         "fifaId": "394824",
@@ -527,7 +527,7 @@ export const teams = {
         "birthDate": "1992-05-20T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/db91883b-99ec-4aa2-bf1a-cc7912040c7b/RULLI-Geronimo_394824"
       },
       {
         "fifaId": "431196",
@@ -540,7 +540,7 @@ export const teams = {
         "birthDate": "1998-04-27T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/61d5d60a-7e5a-4a29-919d-c52bd80b9a5a/ROMERO-Cristian_431196"
       },
       {
         "fifaId": "389485",
@@ -553,7 +553,7 @@ export const teams = {
         "birthDate": "1998-10-05T00:00:00Z",
         "heightCm": 177,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0c3725a4-a529-412d-867b-2ca0929a7a85/PALACIOS-Exequiel_389485"
       },
       {
         "fifaId": "430631",
@@ -566,12 +566,12 @@ export const teams = {
         "birthDate": "1998-04-06T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c86f0b3-0e7b-46e4-adb5-eafcd09d5cd0/GONZALEZ-Nico_430631"
       },
       {
         "fifaId": "418975",
         "name": "Thiago ALMADA",
-        "shortName": "Thiago ALMADA",
+        "shortName": "ALMADA",
         "jerseyNumber": 16,
         "position": "FW",
         "positionLabel": "Forward",
@@ -579,12 +579,12 @@ export const teams = {
         "birthDate": "2001-04-26T00:00:00Z",
         "heightCm": 171,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2bcc1c2f-7d0e-46c9-bcd9-1c02ed4d408a/ALMADA-Thiago_418975"
       },
       {
         "fifaId": "485595",
         "name": "Giuliano SIMEONE",
-        "shortName": "GIULIANO",
+        "shortName": "SIMEONE",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
@@ -592,12 +592,12 @@ export const teams = {
         "birthDate": "2002-12-18T00:00:00Z",
         "heightCm": 174,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5d379193-ed78-498b-81c0-0e1a50f2f7c9/SIMEONE-Giuliano_485595"
       },
       {
         "fifaId": "441422",
         "name": "Nico PAZ",
-        "shortName": "Nico PAZ",
+        "shortName": "NICO PAZ",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -605,7 +605,7 @@ export const teams = {
         "birthDate": "2004-09-08T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/db59cb7d-9b9e-4cdc-be14-07e16631dbd8/PAZ-Nico_441422"
       },
       {
         "fifaId": "310116",
@@ -618,12 +618,12 @@ export const teams = {
         "birthDate": "1988-02-12T00:00:00Z",
         "heightCm": 182,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4aedbffa-a35c-4aa5-a7ce-8a29c2af3e72/OTAMENDI-Nicolas_310116"
       },
       {
         "fifaId": "430628",
         "name": "Alexis MAC ALLISTER",
-        "shortName": "Alexis MAC ALLISTER",
+        "shortName": "MAC ALLISTER",
         "jerseyNumber": 20,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -631,12 +631,12 @@ export const teams = {
         "birthDate": "1998-12-24T00:00:00Z",
         "heightCm": 176,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/78b6a9e4-f2b9-4e19-b414-79b18858caaf/MAC-ALLISTER-Alexis_430628"
       },
       {
         "fifaId": "495054",
         "name": "Jose Manuel LOPEZ",
-        "shortName": "LÓPEZ",
+        "shortName": "LOPEZ",
         "jerseyNumber": 21,
         "position": "FW",
         "positionLabel": "Forward",
@@ -644,12 +644,12 @@ export const teams = {
         "birthDate": "2000-12-06T00:00:00Z",
         "heightCm": 190,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fe5c273f-95e7-49c7-b9a5-a332e4da801b/LOPEZ-Jose-Manuel_495054"
       },
       {
         "fifaId": "402920",
         "name": "Lautaro MARTINEZ",
-        "shortName": "LAUTARO",
+        "shortName": "L. MARTINEZ",
         "jerseyNumber": 22,
         "position": "FW",
         "positionLabel": "Forward",
@@ -657,12 +657,12 @@ export const teams = {
         "birthDate": "1997-08-22T00:00:00Z",
         "heightCm": 175,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2368bf53-1f73-427b-929e-557187d53ac7/MARTINEZ-Lautaro_402920"
       },
       {
         "fifaId": "308300",
         "name": "Emiliano MARTINEZ",
-        "shortName": "MARTINEZ E.",
+        "shortName": "E. MARTINEZ",
         "jerseyNumber": 23,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -670,12 +670,12 @@ export const teams = {
         "birthDate": "1992-09-02T00:00:00Z",
         "heightCm": 195,
         "weightKg": 98,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f5f477fe-a519-4c69-bb68-f6f5b97c1399/MARTINEZ_Emiliano_308300"
       },
       {
         "fifaId": "448252",
         "name": "Enzo FERNANDEZ",
-        "shortName": "ENZO",
+        "shortName": "E. FERNANDEZ",
         "jerseyNumber": 24,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -683,12 +683,12 @@ export const teams = {
         "birthDate": "2001-01-17T00:00:00Z",
         "heightCm": 178,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b88c6da2-28db-4d61-a668-ac8e84114063/FERNANDEZ-Enzo_448252"
       },
       {
         "fifaId": "418963",
         "name": "Facundo MEDINA",
-        "shortName": "Facundo MEDINA",
+        "shortName": "MEDINA",
         "jerseyNumber": 25,
         "position": "DF",
         "positionLabel": "Defender",
@@ -696,7 +696,7 @@ export const teams = {
         "birthDate": "1999-05-28T00:00:00Z",
         "heightCm": 184,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6d4b9a27-2cd5-4372-8426-51876990ba1b/MEDINA-Facundo_418963"
       },
       {
         "fifaId": "402925",
@@ -709,7 +709,7 @@ export const teams = {
         "birthDate": "1998-04-06T00:00:00Z",
         "heightCm": 179,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7aef8344-2a5b-42f0-b1a0-565d5220aa76/MOLINA-Nahuel_402925"
       }
     ]
   },
@@ -738,7 +738,7 @@ export const teams = {
         "birthDate": "1992-04-08T00:00:00Z",
         "heightCm": 184,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a5ca7519-c1c7-4724-94b9-670e3b0746e4/2280553088"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c98d5eb-1514-4e8f-a6c6-60f4017b2175/RYAN-Mathew_339117"
       },
       {
         "fifaId": "331149",
@@ -751,7 +751,7 @@ export const teams = {
         "birthDate": "1994-04-28T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5ca00c3f-4e80-4873-a6d0-4706d899e09f/2280553113"
+        "photoUrl": "https://digitalhub.fifa.com/transform/93c60eb1-755d-4019-aedb-4da099ceb670/DEGENEK-Milos_331149"
       },
       {
         "fifaId": "448014",
@@ -764,12 +764,12 @@ export const teams = {
         "birthDate": "2003-10-10T00:00:00Z",
         "heightCm": 191,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/bd18dc17-af40-4118-b7ba-d376cee6d9da/2280553108"
+        "photoUrl": "https://digitalhub.fifa.com/transform/0bbf6585-1c6b-4416-8a3f-31a1d8d1625b/CIRCATI-Alessandro_448014"
       },
       {
         "fifaId": "430450",
         "name": "Jacob ITALIANO",
-        "shortName": "Jacob ITALIANO",
+        "shortName": "ITALIANO",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -777,7 +777,7 @@ export const teams = {
         "birthDate": "2001-07-30T00:00:00Z",
         "heightCm": 177,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/9bbb01d3-55a8-4572-9641-486c6893260d/2280553094"
+        "photoUrl": "https://digitalhub.fifa.com/transform/58be20f9-ed45-4c69-9c3d-d148271e8e92/ITALIANO-Jacob_430450"
       },
       {
         "fifaId": "423522",
@@ -790,12 +790,12 @@ export const teams = {
         "birthDate": "2002-10-29T00:00:00Z",
         "heightCm": 180,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7c34b299-204b-4dc8-88e4-3894a2b40d09/2280553120"
+        "photoUrl": "https://digitalhub.fifa.com/transform/4b537554-d211-4b77-aa31-0935973fdd50/BOS-Jordan_423522"
       },
       {
         "fifaId": "339112",
         "name": "Jason GERIA",
-        "shortName": "Geria",
+        "shortName": "GERIA",
         "jerseyNumber": 6,
         "position": "DF",
         "positionLabel": "Defender",
@@ -803,7 +803,7 @@ export const teams = {
         "birthDate": "1993-05-10T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4edbdaed-fcc9-4e18-b8a7-4cebb6678bfb/2280553098"
+        "photoUrl": "https://digitalhub.fifa.com/transform/33a991a9-eb66-43b2-ad39-2718a8147c51/GERIA-Jason_339112"
       },
       {
         "fifaId": "321697",
@@ -816,12 +816,12 @@ export const teams = {
         "birthDate": "1991-02-04T00:00:00Z",
         "heightCm": 181,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8d7eb205-3a00-4731-b9b1-c7efdb7aef5b/2280553099"
+        "photoUrl": "https://digitalhub.fifa.com/transform/bc1b0683-9839-4c4e-acf1-2256bc2e58a3/LECKIE-Mathew_321697"
       },
       {
         "fifaId": "430452",
         "name": "Connor METCALFE",
-        "shortName": "Connor METCALFE",
+        "shortName": "METCALFE",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -829,7 +829,7 @@ export const teams = {
         "birthDate": "1999-11-05T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f017d84a-c283-46e8-a900-9d9d754e8f15/2280553118"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a539f793-3d95-46b8-805e-67156152ac8b/METCALFE-Connor_430452"
       },
       {
         "fifaId": "498806",
@@ -842,7 +842,7 @@ export const teams = {
         "birthDate": "2004-03-26T00:00:00Z",
         "heightCm": 186,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/20485865-cbdc-4cd4-9a53-bec9171075d4/2280553105"
+        "photoUrl": "https://digitalhub.fifa.com/transform/069af350-e4d8-4b30-af2d-6938b9a379fa/TOURE-Mohamed_498806"
       },
       {
         "fifaId": "404319",
@@ -855,7 +855,7 @@ export const teams = {
         "birthDate": "1996-07-05T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/52051179-6890-49e4-bff2-b38e192259ff/2280553115"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c63012a5-37f8-4317-8a69-60f861fb03a7/HRUSTIC-Ajdin_404319"
       },
       {
         "fifaId": "406606",
@@ -868,7 +868,7 @@ export const teams = {
         "birthDate": "1995-09-15T00:00:00Z",
         "heightCm": 178,
         "weightKg": 71,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ab084219-b18e-45db-b91b-a2d9aa27d979/2280553102"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9beaa464-b945-4d89-b310-025eea682693/MABIL-Awer_406606"
       },
       {
         "fifaId": "331135",
@@ -881,12 +881,12 @@ export const teams = {
         "birthDate": "1995-01-06T00:00:00Z",
         "heightCm": 184,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f853c2b1-a05f-4e3c-9477-2ac8b9693b54/2280553087"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b64e66f2-6c65-4a90-8f28-6fc699fcf5ce/IZZO-Paul_331135"
       },
       {
         "fifaId": "430440",
         "name": "Aiden ONEILL",
-        "shortName": "Aiden ONEILL",
+        "shortName": "O'NEILL",
         "jerseyNumber": 13,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -894,12 +894,12 @@ export const teams = {
         "birthDate": "1998-07-04T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/04403eac-ff28-44fb-b947-00508fba0de1/2280553116"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a7dc9d98-0215-4756-995a-09b61830ab8b/ONEILL-Aiden_430440"
       },
       {
         "fifaId": "430437",
         "name": "Cameron DEVLIN",
-        "shortName": "Cameron DEVLIN",
+        "shortName": "DEVLIN",
         "jerseyNumber": 14,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -907,7 +907,7 @@ export const teams = {
         "birthDate": "1998-06-07T00:00:00Z",
         "heightCm": 170,
         "weightKg": 67,
-        "photoUrl": "https://digitalhub.fifa.com/transform/23db0cfd-38da-4d8f-8c77-f669e3f1b1a9/2280553104"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c095f2b-8169-4023-a676-48c6fb3e6897/DEVLIN-Cameron_430437"
       },
       {
         "fifaId": "494411",
@@ -920,7 +920,7 @@ export const teams = {
         "birthDate": "2001-05-18T00:00:00Z",
         "heightCm": 183,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7aa1c990-9310-4796-9fd1-339002eeb1a5/2280553114"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5753796c-c01e-444e-8896-5c6c79dcd9fb/TREWIN-Kai_494411"
       },
       {
         "fifaId": "349342",
@@ -933,7 +933,7 @@ export const teams = {
         "birthDate": "1990-12-16T00:00:00Z",
         "heightCm": 170,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/956f3812-395e-4660-a371-2c59144cce5e/2280553119"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7b166229-d82d-4323-9c79-eb973e996408/BEHICH-Aziz_349342"
       },
       {
         "fifaId": "486306",
@@ -946,7 +946,7 @@ export const teams = {
         "birthDate": "2006-02-09T00:00:00Z",
         "heightCm": 165,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4e5c98d2-d07b-4225-9f8f-3896e7b50cb0/2280553100"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ebc599f9-d929-4c6c-a60e-7f081cfb7bd6/IRANKUNDA-Nestory_486306"
       },
       {
         "fifaId": "494557",
@@ -959,12 +959,12 @@ export const teams = {
         "birthDate": "2003-08-06T00:00:00Z",
         "heightCm": 189,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a8a3ad13-67d5-4651-b28c-0a92a90625a1/2280553089"
+        "photoUrl": "https://digitalhub.fifa.com/transform/0ea3c68c-c425-41c4-b973-c60e2d5b4685/BEACH-Patrick_494557"
       },
       {
         "fifaId": "430442",
         "name": "Harry SOUTTAR",
-        "shortName": "Harry SOUTTAR",
+        "shortName": "SOUTTAR",
         "jerseyNumber": 19,
         "position": "DF",
         "positionLabel": "Defender",
@@ -972,7 +972,7 @@ export const teams = {
         "birthDate": "1998-10-22T00:00:00Z",
         "heightCm": 198,
         "weightKg": 100,
-        "photoUrl": "https://digitalhub.fifa.com/transform/826360a2-659e-4f36-ad7c-5ffc64db7cb3/2280553122"
+        "photoUrl": "https://digitalhub.fifa.com/transform/6777563e-5036-4252-9809-a0cc21d96147/SOUTTAR-Harry_430442"
       },
       {
         "fifaId": "448015",
@@ -985,12 +985,12 @@ export const teams = {
         "birthDate": "2003-11-15T00:00:00Z",
         "heightCm": 187,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/12e320e9-3661-435b-9b8d-e30f9f47963c/2280553109"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e455ae41-95f0-454b-bd12-abdaffa68b7d/VOLPATO-Cristian_448015"
       },
       {
         "fifaId": "382312",
         "name": "Cameron BURGESS",
-        "shortName": "Cameron BURGESS",
+        "shortName": "BURGESS",
         "jerseyNumber": 21,
         "position": "DF",
         "positionLabel": "Defender",
@@ -998,7 +998,7 @@ export const teams = {
         "birthDate": "1995-10-21T00:00:00Z",
         "heightCm": 194,
         "weightKg": 93,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4e3405d8-ce09-468d-ae6a-ab78a6f4805f/2280553121"
+        "photoUrl": "https://digitalhub.fifa.com/transform/75870c29-917d-4ad0-984c-c7ba4e85953c/BURGESS-Cameron_382312"
       },
       {
         "fifaId": "355775",
@@ -1011,7 +1011,7 @@ export const teams = {
         "birthDate": "1993-03-07T00:00:00Z",
         "heightCm": 189,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ae735d12-dce0-478b-a369-d4501f4dc88c/2280553123"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7726492b-0996-47a2-aafd-bd362844d9df/IRVINE-Jackson_355775"
       },
       {
         "fifaId": "491166",
@@ -1024,7 +1024,7 @@ export const teams = {
         "birthDate": "2001-05-07T00:00:00Z",
         "heightCm": 181,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/93a55711-34fa-47d6-a630-e9faf6cd5c12/2280553117"
+        "photoUrl": "https://digitalhub.fifa.com/transform/27f30c93-f04b-4195-b105-4504c81abf6e/VELUPILLAY-Nishan_491166"
       },
       {
         "fifaId": "498421",
@@ -1037,7 +1037,7 @@ export const teams = {
         "birthDate": "2005-01-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a91e0614-350e-406e-9d6a-b72f9d3211fa/2280553096"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c010f6a9-53af-4d79-b16d-f25b96670225/OKON-ENGSTLER-Paul_498421"
       },
       {
         "fifaId": "504931",
@@ -1050,7 +1050,7 @@ export const teams = {
         "birthDate": "2007-09-05T00:00:00Z",
         "heightCm": 193,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0893c1fe-992c-468a-9d95-6cb06a730794/2280553097"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b0e45418-ff7e-4fdf-a7ac-8e7bf2d63624/HERRINGTON-Lucas_504931"
       },
       {
         "fifaId": "518200",
@@ -1063,7 +1063,7 @@ export const teams = {
         "birthDate": "2000-11-28T00:00:00Z",
         "heightCm": 197,
         "weightKg": 87,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0e00bd11-2e88-4d2b-9841-c8ac3222b7ac/2280553106"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e581f23a-032d-448c-b389-d49738c8e9c1/YENGI-Tete_518200"
       }
     ]
   },
@@ -1092,7 +1092,7 @@ export const teams = {
         "birthDate": "1996-02-01T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/707bb16a-2d51-4d66-83a1-5e13d05a42ce/ALEXANDER-SCHLAGER_371739_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9612130f-7351-47d4-b346-dcd331a62cbe/SCHLAGER-Alexander_371739"
       },
       {
         "fifaId": "520035",
@@ -1105,7 +1105,7 @@ export const teams = {
         "birthDate": "2001-03-19T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6ceb5c17-6991-4c61-87ba-2495c2248117/DAVID-AFFENGRUBER_520035_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/cc8957b4-30b2-4559-9ae1-c8d14a3260a5/AFFENGRUBER-David_520035"
       },
       {
         "fifaId": "405263",
@@ -1118,7 +1118,7 @@ export const teams = {
         "birthDate": "1998-09-19T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8b54922d-e4eb-4122-b5cd-2fe7f91d5c35/KEVIN-DANSO_405263_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ff76ce8c-bd4a-436b-87d8-f62532d898b7/DANSO-Kevin_405263"
       },
       {
         "fifaId": "385531",
@@ -1131,7 +1131,7 @@ export const teams = {
         "birthDate": "1997-09-28T00:00:00Z",
         "heightCm": 174,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c3c6bdc8-c0a8-4f56-abaf-61793cd49103/XAVER-SCHLAGER_385531_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f00dad89-01ad-4a76-9b69-9da9b0cccceb/SCHLAGER-Xaver_385531"
       },
       {
         "fifaId": "441067",
@@ -1144,7 +1144,7 @@ export const teams = {
         "birthDate": "1997-05-14T00:00:00Z",
         "heightCm": 188,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/fb5c8e99-1730-4add-8e76-fad8ee66be8d/STEFAN-POSCH_441067_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c888b84b-0ddd-496f-b621-f281e4e54911/POSCH-Stefan_441067"
       },
       {
         "fifaId": "441088",
@@ -1157,7 +1157,7 @@ export const teams = {
         "birthDate": "2001-05-04T00:00:00Z",
         "heightCm": 179,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/50391fc2-31cf-481b-a383-89e38f08410d/NICOLAS-SEIWALD_441088_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fe3dce4a-3a64-48bd-bfd9-63614aa55336/SEIWALD-Nicolas_441088"
       },
       {
         "fifaId": "299200",
@@ -1170,7 +1170,7 @@ export const teams = {
         "birthDate": "1989-04-19T00:00:00Z",
         "heightCm": 192,
         "weightKg": 88,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e6490294-dfe1-4e9a-964b-cf6e104a2b5e/MARKO-ARNAUTOVIC_299200_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8bc6e66f-1f5a-4f1d-813d-41c4ab04c6ac/ARNAUTOVIC-Marko_299200"
       },
       {
         "fifaId": "316002",
@@ -1183,7 +1183,7 @@ export const teams = {
         "birthDate": "1992-06-24T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cf1a45c1-6393-4e9b-9a37-c821a179ed6d/DAVID-ALABA_316002_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3ef36338-4967-43c2-8698-1fb504ce30fd/ALABA-David_316002"
       },
       {
         "fifaId": "358241",
@@ -1196,7 +1196,7 @@ export const teams = {
         "birthDate": "1994-03-17T00:00:00Z",
         "heightCm": 178,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/59607f65-52fc-492b-bb05-af0b78cc40e3/MARCEL-SABITZER_358241_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/aa016ba2-828d-4d40-8e48-8f07a8d275d9/SABITZER-Marcel_358241"
       },
       {
         "fifaId": "385248",
@@ -1209,12 +1209,12 @@ export const teams = {
         "birthDate": "1995-08-07T00:00:00Z",
         "heightCm": 186,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/429c18b7-9184-456a-bdde-49ad031b0086/FLORIAN-GRILLITSCH_385248_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/255e18de-7d1d-4a99-a05c-8047149ec1bc/GRILLITSCH-Florian_385248"
       },
       {
         "fifaId": "401131",
         "name": "Michael Gregoritsch",
-        "shortName": "Gregoritsch",
+        "shortName": "GREGORITSCH",
         "jerseyNumber": 11,
         "position": "FW",
         "positionLabel": "Forward",
@@ -1222,7 +1222,7 @@ export const teams = {
         "birthDate": "1994-04-18T00:00:00Z",
         "heightCm": 193,
         "weightKg": 91,
-        "photoUrl": "https://digitalhub.fifa.com/transform/51926b70-d490-4234-85dd-abb314caf526/MICHAEL-GREGORITSCH_401131_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d33de7b2-c69b-4669-aaac-155c5657be16/GREGORITSCH-Michael_401131"
       },
       {
         "fifaId": "520034",
@@ -1235,7 +1235,7 @@ export const teams = {
         "birthDate": "2001-03-21T00:00:00Z",
         "heightCm": 205,
         "weightKg": 98,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e0228894-bf74-4048-ac27-61dc051f2c3f/FLORIAN-WIEGELE_520034_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7feedee9-3390-40e2-a9aa-8867abd8b89e/WIEGELE-Florian_520034"
       },
       {
         "fifaId": "441065",
@@ -1248,7 +1248,7 @@ export const teams = {
         "birthDate": "1997-01-02T00:00:00Z",
         "heightCm": 183,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6dcb4bd4-8c1f-401d-b68c-2ddb5fa65e45/PATRICK-PENTZ_441065_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fee95866-9f5e-4663-b49f-3db6a86f0e80/PENTZ-Patrick_441065"
       },
       {
         "fifaId": "430100",
@@ -1261,7 +1261,7 @@ export const teams = {
         "birthDate": "1997-07-07T00:00:00Z",
         "heightCm": 200,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/562fdde9-7f0a-4e87-be99-4840eee4a3d9/SASA-KALAJDZIC_430100_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5d061c8b-6223-45c9-b1fa-c02624542eee/KALAJDZIC-Sasa_430100"
       },
       {
         "fifaId": "372243",
@@ -1274,7 +1274,7 @@ export const teams = {
         "birthDate": "1996-07-11T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b8001c51-aa34-4d69-9973-79c3a4ed058e/PHILIPP-LIENHART_372243_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b2217b87-df88-4228-8235-a7ec752aef31/LIENHART-Philipp_372243"
       },
       {
         "fifaId": "463288",
@@ -1287,7 +1287,7 @@ export const teams = {
         "birthDate": "1994-01-29T00:00:00Z",
         "heightCm": 170,
         "weightKg": 66,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a07c1d0b-6142-4cc3-9975-4d27dec16db7/PHILLIP-MWENE_463288_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c7b91eab-9cfc-4f0f-be61-71d31d1c4db8/MWENE-Phillip_463288"
       },
       {
         "fifaId": "463800",
@@ -1300,7 +1300,7 @@ export const teams = {
         "birthDate": "2003-10-20T00:00:00Z",
         "heightCm": 187,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/9c2c9845-4d15-4136-b49a-7d5940e4a8c5/CARNEY-CHUKWUEMEKA_463800_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/469aeffb-5ff1-4782-87c4-b3791f045384/CHUKWUEMEKA-Carney_463800"
       },
       {
         "fifaId": "463283",
@@ -1313,20 +1313,20 @@ export const teams = {
         "birthDate": "2000-01-27T00:00:00Z",
         "heightCm": 168,
         "weightKg": 69,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4262f92d-2755-4ba3-b087-8e03367ca1ff/ROMANO-SCHMID_463283_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/558d5b09-0c44-4c7e-bccb-1bf9ac31ca72/SCHMID-Romano_463283"
       },
       {
-        "fifaId": "441069",
-        "name": "Christoph BAUMGARTNER",
-        "shortName": "BAUMGARTNER",
+        "fifaId": "441068",
+        "name": "Dejan LJUBICIC",
+        "shortName": "LJUBICIC",
         "jerseyNumber": 19,
         "position": "MF",
         "positionLabel": "Midfielder",
         "club": "",
-        "birthDate": "1999-08-01T00:00:00Z",
-        "heightCm": 180,
-        "weightKg": 73,
-        "photoUrl": ""
+        "birthDate": "1997-10-08T00:00:00Z",
+        "heightCm": 187,
+        "weightKg": 74,
+        "photoUrl": "https://digitalhub.fifa.com/transform/a9966145-1cd8-429d-99a2-ccb9cda89e87/LJUBICIC-Dejan_441068"
       },
       {
         "fifaId": "385259",
@@ -1339,7 +1339,7 @@ export const teams = {
         "birthDate": "1997-05-27T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4ddd225a-8599-46e9-95a2-26b5a562a31f/KONRAD-LAIMER_385259_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e5140daf-dd57-4b76-9777-85aec86e6c22/LAIMER-Konrad_385259"
       },
       {
         "fifaId": "463286",
@@ -1352,7 +1352,7 @@ export const teams = {
         "birthDate": "2001-05-30T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/1fe7b4d8-4c92-4e28-8dea-13f16de4356c/PATRICK-WIMMER_463286_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/30760937-4e34-4c1b-b5a3-8b1375d79728/WIMMER-Patrick_463286"
       },
       {
         "fifaId": "463282",
@@ -1365,7 +1365,7 @@ export const teams = {
         "birthDate": "2001-05-26T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/249b5b30-52fc-41d5-b897-53c247fe14dc/ALEXANDER-PRASS_463282_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/be716fd1-7641-4a96-a618-5f2c2214c84f/PRASS-Alexander_463282"
       },
       {
         "fifaId": "463287",
@@ -1378,7 +1378,7 @@ export const teams = {
         "birthDate": "1998-03-16T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f79722e1-e4ee-4190-a014-8fab83be109f/MARCO-FRIEDL_463287_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/dfc45944-180c-4df6-96b2-ef69faee7ee7/FRIEDL-Marco_463287"
       },
       {
         "fifaId": "520036",
@@ -1391,7 +1391,7 @@ export const teams = {
         "birthDate": "2005-12-23T00:00:00Z",
         "heightCm": 185,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e8750e14-9c9d-42c1-95aa-232840e3dc33/PAUL-WANNER_520036_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b0954793-5e15-4708-9ed0-ea59e3501b8c/WANNER-Paul_520036"
       },
       {
         "fifaId": "491269",
@@ -1404,12 +1404,12 @@ export const teams = {
         "birthDate": "1998-10-15T00:00:00Z",
         "heightCm": 195,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6e0d7e5a-05fd-42fb-836b-daf353eae1a4/MICHAEL-SVOBODA_491269_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f096e299-95db-4ab3-bcb4-ef15da6cda71/SVOBODA-Michael_491269"
       },
       {
         "fifaId": "375600",
         "name": "Alessandro SCHOEPF",
-        "shortName": "Alessandro Schöpf",
+        "shortName": "SCHÖPF",
         "jerseyNumber": 26,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -1417,7 +1417,7 @@ export const teams = {
         "birthDate": "1994-02-07T00:00:00Z",
         "heightCm": 178,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/3ef65188-8557-4a70-8435-e90c01894e33/ALESSANDRO-SCHOEPF_375600_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/712811cf-a3ff-4043-91f0-5044f8028dee/SCHOEPF-Alessandro_375600"
       }
     ]
   },
@@ -1446,7 +1446,7 @@ export const teams = {
         "birthDate": "1992-05-11T00:00:00Z",
         "heightCm": 199,
         "weightKg": 96,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b630bdbe-3615-43b0-b715-8da37b1ecfa6/COURTOIS-Thibaut_358106"
       },
       {
         "fifaId": "448369",
@@ -1459,7 +1459,7 @@ export const teams = {
         "birthDate": "2003-10-24T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f6f8a277-eb22-4353-9ce1-a8abe7749d1d/DEBAST-Zeno_448369"
       },
       {
         "fifaId": "448346",
@@ -1472,7 +1472,7 @@ export const teams = {
         "birthDate": "2000-05-25T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/34da124d-c474-4154-90e9-aa132a5df818/THEATE-Arthur_448346"
       },
       {
         "fifaId": "448360",
@@ -1485,7 +1485,7 @@ export const teams = {
         "birthDate": "1993-01-28T00:00:00Z",
         "heightCm": 190,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/dda9e35d-eedf-403b-8953-a5dc213fbf67/MECHELE-Brandon_448360"
       },
       {
         "fifaId": "448373",
@@ -1498,7 +1498,7 @@ export const teams = {
         "birthDate": "2000-12-22T00:00:00Z",
         "heightCm": 182,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c22dfc4-3eb2-4778-b310-ef4b62aef0c6/DE-CUYPER-Maxim_448373"
       },
       {
         "fifaId": "290821",
@@ -1511,7 +1511,7 @@ export const teams = {
         "birthDate": "1989-01-12T00:00:00Z",
         "heightCm": 186,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ff0110d3-0721-4983-bc62-018a993d8486/WITSEL-Axel_290821"
       },
       {
         "fifaId": "358120",
@@ -1524,7 +1524,7 @@ export const teams = {
         "birthDate": "1991-06-28T00:00:00Z",
         "heightCm": 181,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/41fb7de3-9f9e-44f1-b63f-0551f5d33b2b/DE-BRUYNE-Kevin_358120"
       },
       {
         "fifaId": "401444",
@@ -1537,12 +1537,12 @@ export const teams = {
         "birthDate": "1997-05-07T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/158822ad-a0e9-406c-a84d-e79b0392409f/TIELEMANS-Youri_401444"
       },
       {
         "fifaId": "358112",
         "name": "Romelu LUKAKU",
-        "shortName": "R. LUKAKU",
+        "shortName": "LUKAKU",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -1550,7 +1550,7 @@ export const teams = {
         "birthDate": "1993-05-13T00:00:00Z",
         "heightCm": 190,
         "weightKg": 103,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/302b7fb7-6964-4a52-8db4-9c12778b80fa/LUKAKU-Romelu_358112"
       },
       {
         "fifaId": "448355",
@@ -1563,7 +1563,7 @@ export const teams = {
         "birthDate": "1994-12-04T00:00:00Z",
         "heightCm": 172,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/78476568-5abb-4047-b6c0-fd9651e0f39d/TROSSARD-Leandro_448355"
       },
       {
         "fifaId": "448341",
@@ -1576,7 +1576,7 @@ export const teams = {
         "birthDate": "2002-05-27T00:00:00Z",
         "heightCm": 173,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/df41be47-900d-41fe-90eb-b493f7609869/DOKU-Jeremy_448341"
       },
       {
         "fifaId": "495348",
@@ -1589,7 +1589,7 @@ export const teams = {
         "birthDate": "2002-07-07T00:00:00Z",
         "heightCm": 193,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9e407610-b85c-45d8-847a-2bae1d24e699/LAMMENS-Senne_495348"
       },
       {
         "fifaId": "499803",
@@ -1602,7 +1602,7 @@ export const teams = {
         "birthDate": "2005-07-31T00:00:00Z",
         "heightCm": 200,
         "weightKg": 104,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88da8ae8-d4af-47b1-8f4c-e3ac46fbc226/PENDERS-Mike_499803"
       },
       {
         "fifaId": "448377",
@@ -1615,7 +1615,7 @@ export const teams = {
         "birthDate": "1997-09-24T00:00:00Z",
         "heightCm": 184,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5672576a-616d-45a3-8f06-95aa772bb821/LUKEBAKIO-Dodi_448377"
       },
       {
         "fifaId": "358122",
@@ -1628,7 +1628,7 @@ export const teams = {
         "birthDate": "1991-09-12T00:00:00Z",
         "heightCm": 190,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/13d6695b-4220-48cb-91b1-16a60dff2aa6/MEUNIER-Thomas_358122"
       },
       {
         "fifaId": "448366",
@@ -1641,12 +1641,12 @@ export const teams = {
         "birthDate": "2002-06-12T00:00:00Z",
         "heightCm": 191,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a19702c3-a309-4e23-9957-dfbe0d9d5d43/DE-WINTER-Koni_448366"
       },
       {
         "fifaId": "448362",
         "name": "Charles DE KETELAERE",
-        "shortName": "Charles DE KETELAERE",
+        "shortName": "DE KETELAERE",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
@@ -1654,7 +1654,7 @@ export const teams = {
         "birthDate": "2001-03-10T00:00:00Z",
         "heightCm": 192,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2ce231c2-05f7-4353-921c-242c863a8d54/DE-KETELAERE-Charles_448362"
       },
       {
         "fifaId": "506088",
@@ -1667,12 +1667,12 @@ export const teams = {
         "birthDate": "2005-03-28T00:00:00Z",
         "heightCm": 178,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/33c2b9de-5ae7-4fa1-8db8-6cff8e2b02f0/SEYS-Joaquin_506088"
       },
       {
         "fifaId": "497902",
         "name": "Diego MOREIRA",
-        "shortName": "MOREIRA",
+        "shortName": "MOREIRA JR",
         "jerseyNumber": 19,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -1680,7 +1680,7 @@ export const teams = {
         "birthDate": "2004-08-06T00:00:00Z",
         "heightCm": 179,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/dfe97726-1409-4cc2-8463-39184fab3a04/MOREIRA-Diego_497902"
       },
       {
         "fifaId": "448343",
@@ -1693,7 +1693,7 @@ export const teams = {
         "birthDate": "1992-08-24T00:00:00Z",
         "heightCm": 195,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9018ca03-c5c1-4dc1-8d4f-7ee07308dc55/VANAKEN-Hans_448343"
       },
       {
         "fifaId": "411443",
@@ -1706,7 +1706,7 @@ export const teams = {
         "birthDate": "1995-12-05T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/58f1cc7c-04f4-43ba-bc82-85c1226fb7a2/CASTAGNE-Timothy_411443"
       },
       {
         "fifaId": "433092",
@@ -1719,7 +1719,7 @@ export const teams = {
         "birthDate": "1999-06-27T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f4764c32-f702-4695-9658-28479916fa99/SAELEMAEKERS-Alexis_433092"
       },
       {
         "fifaId": "495349",
@@ -1732,7 +1732,7 @@ export const teams = {
         "birthDate": "2001-02-23T00:00:00Z",
         "heightCm": 178,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2a366682-88f4-4d6f-ae54-e474030615cc/RASKIN-Nicolas_495349"
       },
       {
         "fifaId": "448364",
@@ -1745,7 +1745,7 @@ export const teams = {
         "birthDate": "2001-08-16T00:00:00Z",
         "heightCm": 192,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/697ee4f8-3df1-4ce5-a8b9-c9dae1ed6aba/ONANA-Amadou_448364"
       },
       {
         "fifaId": "514166",
@@ -1758,7 +1758,7 @@ export const teams = {
         "birthDate": "2003-06-10T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/77bea513-328c-4af6-a1b6-89efdfeb03ae/NGOY-Nathan_514166"
       },
       {
         "fifaId": "494025",
@@ -1771,7 +1771,7 @@ export const teams = {
         "birthDate": "2005-02-03T00:00:00Z",
         "heightCm": 188,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/568ca230-b521-4f9c-9601-fb0cb6841fde/FERNANDEZ-PARDO-Matias_494025"
       }
     ]
   },
@@ -1781,10 +1781,10 @@ export const teams = {
     "name": "Bosnia and Herzegovina",
     "group": "Group B",
     "confederation": "UEFA",
-    "fifaRank": 65,
+    "fifaRank": 64,
     "attack": 58,
     "defense": 58,
-    "form": 67,
+    "form": 66,
     "coach": "Sergej BARBAREZ",
     "flagUrl": "https://flagcdn.com/ba.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/BIH",
@@ -1800,7 +1800,7 @@ export const teams = {
         "birthDate": "1995-12-02T00:00:00Z",
         "heightCm": 193,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/be1c5819-9bc1-4bf3-b677-9172d1be6bea/VASILJ-Nikola_482978"
       },
       {
         "fifaId": "482969",
@@ -1813,7 +1813,7 @@ export const teams = {
         "birthDate": "1998-04-15T00:00:00Z",
         "heightCm": 189,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2722d62f-602e-4c37-8513-f74b7d11efe4/MUJAKIC-Nihad_482969"
       },
       {
         "fifaId": "430194",
@@ -1826,7 +1826,7 @@ export const teams = {
         "birthDate": "1998-07-09T00:00:00Z",
         "heightCm": 191,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6cacbe9a-89b9-4eee-8d20-4e68fc0ef7ad/HADZIKADUNIC-Dennis_430194"
       },
       {
         "fifaId": "484022",
@@ -1839,7 +1839,7 @@ export const teams = {
         "birthDate": "2003-02-28T00:00:00Z",
         "heightCm": 192,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a230cb00-997c-4a8c-9983-b03fa2dbe2ad/MUHAREMOVIC-Tarik_484022"
       },
       {
         "fifaId": "376230",
@@ -1852,7 +1852,7 @@ export const teams = {
         "birthDate": "1993-06-20T00:00:00Z",
         "heightCm": 183,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bed62578-6b40-402e-8c63-94159988fe95/KOLASINAC-Sead_376230"
       },
       {
         "fifaId": "483966",
@@ -1865,7 +1865,7 @@ export const teams = {
         "birthDate": "2003-03-03T00:00:00Z",
         "heightCm": 191,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/998f85b6-06db-4822-99de-68010b6cdc61/TAHIROVIC-Benjamin_483966"
       },
       {
         "fifaId": "482976",
@@ -1878,7 +1878,7 @@ export const teams = {
         "birthDate": "2002-08-18T00:00:00Z",
         "heightCm": 180,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/87dcec5a-fbf4-45d7-8f1e-26e00140cce7/DEDIC-Amar_482976"
       },
       {
         "fifaId": "489523",
@@ -1891,7 +1891,7 @@ export const teams = {
         "birthDate": "2002-04-06T00:00:00Z",
         "heightCm": 187,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/41529cf6-4725-4885-abc1-00dc358ca8b9/GIGOVIC-Armin_489523"
       },
       {
         "fifaId": "485063",
@@ -1904,7 +1904,7 @@ export const teams = {
         "birthDate": "2004-01-31T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bd9c46f-fb55-4097-ae91-9c7e4f6bb308/BAZDAR-Samed_485063"
       },
       {
         "fifaId": "436743",
@@ -1917,7 +1917,7 @@ export const teams = {
         "birthDate": "1998-03-25T00:00:00Z",
         "heightCm": 185,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b9e9f187-0936-4aba-9c70-2a4bcf2281e0/DEMIROVIC-Ermedin_436743"
       },
       {
         "fifaId": "300409",
@@ -1930,7 +1930,7 @@ export const teams = {
         "birthDate": "1986-03-17T00:00:00Z",
         "heightCm": 192,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b5fa7216-27c0-4652-b7df-b099e97a5604/DZEKO-Edin_300409"
       },
       {
         "fifaId": "522842",
@@ -1943,7 +1943,7 @@ export const teams = {
         "birthDate": "2007-10-07T00:00:00Z",
         "heightCm": 193,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d568a177-8466-4ef0-89d6-990d70cac911/JURKAS-Mladen_522842"
       },
       {
         "fifaId": "482974",
@@ -1956,7 +1956,7 @@ export const teams = {
         "birthDate": "2002-04-30T00:00:00Z",
         "heightCm": 178,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7ab9c56e-39f0-4d4a-b5c4-e0583fd57319/BASIC-Ivan_482974"
       },
       {
         "fifaId": "372436",
@@ -1969,7 +1969,7 @@ export const teams = {
         "birthDate": "1996-10-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ddc91c53-fc37-453c-b16e-50ef5e2dd2da/SUNJIC-Ivan_372436"
       },
       {
         "fifaId": "494640",
@@ -1982,7 +1982,7 @@ export const teams = {
         "birthDate": "2001-01-20T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c57e2c22-f510-4109-b3e7-72b5a6b862a9/MEMIC-Amar_494640"
       },
       {
         "fifaId": "430196",
@@ -1995,12 +1995,12 @@ export const teams = {
         "birthDate": "1997-03-08T00:00:00Z",
         "heightCm": 179,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bbe9f175-c9cd-4a96-a655-cb2c4321d03b/HADZIAHMETOVIC-Amir_430196"
       },
       {
         "fifaId": "389886",
         "name": "Dzenis BURNIC",
-        "shortName": "BURNIC",
+        "shortName": "BURNIĆ",
         "jerseyNumber": 17,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2008,7 +2008,7 @@ export const teams = {
         "birthDate": "1998-05-22T00:00:00Z",
         "heightCm": 182,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/87cebb80-d20e-42c4-9030-8adcb1a3e1a8/BURNIC-Dzenis_389886"
       },
       {
         "fifaId": "489520",
@@ -2021,7 +2021,7 @@ export const teams = {
         "birthDate": "1996-10-10T00:00:00Z",
         "heightCm": 194,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/71b1a703-25aa-4193-8bd7-daf0108e7009/KATIC-Nikola_489520"
       },
       {
         "fifaId": "504990",
@@ -2034,7 +2034,7 @@ export const teams = {
         "birthDate": "2007-09-21T00:00:00Z",
         "heightCm": 186,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9587bf1f-6c8f-4b8d-80c7-799edc4a7036/ALAJBEGOVIC-Kerim_504990"
       },
       {
         "fifaId": "464566",
@@ -2047,7 +2047,7 @@ export const teams = {
         "birthDate": "2005-03-10T00:00:00Z",
         "heightCm": 175,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6a74409c-c030-405e-a042-1c01f408eeff/BAJRAKTAREVIC-Esmir_464566"
       },
       {
         "fifaId": "489521",
@@ -2060,7 +2060,7 @@ export const teams = {
         "birthDate": "1997-09-05T00:00:00Z",
         "heightCm": 201,
         "weightKg": 91,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d1b9ca91-fc68-44ee-8548-8f2fb4d10a46/RADELJIC-Stjepan_489521"
       },
       {
         "fifaId": "491228",
@@ -2073,7 +2073,7 @@ export const teams = {
         "birthDate": "1998-08-16T00:00:00Z",
         "heightCm": 189,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c2bf5ce5-0160-4561-a0e0-4508621e1820/ZLOMISLIC-Martin_491228"
       },
       {
         "fifaId": "482984",
@@ -2086,20 +2086,20 @@ export const teams = {
         "birthDate": "1994-06-20T00:00:00Z",
         "heightCm": 196,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b84ad80f-6b2b-455d-9c2e-f71195b5c2ba/TABAKOVIC-Haris_482984"
       },
       {
-        "fifaId": "492367",
-        "name": "Nidal CELIK",
-        "shortName": "ČELIK",
+        "fifaId": "494639",
+        "name": "Arjan MALIC",
+        "shortName": "MALIĆ",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
         "club": "",
-        "birthDate": "2006-07-17T00:00:00Z",
-        "heightCm": 192,
-        "weightKg": 84,
-        "photoUrl": ""
+        "birthDate": "2005-08-28T00:00:00Z",
+        "heightCm": 188,
+        "weightKg": 76,
+        "photoUrl": "https://digitalhub.fifa.com/transform/8b907cf5-e659-4584-acc5-5b0db0f85594/MALIC-Arjan_494639"
       },
       {
         "fifaId": "519954",
@@ -2112,7 +2112,7 @@ export const teams = {
         "birthDate": "1998-11-28T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8fc08945-7c3e-4e0f-95b4-0c94a72a718d/LUKIC-Jovo_519954"
       },
       {
         "fifaId": "522846",
@@ -2125,7 +2125,7 @@ export const teams = {
         "birthDate": "2005-03-14T00:00:00Z",
         "heightCm": 182,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ef292137-a5b1-44b8-b329-031d23320552/MAHMIC-Ermin_522846"
       }
     ]
   },
@@ -2138,7 +2138,7 @@ export const teams = {
     "fifaRank": 6,
     "attack": 91,
     "defense": 90,
-    "form": 86,
+    "form": 87,
     "coach": "Carlo ANCELOTTI",
     "flagUrl": "https://flagcdn.com/br.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/BRA",
@@ -2167,12 +2167,12 @@ export const teams = {
         "birthDate": "1999-07-07T00:00:00Z",
         "heightCm": 184,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5e5df9e4-86e2-4292-bc7a-8e95b4aa7e47/EDERSON-SILVA_485069"
       },
       {
         "fifaId": "430601",
         "name": "GABRIEL MAGALHAES",
-        "shortName": "GABRIEL MAGALHAES",
+        "shortName": "GABRIEL",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -2237,7 +2237,7 @@ export const teams = {
       {
         "fifaId": "430605",
         "name": "BRUNO GUIMARAES",
-        "shortName": "BRUNO GUIMARAES",
+        "shortName": "BRUNO G.",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2250,7 +2250,7 @@ export const teams = {
       {
         "fifaId": "430609",
         "name": "MATHEUS CUNHA",
-        "shortName": "MATHEUS CUNHA",
+        "shortName": "CUNHA",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -2367,7 +2367,7 @@ export const teams = {
       {
         "fifaId": "429392",
         "name": "DANILO SANTOS",
-        "shortName": "DANILO SANTOS",
+        "shortName": "DANILO S.",
         "jerseyNumber": 18,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2393,7 +2393,7 @@ export const teams = {
       {
         "fifaId": "411726",
         "name": "LUCAS PAQUETA",
-        "shortName": "L.PAQUETÁ",
+        "shortName": "L. PAQUETÁ",
         "jerseyNumber": 20,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2406,7 +2406,7 @@ export const teams = {
       {
         "fifaId": "448420",
         "name": "LUIZ HENRIQUE",
-        "shortName": "L.HENRIQUE",
+        "shortName": "L. HENRIQUE",
         "jerseyNumber": 21,
         "position": "FW",
         "positionLabel": "Forward",
@@ -2419,7 +2419,7 @@ export const teams = {
       {
         "fifaId": "430597",
         "name": "GABRIEL MARTINELLI",
-        "shortName": "GABRIEL MARTINELLI",
+        "shortName": "MARTINELLI",
         "jerseyNumber": 22,
         "position": "FW",
         "positionLabel": "Forward",
@@ -2445,7 +2445,7 @@ export const teams = {
       {
         "fifaId": "430594",
         "name": "ROGER IBANEZ",
-        "shortName": "ROGER IBANEZ",
+        "shortName": "IBAÑEZ",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
@@ -2489,10 +2489,10 @@ export const teams = {
     "name": "Cabo Verde",
     "group": "Group H",
     "confederation": "CAF",
-    "fifaRank": 69,
-    "attack": 79,
+    "fifaRank": 67,
+    "attack": 80,
     "defense": 83,
-    "form": 73,
+    "form": 75,
     "coach": "BUBISTA",
     "flagUrl": "https://flagcdn.com/cv.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/CPV",
@@ -2508,7 +2508,7 @@ export const teams = {
         "birthDate": "1986-06-03T00:00:00Z",
         "heightCm": 189,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b8286230-b161-484e-87a9-ce5a20e6f7d1/_364752"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b8286230-b161-484e-87a9-ce5a20e6f7d1/VOZINHA_364752"
       },
       {
         "fifaId": "297266",
@@ -2521,12 +2521,12 @@ export const teams = {
         "birthDate": "1988-05-20T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2cf947a1-aabe-4e69-84c7-4e22c24e01da/_297266"
+        "photoUrl": "https://digitalhub.fifa.com/transform/2cf947a1-aabe-4e69-84c7-4e22c24e01da/STOPIRA_297266"
       },
       {
         "fifaId": "409241",
         "name": "DINEY BORGES",
-        "shortName": "DINEY BORGES",
+        "shortName": "BORGES",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -2534,7 +2534,7 @@ export const teams = {
         "birthDate": "1995-01-17T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/9bffceda-d572-41b1-917b-06196bbffb3c/_409241"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9bffceda-d572-41b1-917b-06196bbffb3c/DINEY-BORGES_409241"
       },
       {
         "fifaId": "477770",
@@ -2547,7 +2547,7 @@ export const teams = {
         "birthDate": "1992-06-17T00:00:00Z",
         "heightCm": 186,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/aae92383-d5ce-4d00-8eb8-71891a619d11/_477770"
+        "photoUrl": "https://digitalhub.fifa.com/transform/aae92383-d5ce-4d00-8eb8-71891a619d11/PICO-LOPES_477770"
       },
       {
         "fifaId": "477831",
@@ -2560,7 +2560,7 @@ export const teams = {
         "birthDate": "2001-04-01T00:00:00Z",
         "heightCm": 190,
         "weightKg": 91,
-        "photoUrl": "https://digitalhub.fifa.com/transform/248677f0-fc09-4244-a18f-7ef9afb98dcc/_477831"
+        "photoUrl": "https://digitalhub.fifa.com/transform/248677f0-fc09-4244-a18f-7ef9afb98dcc/LOGAN-COSTA_477831"
       },
       {
         "fifaId": "477852",
@@ -2586,7 +2586,7 @@ export const teams = {
         "birthDate": "1998-06-14T00:00:00Z",
         "heightCm": 174,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4bc8360c-8ddd-4449-9e5f-a100502763b7/JOVANE-CABRAL_477856"
       },
       {
         "fifaId": "477855",
@@ -2599,7 +2599,7 @@ export const teams = {
         "birthDate": "1998-05-26T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/18ee15aa-604d-4dea-964e-7b0a73f3f710/_477855"
+        "photoUrl": "https://digitalhub.fifa.com/transform/18ee15aa-604d-4dea-964e-7b0a73f3f710/JOAO-PAULO_477855"
       },
       {
         "fifaId": "477862",
@@ -2612,7 +2612,7 @@ export const teams = {
         "birthDate": "2001-12-29T00:00:00Z",
         "heightCm": 187,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/11269eaf-5399-423a-9e27-934a7058a71d/_477862"
+        "photoUrl": "https://digitalhub.fifa.com/transform/11269eaf-5399-423a-9e27-934a7058a71d/GILSON-BENCHIMOL_477862"
       },
       {
         "fifaId": "401894",
@@ -2625,12 +2625,12 @@ export const teams = {
         "birthDate": "1993-11-23T00:00:00Z",
         "heightCm": 175,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/04f8c613-3779-443b-8aa4-25ed1d3a60f1/_401894"
+        "photoUrl": "https://digitalhub.fifa.com/transform/04f8c613-3779-443b-8aa4-25ed1d3a60f1/JAMIRO-MONTEIRO_401894"
       },
       {
         "fifaId": "373344",
         "name": "GARRY RODRIGUES",
-        "shortName": "Rodrigues",
+        "shortName": "RODRIGUES",
         "jerseyNumber": 11,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2638,12 +2638,12 @@ export const teams = {
         "birthDate": "1990-11-27T00:00:00Z",
         "heightCm": 173,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c8ad756c-e6dc-4458-ad13-d34d2b668c63/_373344"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c8ad756c-e6dc-4458-ad13-d34d2b668c63/GARRY-RODRIGUES_373344"
       },
       {
         "fifaId": "407114",
         "name": "MARCIO ROSA",
-        "shortName": "Márcio Rosa",
+        "shortName": "MARCIO",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -2651,7 +2651,7 @@ export const teams = {
         "birthDate": "1997-02-23T00:00:00Z",
         "heightCm": 186,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/fcc402a3-4dbd-4c2e-9856-c8a3104ce221/_407114"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fcc402a3-4dbd-4c2e-9856-c8a3104ce221/MARCIO-ROSA_407114"
       },
       {
         "fifaId": "477832",
@@ -2664,7 +2664,7 @@ export const teams = {
         "birthDate": "2002-09-18T00:00:00Z",
         "heightCm": 176,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4fd8eea9-a8fe-4571-8bbc-fe728f6160e7/SIDNY-LOPES-CABRAL_477832"
       },
       {
         "fifaId": "477827",
@@ -2677,7 +2677,7 @@ export const teams = {
         "birthDate": "1999-07-04T00:00:00Z",
         "heightCm": 177,
         "weightKg": 69,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c2a1dda5-24bd-4ef1-8ef4-cde9f3f3b644/_477827"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c2a1dda5-24bd-4ef1-8ef4-cde9f3f3b644/DEROY-DUARTE_477827"
       },
       {
         "fifaId": "480966",
@@ -2690,7 +2690,7 @@ export const teams = {
         "birthDate": "1997-02-28T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2650fbd7-f8a2-409e-8b2d-85042a719c52/_480966"
+        "photoUrl": "https://digitalhub.fifa.com/transform/2650fbd7-f8a2-409e-8b2d-85042a719c52/LAROS-DUARTE_480966"
       },
       {
         "fifaId": "494313",
@@ -2729,7 +2729,7 @@ export const teams = {
         "birthDate": "2001-06-21T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/16e60922-64b4-40df-ae20-f53a44891fe9/_494314"
+        "photoUrl": "https://digitalhub.fifa.com/transform/16e60922-64b4-40df-ae20-f53a44891fe9/TELMO-ARCANJO_494314"
       },
       {
         "fifaId": "482782",
@@ -2742,12 +2742,12 @@ export const teams = {
         "birthDate": "2001-05-04T00:00:00Z",
         "heightCm": 185,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cded048a-5237-4aac-83d6-cbdbc3fec36f/_482782"
+        "photoUrl": "https://digitalhub.fifa.com/transform/cded048a-5237-4aac-83d6-cbdbc3fec36f/DAILON-LIVRAMENTO_482782"
       },
       {
         "fifaId": "355642",
         "name": "RYAN MENDES",
-        "shortName": "Ryan Mendes Da Graça",
+        "shortName": "RYAN",
         "jerseyNumber": 20,
         "position": "FW",
         "positionLabel": "Forward",
@@ -2755,12 +2755,12 @@ export const teams = {
         "birthDate": "1990-01-08T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/69224c23-3cb2-4d08-967c-0c318328366a/_355642"
+        "photoUrl": "https://digitalhub.fifa.com/transform/69224c23-3cb2-4d08-967c-0c318328366a/RYAN-MENDES_355642"
       },
       {
         "fifaId": "401893",
         "name": "NUNO DA COSTA",
-        "shortName": "Da Costa",
+        "shortName": "DA COSTA",
         "jerseyNumber": 21,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2768,7 +2768,7 @@ export const teams = {
         "birthDate": "1991-02-10T00:00:00Z",
         "heightCm": 182,
         "weightKg": 69,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a9555196-ece6-4f39-8c07-103e12f4c900/_401893"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a9555196-ece6-4f39-8c07-103e12f4c900/NUNO-DA-COSTA_401893"
       },
       {
         "fifaId": "477847",
@@ -2781,12 +2781,12 @@ export const teams = {
         "birthDate": "1994-08-13T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/79a2bdd5-b9a9-41d1-8fdd-3dff50346705/_477847"
+        "photoUrl": "https://digitalhub.fifa.com/transform/79a2bdd5-b9a9-41d1-8fdd-3dff50346705/STEVEN-MOREIRA_477847"
       },
       {
         "fifaId": "406281",
         "name": "CJ DOS SANTOS",
-        "shortName": "CJ DOS SANTOS",
+        "shortName": "DOS SANTOS",
         "jerseyNumber": 23,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -2794,7 +2794,7 @@ export const teams = {
         "birthDate": "2000-08-24T00:00:00Z",
         "heightCm": 189,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ecf9ed76-fe11-4089-96d4-8126286db543/CJ-DOS-SANTOS_406281"
       },
       {
         "fifaId": "482783",
@@ -2807,7 +2807,7 @@ export const teams = {
         "birthDate": "2002-11-03T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b0ebca3f-fcb5-4872-a5ce-a17d0d39a88c/_482783"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b0ebca3f-fcb5-4872-a5ce-a17d0d39a88c/WAGNER-PINA_482783"
       },
       {
         "fifaId": "482780",
@@ -2833,7 +2833,7 @@ export const teams = {
         "birthDate": "2002-05-03T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8c4d8ef4-54e9-4144-84c4-d4933b752442/HELIO-VARELA_477849"
       }
     ]
   },
@@ -2846,7 +2846,7 @@ export const teams = {
     "fifaRank": 30,
     "attack": 87,
     "defense": 87,
-    "form": 81,
+    "form": 82,
     "coach": "Jesse MARSCH",
     "flagUrl": "https://flagcdn.com/ca.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/CAN",
@@ -2862,7 +2862,7 @@ export const teams = {
         "birthDate": "1997-05-09T00:00:00Z",
         "heightCm": 191,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0583604e-3974-45f0-ac6c-cdf0deaabe5c/ST-CLAIR-Dayne_441255"
       },
       {
         "fifaId": "441252",
@@ -2875,7 +2875,7 @@ export const teams = {
         "birthDate": "1998-10-08T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bd760593-4ed3-405e-b497-f508dbc8bbdf/JOHNSTON-Alistair_441252"
       },
       {
         "fifaId": "514070",
@@ -2888,7 +2888,7 @@ export const teams = {
         "birthDate": "1997-10-07T00:00:00Z",
         "heightCm": 191,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59f64291-f9e7-4d71-82cd-e15eb9a91a1c/JONES-Alfie_514070"
       },
       {
         "fifaId": "480322",
@@ -2901,7 +2901,7 @@ export const teams = {
         "birthDate": "2005-10-12T00:00:00Z",
         "heightCm": 183,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a74297e-1aa4-41fa-a151-782f1211d1a0/DE-FOUGEROLLES-Luc_480322"
       },
       {
         "fifaId": "448402",
@@ -2914,12 +2914,12 @@ export const teams = {
         "birthDate": "1996-01-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f5b31eb7-c506-4ad3-b857-06c22e1bb263/WATERMAN-Joel_448402"
       },
       {
         "fifaId": "448390",
         "name": "Mathieu CHOINIERE",
-        "shortName": "Mathieu CHOINIERE",
+        "shortName": "CHOINIÈRE",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2927,12 +2927,12 @@ export const teams = {
         "birthDate": "1999-02-07T00:00:00Z",
         "heightCm": 173,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d74aed0f-7268-4a91-8dc2-13a76e2cdf28/CHOINIERE-Mathieu_448390"
       },
       {
         "fifaId": "433635",
         "name": "Stephen EUSTAQUIO",
-        "shortName": "EUSTAQUIO",
+        "shortName": "EUSTÁQUIO",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -2940,7 +2940,7 @@ export const teams = {
         "birthDate": "1996-12-21T00:00:00Z",
         "heightCm": 175,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c0650a1-bba7-4998-b6b6-ebddeed58058/EUSTAQUIO-Stephen_433635"
       },
       {
         "fifaId": "441258",
@@ -2953,7 +2953,7 @@ export const teams = {
         "birthDate": "2002-06-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/51344b42-77de-4109-a167-7723dc1d4dd2/KONE-Ismael_441258"
       },
       {
         "fifaId": "390670",
@@ -2966,7 +2966,7 @@ export const teams = {
         "birthDate": "1995-04-17T00:00:00Z",
         "heightCm": 188,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/21086aea-3ec5-47b2-a81f-f7316489183a/LARIN-Cyle_390670"
       },
       {
         "fifaId": "441257",
@@ -2979,7 +2979,7 @@ export const teams = {
         "birthDate": "2000-01-14T00:00:00Z",
         "heightCm": 175,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/97ad628a-b97d-4657-ac41-f2a667c534e6/DAVID-Jonathan_441257"
       },
       {
         "fifaId": "441259",
@@ -2992,7 +2992,7 @@ export const teams = {
         "birthDate": "1999-09-27T00:00:00Z",
         "heightCm": 176,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3f5479a0-7d7d-408f-b9c8-b0185e1d8ae4/MILLAR-Liam_441259"
       },
       {
         "fifaId": "486929",
@@ -3005,7 +3005,7 @@ export const teams = {
         "birthDate": "2000-05-15T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c761fb38-4f2b-47a9-9ede-6bee5f09d6bd/OLUWASEYI-Tani_486929"
       },
       {
         "fifaId": "371958",
@@ -3018,7 +3018,7 @@ export const teams = {
         "birthDate": "1997-11-25T00:00:00Z",
         "heightCm": 186,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/efe78874-6cb4-4156-a6ce-af7c6374d11f/CORNELIUS-Derek_371958"
       },
       {
         "fifaId": "448411",
@@ -3031,7 +3031,7 @@ export const teams = {
         "birthDate": "1999-11-26T00:00:00Z",
         "heightCm": 181,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fd23f2a2-eb9d-4232-97ff-03c924d6b24e/SHAFFELBURG-Jacob_448411"
       },
       {
         "fifaId": "466585",
@@ -3044,12 +3044,12 @@ export const teams = {
         "birthDate": "2000-03-30T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2d2bbffa-0dcf-47c1-b681-706566867489/BOMBITO-Moise_466585"
       },
       {
         "fifaId": "331732",
         "name": "Maxime CREPEAU",
-        "shortName": "Crépeau",
+        "shortName": "CRÉPEAU",
         "jerseyNumber": 16,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -3057,7 +3057,7 @@ export const teams = {
         "birthDate": "1994-05-11T00:00:00Z",
         "heightCm": 185,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c4570ca7-10a7-44ca-901d-fee1e11e4400/CREPEAU-Maxime_331732"
       },
       {
         "fifaId": "430138",
@@ -3070,7 +3070,7 @@ export const teams = {
         "birthDate": "1999-02-08T00:00:00Z",
         "heightCm": 183,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a607b6f5-fe42-4a89-9e88-cb9690e4bcd1/BUCHANAN-Tajon_430138"
       },
       {
         "fifaId": "463817",
@@ -3083,7 +3083,7 @@ export const teams = {
         "birthDate": "2003-11-27T00:00:00Z",
         "heightCm": 193,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a226584e-2566-49be-b8e7-b8e73d3aa127/GOODMAN-Owen_463817"
       },
       {
         "fifaId": "412144",
@@ -3096,7 +3096,7 @@ export const teams = {
         "birthDate": "2000-11-02T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4b0a6361-55a2-4bde-82a4-8275181091f5/DAVIES-Alphonso_412144"
       },
       {
         "fifaId": "466687",
@@ -3109,7 +3109,7 @@ export const teams = {
         "birthDate": "2000-10-10T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/123bdaa9-e54b-4b1c-8fd4-5dac88de915e/AHMED-Ali_466687"
       },
       {
         "fifaId": "370986",
@@ -3122,7 +3122,7 @@ export const teams = {
         "birthDate": "1992-06-12T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/982a5ed2-0878-4733-b071-cd7cc532ee37/OSORIO-Jonathan_370986"
       },
       {
         "fifaId": "431696",
@@ -3135,7 +3135,7 @@ export const teams = {
         "birthDate": "1995-01-07T00:00:00Z",
         "heightCm": 175,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/612f188f-bb60-45db-8932-fc7dd2ca13ec/LARYEA-Richie_431696"
       },
       {
         "fifaId": "485064",
@@ -3148,7 +3148,7 @@ export const teams = {
         "birthDate": "2003-09-09T00:00:00Z",
         "heightCm": 178,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e0c93e53-1609-4a5c-95be-b4eb0c044003/SIGUR-Niko_485064"
       },
       {
         "fifaId": "493970",
@@ -3161,7 +3161,7 @@ export const teams = {
         "birthDate": "2001-07-03T00:00:00Z",
         "heightCm": 195,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5e47f75f-c26f-4a7b-81e5-7957cc1027eb/DAVID-Promise_493970"
       },
       {
         "fifaId": "423941",
@@ -3174,20 +3174,20 @@ export const teams = {
         "birthDate": "2004-02-07T00:00:00Z",
         "heightCm": 174,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1da64224-0271-489f-bea3-2aaa2e4cdf14/SALIBA-Nathan_423941"
       },
       {
-        "fifaId": "448053",
-        "name": "Marcelo FLORES",
-        "shortName": "M.FLORES",
+        "fifaId": "423933",
+        "name": "Jayden Nelson",
+        "shortName": "NELSON",
         "jerseyNumber": 26,
-        "position": "MF",
-        "positionLabel": "Midfielder",
+        "position": "FW",
+        "positionLabel": "Forward",
         "club": "",
-        "birthDate": "2003-10-01T00:00:00Z",
-        "heightCm": 164,
-        "weightKg": 60,
-        "photoUrl": ""
+        "birthDate": "2002-09-26T00:00:00Z",
+        "heightCm": 170,
+        "weightKg": 68,
+        "photoUrl": "https://digitalhub.fifa.com/transform/11fd224d-e90c-41f4-8497-e387c702f00a/NELSON-Jayden_423933"
       }
     ]
   },
@@ -3216,7 +3216,7 @@ export const teams = {
         "birthDate": "1988-08-31T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bb1dfed7-fde5-4558-8bf0-fe299883d6fa/OSPINA-David_228686"
       },
       {
         "fifaId": "431200",
@@ -3229,7 +3229,7 @@ export const teams = {
         "birthDate": "1996-05-26T00:00:00Z",
         "heightCm": 180,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/597b88e8-d3ab-4f1f-9ba5-c031478769d3/MUNOZ-Daniel_431200"
       },
       {
         "fifaId": "441622",
@@ -3242,7 +3242,7 @@ export const teams = {
         "birthDate": "1998-06-26T00:00:00Z",
         "heightCm": 187,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/73d7ea6f-ca50-4665-97cf-4c319351dce6/LUCUMI-Jhon_441622"
       },
       {
         "fifaId": "315614",
@@ -3255,7 +3255,7 @@ export const teams = {
         "birthDate": "1992-01-13T00:00:00Z",
         "heightCm": 177,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5617bc24-ff35-493b-95f2-22239373414a/ARIAS-Santiago_315614"
       },
       {
         "fifaId": "470759",
@@ -3268,7 +3268,7 @@ export const teams = {
         "birthDate": "2000-09-29T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0ba9e182-1726-4513-ab33-e6224e61815a/CASTANO-Kevin_470759"
       },
       {
         "fifaId": "473050",
@@ -3281,7 +3281,7 @@ export const teams = {
         "birthDate": "2000-06-02T00:00:00Z",
         "heightCm": 185,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3beeef45-2af9-4641-aa23-24aabb1ff865/RIOS-Richard_473050"
       },
       {
         "fifaId": "428886",
@@ -3294,7 +3294,7 @@ export const teams = {
         "birthDate": "1997-01-13T00:00:00Z",
         "heightCm": 179,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e1e5fb3a-67cb-4e0d-9a70-95b7cc6d5ebf/DIAZ-Luis_428886"
       },
       {
         "fifaId": "425580",
@@ -3307,12 +3307,12 @@ export const teams = {
         "birthDate": "1998-05-25T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/52a87992-08b2-4124-b02b-d25bd6e83c09/CARRASCAL-Jorge_425580"
       },
       {
         "fifaId": "369530",
         "name": "Jhon CORDOBA",
-        "shortName": "Jhon CORDOBA",
+        "shortName": "CORDOBA",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3320,7 +3320,7 @@ export const teams = {
         "birthDate": "1993-05-11T00:00:00Z",
         "heightCm": 186,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/549e0eab-ae8f-4f4b-8d9b-36cbeaae716c/CORDOBA-Jhon_369530"
       },
       {
         "fifaId": "269058",
@@ -3333,7 +3333,7 @@ export const teams = {
         "birthDate": "1991-07-12T00:00:00Z",
         "heightCm": 181,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/800cc17f-8f64-4d16-90e9-c5ab79c4d302/RODRIGUEZ-James_269058"
       },
       {
         "fifaId": "470760",
@@ -3346,7 +3346,7 @@ export const teams = {
         "birthDate": "1997-09-21T00:00:00Z",
         "heightCm": 168,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1449efe8-a491-4d19-8c7d-c6fb0b6e8d0f/ARIAS-Jhon_470760"
       },
       {
         "fifaId": "360642",
@@ -3359,7 +3359,7 @@ export const teams = {
         "birthDate": "1989-03-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0a3646b6-8b61-4004-a460-0aad23a8ff36/VARGAS-Camilo_360642"
       },
       {
         "fifaId": "395552",
@@ -3372,7 +3372,7 @@ export const teams = {
         "birthDate": "1994-09-23T00:00:00Z",
         "heightCm": 195,
         "weightKg": 95,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/908d10ae-e26e-4937-82b2-6baa54784ac7/MINA-Yerry_395552"
       },
       {
         "fifaId": "463902",
@@ -3385,7 +3385,7 @@ export const teams = {
         "birthDate": "2003-07-23T00:00:00Z",
         "heightCm": 173,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/818f768e-54da-4c5f-88ef-8f596240c2b5/PUERTA-Gustavo_463902"
       },
       {
         "fifaId": "489849",
@@ -3398,12 +3398,12 @@ export const teams = {
         "birthDate": "1998-09-12T00:00:00Z",
         "heightCm": 181,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/80d3008e-fc71-4841-bedb-fbb9e0bfe3b8/PORTILLA-Juan_489849"
       },
       {
         "fifaId": "395550",
         "name": "Jefferson LERMA",
-        "shortName": "Jefferson LERMA",
+        "shortName": "J. LERMA",
         "jerseyNumber": 16,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -3411,7 +3411,7 @@ export const teams = {
         "birthDate": "1994-10-25T00:00:00Z",
         "heightCm": 180,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/961b906c-13d4-4869-942a-5f5d2e3fab3e/LERMA-Jefferson_395550"
       },
       {
         "fifaId": "394500",
@@ -3424,7 +3424,7 @@ export const teams = {
         "birthDate": "1992-08-21T00:00:00Z",
         "heightCm": 184,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/efd8e0c0-6d52-43f0-95ce-b9c258914603/MOJICA-Johan_394500"
       },
       {
         "fifaId": "476345",
@@ -3437,12 +3437,12 @@ export const teams = {
         "birthDate": "1998-01-23T00:00:00Z",
         "heightCm": 179,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bbf850f0-89dd-4ccc-979d-bb7b23e769b1/DITTA-Willer_476345"
       },
       {
         "fifaId": "418881",
         "name": "Cucho HERNANDEZ",
-        "shortName": "Cucho HERNANDEZ",
+        "shortName": "C. HERNANDEZ",
         "jerseyNumber": 19,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3450,7 +3450,7 @@ export const teams = {
         "birthDate": "1999-04-20T00:00:00Z",
         "heightCm": 176,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a54cc361-8a38-4340-bbaa-1dab41b73626/HERNANDEZ-Cucho_418881"
       },
       {
         "fifaId": "356704",
@@ -3463,12 +3463,12 @@ export const teams = {
         "birthDate": "1993-01-18T00:00:00Z",
         "heightCm": 167,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ab12e549-2406-4bbb-a420-0f9ccef2c09e/QUINTERO-Juan_356704"
       },
       {
         "fifaId": "405755",
         "name": "Jaminton CAMPAZ",
-        "shortName": "Jaminton CAMPAZ",
+        "shortName": "CAMPAZ",
         "jerseyNumber": 21,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3476,12 +3476,12 @@ export const teams = {
         "birthDate": "2000-05-24T00:00:00Z",
         "heightCm": 166,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cd3d4afc-5780-444f-80ca-fc55b53a5329/CAMPAZ-Leandro_405755"
       },
       {
         "fifaId": "394376",
         "name": "Deiver MACHADO",
-        "shortName": "Machado",
+        "shortName": "MACHADO",
         "jerseyNumber": 22,
         "position": "DF",
         "positionLabel": "Defender",
@@ -3489,12 +3489,12 @@ export const teams = {
         "birthDate": "1993-09-02T00:00:00Z",
         "heightCm": 173,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e3774306-ac78-44ee-954b-9f4328a035c1/MACHADO-Deiver_394376"
       },
       {
         "fifaId": "386013",
         "name": "Davinson SANCHEZ",
-        "shortName": "D. SANCHEZ",
+        "shortName": "SANCHEZ",
         "jerseyNumber": 23,
         "position": "DF",
         "positionLabel": "Defender",
@@ -3502,12 +3502,12 @@ export const teams = {
         "birthDate": "1996-06-12T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ce6f352e-52e7-4265-9bc9-d482292fe4fb/SANCHEZ-Davinson_386013"
       },
       {
         "fifaId": "385998",
         "name": "Alvaro MONTERO",
-        "shortName": "A. MONTERO",
+        "shortName": "MONTERO",
         "jerseyNumber": 24,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -3515,7 +3515,7 @@ export const teams = {
         "birthDate": "1995-03-29T00:00:00Z",
         "heightCm": 201,
         "weightKg": 98,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b7af4c7c-edc7-483d-a804-068ea864840e/MONTERO-Alvaro_385998"
       },
       {
         "fifaId": "428905",
@@ -3528,7 +3528,7 @@ export const teams = {
         "birthDate": "1997-12-02T00:00:00Z",
         "heightCm": 179,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/898b7742-30e2-4b72-8470-dbcdf5d5e058/SUAREZ-Luis_428905"
       },
       {
         "fifaId": "492189",
@@ -3541,7 +3541,7 @@ export const teams = {
         "birthDate": "2002-09-12T00:00:00Z",
         "heightCm": 170,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/300b07da-6c9b-4607-a30d-11a11614e6d8/GOMEZ-Andres_492189"
       }
     ]
   },
@@ -3554,7 +3554,7 @@ export const teams = {
     "fifaRank": 46,
     "attack": 85,
     "defense": 85,
-    "form": 79,
+    "form": 78,
     "coach": "Sebastien DESABRE",
     "flagUrl": "https://flagcdn.com/cd.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/COD",
@@ -3570,7 +3570,7 @@ export const teams = {
         "birthDate": "1994-08-01T00:00:00Z",
         "heightCm": 182,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/93a9ca9a-b0db-41bb-80e6-878eb46f0c84/MPASI-Lionel_441313"
       },
       {
         "fifaId": "426357",
@@ -3583,7 +3583,7 @@ export const teams = {
         "birthDate": "1997-11-26T00:00:00Z",
         "heightCm": 183,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/55753894-f81e-4e55-84a7-835ef46fc9bb/WAN-BISSAKA-Aaron_426357"
       },
       {
         "fifaId": "504329",
@@ -3596,7 +3596,7 @@ export const teams = {
         "birthDate": "1998-04-30T00:00:00Z",
         "heightCm": 196,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/60a4ad81-dbaa-4276-b291-f002ec98ddfc/KAPUADI-Steve_504329"
       },
       {
         "fifaId": "403063",
@@ -3609,7 +3609,7 @@ export const teams = {
         "birthDate": "1997-11-14T00:00:00Z",
         "heightCm": 188,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c918f48b-6fff-449f-ba1d-a8c84e6a6f00/TUANZEBE-Axel_403063"
       },
       {
         "fifaId": "477829",
@@ -3622,7 +3622,7 @@ export const teams = {
         "birthDate": "1996-02-15T00:00:00Z",
         "heightCm": 185,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f5388f1a-825a-4a7d-9668-1f618b0686ea/BATUBINSIKA-Dylan_477829"
       },
       {
         "fifaId": "494458",
@@ -3635,12 +3635,12 @@ export const teams = {
         "birthDate": "2004-11-03T00:00:00Z",
         "heightCm": 186,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/72bed90f-aa3d-4f6f-8751-74689a06f326/MUKAU-Ngalayel_494458"
       },
       {
         "fifaId": "424119",
         "name": "Nathanael MBUKU",
-        "shortName": "Nathanael MBUKU",
+        "shortName": "MBUKU",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -3648,7 +3648,7 @@ export const teams = {
         "birthDate": "2002-03-16T00:00:00Z",
         "heightCm": 170,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5977f6d5-d50b-46c4-9e33-d8c4aef7202c/MBUKU-Nathanael_424119"
       },
       {
         "fifaId": "433076",
@@ -3661,7 +3661,7 @@ export const teams = {
         "birthDate": "1996-08-12T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e22f732a-a001-4c41-96c8-138b79ed45b2/MOUTOUSSAMY-Samuel_433076"
       },
       {
         "fifaId": "510989",
@@ -3674,7 +3674,7 @@ export const teams = {
         "birthDate": "1998-03-11T00:00:00Z",
         "heightCm": 172,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ebfc012f-56c2-4279-9eab-02219646f01e/CIPENGA-Brian_510989"
       },
       {
         "fifaId": "441317",
@@ -3687,7 +3687,7 @@ export const teams = {
         "birthDate": "1995-11-20T00:00:00Z",
         "heightCm": 176,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/33939502-486c-4dce-a21a-c5c86b0e08f0/BONGONDA-Theo_441317"
       },
       {
         "fifaId": "336439",
@@ -3700,7 +3700,7 @@ export const teams = {
         "birthDate": "1991-06-21T00:00:00Z",
         "heightCm": 174,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/201587e3-e8f9-4201-9ee5-23931fd0f016/KAKUTA-Gael_336439"
       },
       {
         "fifaId": "477833",
@@ -3713,12 +3713,12 @@ export const teams = {
         "birthDate": "1994-08-08T00:00:00Z",
         "heightCm": 180,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1bb4fcb6-fbfd-4f37-a827-eee403ed2a4f/KAYEMBE-Joris_477833"
       },
       {
         "fifaId": "426506",
         "name": "Meschack ELIA",
-        "shortName": "ELIA",
+        "shortName": "MESCHACK",
         "jerseyNumber": 13,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3726,7 +3726,7 @@ export const teams = {
         "birthDate": "1997-08-06T00:00:00Z",
         "heightCm": 173,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8ac2d949-e53e-4f4e-9196-d91ab9bc8f65/ELIA-Meschack_426506"
       },
       {
         "fifaId": "486147",
@@ -3739,7 +3739,7 @@ export const teams = {
         "birthDate": "2004-12-17T00:00:00Z",
         "heightCm": 165,
         "weightKg": 58,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3c5307a2-8894-44fc-a2d0-95c4500a6740/SADIKI-Noah_486147"
       },
       {
         "fifaId": "477864",
@@ -3752,7 +3752,7 @@ export const teams = {
         "birthDate": "1995-01-02T00:00:00Z",
         "heightCm": 184,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2a9cce05-2dd6-4f24-add3-7f4ad4232790/TSHIBOLA-Aaron_477864"
       },
       {
         "fifaId": "486196",
@@ -3765,12 +3765,12 @@ export const teams = {
         "birthDate": "1999-07-24T00:00:00Z",
         "heightCm": 192,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/deee3a8c-2aea-43fd-80d4-18dfdf1fad94/FAYULU-Timothy_486196"
       },
       {
         "fifaId": "336425",
         "name": "Cedric BAKAMBU",
-        "shortName": "Bakambu",
+        "shortName": "BAKAMBU",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3778,7 +3778,7 @@ export const teams = {
         "birthDate": "1991-04-11T00:00:00Z",
         "heightCm": 182,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/25e27fcf-479e-42fe-bd09-63dc8b8fa202/BAKAMBU-Cedric_336425"
       },
       {
         "fifaId": "448128",
@@ -3791,7 +3791,7 @@ export const teams = {
         "birthDate": "1997-05-15T00:00:00Z",
         "heightCm": 187,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1a0ecb32-cde2-4987-a0e0-2bf8ee4376c5/PICKEL-Charles_448128"
       },
       {
         "fifaId": "477859",
@@ -3804,12 +3804,12 @@ export const teams = {
         "birthDate": "1994-06-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cfecc0dd-e887-4645-b9dc-b9d90296f314/MAYELE-Fiston_477859"
       },
       {
         "fifaId": "441316",
         "name": "Yoane WISSA",
-        "shortName": "Yoane WISSA",
+        "shortName": "WISSA",
         "jerseyNumber": 20,
         "position": "FW",
         "positionLabel": "Forward",
@@ -3817,7 +3817,7 @@ export const teams = {
         "birthDate": "1996-09-03T00:00:00Z",
         "heightCm": 176,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/df278077-1306-4bc3-99d3-0842d69fdec3/WISSA-Yoane_441316"
       },
       {
         "fifaId": "514171",
@@ -3830,7 +3830,7 @@ export const teams = {
         "birthDate": "2005-01-15T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5b3aa99c-c19f-4087-9230-fcc1023e6baa/EPOLO-Matthieu_514171"
       },
       {
         "fifaId": "356532",
@@ -3843,7 +3843,7 @@ export const teams = {
         "birthDate": "1994-08-08T00:00:00Z",
         "heightCm": 182,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/30bebca0-cc33-4a32-ad33-8a6141647128/MBEMBA-Chancel_356532"
       },
       {
         "fifaId": "477835",
@@ -3856,12 +3856,12 @@ export const teams = {
         "birthDate": "1996-08-13T00:00:00Z",
         "heightCm": 189,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bea02c15-ba1f-4592-a3dd-80b301e94226/BANZA-Simon_477835"
       },
       {
         "fifaId": "477853",
         "name": "Gedeon KALULU",
-        "shortName": "G. KALULU",
+        "shortName": "KALULU",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
@@ -3869,12 +3869,12 @@ export const teams = {
         "birthDate": "1997-08-29T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/842e89cb-5c6f-4484-bbc2-b9e6d50c2de5/KALULU-Gedeon_477853"
       },
       {
         "fifaId": "433161",
         "name": "Edo Kayembe",
-        "shortName": "KAYEMBE",
+        "shortName": "E. KAYEMBE",
         "jerseyNumber": 25,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -3882,7 +3882,7 @@ export const teams = {
         "birthDate": "1998-06-03T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/45763ec1-2979-4fe6-97f9-5e3f90b9c1ee/KAYEMBE-Edo_433161"
       },
       {
         "fifaId": "436572",
@@ -3895,7 +3895,7 @@ export const teams = {
         "birthDate": "1993-11-07T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c521f94-2538-45a0-a77e-4a529b9dfc8f/MASUAKU-Arthur_436572"
       }
     ]
   },
@@ -3905,7 +3905,7 @@ export const teams = {
     "name": "Côte d'Ivoire",
     "group": "Group E",
     "confederation": "CAF",
-    "fifaRank": 34,
+    "fifaRank": 33,
     "attack": 88,
     "defense": 88,
     "form": 82,
@@ -3916,7 +3916,7 @@ export const teams = {
       {
         "fifaId": "405873",
         "name": "Yahia Fofana",
-        "shortName": "FOFANA",
+        "shortName": "Y. FOFANA",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -3924,7 +3924,7 @@ export const teams = {
         "birthDate": "2000-08-21T00:00:00Z",
         "heightCm": 194,
         "weightKg": 89,
-        "photoUrl": "https://digitalhub.fifa.com/transform/902892b9-ca5c-4670-af77-448b31bfab73/2280553392"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c5bc8a38-479f-4c33-b8f6-9ab95bb45b57/FOFANA-Yahia_405873"
       },
       {
         "fifaId": "477802",
@@ -3937,7 +3937,7 @@ export const teams = {
         "birthDate": "2003-12-04T00:00:00Z",
         "heightCm": 190,
         "weightKg": 94,
-        "photoUrl": "https://digitalhub.fifa.com/transform/69e25def-e1f0-43be-97f4-f71f538c6afa/2280553383"
+        "photoUrl": "https://digitalhub.fifa.com/transform/45b55597-6503-4470-a778-af125afb698a/DIOMANDE-Ousmane_477802"
       },
       {
         "fifaId": "407343",
@@ -3950,12 +3950,12 @@ export const teams = {
         "birthDate": "1995-12-27T00:00:00Z",
         "heightCm": 176,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/029f0ad3-91bb-4f6a-bfef-ac9e2e07c40d/2280553360"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8b0c92b7-4756-42a3-8cc8-b997693ff4aa/KONAN-Ghislain_407343"
       },
       {
         "fifaId": "335807",
         "name": "Jean Michael SERI",
-        "shortName": "Jean SERI",
+        "shortName": "SERI",
         "jerseyNumber": 4,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -3963,12 +3963,12 @@ export const teams = {
         "birthDate": "1991-07-19T00:00:00Z",
         "heightCm": 168,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b9798282-36d4-4e12-a605-d88d1e7364e6/2280553346"
+        "photoUrl": "https://digitalhub.fifa.com/transform/115c99fd-ddc4-4f97-bc20-2cb7dae80735/SERI-Jean-Michael_335807"
       },
       {
         "fifaId": "430854",
         "name": "Wilfried SINGO",
-        "shortName": "Wilfried SINGO",
+        "shortName": "SINGO",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
@@ -3976,7 +3976,7 @@ export const teams = {
         "birthDate": "2000-12-25T00:00:00Z",
         "heightCm": 182,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/fd0bccb1-5fc7-4cf7-bf89-1f20bfe7ad75/2280553351"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3b02f719-a68a-46ae-a249-e7b6538a5714/SINGO-Wilfried_430854"
       },
       {
         "fifaId": "405175",
@@ -3989,7 +3989,7 @@ export const teams = {
         "birthDate": "1995-05-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4f83e84a-5c31-48ae-bfcc-e1ceec5b0979/2280553373"
+        "photoUrl": "https://digitalhub.fifa.com/transform/08197d78-88b8-458f-9ad9-de192f25313c/FOFANA-Seko_405175"
       },
       {
         "fifaId": "477825",
@@ -4002,7 +4002,7 @@ export const teams = {
         "birthDate": "2001-01-04T00:00:00Z",
         "heightCm": 191,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/bdda57ad-1b91-475e-bade-ce4f8f5bfb51/2280553343"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c3d01f63-7112-4a0d-a50b-0d85927676e9/KOSSOUNOU-Odilon_477825"
       },
       {
         "fifaId": "371609",
@@ -4015,7 +4015,7 @@ export const teams = {
         "birthDate": "1996-12-19T00:00:00Z",
         "heightCm": 183,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6970f179-59c6-4d84-b41a-23e8ff2ab6b4/2280553355"
+        "photoUrl": "https://digitalhub.fifa.com/transform/2e649ed1-5e23-4de2-aafc-79fac130f5f0/KESSIE-Franck_371609"
       },
       {
         "fifaId": "464103",
@@ -4028,7 +4028,7 @@ export const teams = {
         "birthDate": "2003-10-25T00:00:00Z",
         "heightCm": 189,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c5641cbe-95d8-47da-9ef0-eac3644deed9/2280553375"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c2bd7f75-2634-437d-9b8e-45d23380a755/BONNY-Ange-Yoan_464103"
       },
       {
         "fifaId": "477778",
@@ -4041,7 +4041,7 @@ export const teams = {
         "birthDate": "2002-01-01T00:00:00Z",
         "heightCm": 175,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/3e385458-c0d7-4310-874d-7146afa65979/2280553368"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ba7341af-8a89-4260-9711-37bec1618ff2/ADINGRA-Simon_477778"
       },
       {
         "fifaId": "510922",
@@ -4054,7 +4054,7 @@ export const teams = {
         "birthDate": "2006-11-14T00:00:00Z",
         "heightCm": 180,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/59bcee9d-8296-488c-bd70-c59935233324/2280553371"
+        "photoUrl": "https://digitalhub.fifa.com/transform/4218dafb-b39b-4640-ac2f-e1d9f104aa6a/DIOMANDE-Yan_510922"
       },
       {
         "fifaId": "464133",
@@ -4067,7 +4067,7 @@ export const teams = {
         "birthDate": "2003-01-02T00:00:00Z",
         "heightCm": 181,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7180733c-d947-4517-83f4-c01cf71d5ef1/2280553378"
+        "photoUrl": "https://digitalhub.fifa.com/transform/088ceea5-0bdc-4615-9fc2-a99fe888fe44/WAHI-Elye_464133"
       },
       {
         "fifaId": "486260",
@@ -4080,7 +4080,7 @@ export const teams = {
         "birthDate": "1997-04-29T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8a860a0e-8a0a-4fd1-8c83-c749cbb43878/2280553370"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7ed2ec22-290b-40bb-a4a9-4c3374aa3e91/OPERI-Christopher_486260"
       },
       {
         "fifaId": "477777",
@@ -4093,12 +4093,12 @@ export const teams = {
         "birthDate": "2003-12-20T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e88b782d-7497-48b1-8ff8-17717739eeb1/2280553356"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c9072f7-1c82-483b-9f41-a749332fff71/DIAKITE-Oumar_477777"
       },
       {
         "fifaId": "430822",
         "name": "Amad DIALLO",
-        "shortName": "Amad DIALLO",
+        "shortName": "AMAD",
         "jerseyNumber": 15,
         "position": "FW",
         "positionLabel": "Forward",
@@ -4106,7 +4106,7 @@ export const teams = {
         "birthDate": "2002-07-11T00:00:00Z",
         "heightCm": 173,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ce29ebc2-d41e-4cbf-ae89-08e5fc0b2bd2/2280553359"
+        "photoUrl": "https://digitalhub.fifa.com/transform/92354f59-681a-4409-b1eb-0e0744a78da8/DIALLO-Amad_430822"
       },
       {
         "fifaId": "486259",
@@ -4119,7 +4119,7 @@ export const teams = {
         "birthDate": "2002-03-07T00:00:00Z",
         "heightCm": 186,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/937ed103-c12b-4931-83f1-ee615a67858e/HASSAN-ALTAMBAKTI_403335"
       },
       {
         "fifaId": "486317",
@@ -4132,7 +4132,7 @@ export const teams = {
         "birthDate": "2002-10-17T00:00:00Z",
         "heightCm": 187,
         "weightKg": 88,
-        "photoUrl": "https://digitalhub.fifa.com/transform/625c967d-6a53-4b77-aa76-22d766b839f0/2280553369"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9c597f58-ad63-4248-ac8b-b36e71f7b811/DOUE-Guela_486317"
       },
       {
         "fifaId": "430831",
@@ -4145,12 +4145,12 @@ export const teams = {
         "birthDate": "1997-12-02T00:00:00Z",
         "heightCm": 191,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/be924c2e-474f-459f-95b8-7fd7051f26a0/2280553341"
+        "photoUrl": "https://digitalhub.fifa.com/transform/daeaedd3-2c74-4fef-a968-2247f5ac962e/SANGARE-Ibrahim_430831"
       },
       {
         "fifaId": "402261",
         "name": "Nicolas PEPE",
-        "shortName": "Pépé",
+        "shortName": "PEPE",
         "jerseyNumber": 19,
         "position": "FW",
         "positionLabel": "Forward",
@@ -4158,7 +4158,7 @@ export const teams = {
         "birthDate": "1995-05-29T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6e365a2b-db9c-4e98-85a8-7a4f35559eb5/2280553348"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c7519d2-960c-4d19-83e7-40a155f1a8eb/PEPE-Nicolas_402261"
       },
       {
         "fifaId": "486268",
@@ -4171,7 +4171,7 @@ export const teams = {
         "birthDate": "1997-06-17T00:00:00Z",
         "heightCm": 185,
         "weightKg": 95,
-        "photoUrl": "https://digitalhub.fifa.com/transform/76663dea-6bb9-466f-8ca2-7c5cfe413677/2280553353"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d092f8c9-f80e-40e0-ad73-bfa861784408/AGBADOU-Emmanuel_486268"
       },
       {
         "fifaId": "419172",
@@ -4184,7 +4184,7 @@ export const teams = {
         "birthDate": "1999-08-20T00:00:00Z",
         "heightCm": 192,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/78486abc-49f0-400a-b933-b1a2d20e0032/2280553382"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e308dd93-4706-4ed9-80a2-1db8e4a52d6c/PAUGAIN-Wilguens_419172"
       },
       {
         "fifaId": "485675",
@@ -4197,7 +4197,7 @@ export const teams = {
         "birthDate": "2001-07-01T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/bee62e1e-1b05-424c-9013-9728ca352dce/2280553377"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a5543d71-798f-42a0-aef9-201b86bc75c1/GUESSAND-Evann_485675"
       },
       {
         "fifaId": "403090",
@@ -4210,7 +4210,7 @@ export const teams = {
         "birthDate": "1999-01-23T00:00:00Z",
         "heightCm": 196,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/00f7a1e6-e3ea-4bc1-b9b2-80ddccc1893d/2280553393"
+        "photoUrl": "https://digitalhub.fifa.com/transform/4387ca2a-2c1e-4bee-baad-95e9485a4ba0/LAFONT-Alban_403090"
       },
       {
         "fifaId": "506202",
@@ -4223,12 +4223,12 @@ export const teams = {
         "birthDate": "2006-03-02T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/97ada180-0f02-4351-a30d-79523bc9291f/2280553357"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fa213cf7-928a-49ab-acc9-b6f5059b188c/TOURE-Bazoumana_506202"
       },
       {
         "fifaId": "430834",
         "name": "Parfait GUIAGON",
-        "shortName": "Parfait GUIAGON",
+        "shortName": "GUIAGON",
         "jerseyNumber": 25,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -4236,7 +4236,7 @@ export const teams = {
         "birthDate": "2001-02-22T00:00:00Z",
         "heightCm": 165,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0bc17e6a-700c-4ccb-95ac-dc73596a2811/2280553358"
+        "photoUrl": "https://digitalhub.fifa.com/transform/675938a7-c82b-4d9f-8cf8-6e7a42146489/GUIAGON-Parfait_430834"
       },
       {
         "fifaId": "514208",
@@ -4249,7 +4249,7 @@ export const teams = {
         "birthDate": "2006-04-06T00:00:00Z",
         "heightCm": 173,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/80d95ef8-5e1d-4526-bb16-5e489c512119/2280553374"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a1bae10b-b280-4234-81c1-063fa931cd02/OULAI-Christ-Inao_514208"
       }
     ]
   },
@@ -4278,7 +4278,7 @@ export const teams = {
         "birthDate": "1995-01-09T00:00:00Z",
         "heightCm": 188,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6f54cf31-4fd8-4dff-aaa7-9db6bf2fa2ec/LIVAKOVIC-Dominik_369029"
       },
       {
         "fifaId": "433667",
@@ -4291,7 +4291,7 @@ export const teams = {
         "birthDate": "2000-04-02T00:00:00Z",
         "heightCm": 186,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c1f59cf4-db22-4b38-af85-ab5692105f95/STANISIC-Josip_433667"
       },
       {
         "fifaId": "448174",
@@ -4304,7 +4304,7 @@ export const teams = {
         "birthDate": "1997-09-11T00:00:00Z",
         "heightCm": 193,
         "weightKg": 95,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/002f5150-852a-45f5-9a9b-46cd3dcaface/PONGRACIC-Marin_448174"
       },
       {
         "fifaId": "448180",
@@ -4317,7 +4317,7 @@ export const teams = {
         "birthDate": "2002-01-23T00:00:00Z",
         "heightCm": 185,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/18cba70e-f4ed-4f57-8e6a-5d4bfd3df8b0/GVARDIOL-Josko_448180"
       },
       {
         "fifaId": "372424",
@@ -4330,7 +4330,7 @@ export const teams = {
         "birthDate": "1996-09-17T00:00:00Z",
         "heightCm": 193,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d8171170-8b91-49e5-b32a-7b3494bf5809/CALETA-CAR-Duje_372424"
       },
       {
         "fifaId": "448171",
@@ -4343,7 +4343,7 @@ export const teams = {
         "birthDate": "2000-02-28T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5b23d028-3bf8-4355-8364-7838975c264f/SUTALO-Josip_448171"
       },
       {
         "fifaId": "389753",
@@ -4356,12 +4356,12 @@ export const teams = {
         "birthDate": "1998-03-12T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f0845e44-1c38-4bff-a4d4-3e238907d961/MORO-Nikola_389753"
       },
       {
         "fifaId": "339987",
         "name": "Mateo KOVACIC",
-        "shortName": "KOVACIC",
+        "shortName": "KOVAČIĆ",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -4369,7 +4369,7 @@ export const teams = {
         "birthDate": "1994-05-06T00:00:00Z",
         "heightCm": 178,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5d230f74-1e00-4b42-a880-844fe2aee964/KOVACIC-Mateo_339987"
       },
       {
         "fifaId": "336472",
@@ -4382,7 +4382,7 @@ export const teams = {
         "birthDate": "1991-06-19T00:00:00Z",
         "heightCm": 177,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a1ea2a12-4fba-4dbb-9a75-25c88685d90c/KRAMARIC-Andrej_336472"
       },
       {
         "fifaId": "241559",
@@ -4395,7 +4395,7 @@ export const teams = {
         "birthDate": "1985-09-09T00:00:00Z",
         "heightCm": 172,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cbff6a19-cce4-45ee-9869-84cf30ce5676/MODRIC-Luka_241559"
       },
       {
         "fifaId": "430070",
@@ -4408,7 +4408,7 @@ export const teams = {
         "birthDate": "1991-07-22T00:00:00Z",
         "heightCm": 190,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/135f8f1c-6e03-43b8-a18a-8914b4a4bd7a/BUDIMIR-Ante_430070"
       },
       {
         "fifaId": "514526",
@@ -4421,7 +4421,7 @@ export const teams = {
         "birthDate": "2000-03-25T00:00:00Z",
         "heightCm": 187,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a32b76f-ee60-4eb1-a2e0-b12bc86e41e0/PANDUR-Ivor_514526"
       },
       {
         "fifaId": "409191",
@@ -4434,7 +4434,7 @@ export const teams = {
         "birthDate": "1997-10-04T00:00:00Z",
         "heightCm": 179,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59a64db7-c267-432d-9172-cf012b37c0b5/VLASIC-Nikola_409191"
       },
       {
         "fifaId": "359381",
@@ -4447,7 +4447,7 @@ export const teams = {
         "birthDate": "1989-02-02T00:00:00Z",
         "heightCm": 186,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ba7ea3ab-0ef6-4cdd-834c-79a94739fe26/PERISIC-Ivan_359381"
       },
       {
         "fifaId": "380005",
@@ -4460,7 +4460,7 @@ export const teams = {
         "birthDate": "1995-02-09T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f3c0fd5e-6814-4acc-822a-2152e1cf79de/PASALIC-Mario_380005"
       },
       {
         "fifaId": "482774",
@@ -4473,7 +4473,7 @@ export const teams = {
         "birthDate": "2003-02-16T00:00:00Z",
         "heightCm": 172,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b9125a74-a920-4ffc-922b-68d57c524f4e/BATURINA-Martin_482774"
       },
       {
         "fifaId": "485066",
@@ -4486,7 +4486,7 @@ export const teams = {
         "birthDate": "2003-10-25T00:00:00Z",
         "heightCm": 183,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/89c383c2-39ba-413d-b945-e42dd2d47c6d/SUCIC-Petar_485066"
       },
       {
         "fifaId": "448164",
@@ -4499,7 +4499,7 @@ export const teams = {
         "birthDate": "1997-05-14T00:00:00Z",
         "heightCm": 181,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8fdebc61-0e5a-4d33-bf9f-3dcb4b413f21/JAKIC-Kristijan_448164"
       },
       {
         "fifaId": "485065",
@@ -4512,7 +4512,7 @@ export const teams = {
         "birthDate": "2001-03-09T00:00:00Z",
         "heightCm": 177,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f71b54fc-4cf8-463c-b8cc-7837e3d9eca8/FRUK-Toni_390197"
       },
       {
         "fifaId": "485068",
@@ -4525,7 +4525,7 @@ export const teams = {
         "birthDate": "2003-03-31T00:00:00Z",
         "heightCm": 194,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/72c82c16-da76-4f5a-a849-5b84343228eb/MATANOVIC-Igor_485068"
       },
       {
         "fifaId": "448160",
@@ -4538,7 +4538,7 @@ export const teams = {
         "birthDate": "2002-09-08T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4f4c5521-6b60-46e0-b93b-4aaae66f28f7/SUCIC-Luka_448160"
       },
       {
         "fifaId": "499290",
@@ -4551,7 +4551,7 @@ export const teams = {
         "birthDate": "2007-02-24T00:00:00Z",
         "heightCm": 193,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c905e324-dc60-4e79-a2a1-c06412f27aed/VUSKOVIC-Luka_499290"
       },
       {
         "fifaId": "448179",
@@ -4564,7 +4564,7 @@ export const teams = {
         "birthDate": "2000-02-10T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4fb248c2-8d15-4415-ab5f-19bf997447ae/KOTARSKI-Dominik_448179"
       },
       {
         "fifaId": "482931",
@@ -4577,7 +4577,7 @@ export const teams = {
         "birthDate": "2000-09-14T00:00:00Z",
         "heightCm": 177,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ea070001-3892-4086-89c9-fe982a729f5d/PASALIC-Marco_482931"
       },
       {
         "fifaId": "389740",
@@ -4590,7 +4590,7 @@ export const teams = {
         "birthDate": "1998-01-24T00:00:00Z",
         "heightCm": 192,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6353056f-aabd-49e1-9931-9b28010746a6/ERLIC-Martin_389740"
       },
       {
         "fifaId": "389754",
@@ -4603,7 +4603,7 @@ export const teams = {
         "birthDate": "1998-03-04T00:00:00Z",
         "heightCm": 190,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5c33a6f7-32cc-4821-949d-42fa33de6f74/MUSA-Petar_389754"
       }
     ]
   },
@@ -4616,7 +4616,7 @@ export const teams = {
     "fifaRank": 82,
     "attack": 79,
     "defense": 80,
-    "form": 70,
+    "form": 71,
     "coach": "Dick ADVOCAAT",
     "flagUrl": "https://flagcdn.com/cw.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/CUW",
@@ -4632,7 +4632,7 @@ export const teams = {
         "birthDate": "1989-02-06T00:00:00Z",
         "heightCm": 190,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bd9ff87-6801-46d2-8f10-ca9eb3ea2ea4/ROOM-Eloy_390650"
       },
       {
         "fifaId": "485379",
@@ -4645,7 +4645,7 @@ export const teams = {
         "birthDate": "2001-08-19T00:00:00Z",
         "heightCm": 174,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4d41ae09-f81a-44fc-a53b-6e1b3e46521b/SAMBO-Shurandy_485379"
       },
       {
         "fifaId": "431698",
@@ -4658,7 +4658,7 @@ export const teams = {
         "birthDate": "1993-12-23T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4744d27b-6a5c-48be-a849-48facb6f6d6e/GAARI-Jurien_431698"
       },
       {
         "fifaId": "466361",
@@ -4671,7 +4671,7 @@ export const teams = {
         "birthDate": "1998-06-09T00:00:00Z",
         "heightCm": 186,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f03c40c7-6eef-405c-a287-a1f7f1860a30/VAN-EIJMA-Roshon_466361"
       },
       {
         "fifaId": "466350",
@@ -4684,7 +4684,7 @@ export const teams = {
         "birthDate": "1998-08-23T00:00:00Z",
         "heightCm": 181,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8baacb6b-39cd-4a37-8999-58dd5a1d9fec/FLORANUS-Sherel_466350"
       },
       {
         "fifaId": "466359",
@@ -4697,7 +4697,7 @@ export const teams = {
         "birthDate": "1999-08-19T00:00:00Z",
         "heightCm": 178,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6ed36808-8d19-481f-acce-2a905fbc364c/ROEMERATOE-Godfried_466359"
       },
       {
         "fifaId": "466317",
@@ -4710,7 +4710,7 @@ export const teams = {
         "birthDate": "1997-08-07T00:00:00Z",
         "heightCm": 178,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/804768d8-badb-4492-9aef-1e523440aed4/BACUNA-Juninho_466317"
       },
       {
         "fifaId": "494989",
@@ -4723,7 +4723,7 @@ export const teams = {
         "birthDate": "2004-02-03T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/860cc6e0-a995-485f-ae21-56b451017adf/COMENENCIA-Livano_494989"
       },
       {
         "fifaId": "407680",
@@ -4736,7 +4736,7 @@ export const teams = {
         "birthDate": "1993-11-07T00:00:00Z",
         "heightCm": 193,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/95d67c13-c534-48f4-a2de-e831079a0d42/LOCADIA-Juergen_407680"
       },
       {
         "fifaId": "466340",
@@ -4749,7 +4749,7 @@ export const teams = {
         "birthDate": "1991-08-21T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ae48f357-6b53-4d49-b62f-fbfb4a041b62/BACUNA-Leandro_466340"
       },
       {
         "fifaId": "424047",
@@ -4762,7 +4762,7 @@ export const teams = {
         "birthDate": "2002-03-29T00:00:00Z",
         "heightCm": 164,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cd0b7ee9-50b8-4043-a957-44df5860e935/ANTONISSE-Jeremy_424047"
       },
       {
         "fifaId": "424056",
@@ -4775,7 +4775,7 @@ export const teams = {
         "birthDate": "2002-05-18T00:00:00Z",
         "heightCm": 176,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/35e4773d-8580-4100-a87a-239c2e03e179/HANSEN-Sontje_424056"
       },
       {
         "fifaId": "506473",
@@ -4788,12 +4788,12 @@ export const teams = {
         "birthDate": "2002-09-11T00:00:00Z",
         "heightCm": 182,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a1d79e4-2beb-4cc4-aa5d-adea0d32896c/NOSLIN-Tyrese_506473"
       },
       {
         "fifaId": "466352",
         "name": "Kenji GORRE",
-        "shortName": "GORRE",
+        "shortName": "GORRÉ",
         "jerseyNumber": 14,
         "position": "FW",
         "positionLabel": "Forward",
@@ -4801,7 +4801,7 @@ export const teams = {
         "birthDate": "1994-09-29T00:00:00Z",
         "heightCm": 174,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/115a2099-2406-4ca6-8905-91cc71efc98d/GORRE-Kenji_466352"
       },
       {
         "fifaId": "485324",
@@ -4814,7 +4814,7 @@ export const teams = {
         "birthDate": "2003-09-04T00:00:00Z",
         "heightCm": 180,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d909c1d1-c54d-4dfa-a951-979ae80e7b8a/MARTHA-Arjany_485324"
       },
       {
         "fifaId": "466363",
@@ -4827,7 +4827,7 @@ export const teams = {
         "birthDate": "2000-04-10T00:00:00Z",
         "heightCm": 181,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c0d47ad2-fcb1-4d7f-b854-99b99cc0cadf/MARGARITHA-Jearl_466363"
       },
       {
         "fifaId": "466346",
@@ -4840,7 +4840,7 @@ export const teams = {
         "birthDate": "1992-09-19T00:00:00Z",
         "heightCm": 181,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e68cdb21-7918-4de8-8a37-8d3f1127184b/KUWAS-Brandley_466346"
       },
       {
         "fifaId": "511141",
@@ -4853,7 +4853,7 @@ export const teams = {
         "birthDate": "1999-03-05T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c2384459-9ca9-4dce-b232-5bbfbcd07316/OBISPO-Armando_511141"
       },
       {
         "fifaId": "466372",
@@ -4866,12 +4866,12 @@ export const teams = {
         "birthDate": "1996-06-09T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/18bea3a9-68ef-4e35-ae04-2d494b39971e/KASTANEER-Gervane_466372"
       },
       {
         "fifaId": "401023",
         "name": "Joshua BRENET",
-        "shortName": "Brenet",
+        "shortName": "BRENET",
         "jerseyNumber": 20,
         "position": "DF",
         "positionLabel": "Defender",
@@ -4879,7 +4879,7 @@ export const teams = {
         "birthDate": "1994-03-20T00:00:00Z",
         "heightCm": 181,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2069bb09-aaf0-41dc-81e4-a8f4df33b4e5/BRENET-Joshua_401023"
       },
       {
         "fifaId": "485347",
@@ -4892,7 +4892,7 @@ export const teams = {
         "birthDate": "1999-12-04T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/402300d2-89f5-4c17-97be-494664b73565/CHONG-Tahith_485347"
       },
       {
         "fifaId": "466365",
@@ -4905,12 +4905,12 @@ export const teams = {
         "birthDate": "1999-11-11T00:00:00Z",
         "heightCm": 174,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f9ebf1d2-90fe-4748-8788-19259714fc40/FELIDA-Kevin_466365"
       },
       {
         "fifaId": "398569",
         "name": "Riechedly Bazoer",
-        "shortName": "Bazoer",
+        "shortName": "BAZOER",
         "jerseyNumber": 23,
         "position": "DF",
         "positionLabel": "Defender",
@@ -4918,7 +4918,7 @@ export const teams = {
         "birthDate": "1996-10-12T00:00:00Z",
         "heightCm": 184,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/93fcbe0f-13ca-41f6-b453-447b45aea6ef/BAZOER-Riechedly_398569"
       },
       {
         "fifaId": "506471",
@@ -4931,7 +4931,7 @@ export const teams = {
         "birthDate": "2003-05-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/29abb3b9-0b95-4101-ae19-0aa95d77e362/FONVILLE-Deveron_506471"
       },
       {
         "fifaId": "466370",
@@ -4944,7 +4944,7 @@ export const teams = {
         "birthDate": "2002-05-15T00:00:00Z",
         "heightCm": 190,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c806d05b-ee7a-482f-beb5-b9a6b5871a11/BODAK-Tyrick_466370"
       },
       {
         "fifaId": "466382",
@@ -4957,7 +4957,7 @@ export const teams = {
         "birthDate": "1999-07-06T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f6d2d4d6-a63d-4278-a520-5edb0dc24e69/DOORNBUSCH-Trevor_466382"
       }
     ]
   },
@@ -4967,7 +4967,7 @@ export const teams = {
     "name": "Czechia",
     "group": "Group A",
     "confederation": "UEFA",
-    "fifaRank": 41,
+    "fifaRank": 40,
     "attack": 85,
     "defense": 86,
     "form": 80,
@@ -4986,7 +4986,7 @@ export const teams = {
         "birthDate": "2000-05-17T00:00:00Z",
         "heightCm": 196,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6ed35edc-ec59-4f1e-a0d6-c30e923a291a/MATEJ-KOVAR_484012_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/06f2bdbf-6411-4f1c-885b-3c745e37363e/KOVAR-Matej_484012"
       },
       {
         "fifaId": "433755",
@@ -4999,7 +4999,7 @@ export const teams = {
         "birthDate": "2000-11-08T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/41539472-99d2-45a8-a755-d7902c3ab987/DAVID-ZIMA_433755_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/945f505c-6f7b-4a43-acc1-5e3fa1bb52b3/ZIMA-David_433755"
       },
       {
         "fifaId": "441167",
@@ -5012,7 +5012,7 @@ export const teams = {
         "birthDate": "1993-03-31T00:00:00Z",
         "heightCm": 180,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7f9cdda2-6043-4824-949f-e79f6508de33/TOMAS-HOLES_441167_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/25d4147e-8cc2-4262-bba5-3e47680a3f23/HOLES-Tomas_441167"
       },
       {
         "fifaId": "486080",
@@ -5025,7 +5025,7 @@ export const teams = {
         "birthDate": "2000-01-29T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/1d718276-b561-41b9-9493-89b8383d746e/ROBIN-HRANAC_486080_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9550c125-89e2-497f-a098-bcdceb0243e7/HRANAC-Robin_486080"
       },
       {
         "fifaId": "472908",
@@ -5038,7 +5038,7 @@ export const teams = {
         "birthDate": "1992-08-22T00:00:00Z",
         "heightCm": 175,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d61d45c7-9bc4-4bb1-9325-1a0f1c74c0f5/VLADIMIR-COUFAL_472908_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e013f16f-8ada-4532-b3c4-b674b0e08cc9/COUFAL-Vladimir_472908"
       },
       {
         "fifaId": "514334",
@@ -5051,7 +5051,7 @@ export const teams = {
         "birthDate": "2003-03-08T00:00:00Z",
         "heightCm": 188,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/355bbb37-61ab-460a-abec-638d8b4c130e/STEPAN-CHALOUPEK_514334_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/35d513e7-429b-44eb-b1bd-671a6a22bc83/CHALOUPEK-Stepan_514334"
       },
       {
         "fifaId": "441170",
@@ -5064,7 +5064,7 @@ export const teams = {
         "birthDate": "1999-04-20T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ab277152-e336-4a79-9a9a-0f83027188dd/LADISLAV-KREJCI_441170_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/04ca9e4e-8ab3-458e-a689-2ac49094fb23/KREJCI-Ladislav_441170"
       },
       {
         "fifaId": "358003",
@@ -5077,7 +5077,7 @@ export const teams = {
         "birthDate": "1990-08-08T00:00:00Z",
         "heightCm": 172,
         "weightKg": 67,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b00cadcd-542a-404a-b767-82c13a060066/2280518742"
+        "photoUrl": "https://digitalhub.fifa.com/transform/201b5e1b-25b8-4cd6-a8fa-2678977172fe/DARIDA-Vladimir_358003"
       },
       {
         "fifaId": "433754",
@@ -5090,7 +5090,7 @@ export const teams = {
         "birthDate": "2002-07-25T00:00:00Z",
         "heightCm": 188,
         "weightKg": 84,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b9e5809a-8cb5-499f-abe0-f13e63f1414e/ADAM-HLOZEK_433754_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/530c1ea8-c013-4858-bb7d-0b71a763a1a1/HLOZEK-Adam_433754"
       },
       {
         "fifaId": "401481",
@@ -5103,7 +5103,7 @@ export const teams = {
         "birthDate": "1996-01-24T00:00:00Z",
         "heightCm": 191,
         "weightKg": 87,
-        "photoUrl": "https://digitalhub.fifa.com/transform/696a5983-6b3b-402d-b4bf-05f3ae3ca08b/PATRIK-SCHICK_401481_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/725e8c7e-c712-45be-9e0a-ec5b121e84ad/SCHICK-Patrik_401481"
       },
       {
         "fifaId": "441171",
@@ -5116,7 +5116,7 @@ export const teams = {
         "birthDate": "1997-01-08T00:00:00Z",
         "heightCm": 185,
         "weightKg": 86,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f99275f8-0d2c-42eb-bb2e-bba8b27c2ecc/JAN-KUCHTA_441171_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e5ab58c0-de70-4e60-afdd-0cacec12decb/KUCHTA-Jan_441171"
       },
       {
         "fifaId": "486081",
@@ -5129,7 +5129,7 @@ export const teams = {
         "birthDate": "2001-04-10T00:00:00Z",
         "heightCm": 182,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e761974c-0c1d-44e5-b7cc-1f0ba9b76162/LUKAS-CERV_486081_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/87ce4b61-fd6d-4ca3-901d-6dfe039dd809/CERV-Lukas_486081"
       },
       {
         "fifaId": "484003",
@@ -5142,7 +5142,7 @@ export const teams = {
         "birthDate": "1999-04-29T00:00:00Z",
         "heightCm": 187,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5c786f7d-dbe2-4cfb-aba2-a4aa49a63deb/MOJMIR-CHYTIL_484003_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8b7fe7be-c13f-4245-9a48-470a88d95aa9/CHYTIL-Mojmir_484003"
       },
       {
         "fifaId": "483990",
@@ -5155,7 +5155,7 @@ export const teams = {
         "birthDate": "2000-08-07T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f8e19b24-793f-420a-9472-c36a20953917/DAVID-JURASEK_483990_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/4e32c53e-28e4-4757-ab4e-c7b18cee9bbf/JURASEK-David_483990"
       },
       {
         "fifaId": "486082",
@@ -5168,7 +5168,7 @@ export const teams = {
         "birthDate": "2000-12-29T00:00:00Z",
         "heightCm": 177,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/58c97a03-a09b-43a6-9be8-3c0e79461620/PAVEL-SULC_486082_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a45ca4c8-04d9-4321-a100-1e57b2d7bbda/SULC-Pavel_486082"
       },
       {
         "fifaId": "441162",
@@ -5181,7 +5181,7 @@ export const teams = {
         "birthDate": "1996-04-27T00:00:00Z",
         "heightCm": 192,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b7808321-3ff0-4521-a374-b74d544fdd3f/JINDRICH-STANEK_441162_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9351d9a7-4be7-4c59-8e0e-3f5fbca8ac7d/STANEK-Jindrich_441162"
       },
       {
         "fifaId": "484011",
@@ -5194,7 +5194,7 @@ export const teams = {
         "birthDate": "1996-10-23T00:00:00Z",
         "heightCm": 191,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a43bce71-53cd-44c4-8b60-c35f2c29fa48/LUKAS-PROVOD_484011_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e5e6a265-9886-4e25-97c0-c4f2f230277d/PROVOD-Lukas_484011"
       },
       {
         "fifaId": "433668",
@@ -5207,7 +5207,7 @@ export const teams = {
         "birthDate": "1999-05-31T00:00:00Z",
         "heightCm": 169,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/52a3d6e6-5e8b-476b-808c-d1f3dfdb7578/MICHAL-SADILEK_433668_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/00599f60-d24b-4377-b1c2-03bda4f835be/SADILEK-Michal_433668"
       },
       {
         "fifaId": "483961",
@@ -5220,7 +5220,7 @@ export const teams = {
         "birthDate": "1995-01-26T00:00:00Z",
         "heightCm": 199,
         "weightKg": 100,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e98d8fb5-cfc1-4d23-a829-d5a0e1b6695d/TOMAS-CHORY_483961_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/566b2c11-0ed7-4ad0-8e39-2e8a6fb4ba94/CHORY-Tomas_483961"
       },
       {
         "fifaId": "441166",
@@ -5233,7 +5233,7 @@ export const teams = {
         "birthDate": "1992-08-20T00:00:00Z",
         "heightCm": 190,
         "weightKg": 81,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f7e3e76c-1ffc-4961-be69-2d794d73ef5d/JAROSLAV-ZELENY_441166_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/33dbf631-0d45-4f04-9feb-bf0c76ad9f8e/ZELENY-Jaroslav_441166"
       },
       {
         "fifaId": "483936",
@@ -5246,12 +5246,12 @@ export const teams = {
         "birthDate": "1998-05-31T00:00:00Z",
         "heightCm": 175,
         "weightKg": 66,
-        "photoUrl": "https://digitalhub.fifa.com/transform/97f0790d-051a-47b3-bebc-67d6868ec3e3/DAVID-DOUDERA_483936_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/04fa0573-e1fa-4158-a14d-7129641cc700/DOUDERA-David_483936"
       },
       {
         "fifaId": "404885",
         "name": "Tomas SOUCEK",
-        "shortName": "Soucek",
+        "shortName": "SOUČEK",
         "jerseyNumber": 22,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5259,7 +5259,7 @@ export const teams = {
         "birthDate": "1995-02-27T00:00:00Z",
         "heightCm": 192,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0621db6f-5522-49d2-af45-27edf6f0a445/TOMAS-SOUCEK_404885_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/eb34bfe6-5b60-4771-a303-40f68231bbd2/SOUCEK-Tomas_404885"
       },
       {
         "fifaId": "511118",
@@ -5272,7 +5272,7 @@ export const teams = {
         "birthDate": "2002-07-13T00:00:00Z",
         "heightCm": 198,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/176091f3-1eb3-4d16-a743-e878bf66942f/LUKAS-HORNICEK_511118_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d76a995c-dcd7-4219-a555-3336ac87b052/HORNICEK-Lukas_511118"
       },
       {
         "fifaId": "523097",
@@ -5285,7 +5285,7 @@ export const teams = {
         "birthDate": "2003-04-02T00:00:00Z",
         "heightCm": 188,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8960ac5d-0ce0-48ee-bbd6-ec96d12c0dbf/ALEXANDR-SOJKA_523097_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f8e5df75-7de8-4950-bb53-b1d950621d33/SOJKA-Alexandr_523097"
       },
       {
         "fifaId": "506775",
@@ -5298,7 +5298,7 @@ export const teams = {
         "birthDate": "2008-06-07T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/491fc8fd-ec65-4046-872b-ec05458507bc/HUGO-SOCHUREK_506775_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/72b960f8-5b10-4a9d-8726-6525e2ee6796/SOCHUREK-Hugo_506775"
       },
       {
         "fifaId": "519985",
@@ -5311,7 +5311,7 @@ export const teams = {
         "birthDate": "2003-03-21T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/26c9369c-38a4-4226-a45a-5d506ab035c8/DENIS-VISINSKY_519985_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/60b4e376-f163-4918-8742-a2f6ada5fc84/VISINSKY-Denis_519985"
       }
     ]
   },
@@ -5340,7 +5340,7 @@ export const teams = {
         "birthDate": "1987-03-30T00:00:00Z",
         "heightCm": 189,
         "weightKg": 94,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/679fc90e-2f98-4494-a4dd-f26442fae6d3/GALINDEZ-Hernan_441236"
       },
       {
         "fifaId": "402979",
@@ -5353,7 +5353,7 @@ export const teams = {
         "birthDate": "1997-01-11T00:00:00Z",
         "heightCm": 187,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/755ac13c-2122-42ff-b40a-4582be61e59e/TORRES-Felix_402979"
       },
       {
         "fifaId": "424031",
@@ -5366,7 +5366,7 @@ export const teams = {
         "birthDate": "2002-01-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b8f68e80-3057-4fbf-be1e-8cf885a713e1/HINCAPIE-Piero_424031"
       },
       {
         "fifaId": "463465",
@@ -5379,7 +5379,7 @@ export const teams = {
         "birthDate": "2004-04-21T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/54a42d16-279a-4566-8c46-ac75d8ea095a/ORDONEZ-Joel_463465"
       },
       {
         "fifaId": "419005",
@@ -5392,7 +5392,7 @@ export const teams = {
         "birthDate": "1999-08-05T00:00:00Z",
         "heightCm": 168,
         "weightKg": 59,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7f7492dc-4cdc-41c2-8acc-91ccad4d9664/ALCIVAR-Jordy_419005"
       },
       {
         "fifaId": "448290",
@@ -5405,7 +5405,7 @@ export const teams = {
         "birthDate": "2001-10-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cda5e4c5-69a6-46ee-b6d1-230be57c4847/PACHO-Willian_448290"
       },
       {
         "fifaId": "389782",
@@ -5418,12 +5418,12 @@ export const teams = {
         "birthDate": "1998-01-21T00:00:00Z",
         "heightCm": 175,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/85df33e2-083f-4cef-9fa2-3a8fc7d29466/ESTUPINAN-Pervis_389782"
       },
       {
         "fifaId": "448299",
         "name": "Anthony VALENCIA",
-        "shortName": "VALENCIA",
+        "shortName": "A. VALENCIA",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5431,12 +5431,12 @@ export const teams = {
         "birthDate": "2003-07-21T00:00:00Z",
         "heightCm": 173,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b21d23fa-c045-4f5d-9721-59740e4006b2/VALENCIA-Anthony_448299"
       },
       {
         "fifaId": "405920",
         "name": "John YEBOAH",
-        "shortName": "YEBOAH",
+        "shortName": "YEBOAH ZAMORA",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5444,12 +5444,12 @@ export const teams = {
         "birthDate": "2000-06-23T00:00:00Z",
         "heightCm": 170,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1fc64d7c-4383-4c61-bd76-f22f22b91a8f/YEBOAH-John_405920"
       },
       {
         "fifaId": "463495",
         "name": "Kendry PAEZ",
-        "shortName": "PAEZ",
+        "shortName": "KENDRY",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5457,12 +5457,12 @@ export const teams = {
         "birthDate": "2007-05-04T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ee18ba2f-5e31-4e33-8739-f0d59033c409/PAEZ-Kendry_463495"
       },
       {
         "fifaId": "448310",
         "name": "Kevin RODRIGUEZ",
-        "shortName": "K. RODRIGUEZ",
+        "shortName": "RODRIGUEZ",
         "jerseyNumber": 11,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5470,7 +5470,7 @@ export const teams = {
         "birthDate": "2000-03-04T00:00:00Z",
         "heightCm": 190,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c35d8b13-4ad6-45d8-853e-8d7f6bd98214/RODRIGUEZ-Kevin_448310"
       },
       {
         "fifaId": "419002",
@@ -5483,7 +5483,7 @@ export const teams = {
         "birthDate": "2000-09-09T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3a641146-b759-48d0-983f-b85bb1232cc4/RAMIREZ-Moises_419002"
       },
       {
         "fifaId": "373400",
@@ -5496,7 +5496,7 @@ export const teams = {
         "birthDate": "1989-11-04T00:00:00Z",
         "heightCm": 177,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4688cb2a-6446-4439-ba5f-e4db7b5a18c5/VALENCIA-Enner_373400"
       },
       {
         "fifaId": "463468",
@@ -5509,7 +5509,7 @@ export const teams = {
         "birthDate": "2003-05-14T00:00:00Z",
         "heightCm": 174,
         "weightKg": 61,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b43c46a0-9e62-4202-b9e4-c625b36afc16/MINDA-Alan_463468"
       },
       {
         "fifaId": "424036",
@@ -5522,12 +5522,12 @@ export const teams = {
         "birthDate": "2002-03-09T00:00:00Z",
         "heightCm": 172,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0eceba19-8ceb-4cbc-ba7c-81b158e277bd/VITE-Pedro_424036"
       },
       {
         "fifaId": "402985",
         "name": "Jordy CAICEDO",
-        "shortName": "CAICEDO",
+        "shortName": "J. CAICEDO",
         "jerseyNumber": 16,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5535,7 +5535,7 @@ export const teams = {
         "birthDate": "1997-11-18T00:00:00Z",
         "heightCm": 186,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d4d93e2b-74aa-4bbf-89b2-22ebff655348/CAICEDO-Jordy_402985"
       },
       {
         "fifaId": "402974",
@@ -5548,7 +5548,7 @@ export const teams = {
         "birthDate": "1998-02-18T00:00:00Z",
         "heightCm": 174,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2e9be79f-76b7-4f12-8ba0-c4c21ec8b39d/PRECIADO-Angelo_402974"
       },
       {
         "fifaId": "463476",
@@ -5561,7 +5561,7 @@ export const teams = {
         "birthDate": "2004-03-24T00:00:00Z",
         "heightCm": 189,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/60f9a338-e7cb-45a0-a0ae-926740080bec/CASTILLO-Denil_463476"
       },
       {
         "fifaId": "419020",
@@ -5574,7 +5574,7 @@ export const teams = {
         "birthDate": "2000-11-01T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/743cc231-ab9e-45b7-8d59-ce8655280ae1/PLATA-Gonzalo_419020"
       },
       {
         "fifaId": "448312",
@@ -5587,7 +5587,7 @@ export const teams = {
         "birthDate": "2003-06-19T00:00:00Z",
         "heightCm": 184,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b90df9f2-8054-4d40-b375-f7728a31a069/ANGULO-Nilson_448312"
       },
       {
         "fifaId": "389784",
@@ -5600,7 +5600,7 @@ export const teams = {
         "birthDate": "1998-08-21T00:00:00Z",
         "heightCm": 175,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59ffe3d1-0963-44f5-861e-9eb6590d8fce/FRANCO-Alan_389784"
       },
       {
         "fifaId": "448295",
@@ -5613,12 +5613,12 @@ export const teams = {
         "birthDate": "1996-02-28T00:00:00Z",
         "heightCm": 186,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d67ebe06-be17-4735-a8a7-9659eb37cf37/VALLE-Gonzalo_448295"
       },
       {
         "fifaId": "428885",
         "name": "Moises CAICEDO",
-        "shortName": "CAICEDO",
+        "shortName": "M. CAICEDO",
         "jerseyNumber": 23,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5626,7 +5626,7 @@ export const teams = {
         "birthDate": "2001-11-02T00:00:00Z",
         "heightCm": 178,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ae32bbc5-09f0-4743-ae0a-5b80461bdc79/CAICEDO-Moises_428885"
       },
       {
         "fifaId": "514326",
@@ -5639,7 +5639,7 @@ export const teams = {
         "birthDate": "2005-03-19T00:00:00Z",
         "heightCm": 182,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9c839f83-e77a-4938-a764-95685591b367/AREVALO-Jeremy_514326"
       },
       {
         "fifaId": "419003",
@@ -5652,7 +5652,7 @@ export const teams = {
         "birthDate": "2000-08-04T00:00:00Z",
         "heightCm": 192,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/17ccf39c-5480-439a-be5f-90045606ca37/POROZO-Jackson_419003"
       },
       {
         "fifaId": "463489",
@@ -5665,7 +5665,7 @@ export const teams = {
         "birthDate": "2004-11-05T00:00:00Z",
         "heightCm": 173,
         "weightKg": 60,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/84400276-88b5-4054-b0fb-f8206f384291/MEDINA-Yaimar_463489"
       }
     ]
   },
@@ -5678,7 +5678,7 @@ export const teams = {
     "fifaRank": 29,
     "attack": 87,
     "defense": 81,
-    "form": 82,
+    "form": 81,
     "coach": "HOSSAM HASSAN",
     "flagUrl": "https://flagcdn.com/eg.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/EGY",
@@ -5686,7 +5686,7 @@ export const teams = {
       {
         "fifaId": "408948",
         "name": "MOHAMED ELSHENAWY",
-        "shortName": "M.ELSHENAWY",
+        "shortName": "M. ELSHENAWY",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -5694,7 +5694,7 @@ export const teams = {
         "birthDate": "1988-12-18T00:00:00Z",
         "heightCm": 191,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bfa85ca-3349-4143-9afa-1b5a43ac8c54/MOHAMED-ELSHENAWY_408948"
       },
       {
         "fifaId": "369267",
@@ -5707,12 +5707,12 @@ export const teams = {
         "birthDate": "1993-02-10T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/028afc10-053b-443f-819c-d95ae0d46a55/YASSER-IBRAHIM_369267"
       },
       {
         "fifaId": "408950",
         "name": "MOHAMED HANY",
-        "shortName": "M.HANY",
+        "shortName": "M. HANY",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -5720,7 +5720,7 @@ export const teams = {
         "birthDate": "1996-02-02T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/04f8ef57-e16f-49de-b7d4-ad430c4c430c/MOHAMED-HANY_408950"
       },
       {
         "fifaId": "483182",
@@ -5733,12 +5733,12 @@ export const teams = {
         "birthDate": "2001-04-30T00:00:00Z",
         "heightCm": 193,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/406ef52d-c003-4108-b9c2-126b4ad8354b/HOSSAM-ABDELMAGUID_483182"
       },
       {
         "fifaId": "344661",
         "name": "RAMY RABIA",
-        "shortName": "R.RABIA",
+        "shortName": "R. RABIA",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
@@ -5746,7 +5746,7 @@ export const teams = {
         "birthDate": "1993-05-20T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/403c9e6d-efe6-4917-86ea-c7eddc442208/RABIA-Ramy_344661"
       },
       {
         "fifaId": "416902",
@@ -5759,7 +5759,7 @@ export const teams = {
         "birthDate": "1999-02-01T00:00:00Z",
         "heightCm": 184,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5e36f80b-9432-444f-ac25-10cf792c341f/MOHAMED-ABDELMONEIM_416902"
       },
       {
         "fifaId": "363863",
@@ -5772,12 +5772,12 @@ export const teams = {
         "birthDate": "1994-10-01T00:00:00Z",
         "heightCm": 181,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fd2622c8-9bd4-40f0-bb16-6b3311bb1811/TREZEGUET_363863"
       },
       {
         "fifaId": "430482",
         "name": "EMAM ASHOUR",
-        "shortName": "E.ASHOUR",
+        "shortName": "E. ASHOUR",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5785,12 +5785,12 @@ export const teams = {
         "birthDate": "1998-02-20T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6d203b10-285b-4800-b448-e34d2b3a3e09/EMAM-ASHOUR_430482"
       },
       {
         "fifaId": "495488",
         "name": "HAMZA ABDELKARIM",
-        "shortName": "H.ABDELKARIM",
+        "shortName": "ABDELKARIM",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5798,12 +5798,12 @@ export const teams = {
         "birthDate": "2008-01-01T00:00:00Z",
         "heightCm": 182,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e8c1e0e0-66da-4bfb-ace2-e040710da50c/HAMZA-ABDELKARIM_495488"
       },
       {
         "fifaId": "344654",
         "name": "MOHAMED SALAH",
-        "shortName": "M SALAH",
+        "shortName": "M. SALAH",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5811,7 +5811,7 @@ export const teams = {
         "birthDate": "1992-06-15T00:00:00Z",
         "heightCm": 175,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8d5236b8-acac-4946-af8e-5b007bcfa284/MOHAMED-SALAH_344654"
       },
       {
         "fifaId": "483161",
@@ -5824,7 +5824,7 @@ export const teams = {
         "birthDate": "1997-04-27T00:00:00Z",
         "heightCm": 179,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f417b544-6a3c-46a9-af78-d43d6cedcad1/MOSTAFA-ZICO_483161"
       },
       {
         "fifaId": "424106",
@@ -5837,7 +5837,7 @@ export const teams = {
         "birthDate": "2002-02-08T00:00:00Z",
         "heightCm": 175,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88bef92d-4236-4445-9d6f-c2674e218a60/HAISSEM-HASSAN_424106"
       },
       {
         "fifaId": "430477",
@@ -5850,7 +5850,7 @@ export const teams = {
         "birthDate": "1998-03-22T00:00:00Z",
         "heightCm": 177,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c22759e9-6346-4cb7-8611-74074421be7f/AHMED-FATOUH_430477"
       },
       {
         "fifaId": "429095",
@@ -5863,7 +5863,7 @@ export const teams = {
         "birthDate": "1994-09-29T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2de277f5-cea7-47f9-9635-f9fb3a205c2a/HAMDY-FATHY_429095"
       },
       {
         "fifaId": "407022",
@@ -5876,12 +5876,12 @@ export const teams = {
         "birthDate": "1996-03-12T00:00:00Z",
         "heightCm": 174,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2cd7ce59-aa56-4018-8d9c-5628a27e13c4/KARIM-HAFEZ_407022"
       },
       {
         "fifaId": "395860",
         "name": "MAHDY SOLIMAN",
-        "shortName": "MAHDY SOLIMAN",
+        "shortName": "M. SOLIMAN",
         "jerseyNumber": 16,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -5889,12 +5889,12 @@ export const teams = {
         "birthDate": "1987-06-08T00:00:00Z",
         "heightCm": 189,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/90b92e39-b717-40c5-a2ab-05616ca017c8/MAHDY-SOLIMAN_395860"
       },
       {
         "fifaId": "433469",
         "name": "MOHANAD LASHIN",
-        "shortName": "MOHANAD LASHIN",
+        "shortName": "M. LASHIN",
         "jerseyNumber": 17,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5902,12 +5902,12 @@ export const teams = {
         "birthDate": "1996-05-29T00:00:00Z",
         "heightCm": 186,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/55be7619-52f3-481a-8542-9832ba7c8e7d/MOHANAD-LASHIN_433469"
       },
       {
         "fifaId": "433466",
         "name": "NABIL DONGA",
-        "shortName": "NABIL DONGA",
+        "shortName": "DONGA",
         "jerseyNumber": 18,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5915,12 +5915,12 @@ export const teams = {
         "birthDate": "1996-04-06T00:00:00Z",
         "heightCm": 179,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/01dc0ada-6dcb-4f73-b81e-4103640705a8/NABIL-DONGA_433466"
       },
       {
         "fifaId": "461788",
         "name": "MARAWAN ATTIA",
-        "shortName": "M.ATTIA",
+        "shortName": "M. ATTIA",
         "jerseyNumber": 19,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -5928,12 +5928,12 @@ export const teams = {
         "birthDate": "1998-08-01T00:00:00Z",
         "heightCm": 176,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cf051f82-c8a8-4328-9439-2ab64f616b83/MARAWAN-ATTIA_461788"
       },
       {
         "fifaId": "430465",
         "name": "IBRAHIM ADEL",
-        "shortName": "IBRAHIM ADEL",
+        "shortName": "I. ADEL",
         "jerseyNumber": 20,
         "position": "FW",
         "positionLabel": "Forward",
@@ -5941,7 +5941,7 @@ export const teams = {
         "birthDate": "2001-04-23T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7486073a-56eb-4963-9bca-1036e8b187f0/IBRAHIM-ADEL_430465"
       },
       {
         "fifaId": "483183",
@@ -5954,7 +5954,7 @@ export const teams = {
         "birthDate": "2001-07-30T00:00:00Z",
         "heightCm": 170,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f1c9f887-0fab-447c-9c91-33aba2c2dbe1/MAHMOUD-SABER_483183"
       },
       {
         "fifaId": "430476",
@@ -5967,7 +5967,7 @@ export const teams = {
         "birthDate": "1999-02-07T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a3f5a36a-57b4-407b-a07e-7b5f6d19af5b/OMAR-MARMOUSH_430476"
       },
       {
         "fifaId": "416906",
@@ -5980,7 +5980,7 @@ export const teams = {
         "birthDate": "2000-05-15T00:00:00Z",
         "heightCm": 195,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0fa52c2d-3a6c-49cf-ac83-ddc4a08d57e3/MOSTAFA-SHOUBIR_416906"
       },
       {
         "fifaId": "506124",
@@ -5993,7 +5993,7 @@ export const teams = {
         "birthDate": "2002-01-05T00:00:00Z",
         "heightCm": 178,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9bbd4a65-1d5e-4383-b5d5-cf60bbdcec1d/TAREK-ALAA_506124"
       },
       {
         "fifaId": "433461",
@@ -6006,7 +6006,7 @@ export const teams = {
         "birthDate": "1996-01-10T00:00:00Z",
         "heightCm": 175,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/93b944be-7bd7-4c1d-807e-7b8e2cbc2a12/ZIZO_433461"
       },
       {
         "fifaId": "512079",
@@ -6019,7 +6019,7 @@ export const teams = {
         "birthDate": "1999-01-01T00:00:00Z",
         "heightCm": 188,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6a209a18-784b-401d-af68-4c768a814a36/MOHAMED-ALAA_512079"
       }
     ]
   },
@@ -6048,7 +6048,7 @@ export const teams = {
         "birthDate": "1994-03-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5f9b3bbf-edb5-4956-bce7-2d0a8e77f6ab/PICKFORD-Jordan_336022"
       },
       {
         "fifaId": "403049",
@@ -6061,7 +6061,7 @@ export const teams = {
         "birthDate": "1997-10-23T00:00:00Z",
         "heightCm": 180,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/54b28723-92e1-42e8-97b5-162f5099cf60/KONSA-Ezri_403049"
       },
       {
         "fifaId": "463780",
@@ -6074,7 +6074,7 @@ export const teams = {
         "birthDate": "2005-03-21T00:00:00Z",
         "heightCm": 177,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6a6be1c6-3496-49ba-81ca-354bdb2f404c/OREILLY-Nico_390761"
       },
       {
         "fifaId": "433097",
@@ -6087,7 +6087,7 @@ export const teams = {
         "birthDate": "1999-01-14T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/acb98657-fa9b-4202-bc38-075a97b5bf78/RICE-Declan_433097"
       },
       {
         "fifaId": "369434",
@@ -6100,7 +6100,7 @@ export const teams = {
         "birthDate": "1994-05-28T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bb455f6a-d793-44ef-92b8-bd1aff6d14d6/STONES-John_369434"
       },
       {
         "fifaId": "405841",
@@ -6113,7 +6113,7 @@ export const teams = {
         "birthDate": "2000-07-13T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c9686f87-8abd-45fb-a1e0-321ee8470dd6/GUEHI-Marc_405841"
       },
       {
         "fifaId": "448196",
@@ -6126,7 +6126,7 @@ export const teams = {
         "birthDate": "2001-09-05T00:00:00Z",
         "heightCm": 178,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b1182d25-62ad-4ad8-8bae-2b7577569484/MUMIN-Abdul_441336"
       },
       {
         "fifaId": "481610",
@@ -6139,7 +6139,7 @@ export const teams = {
         "birthDate": "2002-11-06T00:00:00Z",
         "heightCm": 179,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8da5855f-c957-4151-94a0-731e9714249f/ANDERSON-Elliot_481610"
       },
       {
         "fifaId": "369419",
@@ -6152,7 +6152,7 @@ export const teams = {
         "birthDate": "1993-07-28T00:00:00Z",
         "heightCm": 190,
         "weightKg": 91,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5ad83fe6-1139-4f92-a97c-669052eb1755/KANE-Harry_369419"
       },
       {
         "fifaId": "448202",
@@ -6165,7 +6165,7 @@ export const teams = {
         "birthDate": "2003-06-29T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d711b37f-ec06-4ea7-bb52-50ba0a42ef67/BELLINGHAM-Jude_448202"
       },
       {
         "fifaId": "401470",
@@ -6178,25 +6178,25 @@ export const teams = {
         "birthDate": "1997-10-31T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c89a3e5-8d8f-474f-a0fe-8c39faa3dc8d/RASHFORD-Marcus_401470"
       },
       {
-        "fifaId": "489731",
-        "name": "Tino LIVRAMENTO",
-        "shortName": "LIVRAMENTO",
+        "fifaId": "439691",
+        "name": "Trevoh CHALOBAH",
+        "shortName": "CHALOBAH",
         "jerseyNumber": 12,
         "position": "DF",
         "positionLabel": "Defender",
         "club": "",
-        "birthDate": "2002-11-12T00:00:00Z",
-        "heightCm": 182,
-        "weightKg": 71,
-        "photoUrl": ""
+        "birthDate": "1999-07-05T00:00:00Z",
+        "heightCm": 192,
+        "weightKg": 86,
+        "photoUrl": "https://digitalhub.fifa.com/transform/7fa89d9b-c648-4789-ab66-f00a2fbf56df/CHALOBAH-Trevoh_439691"
       },
       {
         "fifaId": "403046",
         "name": "Dean Henderson",
-        "shortName": "HENDERSON",
+        "shortName": "D. HENDERSON",
         "jerseyNumber": 13,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -6204,7 +6204,7 @@ export const teams = {
         "birthDate": "1997-03-12T00:00:00Z",
         "heightCm": 188,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/acb3f8de-1176-40ef-99c2-e671120fbde0/HENDERSON-Dean_403046"
       },
       {
         "fifaId": "356189",
@@ -6217,7 +6217,7 @@ export const teams = {
         "birthDate": "1990-06-17T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/95e802dd-2731-42ff-97ce-b92c47954fa1/HENDERSON-Jordan_356189"
       },
       {
         "fifaId": "494345",
@@ -6230,7 +6230,7 @@ export const teams = {
         "birthDate": "1992-05-09T00:00:00Z",
         "heightCm": 201,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ac44e40e-162d-4459-94b6-8971a032e371/BURN-Dan_494345"
       },
       {
         "fifaId": "482621",
@@ -6243,7 +6243,7 @@ export const teams = {
         "birthDate": "2005-04-19T00:00:00Z",
         "heightCm": 183,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/add399f5-3af6-4ce6-b078-8595e805f1be/MAINOO-Kobbie_482621"
       },
       {
         "fifaId": "492716",
@@ -6256,7 +6256,7 @@ export const teams = {
         "birthDate": "2002-07-26T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/426bfdb9-3999-4826-81b8-dd33691a45a2/ROGERS-Morgan_492716"
       },
       {
         "fifaId": "448189",
@@ -6269,7 +6269,7 @@ export const teams = {
         "birthDate": "2001-02-24T00:00:00Z",
         "heightCm": 182,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bb7bbfe0-791d-408e-a2c2-f33156fce3e8/GORDON-Anthony_448189"
       },
       {
         "fifaId": "448203",
@@ -6282,7 +6282,7 @@ export const teams = {
         "birthDate": "1995-12-30T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/876d6c91-be07-4b54-a86d-d73e2ef52d8f/WATKINS-Ollie_448203"
       },
       {
         "fifaId": "489732",
@@ -6295,7 +6295,7 @@ export const teams = {
         "birthDate": "2002-03-10T00:00:00Z",
         "heightCm": 182,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/115733f4-8e52-477a-867f-063f1e2c7752/MADUEKE-Noni_489732"
       },
       {
         "fifaId": "473113",
@@ -6308,7 +6308,7 @@ export const teams = {
         "birthDate": "1998-06-29T00:00:00Z",
         "heightCm": 178,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c08bf1d9-1dce-4862-b810-2f9e198a4950/EZE-Eberechi_473113"
       },
       {
         "fifaId": "448198",
@@ -6321,7 +6321,7 @@ export const teams = {
         "birthDate": "1996-03-16T00:00:00Z",
         "heightCm": 185,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/720c0b56-6b1c-49aa-8c9d-5aec2c23c673/TONEY-Ivan_448198"
       },
       {
         "fifaId": "485080",
@@ -6334,7 +6334,7 @@ export const teams = {
         "birthDate": "2002-10-10T00:00:00Z",
         "heightCm": 197,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f923135f-5d11-46cb-90a3-517f74cb4c76/TRAFFORD-James_485080"
       },
       {
         "fifaId": "439641",
@@ -6347,7 +6347,7 @@ export const teams = {
         "birthDate": "1999-12-08T00:00:00Z",
         "heightCm": 180,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1ffcc3c3-fdf3-4b61-9ac5-299213771a62/JAMES-Reece_439641"
       },
       {
         "fifaId": "506329",
@@ -6360,7 +6360,7 @@ export const teams = {
         "birthDate": "2000-08-09T00:00:00Z",
         "heightCm": 184,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/03356baa-b368-4192-bf86-ad3033e57ad2/SPENCE-Djed_506329"
       },
       {
         "fifaId": "463809",
@@ -6373,7 +6373,7 @@ export const teams = {
         "birthDate": "2003-01-29T00:00:00Z",
         "heightCm": 190,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/60c5fb68-c640-45dc-a493-75e1d9f3450c/QUANSAH-Jarell_463809"
       }
     ]
   },
@@ -6383,10 +6383,10 @@ export const teams = {
     "name": "France",
     "group": "Group I",
     "confederation": "UEFA",
-    "fifaRank": 1,
+    "fifaRank": 3,
     "attack": 92,
     "defense": 92,
-    "form": 89,
+    "form": 87,
     "coach": "Didier DESCHAMPS",
     "flagUrl": "https://flagcdn.com/fr.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/FRA",
@@ -6402,7 +6402,7 @@ export const teams = {
         "birthDate": "1994-04-25T00:00:00Z",
         "heightCm": 187,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/99fa69d0-8c6e-4c11-a78c-98a70aa322f8/SAMBA-Brice_483471"
       },
       {
         "fifaId": "464055",
@@ -6415,7 +6415,7 @@ export const teams = {
         "birthDate": "2003-05-19T00:00:00Z",
         "heightCm": 179,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a747375e-cd17-4ef2-8241-fa7b9a7dab2b/GUSTO-Malo_464055"
       },
       {
         "fifaId": "368860",
@@ -6428,7 +6428,7 @@ export const teams = {
         "birthDate": "1993-07-20T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/70e09388-6736-4f6c-85cf-0aa2017a6b18/DIGNE-Lucas_368860"
       },
       {
         "fifaId": "389876",
@@ -6441,7 +6441,7 @@ export const teams = {
         "birthDate": "1998-10-27T00:00:00Z",
         "heightCm": 186,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/daae69ae-72e0-4e42-812f-d19d74d12478/UPAMECANO-Dayot_389876"
       },
       {
         "fifaId": "430707",
@@ -6454,7 +6454,7 @@ export const teams = {
         "birthDate": "1998-11-12T00:00:00Z",
         "heightCm": 178,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/31b384b6-20b7-4629-ab33-aa67cf403fc3/KOUNDE-Jules_430707"
       },
       {
         "fifaId": "485677",
@@ -6467,12 +6467,12 @@ export const teams = {
         "birthDate": "2001-05-17T00:00:00Z",
         "heightCm": 185,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fab8dcfa-7c16-4c88-adeb-51cf932e3abc/KONE-Manu_485677"
       },
       {
         "fifaId": "398680",
         "name": "Ousmane DEMBELE",
-        "shortName": "O. DEMBÉLÉ",
+        "shortName": "DEMBELE",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -6480,7 +6480,7 @@ export const teams = {
         "birthDate": "1997-05-15T00:00:00Z",
         "heightCm": 179,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e6eee717-fd8c-4f8f-a7e0-c4f978fe327f/DEMBELE-Ousmane_398680"
       },
       {
         "fifaId": "405893",
@@ -6493,7 +6493,7 @@ export const teams = {
         "birthDate": "2000-01-27T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8575fee6-68ae-4be0-9529-7e5c392e06e6/TCHOUAMENI-Aurelien_405893"
       },
       {
         "fifaId": "403109",
@@ -6506,12 +6506,12 @@ export const teams = {
         "birthDate": "1997-08-06T00:00:00Z",
         "heightCm": 192,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6d9fa458-dba9-47da-87d9-83749fdfce9d/THURAM-Marcus_403109"
       },
       {
         "fifaId": "389867",
         "name": "Kylian MBAPPE",
-        "shortName": "MBAPPÉ",
+        "shortName": "MBAPPE",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -6519,7 +6519,7 @@ export const teams = {
         "birthDate": "1998-12-20T00:00:00Z",
         "heightCm": 180,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/66f6087d-9563-4644-8f10-5614ef6e1e51/MBAPPE-Kylian_389867"
       },
       {
         "fifaId": "485655",
@@ -6532,7 +6532,7 @@ export const teams = {
         "birthDate": "2001-12-12T00:00:00Z",
         "heightCm": 184,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/979cc206-e23b-4b21-8d40-843607ba8964/OLISE-Michael_485655"
       },
       {
         "fifaId": "484860",
@@ -6545,7 +6545,7 @@ export const teams = {
         "birthDate": "2002-09-02T00:00:00Z",
         "heightCm": 187,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/10e80ef7-3aa9-4c07-9639-e8bc04828d31/BARCOLA-Bradley_484860"
       },
       {
         "fifaId": "398681",
@@ -6558,7 +6558,7 @@ export const teams = {
         "birthDate": "1991-03-29T00:00:00Z",
         "heightCm": 171,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/355040a8-6b40-452b-92af-7c22f91cb87c/KANTE-Ngolo_398681"
       },
       {
         "fifaId": "402047",
@@ -6571,7 +6571,7 @@ export const teams = {
         "birthDate": "1995-04-03T00:00:00Z",
         "heightCm": 191,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2daab6cd-9fc6-4a46-acd6-82974aab8415/RABIOT-Adrien_402047"
       },
       {
         "fifaId": "419166",
@@ -6584,7 +6584,7 @@ export const teams = {
         "birthDate": "1999-05-25T00:00:00Z",
         "heightCm": 194,
         "weightKg": 95,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/de7e635e-41b2-4383-9fbf-d38e6c737d51/KONATE-Ibrahima_419166"
       },
       {
         "fifaId": "448332",
@@ -6597,7 +6597,7 @@ export const teams = {
         "birthDate": "1995-07-03T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3f92a933-a22d-4f58-8f4f-b51370aeacf4/MAIGNAN-Mike_448332"
       },
       {
         "fifaId": "419177",
@@ -6610,12 +6610,12 @@ export const teams = {
         "birthDate": "2001-03-24T00:00:00Z",
         "heightCm": 192,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/242125e7-67c3-4fcd-b0cc-6c5984c319f4/SALIBA-William_419177"
       },
       {
         "fifaId": "483549",
         "name": "Warren ZAIRE-EMERY",
-        "shortName": "ZAÏRE-EMERY",
+        "shortName": "ZAIRE-EMERY",
         "jerseyNumber": 18,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -6623,12 +6623,12 @@ export const teams = {
         "birthDate": "2006-03-08T00:00:00Z",
         "heightCm": 176,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c4237ad3-cb10-4854-b9de-54126267d251/ZAIRE-EMERY-Warren_483549"
       },
       {
         "fifaId": "408042",
         "name": "Theo HERNANDEZ",
-        "shortName": "THEO",
+        "shortName": "T. HERNANDEZ",
         "jerseyNumber": 19,
         "position": "DF",
         "positionLabel": "Defender",
@@ -6636,12 +6636,12 @@ export const teams = {
         "birthDate": "1997-10-06T00:00:00Z",
         "heightCm": 184,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6f76533f-feca-4811-a010-e6e296b29db8/HERNANDEZ-Theo_408042"
       },
       {
         "fifaId": "464114",
         "name": "Desire DOUE",
-        "shortName": "D. DOUÉ",
+        "shortName": "DOUE",
         "jerseyNumber": 20,
         "position": "FW",
         "positionLabel": "Forward",
@@ -6649,7 +6649,7 @@ export const teams = {
         "birthDate": "2005-06-03T00:00:00Z",
         "heightCm": 182,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ca4e60df-4c45-48e9-89e4-70ce6ac3b3b1/DOUE-Desire_464114"
       },
       {
         "fifaId": "411470",
@@ -6662,7 +6662,7 @@ export const teams = {
         "birthDate": "1996-02-14T00:00:00Z",
         "heightCm": 184,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6ce8ced5-3b91-4a38-80ca-730e4a2ceb57/HERNANDEZ-Lucas_411470"
       },
       {
         "fifaId": "403094",
@@ -6675,7 +6675,7 @@ export const teams = {
         "birthDate": "1997-06-28T00:00:00Z",
         "heightCm": 192,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/91ab0f40-08d4-44bc-8b5b-dddb63b440bf/MATETA-Jean-Philippe_403094"
       },
       {
         "fifaId": "464127",
@@ -6688,7 +6688,7 @@ export const teams = {
         "birthDate": "2004-12-02T00:00:00Z",
         "heightCm": 193,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/834e2e38-78ec-4e02-98a8-dbc085a9637c/RISSER-Robin_464127"
       },
       {
         "fifaId": "431861",
@@ -6701,7 +6701,7 @@ export const teams = {
         "birthDate": "2003-08-17T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e1fe82ba-026b-4f05-87ba-c1fb49f670e5/CHERKI-Rayan_431861"
       },
       {
         "fifaId": "485666",
@@ -6714,7 +6714,7 @@ export const teams = {
         "birthDate": "2002-02-25T00:00:00Z",
         "heightCm": 183,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/86a154a1-3ed6-46b8-977c-3a04925c39bc/AKLIOUCHE-Maghnes_485666"
       },
       {
         "fifaId": "405881",
@@ -6727,7 +6727,7 @@ export const teams = {
         "birthDate": "2000-04-06T00:00:00Z",
         "heightCm": 192,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a250ee2e-c181-46bb-b565-27d12a7b1878/LACROIX-Maxence_405881"
       }
     ]
   },
@@ -6756,7 +6756,7 @@ export const teams = {
         "birthDate": "1986-03-27T00:00:00Z",
         "heightCm": 193,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e3701d06-66b5-4728-8bad-fea05319b6b8/NEUER-Manuel_228912"
       },
       {
         "fifaId": "379955",
@@ -6769,7 +6769,7 @@ export const teams = {
         "birthDate": "1993-03-03T00:00:00Z",
         "heightCm": 190,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88c43fe2-0c78-437c-a2bf-388c3673c58c/RUEDIGER-Antonio_379955"
       },
       {
         "fifaId": "430658",
@@ -6782,7 +6782,7 @@ export const teams = {
         "birthDate": "1996-07-20T00:00:00Z",
         "heightCm": 189,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2bdd66d9-f9dc-44ab-8c6e-ededdb004f77/ANTON-Waldemar_430658"
       },
       {
         "fifaId": "401378",
@@ -6795,12 +6795,12 @@ export const teams = {
         "birthDate": "1996-02-11T00:00:00Z",
         "heightCm": 195,
         "weightKg": 94,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/34f74ca0-1102-446c-b098-02decdf58b8d/TAH-Jonathan_401378"
       },
       {
         "fifaId": "484849",
         "name": "Aleksandar PAVLOVIC",
-        "shortName": "PAVLOVIC",
+        "shortName": "PAVLOVIĆ",
         "jerseyNumber": 5,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -6808,7 +6808,7 @@ export const teams = {
         "birthDate": "2004-05-03T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7cfb5f20-6f8a-4329-97a2-be3cb66fea0f/PAVLOVIC-Aleksandar_484849"
       },
       {
         "fifaId": "386413",
@@ -6821,7 +6821,7 @@ export const teams = {
         "birthDate": "1995-02-08T00:00:00Z",
         "heightCm": 177,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ada33dfd-5b01-4792-88f4-14c06641509e/KIMMICH-Joshua_386413"
       },
       {
         "fifaId": "411367",
@@ -6834,7 +6834,7 @@ export const teams = {
         "birthDate": "1999-06-11T00:00:00Z",
         "heightCm": 190,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1fdd4d11-97d1-4392-b345-5a5eecc54839/HAVERTZ-Kai_411367"
       },
       {
         "fifaId": "379953",
@@ -6847,7 +6847,7 @@ export const teams = {
         "birthDate": "1995-02-06T00:00:00Z",
         "heightCm": 189,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a5e5e083-d89c-4be7-a367-8456e0f8cb35/GORETZKA-Leon_379953"
       },
       {
         "fifaId": "491218",
@@ -6860,7 +6860,7 @@ export const teams = {
         "birthDate": "2001-02-26T00:00:00Z",
         "heightCm": 185,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a53f7aa4-eaba-4bb1-9654-e563adb10d2e/LEWELING-Jamie_491218"
       },
       {
         "fifaId": "429642",
@@ -6873,7 +6873,7 @@ export const teams = {
         "birthDate": "2003-02-26T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/05f50027-268f-43ff-ba75-1b477b37ca60/MUSIALA-Jamal_429642"
       },
       {
         "fifaId": "498416",
@@ -6886,7 +6886,7 @@ export const teams = {
         "birthDate": "2002-02-14T00:00:00Z",
         "heightCm": 198,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e93d4ee5-827d-47bc-b3d5-3f1c38e7293e/WOLTEMADE-Nick_498416"
       },
       {
         "fifaId": "306538",
@@ -6899,7 +6899,7 @@ export const teams = {
         "birthDate": "1990-06-02T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9da65f41-ea53-4209-b2f6-c59e69dbc193/BAUMANN-Oliver_306538"
       },
       {
         "fifaId": "484848",
@@ -6912,7 +6912,7 @@ export const teams = {
         "birthDate": "1991-06-15T00:00:00Z",
         "heightCm": 181,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c7eaa0cd-48e1-4349-a6d9-dd00553b7913/GROSS-Pascal_484848"
       },
       {
         "fifaId": "484850",
@@ -6925,7 +6925,7 @@ export const teams = {
         "birthDate": "2002-10-17T00:00:00Z",
         "heightCm": 185,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/34e90391-c4b4-4a96-9b57-71c45bb584c2/BEIER-Maximilian_484850"
       },
       {
         "fifaId": "430667",
@@ -6938,7 +6938,7 @@ export const teams = {
         "birthDate": "1999-12-01T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3ece206c-50ae-4b63-ac21-a174f2fbb35a/SCHLOTTERBECK-Nico_430667"
       },
       {
         "fifaId": "429640",
@@ -6951,12 +6951,12 @@ export const teams = {
         "birthDate": "2001-04-04T00:00:00Z",
         "heightCm": 183,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/69c7b030-2ce8-479c-9cd4-a7d62e48d9a4/STILLER-Angelo_429640"
       },
       {
         "fifaId": "430669",
         "name": "Florian WIRTZ",
-        "shortName": "Florian WIRTZ",
+        "shortName": "WIRTZ",
         "jerseyNumber": 17,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -6964,7 +6964,7 @@ export const teams = {
         "birthDate": "2003-05-03T00:00:00Z",
         "heightCm": 176,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3a120189-62cc-441f-b862-7fdd2a9abfa4/WIRTZ-Florian_430669"
       },
       {
         "fifaId": "511015",
@@ -6977,7 +6977,7 @@ export const teams = {
         "birthDate": "2003-06-16T00:00:00Z",
         "heightCm": 176,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/68e13808-182e-46b6-a6ec-a54136a57c1b/BROWN-Nathaniel_511015"
       },
       {
         "fifaId": "404353",
@@ -6990,7 +6990,7 @@ export const teams = {
         "birthDate": "1996-01-11T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/097a6749-47b0-4285-a1f9-8aa0ac0e2c12/SANE-Leroy_404353"
       },
       {
         "fifaId": "395471",
@@ -7003,12 +7003,12 @@ export const teams = {
         "birthDate": "1996-10-27T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3c1dcefe-5f38-479a-ac6a-091a86cb7663/AMIRI-Nadiem_395471"
       },
       {
         "fifaId": "429639",
         "name": "Alexander NUEBEL",
-        "shortName": "Alexander NUEBEL",
+        "shortName": "NÜBEL",
         "jerseyNumber": 21,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7016,12 +7016,12 @@ export const teams = {
         "birthDate": "1996-09-30T00:00:00Z",
         "heightCm": 193,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9d30bb13-c082-4759-90e7-e0bde4305d1f/NUEBEL-Alexander_429639"
       },
       {
         "fifaId": "430657",
         "name": "David RAUM",
-        "shortName": "David RAUM",
+        "shortName": "RAUM",
         "jerseyNumber": 22,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7029,7 +7029,7 @@ export const teams = {
         "birthDate": "1998-04-22T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ce3509c6-13ad-441a-8d05-9d42f8a4578c/RAUM-David_430657"
       },
       {
         "fifaId": "492363",
@@ -7042,7 +7042,7 @@ export const teams = {
         "birthDate": "2000-10-10T00:00:00Z",
         "heightCm": 190,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9895941b-9be6-4900-a336-493f1237b0e6/NMECHA-Felix_492363"
       },
       {
         "fifaId": "514188",
@@ -7055,7 +7055,7 @@ export const teams = {
         "birthDate": "2001-08-08T00:00:00Z",
         "heightCm": 194,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eaa37355-0eca-4954-845c-437aa602db42/THIAW-Malick_514188"
       },
       {
         "fifaId": "475195",
@@ -7068,7 +7068,7 @@ export const teams = {
         "birthDate": "2006-05-09T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3bdd0feb-2965-4dff-9aa1-22b6d769e90d/OUEDRAOGO-Assan_475195"
       },
       {
         "fifaId": "484851",
@@ -7081,7 +7081,7 @@ export const teams = {
         "birthDate": "1996-07-19T00:00:00Z",
         "heightCm": 179,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3ec30e08-a7eb-4781-aea8-0e9ff86ebef1/UNDAV-Deniz_484851"
       }
     ]
   },
@@ -7091,10 +7091,10 @@ export const teams = {
     "name": "Ghana",
     "group": "Group L",
     "confederation": "CAF",
-    "fifaRank": 74,
+    "fifaRank": 73,
     "attack": 83,
     "defense": 83,
-    "form": 73,
+    "form": 74,
     "coach": "CARLOS QUEIROZ",
     "flagUrl": "https://flagcdn.com/gh.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/GHA",
@@ -7102,7 +7102,7 @@ export const teams = {
       {
         "fifaId": "386473",
         "name": "Lawrence Ati ZIGI",
-        "shortName": "ATI",
+        "shortName": "ZIGI",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7110,12 +7110,12 @@ export const teams = {
         "birthDate": "1996-11-29T00:00:00Z",
         "heightCm": 188,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ff31f89d-7f19-4a3e-b213-6c943ec77fb4/ZIGI-Lawrence-Ati_386473"
       },
       {
         "fifaId": "448522",
         "name": "Alidu SEIDU",
-        "shortName": "Alidu SEIDU",
+        "shortName": "ALIDU SEIDU",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7123,12 +7123,12 @@ export const teams = {
         "birthDate": "2000-06-04T00:00:00Z",
         "heightCm": 173,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d37bf93a-6fc3-483d-be08-32032b5956bc/SEIDU-Alidu_448522"
       },
       {
         "fifaId": "506279",
         "name": "Caleb YIRENKYI",
-        "shortName": "CALEB",
+        "shortName": "YIRENKYI",
         "jerseyNumber": 3,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -7136,7 +7136,7 @@ export const teams = {
         "birthDate": "2006-01-15T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3c283bda-a2ed-4c1d-9115-aef0cc7dac97/YIRENKYI-Caleb_506279"
       },
       {
         "fifaId": "494351",
@@ -7149,12 +7149,12 @@ export const teams = {
         "birthDate": "2003-12-13T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59b24298-f09f-4f11-afe4-805c459e6fa2/ADJETEY-Jonas_494351"
       },
       {
         "fifaId": "369089",
         "name": "Thomas PARTEY",
-        "shortName": "THOMAS",
+        "shortName": "PARTEY",
         "jerseyNumber": 5,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -7162,12 +7162,12 @@ export const teams = {
         "birthDate": "1993-06-13T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4973b241-e78b-4c13-b699-66c8c16f882a/PARTEY-Thomas_369089"
       },
       {
         "fifaId": "441336",
         "name": "Abdul MUMIN",
-        "shortName": "SULEMAN",
+        "shortName": "A. MUMIN",
         "jerseyNumber": 6,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7175,12 +7175,12 @@ export const teams = {
         "birthDate": "1998-06-06T00:00:00Z",
         "heightCm": 188,
         "weightKg": 60,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/394452a3-57aa-4ce7-b506-9ba8de7254eb/MUMIN-Abdul_441336"
       },
       {
         "fifaId": "441342",
         "name": "Abdul FATAWU",
-        "shortName": "Abdul FATAWU",
+        "shortName": "A. FATAWU",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7188,7 +7188,7 @@ export const teams = {
         "birthDate": "2004-03-08T00:00:00Z",
         "heightCm": 177,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c76bdca8-f959-4934-8ecf-47d38aac600c/ISSAHAKU-Fatawu_441342"
       },
       {
         "fifaId": "507253",
@@ -7201,12 +7201,12 @@ export const teams = {
         "birthDate": "1998-06-24T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a61e2a7d-38de-46d5-888b-1ad713a329c4/SIBO-Kwasi_507253"
       },
       {
         "fifaId": "353235",
         "name": "Jordan AYEW",
-        "shortName": "AYEW",
+        "shortName": "J. AYEW",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7214,7 +7214,7 @@ export const teams = {
         "birthDate": "1991-09-11T00:00:00Z",
         "heightCm": 182,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/527a870c-dad4-474a-91a3-3ccac43d3ce7/AYEW-Jordan_353235"
       },
       {
         "fifaId": "486213",
@@ -7227,7 +7227,7 @@ export const teams = {
         "birthDate": "1998-12-29T00:00:00Z",
         "heightCm": 182,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d80ceb13-447c-4de1-b0c2-09b570b3e6ef/THOMAS-ASANTE-Brandon_486213"
       },
       {
         "fifaId": "448531",
@@ -7240,7 +7240,7 @@ export const teams = {
         "birthDate": "2000-01-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c0b6a316-ecf6-4944-b8fc-ccdd60b15a5a/SEMENYO-Antoine_448531"
       },
       {
         "fifaId": "506277",
@@ -7253,12 +7253,12 @@ export const teams = {
         "birthDate": "2000-06-08T00:00:00Z",
         "heightCm": 190,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ddb39257-eec9-4097-bc08-6f1dbe034dec/ANANG-Joseph_506277"
       },
       {
         "fifaId": "494350",
         "name": "Christopher Bonsu BAAH",
-        "shortName": "BAAH",
+        "shortName": "BONSU BAAH",
         "jerseyNumber": 13,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7266,7 +7266,7 @@ export const teams = {
         "birthDate": "2004-12-14T00:00:00Z",
         "heightCm": 172,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a4046f4f-5e32-45b7-8ff0-1c42ba9466b7/BAAH-Christopher-Bonsu_494350"
       },
       {
         "fifaId": "441333",
@@ -7279,7 +7279,7 @@ export const teams = {
         "birthDate": "1998-07-18T00:00:00Z",
         "heightCm": 178,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3aed0bc7-4974-4bc1-9cc9-bb764bb91d3e/MENSAH-Gideon_441333"
       },
       {
         "fifaId": "441341",
@@ -7292,12 +7292,12 @@ export const teams = {
         "birthDate": "1997-11-07T00:00:00Z",
         "heightCm": 182,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7b2e13d2-e407-4c8a-8e7d-e465d933bef5/OWUSU-Elisha_441341"
       },
       {
         "fifaId": "494349",
         "name": "Benjamin ASARE",
-        "shortName": "ASARE",
+        "shortName": "B. ASARE",
         "jerseyNumber": 16,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7305,12 +7305,12 @@ export const teams = {
         "birthDate": "1992-07-13T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59f40ed7-650e-48ef-8f42-8a8a326b0504/ASARE-Benjamin_494349"
       },
       {
         "fifaId": "367536",
         "name": "Baba RAHMAN",
-        "shortName": "BABA RAHMAN",
+        "shortName": "BABA",
         "jerseyNumber": 17,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7318,7 +7318,7 @@ export const teams = {
         "birthDate": "1994-07-02T00:00:00Z",
         "heightCm": 179,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3aa4be07-45b8-4c6c-9c82-e1e7d801e531/RAHMAN-Baba_367536"
       },
       {
         "fifaId": "486150",
@@ -7331,7 +7331,7 @@ export const teams = {
         "birthDate": "1998-10-14T00:00:00Z",
         "heightCm": 197,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/03ddfb51-4c65-457f-b234-eb2a795b01d2/OPOKU-Jerome_486150"
       },
       {
         "fifaId": "411376",
@@ -7344,7 +7344,7 @@ export const teams = {
         "birthDate": "1994-06-15T00:00:00Z",
         "heightCm": 186,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2335d9cb-66fa-4e9a-a167-834ac3541e00/WILLIAMS-Inaki_411376"
       },
       {
         "fifaId": "523173",
@@ -7357,12 +7357,12 @@ export const teams = {
         "birthDate": "2000-11-03T00:00:00Z",
         "heightCm": 178,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/643463a2-4d0b-477a-889a-21eaf36cdf46/BOAKYE-Augustine_523173"
       },
       {
         "fifaId": "511022",
         "name": "Kojo Peprah OPPONG",
-        "shortName": "PEPRAH",
+        "shortName": "OPPONG",
         "jerseyNumber": 21,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7370,12 +7370,12 @@ export const teams = {
         "birthDate": "2004-06-04T00:00:00Z",
         "heightCm": 185,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d83d28af-b1f0-4b41-acec-6b3dfd760fb2/OPPONG-Kojo-Peprah_511022"
       },
       {
         "fifaId": "448523",
         "name": "Kamaldeen SULEMANA",
-        "shortName": "SULEMANA",
+        "shortName": "KAMALDEEN",
         "jerseyNumber": 22,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7383,7 +7383,7 @@ export const teams = {
         "birthDate": "2002-02-15T00:00:00Z",
         "heightCm": 174,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ba6f9998-366d-4e8f-b7ca-e387f1aabdcd/SULEMANA-Kamaldeen_448523"
       },
       {
         "fifaId": "520037",
@@ -7396,7 +7396,7 @@ export const teams = {
         "birthDate": "1995-07-03T00:00:00Z",
         "heightCm": 188,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c70d2790-8764-47a0-8c27-a9e7f74563a0/LUCKASSEN-Derrick_520037"
       },
       {
         "fifaId": "448525",
@@ -7409,12 +7409,12 @@ export const teams = {
         "birthDate": "2003-11-01T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1561f6b3-4537-41a1-8803-367ec4c80519/NUAMAH-Ernest_448525"
       },
       {
         "fifaId": "514401",
         "name": "Prince ADU",
-        "shortName": "ADU",
+        "shortName": "PRINCE",
         "jerseyNumber": 25,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7422,7 +7422,7 @@ export const teams = {
         "birthDate": "2003-09-23T00:00:00Z",
         "heightCm": 179,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fe89d2b1-ecd5-471d-a730-a1704b275019/ADU-Prince_514401"
       },
       {
         "fifaId": "520039",
@@ -7435,7 +7435,7 @@ export const teams = {
         "birthDate": "2001-01-28T00:00:00Z",
         "heightCm": 181,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5b3249dc-6e9d-490b-be47-93a59fd3d069/SENAYA-Marvin_520039"
       }
     ]
   },
@@ -7456,7 +7456,7 @@ export const teams = {
       {
         "fifaId": "295922",
         "name": "Johny Placide",
-        "shortName": "Placide",
+        "shortName": "PLACIDE",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7464,12 +7464,12 @@ export const teams = {
         "birthDate": "1988-01-29T00:00:00Z",
         "heightCm": 181,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3b4c1123-62c6-4267-9d22-6d138e461a54/PLACIDE-Johny_295922"
       },
       {
         "fifaId": "397775",
         "name": "Carlens ARCUS",
-        "shortName": "Arcus",
+        "shortName": "ARCUS",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7477,7 +7477,7 @@ export const teams = {
         "birthDate": "1996-06-28T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/924dd9c4-2333-4662-be95-df5d3d551368/ARCUS-Carlens_397775"
       },
       {
         "fifaId": "506481",
@@ -7490,12 +7490,12 @@ export const teams = {
         "birthDate": "2006-03-29T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/012553fc-773a-4fca-a30d-468777a287de/THERMONCY-Keeto_506481"
       },
       {
         "fifaId": "275917",
         "name": "Ricardo Ade",
-        "shortName": "Ricardo Adé",
+        "shortName": "ADE",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7503,7 +7503,7 @@ export const teams = {
         "birthDate": "1990-05-21T00:00:00Z",
         "heightCm": 190,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/188e1d63-5bfa-450a-b202-730221c18fe1/ADE-Ricardo_275917"
       },
       {
         "fifaId": "448363",
@@ -7516,7 +7516,7 @@ export const teams = {
         "birthDate": "1999-02-28T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4b98bc6d-0a33-4ad0-b0fc-18ba00c15e1c/DELCROIX-Hannes_448363"
       },
       {
         "fifaId": "424556",
@@ -7529,7 +7529,7 @@ export const teams = {
         "birthDate": "2002-08-09T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/338f9a41-36d4-4f87-8425-9d5fdc30ac35/SAINTE-Carl_424556"
       },
       {
         "fifaId": "466865",
@@ -7542,7 +7542,7 @@ export const teams = {
         "birthDate": "1996-11-25T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1ddc26ef-11b7-4086-8386-49f6c6bf027c/ETIENNE-Derrick_466865"
       },
       {
         "fifaId": "489300",
@@ -7555,12 +7555,12 @@ export const teams = {
         "birthDate": "1999-03-09T00:00:00Z",
         "heightCm": 178,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d3101d94-a275-4ecc-9b0c-63688841159d/EXPERIENCE-Martin_489300"
       },
       {
         "fifaId": "394993",
         "name": "Duckens NAZON",
-        "shortName": "Nazon",
+        "shortName": "NAZON",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7568,7 +7568,7 @@ export const teams = {
         "birthDate": "1994-04-07T00:00:00Z",
         "heightCm": 181,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/93e74f55-211b-4332-8b5c-d328eb02d026/NAZON-Duckens_394993"
       },
       {
         "fifaId": "430697",
@@ -7581,12 +7581,12 @@ export const teams = {
         "birthDate": "1998-06-27T00:00:00Z",
         "heightCm": 170,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/29f38f6c-fac7-4844-8656-c18527ebe792/BELLEGARDE-Jean-Ricner_430697"
       },
       {
         "fifaId": "481027",
         "name": "Louicius DEEDSON",
-        "shortName": "DEEDSON",
+        "shortName": "LOUICIUS",
         "jerseyNumber": 11,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7594,7 +7594,7 @@ export const teams = {
         "birthDate": "2001-02-11T00:00:00Z",
         "heightCm": 178,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3838199f-c956-4b7c-a728-eef76a086a78/DEEDSON-Louicius_481027"
       },
       {
         "fifaId": "466835",
@@ -7607,7 +7607,7 @@ export const teams = {
         "birthDate": "2001-02-25T00:00:00Z",
         "heightCm": 190,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/68889bed-7acd-4e67-a3bd-a18a300e70a0/PIERRE-Alexandre_466835"
       },
       {
         "fifaId": "466844",
@@ -7620,20 +7620,20 @@ export const teams = {
         "birthDate": "1993-10-14T00:00:00Z",
         "heightCm": 175,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d7492aa1-5f11-45df-9059-0075ef046a0a/LACROIX-Markhus_466844"
       },
       {
-        "fifaId": "467940",
-        "name": "Leverton PIERRE",
-        "shortName": "L. PIERRE",
+        "fifaId": "466862",
+        "name": "Garven METUSALA",
+        "shortName": "METUSALA",
         "jerseyNumber": 14,
-        "position": "MF",
-        "positionLabel": "Midfielder",
+        "position": "DF",
+        "positionLabel": "Defender",
         "club": "",
-        "birthDate": "1998-03-09T00:00:00Z",
-        "heightCm": 181,
-        "weightKg": 73,
-        "photoUrl": ""
+        "birthDate": "1999-12-31T00:00:00Z",
+        "heightCm": 186,
+        "weightKg": 76,
+        "photoUrl": "https://digitalhub.fifa.com/transform/264fbdf9-369e-4794-b7b4-461fb346a6ab/GARVEN-METUSALA_466862"
       },
       {
         "fifaId": "485664",
@@ -7646,7 +7646,7 @@ export const teams = {
         "birthDate": "2001-07-07T00:00:00Z",
         "heightCm": 178,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c510536e-4614-459d-9780-060a5e3631ad/PROVIDENCE-Ruben_485664"
       },
       {
         "fifaId": "485676",
@@ -7659,12 +7659,12 @@ export const teams = {
         "birthDate": "2000-10-12T00:00:00Z",
         "heightCm": 182,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ffcd4548-d3d0-42ca-a926-95fbda75d26a/JOSEPH-Lenny_485676"
       },
       {
         "fifaId": "466838",
         "name": "Danley JEAN JACQUES",
-        "shortName": "JEAN JACQUES",
+        "shortName": "JEAN-JACQUES",
         "jerseyNumber": 17,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -7672,7 +7672,7 @@ export const teams = {
         "birthDate": "2000-05-20T00:00:00Z",
         "heightCm": 182,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/948f9361-348d-4c5d-a26f-83205cae2f6b/JEAN-JACQUES-Danley_466838"
       },
       {
         "fifaId": "405879",
@@ -7685,7 +7685,7 @@ export const teams = {
         "birthDate": "2000-08-27T00:00:00Z",
         "heightCm": 184,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/226c4315-372a-4dcf-8a1c-d4f8dc646419/ISIDOR-Wilson_405879"
       },
       {
         "fifaId": "506483",
@@ -7698,7 +7698,7 @@ export const teams = {
         "birthDate": "1999-01-30T00:00:00Z",
         "heightCm": 186,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8c508739-1d44-49e5-8395-dbba0ff45072/FORTUNE-Yassin_506483"
       },
       {
         "fifaId": "431693",
@@ -7711,7 +7711,7 @@ export const teams = {
         "birthDate": "1995-03-29T00:00:00Z",
         "heightCm": 194,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0faa5cdb-4727-42be-b2b8-cedf04a37dd6/PIERROT-Frantzdy_431693"
       },
       {
         "fifaId": "510757",
@@ -7724,12 +7724,12 @@ export const teams = {
         "birthDate": "2001-09-24T00:00:00Z",
         "heightCm": 178,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4a02cdae-6685-4a04-a779-8472e1b0ee39/CASIMIR-Josue_510757"
       },
       {
         "fifaId": "431781",
         "name": "Jean-Kevin DUVERNE",
-        "shortName": "Jean-Kevin DUVERNE",
+        "shortName": "DUVERNE",
         "jerseyNumber": 22,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7737,7 +7737,7 @@ export const teams = {
         "birthDate": "1997-07-12T00:00:00Z",
         "heightCm": 184,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/00dad9f5-0949-43df-a856-1ce364adf673/DUVERNE-Jean-Kevin_431781"
       },
       {
         "fifaId": "466853",
@@ -7750,12 +7750,12 @@ export const teams = {
         "birthDate": "2000-04-27T00:00:00Z",
         "heightCm": 187,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7f30e7f0-2c85-4fa5-aa66-09d5bd74f435/DUVERGER-Josue_466853"
       },
       {
         "fifaId": "498439",
         "name": "Wilguens PAUGAIN",
-        "shortName": "PAUGIN",
+        "shortName": "PAUGAIN",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7763,7 +7763,7 @@ export const teams = {
         "birthDate": "2001-08-24T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7f7dae44-300a-405b-81be-f29cef6c0670/PAUGAIN-Wilguens_419172"
       },
       {
         "fifaId": "523215",
@@ -7776,7 +7776,7 @@ export const teams = {
         "birthDate": "2000-07-29T00:00:00Z",
         "heightCm": 178,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a6ab25e1-5ffa-478b-9a8b-e33411873483/SIMON-Dominique_523215"
       },
       {
         "fifaId": "485409",
@@ -7789,7 +7789,7 @@ export const teams = {
         "birthDate": "2004-12-30T00:00:00Z",
         "heightCm": 177,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/72f8c310-2cf0-4329-a479-f2b2871201d7/PIERRE-Woodensky_485409"
       }
     ]
   },
@@ -7799,10 +7799,10 @@ export const teams = {
     "name": "IR Iran",
     "group": "Group G",
     "confederation": "AFC",
-    "fifaRank": 21,
+    "fifaRank": 20,
     "attack": 83,
-    "defense": 83,
-    "form": 81,
+    "defense": 84,
+    "form": 82,
     "coach": "Amir GHALEHNOY",
     "flagUrl": "https://flagcdn.com/ir.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/IRN",
@@ -7810,7 +7810,7 @@ export const teams = {
       {
         "fifaId": "380007",
         "name": "Alireza BEIRANVAND",
-        "shortName": "Alireza BEIRANVAND",
+        "shortName": "BEIRANVAND",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7818,12 +7818,12 @@ export const teams = {
         "birthDate": "1992-09-21T00:00:00Z",
         "heightCm": 195,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c8cf4e84-2bd2-4e20-bb73-c7f14a935b73/BEIRANVAND-Alireza_380007"
       },
       {
         "fifaId": "448505",
         "name": "Saleh HARDANI",
-        "shortName": "S.HARDANI",
+        "shortName": "SALEH",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7831,12 +7831,12 @@ export const teams = {
         "birthDate": "1998-12-26T00:00:00Z",
         "heightCm": 176,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0357126d-f784-46a7-901d-33d54b66598b/HARDANI-Saleh_448505"
       },
       {
         "fifaId": "288961",
         "name": "Ehsan HAJISAFI",
-        "shortName": "Ehsan HAJISAFI",
+        "shortName": "E. HAJISAFI",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7844,12 +7844,12 @@ export const teams = {
         "birthDate": "1990-02-25T00:00:00Z",
         "heightCm": 178,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6567ec6b-b63d-4163-8729-6e9ad25e32f7/HAJISAFI-Ehsan_288961"
       },
       {
         "fifaId": "346743",
         "name": "Shoja KHALILZADEH",
-        "shortName": "Shoja KHALILZADEH",
+        "shortName": "SHOJA",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7857,7 +7857,7 @@ export const teams = {
         "birthDate": "1989-05-14T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/509a4e4e-b242-4488-a334-84faac974457/KHALILZADEH-Shoja_346743"
       },
       {
         "fifaId": "390537",
@@ -7870,7 +7870,7 @@ export const teams = {
         "birthDate": "1993-09-29T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ed36d5fa-f6ab-4e3c-8bdd-1c5cf555f225/MOHAMMADI-Milad_390537"
       },
       {
         "fifaId": "371736",
@@ -7883,7 +7883,7 @@ export const teams = {
         "birthDate": "1996-10-01T00:00:00Z",
         "heightCm": 189,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a2e8983e-9596-49b3-8c5c-e398d66e27c5/EZATOLAHI-Saeid_371736"
       },
       {
         "fifaId": "379886",
@@ -7896,12 +7896,12 @@ export const teams = {
         "birthDate": "1993-08-11T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1bea8439-0136-4f96-ae79-7d165c648b4a/JAHANBAKHSH-Alireza_379886"
       },
       {
         "fifaId": "448497",
         "name": "Mohammad MOHEBBI",
-        "shortName": "M.MOHEBBI",
+        "shortName": "M. MOHEBBI",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -7909,7 +7909,7 @@ export const teams = {
         "birthDate": "1998-12-20T00:00:00Z",
         "heightCm": 187,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/aef63530-cc2b-4b8e-b06b-6c0a9fb90ec0/MOHEBBI-Mohammad_448497"
       },
       {
         "fifaId": "388475",
@@ -7922,12 +7922,12 @@ export const teams = {
         "birthDate": "1992-07-18T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0d942331-39fb-421e-8a8d-d1f875958559/TAREMI-Mehdi_388475"
       },
       {
         "fifaId": "403236",
         "name": "Mehdi GHAYEDI",
-        "shortName": "M.GHAYEDI",
+        "shortName": "MEHDI GHAYEDI",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -7935,7 +7935,7 @@ export const teams = {
         "birthDate": "1998-12-05T00:00:00Z",
         "heightCm": 166,
         "weightKg": 60,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/df931c9f-862e-411a-bc23-35af4d0d1bd1/GHAYEDI-Mehdi_403236"
       },
       {
         "fifaId": "416989",
@@ -7948,12 +7948,12 @@ export const teams = {
         "birthDate": "1995-11-11T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8d61af68-9b44-4ee7-8cc0-a8fd6707a019/ALIPOUR-Ali_416989"
       },
       {
         "fifaId": "448507",
         "name": "Payam NIAZMAND",
-        "shortName": "P. NIAZMAND",
+        "shortName": "PAYAM",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -7961,12 +7961,12 @@ export const teams = {
         "birthDate": "1995-04-06T00:00:00Z",
         "heightCm": 193,
         "weightKg": 93,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a4d3867-6d31-4e40-8718-312350b29fb4/NIAZMAND-Payam_448507"
       },
       {
         "fifaId": "390534",
         "name": "Hossein KANANI",
-        "shortName": "Hossein KANANI",
+        "shortName": "KANANI",
         "jerseyNumber": 13,
         "position": "DF",
         "positionLabel": "Defender",
@@ -7974,7 +7974,7 @@ export const teams = {
         "birthDate": "1994-03-23T00:00:00Z",
         "heightCm": 188,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/20ec6667-ff1b-4fb3-8128-ecf2eb1c6e18/KANANI-Hossein_390534"
       },
       {
         "fifaId": "411644",
@@ -7987,12 +7987,12 @@ export const teams = {
         "birthDate": "1993-09-06T00:00:00Z",
         "heightCm": 176,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/96d480ac-42c5-4dd6-a2f0-6220ea1a0f4b/GHODDOS-Saman_411644"
       },
       {
         "fifaId": "406595",
         "name": "Roozbeh CHESHMI",
-        "shortName": "R. CHESHMI",
+        "shortName": "ROOZBEH",
         "jerseyNumber": 15,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8000,12 +8000,12 @@ export const teams = {
         "birthDate": "1993-07-24T00:00:00Z",
         "heightCm": 192,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ecf8d94c-609d-4a5c-8375-8c8e92629a59/CHESHMI-Roozbeh_406595"
       },
       {
         "fifaId": "390535",
         "name": "Mehdi TORABI",
-        "shortName": "Mehdi TORABI",
+        "shortName": "M. TORABI",
         "jerseyNumber": 16,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8013,7 +8013,7 @@ export const teams = {
         "birthDate": "1994-09-10T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f41b26d6-f1d1-47c2-ac56-dbce12a4baef/TORABI-Mehdi_390535"
       },
       {
         "fifaId": "481181",
@@ -8026,12 +8026,12 @@ export const teams = {
         "birthDate": "2002-04-22T00:00:00Z",
         "heightCm": 181,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b648ca0d-4664-422c-af5f-da86c97e22b0/YOUSEFI-Arya_481181"
       },
       {
         "fifaId": "405639",
         "name": "Amirhossein Hosseinzadeh",
-        "shortName": "A.HOSSEIN ZADEH",
+        "shortName": "AMIRHOSSEIN",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8039,7 +8039,7 @@ export const teams = {
         "birthDate": "2000-10-30T00:00:00Z",
         "heightCm": 178,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/94c4de69-a055-4127-b21e-2071a84a4526/HOSSEINZADEH-Amirhossein_405639"
       },
       {
         "fifaId": "489603",
@@ -8052,7 +8052,7 @@ export const teams = {
         "birthDate": "1996-02-08T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/22c62fcc-736e-413e-a925-4bb643e3f007/NEMATI-Ali_489603"
       },
       {
         "fifaId": "481180",
@@ -8065,7 +8065,7 @@ export const teams = {
         "birthDate": "1994-12-21T00:00:00Z",
         "heightCm": 189,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b0036654-fcd0-4f2c-b924-468f7f63828e/MOGHANLOO-Shahriyar_481180"
       },
       {
         "fifaId": "482670",
@@ -8078,12 +8078,12 @@ export const teams = {
         "birthDate": "2001-10-07T00:00:00Z",
         "heightCm": 190,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/814c55cf-f0a4-4191-bb6d-81c14881ad72/GHORBANI-Mohammad_482670"
       },
       {
         "fifaId": "314255",
         "name": "Hossein HOSSEINI",
-        "shortName": "H.HOSSEINI",
+        "shortName": "HOSSEINI",
         "jerseyNumber": 22,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -8091,7 +8091,7 @@ export const teams = {
         "birthDate": "1992-06-30T00:00:00Z",
         "heightCm": 189,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/65922b90-e1f9-453b-aa7c-b436746fce3c/HOSSEINI-Hossein_314255"
       },
       {
         "fifaId": "384797",
@@ -8104,7 +8104,7 @@ export const teams = {
         "birthDate": "1990-03-21T00:00:00Z",
         "heightCm": 184,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0aad53c3-8ade-4161-8605-09eed82b2c23/REZAEIAN-Ramin_384797"
       },
       {
         "fifaId": "519837",
@@ -8117,7 +8117,7 @@ export const teams = {
         "birthDate": "1997-01-09T00:00:00Z",
         "heightCm": 182,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/11560f08-8fe3-4acb-b30f-cf1a0b2e83ad/DARGAHI-Dennis_519837"
       },
       {
         "fifaId": "494429",
@@ -8130,7 +8130,7 @@ export const teams = {
         "birthDate": "2003-10-26T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4a94990d-e4cd-4291-922c-b5bbb8a3254f/IRI-Danial_494429"
       },
       {
         "fifaId": "475921",
@@ -8143,7 +8143,7 @@ export const teams = {
         "birthDate": "2006-04-11T00:00:00Z",
         "heightCm": 187,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6526cdf8-5f63-4c78-b14d-9af4cdb862af/RAZAGHINIA-Amirmohammad_475921"
       }
     ]
   },
@@ -8164,7 +8164,7 @@ export const teams = {
       {
         "fifaId": "368744",
         "name": "FAHAD TALIB",
-        "shortName": "F. TALIB",
+        "shortName": "FAHAD",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -8172,12 +8172,12 @@ export const teams = {
         "birthDate": "1994-10-21T00:00:00Z",
         "heightCm": 192,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/70d6d7cd-dcf4-4952-bee5-0f0b869aead7/FAHAD-TALIB_368744"
       },
       {
         "fifaId": "396158",
         "name": "REBIN SULAKA",
-        "shortName": "REBIN SULAKA",
+        "shortName": "REBIN",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -8185,11 +8185,11 @@ export const teams = {
         "birthDate": "1992-04-12T00:00:00Z",
         "heightCm": 193,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0e08174c-879f-4de0-9709-8fdc59357236/REBIN-GHAREEB_396158"
       },
       {
         "fifaId": "479553",
-        "name": "HUSSEIN ALI",
+        "name": "Hussein Ali",
         "shortName": "HUSSEIN",
         "jerseyNumber": 3,
         "position": "DF",
@@ -8198,7 +8198,7 @@ export const teams = {
         "birthDate": "2002-03-01T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9c065420-c134-4227-aef3-d6d07f0a9b8d/HUSSEIN-ALI_479553"
       },
       {
         "fifaId": "434025",
@@ -8211,7 +8211,7 @@ export const teams = {
         "birthDate": "2001-01-29T00:00:00Z",
         "heightCm": 187,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/84a4d1c5-8fe9-4d23-bb47-5dddfdf566bf/ZAID-TAHSEEN_434025"
       },
       {
         "fifaId": "481183",
@@ -8224,7 +8224,7 @@ export const teams = {
         "birthDate": "1998-08-16T00:00:00Z",
         "heightCm": 184,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a0dea4f6-7d64-4613-bdd0-558480ddbc80/AKAM-HASHIM_481183_"
       },
       {
         "fifaId": "434024",
@@ -8237,7 +8237,7 @@ export const teams = {
         "birthDate": "1996-11-16T00:00:00Z",
         "heightCm": 184,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3e21999a-9c29-4610-a6e7-2798b41cf9fe/MUNAF-YOUNUS_434024"
       },
       {
         "fifaId": "464458",
@@ -8250,7 +8250,7 @@ export const teams = {
         "birthDate": "2003-08-21T00:00:00Z",
         "heightCm": 172,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/89fe671d-907a-47be-b4b0-4138dc878986/YOUSSEF-AMYN_464458"
       },
       {
         "fifaId": "433585",
@@ -8263,12 +8263,12 @@ export const teams = {
         "birthDate": "2000-05-01T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/390fdc3f-232a-445d-a80e-1c9cc8a67df7/IBRAHIM-BAYESH_433585"
       },
       {
         "fifaId": "436628",
         "name": "ALI ALHAMADI",
-        "shortName": "ALI ALHAMADI",
+        "shortName": "AL-HAMADI",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8276,7 +8276,7 @@ export const teams = {
         "birthDate": "2002-03-01T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/00b5271a-9033-43ab-9073-7b2ec9e4426e/ALI-ALHAMADI_436628"
       },
       {
         "fifaId": "422968",
@@ -8289,11 +8289,11 @@ export const teams = {
         "birthDate": "2000-06-20T00:00:00Z",
         "heightCm": 183,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b71272b5-a898-49b9-9de5-35b59168f050/MOHANAD-ALI_422968"
       },
       {
         "fifaId": "523236",
-        "name": "AHMED QASIM",
+        "name": "AHMED QASEM",
         "shortName": "AHMED Q.",
         "jerseyNumber": 11,
         "position": "FW",
@@ -8302,12 +8302,12 @@ export const teams = {
         "birthDate": "2003-07-12T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/66155853-6cb6-47af-84e6-f8c492fd1b6a/AHMED-QASIM_523236"
       },
       {
         "fifaId": "347085",
         "name": "JALAL HASSAN",
-        "shortName": "Hassan",
+        "shortName": "JALAL",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -8315,7 +8315,7 @@ export const teams = {
         "birthDate": "1991-05-18T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a7f7a32a-4968-462b-9c34-e8a0d0530b99/JALAL-HASSAN_347085"
       },
       {
         "fifaId": "434029",
@@ -8328,12 +8328,12 @@ export const teams = {
         "birthDate": "1996-01-19T00:00:00Z",
         "heightCm": 180,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e9b9b7b4-162e-40c5-91a3-f573cd6a5d39/ALI-YOUSIF_434029"
       },
       {
         "fifaId": "434026",
         "name": "ZIDANE IQBAL",
-        "shortName": "Z.IQBAL",
+        "shortName": "Z. IQBAL",
         "jerseyNumber": 14,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8341,12 +8341,12 @@ export const teams = {
         "birthDate": "2003-04-27T00:00:00Z",
         "heightCm": 183,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d76ebe64-2228-4d03-9c39-fa6332d4d40a/ZIDANE-IQBAL_434026"
       },
       {
         "fifaId": "484276",
         "name": "AHMED MAKNAZI",
-        "shortName": "MAKNAZI",
+        "shortName": "AHMED H.",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -8354,12 +8354,12 @@ export const teams = {
         "birthDate": "2001-09-24T00:00:00Z",
         "heightCm": 183,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b19b8bfa-2aea-4d19-84a9-94cdf65b3445/AHMED-MAKNAZI_484276"
       },
       {
         "fifaId": "433074",
         "name": "AMIR ALAMMARI",
-        "shortName": "AMIR ALAMMARI",
+        "shortName": "AL-AMMARI",
         "jerseyNumber": 16,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8367,7 +8367,7 @@ export const teams = {
         "birthDate": "1997-07-27T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d80ff1d4-6bce-462b-bc11-6b4049fe9741/AMIR-ALAMMARI_433074"
       },
       {
         "fifaId": "464457",
@@ -8380,12 +8380,12 @@ export const teams = {
         "birthDate": "2004-01-20T00:00:00Z",
         "heightCm": 178,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/75d61654-11c8-4646-8e47-7c4c977b29b6/ALI-JASIM_464457"
       },
       {
         "fifaId": "395186",
         "name": "AYMEN HUSSEIN",
-        "shortName": "Hussain",
+        "shortName": "AYMEN",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8393,7 +8393,7 @@ export const teams = {
         "birthDate": "1996-03-22T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/388e5207-980c-407a-828c-270fbd4fdff6/AYMEN-HUSSEIN_395186"
       },
       {
         "fifaId": "506069",
@@ -8406,7 +8406,7 @@ export const teams = {
         "birthDate": "2000-10-10T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c9912381-f7e5-4059-a630-ccbee68ebb7f/KEVIN-YAKOB_506069"
       },
       {
         "fifaId": "493983",
@@ -8419,7 +8419,7 @@ export const teams = {
         "birthDate": "2002-12-20T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/254f7d31-32e2-472f-8c9a-97c37d2a41c8/AIMAR-SHER_493983"
       },
       {
         "fifaId": "484262",
@@ -8432,7 +8432,7 @@ export const teams = {
         "birthDate": "2004-03-16T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/97055547-246e-4bc9-8130-5903cd33077d/MARKO-FARJI_484262"
       },
       {
         "fifaId": "433571",
@@ -8445,7 +8445,7 @@ export const teams = {
         "birthDate": "1996-08-19T00:00:00Z",
         "heightCm": 184,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a9d30885-9966-457c-9a44-07e5cf8eee93/AHMED-BASIL_433571"
       },
       {
         "fifaId": "479072",
@@ -8458,7 +8458,7 @@ export const teams = {
         "birthDate": "1999-12-07T00:00:00Z",
         "heightCm": 173,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c2ac4751-fd73-4685-8bb6-de4c07266fda/MERCHAS-DOSKI_479072"
       },
       {
         "fifaId": "484270",
@@ -8471,7 +8471,7 @@ export const teams = {
         "birthDate": "2002-01-03T00:00:00Z",
         "heightCm": 185,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/062e505a-0067-4b87-963d-a0e7ad53decb/ZAID-ISMAEL_484270"
       },
       {
         "fifaId": "479056",
@@ -8484,7 +8484,7 @@ export const teams = {
         "birthDate": "2001-05-25T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0a9bb9d5-b94d-4978-9fee-6d6baf634c05/MUSTAFA-SAADOON_479056"
       },
       {
         "fifaId": "436863",
@@ -8497,7 +8497,7 @@ export const teams = {
         "birthDate": "1993-07-14T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e6406961-d495-4d2f-8851-539b32ab43a9/FRANS-PUTROS_436863"
       }
     ]
   },
@@ -8518,7 +8518,7 @@ export const teams = {
       {
         "fifaId": "405530",
         "name": "Zion Suzuki",
-        "shortName": "Z.SUZUKI",
+        "shortName": "SUZUKI",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -8565,7 +8565,7 @@ export const teams = {
         "birthDate": "1997-01-27T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0d831668-83ab-49c9-a747-c53a389ce8d4/ITAKURA-Kou_400511"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5797a9db-f271-4f10-a480-1a0fdde80b7b/ITAKURA-Kou_400511"
       },
       {
         "fifaId": "291372",
@@ -8581,22 +8581,22 @@ export const teams = {
         "photoUrl": "https://digitalhub.fifa.com/transform/719252dc-c983-411f-875b-13a0f6acd967/NAGATOMO-Yuto_291372"
       },
       {
-        "fifaId": "395318",
-        "name": "Wataru ENDO",
-        "shortName": "ENDO",
+        "fifaId": "448569",
+        "name": "Shuto MACHINO",
+        "shortName": "MACHINO",
         "jerseyNumber": 6,
-        "position": "MF",
-        "positionLabel": "Midfielder",
+        "position": "FW",
+        "positionLabel": "Forward",
         "club": "",
-        "birthDate": "1993-02-09T00:00:00Z",
-        "heightCm": 178,
-        "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/34bbf3b1-d26d-4521-a07b-a9b25e6b0165/ENDO-Wataru_395318"
+        "birthDate": "1999-09-30T00:00:00Z",
+        "heightCm": 185,
+        "weightKg": 81,
+        "photoUrl": "https://digitalhub.fifa.com/transform/8d060ae7-d04d-4bc3-9b76-d4ad6b52a0c3/MACHINO-Shuto_448569"
       },
       {
         "fifaId": "400514",
         "name": "Ao TANAKA",
-        "shortName": "Ao TANAKA",
+        "shortName": "TANAKA",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8648,7 +8648,7 @@ export const teams = {
       {
         "fifaId": "430407",
         "name": "Daizen MAEDA",
-        "shortName": "Daizen MAEDA",
+        "shortName": "DAIZEN",
         "jerseyNumber": 11,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -8661,7 +8661,7 @@ export const teams = {
       {
         "fifaId": "403305",
         "name": "Keisuke OSAKO",
-        "shortName": "Keisuke OSAKO",
+        "shortName": "OSAKO",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -8739,7 +8739,7 @@ export const teams = {
       {
         "fifaId": "430413",
         "name": "Ayase UEDA",
-        "shortName": "Ayase UEDA",
+        "shortName": "AYASE",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8765,7 +8765,7 @@ export const teams = {
       {
         "fifaId": "405527",
         "name": "Ayumu SEKO",
-        "shortName": "Ayumu SEKO",
+        "shortName": "SEKO",
         "jerseyNumber": 20,
         "position": "DF",
         "positionLabel": "Defender",
@@ -8880,7 +8880,7 @@ export const teams = {
         "birthDate": "1993-01-08T00:00:00Z",
         "heightCm": 188,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/155d55d5-4b94-4b50-9ed1-b9a102a501a2/YAZEED-ABULAILA_397894"
       },
       {
         "fifaId": "433526",
@@ -8893,7 +8893,7 @@ export const teams = {
         "birthDate": "1995-05-09T00:00:00Z",
         "heightCm": 179,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8eb95381-e0eb-4965-8602-af3d79e14e66/MOHAMMAD-ABUHASHEESH_433526"
       },
       {
         "fifaId": "433527",
@@ -8906,7 +8906,7 @@ export const teams = {
         "birthDate": "1994-02-25T00:00:00Z",
         "heightCm": 184,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0f29b15d-1537-42c4-889b-ce58534b5b59/ABDALLAH-NASIB_433527"
       },
       {
         "fifaId": "489550",
@@ -8919,7 +8919,7 @@ export const teams = {
         "birthDate": "2000-05-13T00:00:00Z",
         "heightCm": 186,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/90bde687-8728-4d4d-aa72-524b2b251caa/HUSAM-ABUDAHAB_489550"
       },
       {
         "fifaId": "431225",
@@ -8932,7 +8932,7 @@ export const teams = {
         "birthDate": "1996-01-31T00:00:00Z",
         "heightCm": 185,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f69b7b80-4362-431e-9e25-32c7d0a92c88/YAZAN-ALARAB_431225"
       },
       {
         "fifaId": "491167",
@@ -8945,12 +8945,12 @@ export const teams = {
         "birthDate": "2002-07-03T00:00:00Z",
         "heightCm": 177,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/554abed3-9771-464a-a75d-ac4c1f550eca/AMER-JAMOUS_491167"
       },
       {
         "fifaId": "431208",
         "name": "MOHAMMAD ABUZRAIQ",
-        "shortName": "MOHAMMAD ABUZRAIQ",
+        "shortName": "ABU ZRAIQ",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8958,7 +8958,7 @@ export const teams = {
         "birthDate": "1997-12-30T00:00:00Z",
         "heightCm": 170,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/14c04e8c-82ca-4feb-83ff-f89fa146d91f/MOHAMMAD-ABUZRAIQ_431208"
       },
       {
         "fifaId": "431230",
@@ -8971,7 +8971,7 @@ export const teams = {
         "birthDate": "1997-02-24T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1d0f7594-2192-4227-9ad5-696e4212f0ee/NOOR-ALRAWABDEH_431230"
       },
       {
         "fifaId": "431212",
@@ -8984,12 +8984,12 @@ export const teams = {
         "birthDate": "2000-03-26T00:00:00Z",
         "heightCm": 182,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f9806f7c-f81f-4653-a81a-9bbcfcd587c9/ALI-OLWAN_431212"
       },
       {
         "fifaId": "431211",
         "name": "MOUSA ALTAMARI",
-        "shortName": "MOUSA ALTAMARI",
+        "shortName": "ALTAMARI",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -8997,7 +8997,7 @@ export const teams = {
         "birthDate": "1997-06-10T00:00:00Z",
         "heightCm": 176,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e999f9d2-7ca2-4d4d-b7ba-33c1ee96b375/MOUSA-ALTAMARI_431211"
       },
       {
         "fifaId": "511875",
@@ -9010,7 +9010,7 @@ export const teams = {
         "birthDate": "2005-11-22T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/07e6d74d-1e09-4278-97e4-4b0bfcba2de8/ODEH-FAKHOURY_511875"
       },
       {
         "fifaId": "483127",
@@ -9023,12 +9023,12 @@ export const teams = {
         "birthDate": "1993-01-25T00:00:00Z",
         "heightCm": 179,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6c4042af-5cac-4b05-94b8-c57aa8f3083f/NOUR-BANIATEYAH_483127"
       },
       {
         "fifaId": "396950",
         "name": "MAHMOUD ALMARDI",
-        "shortName": "Mahmoud Mardi",
+        "shortName": "ALMARDI",
         "jerseyNumber": 13,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9036,7 +9036,7 @@ export const teams = {
         "birthDate": "1993-10-06T00:00:00Z",
         "heightCm": 173,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1e7a3a2d-fca9-400e-8a5a-244eadc0fb92/MAHMOUD-ALMARDI_396950"
       },
       {
         "fifaId": "384850",
@@ -9049,7 +9049,7 @@ export const teams = {
         "birthDate": "1993-07-25T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/98cfccc5-8732-4a13-a4ec-127c4e886d90/RAJAEI-AYED_384850"
       },
       {
         "fifaId": "431209",
@@ -9062,7 +9062,7 @@ export const teams = {
         "birthDate": "2000-04-27T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e6579a9e-8548-4bdb-bbef-36f3fb6c1b81/IBRAHIM-SADEH_431209"
       },
       {
         "fifaId": "489551",
@@ -9075,7 +9075,7 @@ export const teams = {
         "birthDate": "2001-02-08T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e4e0ffbc-e1af-44f4-8c2e-50bd2dffc4c4/MOHAMMAD-ABUALNADI_489551"
       },
       {
         "fifaId": "499102",
@@ -9088,7 +9088,7 @@ export const teams = {
         "birthDate": "1992-01-17T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/647ecc0e-11c2-4d0e-9b48-2d8137a00b85/SALEEM-OBAID_499102"
       },
       {
         "fifaId": "520068",
@@ -9101,7 +9101,7 @@ export const teams = {
         "birthDate": "2005-07-13T00:00:00Z",
         "heightCm": 182,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5ee84ee8-8e6a-4a6d-aff9-42538c323659/MOHAMMAD-ABUGHOUSH_520068"
       },
       {
         "fifaId": "431219",
@@ -9114,7 +9114,7 @@ export const teams = {
         "birthDate": "1997-02-01T00:00:00Z",
         "heightCm": 186,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/432e3e68-f3d2-4bdf-bc69-1523ff9c2333/SAED-ALROSAN_431219"
       },
       {
         "fifaId": "479389",
@@ -9127,12 +9127,12 @@ export const teams = {
         "birthDate": "2003-02-02T00:00:00Z",
         "heightCm": 173,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8ba117bd-6dd8-4fc7-aecd-47cf173c362c/MOHANNAD-ABUTAHA_386415"
       },
       {
         "fifaId": "433534",
         "name": "NIZAR ALRASHDAN",
-        "shortName": "NIZAR ALRASHDAN",
+        "shortName": "NIZAR",
         "jerseyNumber": 21,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9140,7 +9140,7 @@ export const teams = {
         "birthDate": "1999-03-23T00:00:00Z",
         "heightCm": 183,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59b03f3e-6636-4277-bca1-698bde2070b9/NIZAR-ALRASHDAN_433534"
       },
       {
         "fifaId": "431223",
@@ -9153,7 +9153,7 @@ export const teams = {
         "birthDate": "2000-01-22T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3f7678fc-eab6-4d7c-81a4-2341b7f3ab10/ABDALLAH-ALFAKHORI_431223"
       },
       {
         "fifaId": "389437",
@@ -9166,7 +9166,7 @@ export const teams = {
         "birthDate": "1994-02-05T00:00:00Z",
         "heightCm": 174,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/59f676b5-4f37-4206-8c37-5c2aecdd3b9e/EHSAN-HADDAD_389437"
       },
       {
         "fifaId": "498514",
@@ -9179,12 +9179,12 @@ export const teams = {
         "birthDate": "2004-04-13T00:00:00Z",
         "heightCm": 178,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1097b48f-74a2-4506-97b3-2dd48364441a/ALI-AZAIZEH_498514"
       },
       {
         "fifaId": "45191",
         "name": "MOHAMMAD ALDAOUD",
-        "shortName": "MOHAMMAD ALDAOUD",
+        "shortName": "ALDAOUD",
         "jerseyNumber": 25,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9192,7 +9192,7 @@ export const teams = {
         "birthDate": "1992-04-12T00:00:00Z",
         "heightCm": 185,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/479933f0-a2bb-4231-88ea-3bf2c826ed54/MOHAMMAD-ALDAOUD_45191"
       },
       {
         "fifaId": "511889",
@@ -9205,7 +9205,7 @@ export const teams = {
         "birthDate": "1997-09-13T00:00:00Z",
         "heightCm": 174,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c5fbd430-c7f3-4d67-9d16-e7f4e17a872a/ANAS-BADAWI_511889"
       }
     ]
   },
@@ -9218,7 +9218,7 @@ export const teams = {
     "fifaRank": 25,
     "attack": 61,
     "defense": 61,
-    "form": 71,
+    "form": 72,
     "coach": "HONG Myungbo",
     "flagUrl": "https://flagcdn.com/kr.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/KOR",
@@ -9226,7 +9226,7 @@ export const teams = {
       {
         "fifaId": "274281",
         "name": "KIM Seunggyu",
-        "shortName": "S G KIM",
+        "shortName": "SEUNGGYU",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -9234,7 +9234,7 @@ export const teams = {
         "birthDate": "1990-09-30T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d21bcc72-1e4d-4666-aff2-d9002bcc85c1/SEUNG-GYU-KIM_274281_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d4c2a3d5-e369-4813-97eb-16669f83dd78/KIM-Seunggyu_274281"
       },
       {
         "fifaId": "423874",
@@ -9247,7 +9247,7 @@ export const teams = {
         "birthDate": "2002-06-17T00:00:00Z",
         "heightCm": 188,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e09bc47a-8c5d-4169-8386-39f30889c799/HAN-BEOM-LEE_423874_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5486bd22-b834-4885-acde-af11531a61ba/LEE-Hanbeom_423874"
       },
       {
         "fifaId": "492315",
@@ -9260,12 +9260,12 @@ export const teams = {
         "birthDate": "2000-07-07T00:00:00Z",
         "heightCm": 184,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/016dc0cf-bcb1-4ebe-9283-308d54d44b00/GI-HYUK-LEE_492315_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d52ff87a-7e84-497a-bb8e-3feb453ea7c6/LEE-Gihyuk_492315"
       },
       {
         "fifaId": "395088",
         "name": "KIM Minjae",
-        "shortName": "KIM",
+        "shortName": "MINJAE",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -9273,7 +9273,7 @@ export const teams = {
         "birthDate": "1996-11-15T00:00:00Z",
         "heightCm": 190,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/341539d0-6498-41e2-a07f-4e09d8abc611/MIN-JAE-KIM_395088_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/743f3b76-7c6e-484c-8f62-4f4e22c082ae/KIM-Minjae_395088"
       },
       {
         "fifaId": "418485",
@@ -9286,7 +9286,7 @@ export const teams = {
         "birthDate": "2000-09-17T00:00:00Z",
         "heightCm": 186,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/aaf3ef4e-f1d5-454d-b90c-64d024a592e0/TAE-HYEON-KIM_418485_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/34616f93-215c-4a2f-8fcc-4f22a8732d64/KIM-Taehyeon_418485"
       },
       {
         "fifaId": "395084",
@@ -9299,12 +9299,12 @@ export const teams = {
         "birthDate": "1996-09-20T00:00:00Z",
         "heightCm": 177,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7d7d6a85-d0f5-4d26-83a8-c9b3d8e6585b/IN-BEOM-HWANG_395084_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/70be8ce3-bc90-4585-8871-a951dabf811e/HWANG-Inbeom_395084"
       },
       {
         "fifaId": "307849",
         "name": "SON Heungmin",
-        "shortName": "H M SON",
+        "shortName": "HEUNGMIN",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9312,7 +9312,7 @@ export const teams = {
         "birthDate": "1992-07-08T00:00:00Z",
         "heightCm": 183,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7aa8bce4-2361-4fed-8239-702749b4717d/HEUNG-MIN-SON_307849_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f9694bf1-eb42-4d26-9503-e988bd32a435/SON-Heungmin_307849"
       },
       {
         "fifaId": "402817",
@@ -9325,7 +9325,7 @@ export const teams = {
         "birthDate": "1997-03-17T00:00:00Z",
         "heightCm": 182,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0a5e2968-eda8-491c-a0e7-b23845053780/SEUNG-HO-PAIK_402817_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/369d8cea-dbe3-48fb-8a8a-e55180bf1fca/PAIK-Seungho_402817"
       },
       {
         "fifaId": "430387",
@@ -9338,12 +9338,12 @@ export const teams = {
         "birthDate": "1998-01-25T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2e2967d9-80d0-45ef-ad16-0a3d0ffbbc8a/GUE-SUNG-CHO_430387_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/6efa6506-c1f1-4659-8249-9bc800f32691/CHO-Guesung_430387"
       },
       {
         "fifaId": "390525",
         "name": "LEE Jaesung",
-        "shortName": "J S LEE",
+        "shortName": "JAESUNG",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9351,12 +9351,12 @@ export const teams = {
         "birthDate": "1992-08-10T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cfb337cd-740b-4e2f-9282-d6959ae7cd6a/JAE-SUNG-LEE_390525_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/daa227b2-f837-4fc4-bdc3-b5436c92b2e6/LEE-Jaesung_390525"
       },
       {
         "fifaId": "395083",
         "name": "HWANG Heechan",
-        "shortName": "H C HWANG",
+        "shortName": "HEECHAN",
         "jerseyNumber": 11,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9364,7 +9364,7 @@ export const teams = {
         "birthDate": "1996-01-26T00:00:00Z",
         "heightCm": 177,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a527f07a-515b-48b4-84bf-6d388e0179da/HEE-CHAN-HWANG_395083_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8460686d-d2c7-4d3e-98a5-f797400470ed/HWANG-Heechan_395083"
       },
       {
         "fifaId": "402820",
@@ -9377,7 +9377,7 @@ export const teams = {
         "birthDate": "1997-10-15T00:00:00Z",
         "heightCm": 196,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a45e87b1-92c4-4d33-ac9b-1bca03075996/SONG-Bumkeun_402820"
       },
       {
         "fifaId": "423880",
@@ -9390,7 +9390,7 @@ export const teams = {
         "birthDate": "2002-07-28T00:00:00Z",
         "heightCm": 174,
         "weightKg": 71,
-        "photoUrl": "https://digitalhub.fifa.com/transform/60af83d7-5200-45ef-9feb-b44e3b522ce4/TAE-SEOK-LEE_423880_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f2a9ce7b-5d5a-4ec7-9def-79407ccc338b/LEE-Taeseok_423880"
       },
       {
         "fifaId": "522282",
@@ -9403,12 +9403,12 @@ export const teams = {
         "birthDate": "2001-08-25T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/459002a4-113d-437c-ae23-1aa4d12f31da/WI-JE-CHO_522282_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/11bf36a2-f7f4-4078-978f-70d1119d8f7f/CHO-Wije_522282"
       },
       {
         "fifaId": "448580",
         "name": "KIM Moonhwan ",
-        "shortName": "M H KIM",
+        "shortName": "MOONHWAN",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -9416,7 +9416,7 @@ export const teams = {
         "birthDate": "1995-08-01T00:00:00Z",
         "heightCm": 173,
         "weightKg": 64,
-        "photoUrl": "https://digitalhub.fifa.com/transform/75b608c7-8974-4423-a770-7613af0322ac/MOON-HWAN-KIM_448580_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/352f1315-e0c8-46fd-b0f4-5f56cac5ff18/KIM-Moonhwan_448580"
       },
       {
         "fifaId": "479316",
@@ -9429,7 +9429,7 @@ export const teams = {
         "birthDate": "1995-10-23T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/61302598-b58d-41e5-b411-5808fb0ecf88/JIN-SEOB-PARK_479316_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a335e21c-19b8-4406-a3fb-e40bc056bd9f/PARK-Jinseob_479316"
       },
       {
         "fifaId": "464374",
@@ -9442,12 +9442,12 @@ export const teams = {
         "birthDate": "2003-08-21T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0bff02f3-a9a7-49dd-9f39-a644673e6e15/JUN-HO-BAE_464374_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/58d034cc-0ae7-4caf-b6d1-41d12d129dd2/BAE-Junho_464374"
       },
       {
         "fifaId": "448586",
         "name": "OH Hyeongyu",
-        "shortName": "H G OH",
+        "shortName": "HYEONGYU",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9455,12 +9455,12 @@ export const teams = {
         "birthDate": "2001-04-12T00:00:00Z",
         "heightCm": 183,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b02734df-74cf-4a5a-be1d-15051b861c23/HYEON-GYU-OH_448586_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e273b84d-3432-4404-8c33-7ecaaa2bc214/OH-Hyeongyu_448586"
       },
       {
         "fifaId": "418490",
         "name": "LEE Kangin",
-        "shortName": "LEE KANG IN",
+        "shortName": "KANGIN",
         "jerseyNumber": 19,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9468,12 +9468,12 @@ export const teams = {
         "birthDate": "2001-02-19T00:00:00Z",
         "heightCm": 174,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ad78a4fe-ea40-4339-8654-fe5ef3a5bdc4/KANG-IN-LEE_418490_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a54e995b-caa3-43c4-981f-b54ada7f678d/LEE-Kangin_418490"
       },
       {
         "fifaId": "448585",
         "name": "YANG Hyunjun ",
-        "shortName": "H J YANG",
+        "shortName": "HYUNJUN",
         "jerseyNumber": 20,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9481,7 +9481,7 @@ export const teams = {
         "birthDate": "2002-05-25T00:00:00Z",
         "heightCm": 179,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6615b386-1493-4a0a-b511-ff49ee20968a/HYUN-JUN-YANG_448585_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/537b866b-290c-4da9-a0bb-5984410d1509/YANG-Hyunjun_448585"
       },
       {
         "fifaId": "397753",
@@ -9494,7 +9494,7 @@ export const teams = {
         "birthDate": "1991-09-25T00:00:00Z",
         "heightCm": 189,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5dbd9141-9e66-4791-9ca4-b343de3a86cd/HYEON-WOO-JO_397753_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/15bfe432-3e69-4900-b736-50ee6fd20cb5/JO-Hyeonwoo_397753"
       },
       {
         "fifaId": "429608",
@@ -9507,7 +9507,7 @@ export const teams = {
         "birthDate": "1998-12-05T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f3517f91-c37e-4698-a988-3eaa029a7a67/YOUNG-WOO-SEOL_429608_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/db3b1a56-6cf2-42ad-9d02-139333d68f38/SEOL-Youngwoo_429608"
       },
       {
         "fifaId": "511828",
@@ -9520,12 +9520,12 @@ export const teams = {
         "birthDate": "2003-07-29T00:00:00Z",
         "heightCm": 178,
         "weightKg": 71,
-        "photoUrl": "https://digitalhub.fifa.com/transform/642b9be9-3c66-4fcd-b6d2-41b47dda5bbf/JENS-CASTROP_511828_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d758ee8c-58aa-4562-8b5c-96612458f567/CASTROP-Jens_511828"
       },
       {
         "fifaId": "430385",
         "name": "KIM Jingyu",
-        "shortName": "KIM Jingyu",
+        "shortName": "JINGYU",
         "jerseyNumber": 24,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9533,7 +9533,7 @@ export const teams = {
         "birthDate": "1997-02-24T00:00:00Z",
         "heightCm": 177,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e7576e28-b2e1-4f88-982e-53b1de68f1c4/JIN-KYU-KIM_430385_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b2fd3864-92cd-4846-8be2-880887b9c3ac/KIM-Jingyu_430385"
       },
       {
         "fifaId": "423855",
@@ -9546,12 +9546,12 @@ export const teams = {
         "birthDate": "2002-05-09T00:00:00Z",
         "heightCm": 177,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d144bb3c-d33c-4b86-905e-dc96df005f1c/JI-SUNG-EOM_423855_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f45da0fb-c909-4517-81e8-9a69347ac43c/EOM-Jisung_423855"
       },
       {
         "fifaId": "429600",
         "name": "LEE Donggyeong",
-        "shortName": "LEE Donggyeong",
+        "shortName": "DONGGYEONG",
         "jerseyNumber": 26,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9559,7 +9559,7 @@ export const teams = {
         "birthDate": "1997-09-20T00:00:00Z",
         "heightCm": 175,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5e75d74e-fc0f-4cfb-b6ae-f5284864e850/DONG-GYEONG-LEE_429600_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bef6cf8-e976-4ab2-89e1-6f8a886712f9/LEE-Donggyeong_429600"
       }
     ]
   },
@@ -9569,7 +9569,7 @@ export const teams = {
     "name": "Mexico",
     "group": "Group A",
     "confederation": "CONCACAF",
-    "fifaRank": 15,
+    "fifaRank": 14,
     "attack": 88,
     "defense": 88,
     "form": 85,
@@ -9588,12 +9588,12 @@ export const teams = {
         "birthDate": "2000-02-25T00:00:00Z",
         "heightCm": 190,
         "weightKg": 87,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f86ceae4-94be-456f-9a50-6005ac0cdedb/2280548542"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3ea092ae-841d-4dc6-9ca0-78eb4dfb97c7/RANGEL-Raul_485070"
       },
       {
         "fifaId": "403596",
         "name": "Jorge SANCHEZ",
-        "shortName": "Jorge SANCHEZ",
+        "shortName": "J. SÁNCHEZ",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -9601,12 +9601,12 @@ export const teams = {
         "birthDate": "1997-12-10T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/834280f6-717a-4a89-b5c9-bc985086280a/2280548594"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8640d435-8aba-4b52-a864-9952d3a6db5c/SANCHEZ-Jorge_403596"
       },
       {
         "fifaId": "395516",
         "name": "Cesar MONTES",
-        "shortName": "Cesar MONTES",
+        "shortName": "C. MONTES",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -9614,7 +9614,7 @@ export const teams = {
         "birthDate": "1997-02-24T00:00:00Z",
         "heightCm": 191,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c8cf56fe-2416-42be-aaed-84739d04f58a/2280548562"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c8c3fa3a-9001-4221-ab3c-754158c0ad8a/MONTES-Cesar_395516"
       },
       {
         "fifaId": "400634",
@@ -9627,12 +9627,12 @@ export const teams = {
         "birthDate": "1997-10-24T00:00:00Z",
         "heightCm": 180,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6b88c1ed-9845-4ec4-a311-6ea906505483/2280548556"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b1581870-6bef-4c29-9a06-f306bbf03ca8/ALVAREZ-Edson_400634"
       },
       {
         "fifaId": "425701",
         "name": "Johan VASQUEZ",
-        "shortName": "Johan VASQUEZ",
+        "shortName": "J. VÁSQUEZ",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
@@ -9640,7 +9640,7 @@ export const teams = {
         "birthDate": "1998-10-22T00:00:00Z",
         "heightCm": 182,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/02caca49-051b-4eb9-82af-25c4d17af54f/2280548571"
+        "photoUrl": "https://digitalhub.fifa.com/transform/838cb65f-3d60-4acb-855d-35a364c25f1a/VASQUEZ-Johan_425701"
       },
       {
         "fifaId": "419518",
@@ -9653,12 +9653,12 @@ export const teams = {
         "birthDate": "2000-05-08T00:00:00Z",
         "heightCm": 172,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/901669a0-a0bc-405f-8e53-d4ecee9b6462/2280548591"
+        "photoUrl": "https://digitalhub.fifa.com/transform/83109586-542d-4950-83eb-f3388757ef90/LIRA-Erik_419518"
       },
       {
         "fifaId": "430763",
         "name": "Luis ROMO",
-        "shortName": "Luis ROMO",
+        "shortName": "L. ROMO",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9666,7 +9666,7 @@ export const teams = {
         "birthDate": "1995-06-05T00:00:00Z",
         "heightCm": 183,
         "weightKg": 81,
-        "photoUrl": "https://digitalhub.fifa.com/transform/95fda22d-e1c7-467c-a62c-b32546db52b5/2280548586"
+        "photoUrl": "https://digitalhub.fifa.com/transform/bc7f864e-c553-4995-9eb3-62139e29a7d7/ROMO-Luis_430763"
       },
       {
         "fifaId": "416576",
@@ -9679,7 +9679,7 @@ export const teams = {
         "birthDate": "1997-04-09T00:00:00Z",
         "heightCm": 175,
         "weightKg": 66,
-        "photoUrl": "https://digitalhub.fifa.com/transform/33a4c16e-abe4-443a-8db0-81c7238b143f/2280548561"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fda68f1a-eceb-4219-8f1b-ed6b1f2e37ed/FIDALGO-Alvaro_416576"
       },
       {
         "fifaId": "356731",
@@ -9692,12 +9692,12 @@ export const teams = {
         "birthDate": "1991-05-05T00:00:00Z",
         "heightCm": 188,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5ae88c76-aa90-4671-a807-51990090b141/2280548570"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ec48d7a7-0cf7-4fc8-b999-e3c15fee5e98/JIMENEZ-Raul_356731"
       },
       {
         "fifaId": "430766",
         "name": "Alexis VEGA",
-        "shortName": "Alexis VEGA",
+        "shortName": "A. VEGA",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9705,7 +9705,7 @@ export const teams = {
         "birthDate": "1997-11-25T00:00:00Z",
         "heightCm": 175,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/92f916b1-b068-4715-965c-6bb1ceda7710/2280548597"
+        "photoUrl": "https://digitalhub.fifa.com/transform/eeeba73b-bc80-47f5-a1ff-f38f94ff2ee0/VEGA-Alexis_430766"
       },
       {
         "fifaId": "430759",
@@ -9718,7 +9718,7 @@ export const teams = {
         "birthDate": "2001-04-18T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/328efb4c-a45f-4c34-8655-ad8225af5c7a/2280548554"
+        "photoUrl": "https://digitalhub.fifa.com/transform/0e27d0c6-e057-4d0c-a603-3843fcd0c542/GIMENEZ-Santiago_430759"
       },
       {
         "fifaId": "441260",
@@ -9731,7 +9731,7 @@ export const teams = {
         "birthDate": "1996-04-19T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c5debc9c-444b-42d0-9e8a-6d57160c52af/2280548543"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b84beeec-be0c-493f-85fd-362bf0ead5c6/ACEVEDO-Carlos_441260"
       },
       {
         "fifaId": "215285",
@@ -9744,7 +9744,7 @@ export const teams = {
         "birthDate": "1985-07-13T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/db17438e-2aeb-4dcf-9072-0ad4cdf2806a/2280548544"
+        "photoUrl": "https://digitalhub.fifa.com/transform/fedeac9f-968d-4d4c-b08a-5b2bf157c396/OCHOA-Guillermo_215285"
       },
       {
         "fifaId": "514336",
@@ -9757,7 +9757,7 @@ export const teams = {
         "birthDate": "2003-04-20T00:00:00Z",
         "heightCm": 182,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/bc3d9eb5-c83a-4e9a-b230-70f291add69a/2280548590"
+        "photoUrl": "https://digitalhub.fifa.com/transform/81ce3e70-d37d-4109-b423-8cc7732527a1/GONZALEZ-Armando_514336"
       },
       {
         "fifaId": "441261",
@@ -9770,12 +9770,12 @@ export const teams = {
         "birthDate": "2000-05-23T00:00:00Z",
         "heightCm": 181,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cba20be2-46b3-4332-bf3a-002475acf293/2280548598"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1e7c7c32-135c-46ba-9aff-429bfb1478aa/REYES-Israel_441261"
       },
       {
         "fifaId": "429157",
         "name": "Julian QUINONES",
-        "shortName": "Julian QUINONES",
+        "shortName": "J. QUIÑONES",
         "jerseyNumber": 16,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9783,7 +9783,7 @@ export const teams = {
         "birthDate": "1997-03-24T00:00:00Z",
         "heightCm": 177,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8cd5691e-10bf-42bc-8ef7-80cb0277ef77/2280548559"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ea06becb-97b2-4f89-8464-5e0854cb7f81/QUINONES-Julian_429157"
       },
       {
         "fifaId": "372090",
@@ -9796,12 +9796,12 @@ export const teams = {
         "birthDate": "1996-03-24T00:00:00Z",
         "heightCm": 169,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5719ebe4-3317-4eab-b33a-07e215276afd/2280548560"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ef0f99d9-6838-4b25-8a18-ecd9638bd51f/PINEDA-Orbelin_372090"
       },
       {
         "fifaId": "461177",
         "name": "Obed VARGAS",
-        "shortName": "VARGAS",
+        "shortName": "O. VARGAS",
         "jerseyNumber": 18,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9809,7 +9809,7 @@ export const teams = {
         "birthDate": "2005-08-05T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2331d6f0-0d4b-4c1a-b347-24ecf9a3c3c3/2280548557"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c0990d50-6120-459c-a66a-bd91ee7e46bc/VARGAS-Obed_461177"
       },
       {
         "fifaId": "500037",
@@ -9822,7 +9822,7 @@ export const teams = {
         "birthDate": "2008-10-14T00:00:00Z",
         "heightCm": 175,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4bf36c88-1b14-49c1-b823-2af77c5f0cf8/2280548585"
+        "photoUrl": "https://digitalhub.fifa.com/transform/028c85e0-509a-43c4-904a-58ce2d4f6f24/MORA-Gilberto_500037"
       },
       {
         "fifaId": "500038",
@@ -9835,7 +9835,7 @@ export const teams = {
         "birthDate": "2004-05-12T00:00:00Z",
         "heightCm": 178,
         "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a031e68e-fe9a-4e75-9aa9-0bb59e54c73b/2280548563"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8e8884ee-8964-4fb7-82d8-8a5d341e79a6/CHAVEZ-Mateo_500038"
       },
       {
         "fifaId": "406135",
@@ -9848,12 +9848,12 @@ export const teams = {
         "birthDate": "2000-12-03T00:00:00Z",
         "heightCm": 171,
         "weightKg": 61,
-        "photoUrl": "https://digitalhub.fifa.com/transform/09d7304f-de72-4c42-b6ff-03cf2776f556/2280548592"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c5a00320-abe6-4d97-9892-e4afaf601fed/HUERTA-Cesar_406135"
       },
       {
         "fifaId": "386339",
         "name": "Guillermo MARTINEZ",
-        "shortName": "G. MARTINEZ",
+        "shortName": "G. MARTÍNEZ",
         "jerseyNumber": 22,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9861,7 +9861,7 @@ export const teams = {
         "birthDate": "1995-03-15T00:00:00Z",
         "heightCm": 191,
         "weightKg": 87,
-        "photoUrl": "https://digitalhub.fifa.com/transform/79ddaa97-ee84-48af-b173-585b3944011d/2280548588"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7f04e2d8-1f0b-491e-8551-5a856979bc97/MARTINEZ-Guillermo_386339"
       },
       {
         "fifaId": "402772",
@@ -9874,12 +9874,12 @@ export const teams = {
         "birthDate": "1994-08-15T00:00:00Z",
         "heightCm": 174,
         "weightKg": 71,
-        "photoUrl": "https://digitalhub.fifa.com/transform/fd594ff5-188e-4b48-bcc2-ace963a0d570/2280548595"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f1417540-93cb-4b82-9cfe-223e877d5923/GALLARDO-Jesus_402772"
       },
       {
         "fifaId": "448051",
         "name": "Luis CHAVEZ",
-        "shortName": "L.CHAVEZ",
+        "shortName": "L. CHÁVEZ",
         "jerseyNumber": 24,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9887,12 +9887,12 @@ export const teams = {
         "birthDate": "1996-01-15T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2bdf3b24-4b56-4e26-a9ea-302c81f33899/2280548567"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a09b97d9-6b02-45d4-aae8-b8ed274e5634/CHAVEZ-Luis_448051"
       },
       {
         "fifaId": "403585",
         "name": "Roberto ALVARADO",
-        "shortName": "Roberto ALVARADO",
+        "shortName": "R. ALVARADO",
         "jerseyNumber": 25,
         "position": "FW",
         "positionLabel": "Forward",
@@ -9900,7 +9900,7 @@ export const teams = {
         "birthDate": "1998-09-07T00:00:00Z",
         "heightCm": 176,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/9c173c92-f93b-4628-bc2e-6ae061d2bf00/2280548593"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b1a8a14a-2a27-4524-a6ed-679aca39d35d/ALVARADO-Roberto_403585"
       },
       {
         "fifaId": "464533",
@@ -9913,7 +9913,7 @@ export const teams = {
         "birthDate": "2003-06-17T00:00:00Z",
         "heightCm": 178,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d3e47cba-63dc-4d0b-809d-7eb295a60452/2280548569"
+        "photoUrl": "https://digitalhub.fifa.com/transform/dbca9708-0922-4d1d-97cb-1aa53696d6bd/GUTIERREZ-Brian_464533"
       }
     ]
   },
@@ -9923,10 +9923,10 @@ export const teams = {
     "name": "Morocco",
     "group": "Group C",
     "confederation": "CAF",
-    "fifaRank": 8,
+    "fifaRank": 7,
     "attack": 89,
     "defense": 90,
-    "form": 86,
+    "form": 87,
     "coach": "Mohamed OUAHBI",
     "flagUrl": "https://flagcdn.com/ma.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/MAR",
@@ -9942,7 +9942,7 @@ export const teams = {
         "birthDate": "1991-04-05T00:00:00Z",
         "heightCm": 192,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4187b2ac-9e57-4122-867d-d058b6ccac85/YASSINE-BOUNOU_356956_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/338ae8a7-8734-423e-ae54-2f783dba77ce/BOUNOU-Yassine_356956"
       },
       {
         "fifaId": "400721",
@@ -9955,7 +9955,7 @@ export const teams = {
         "birthDate": "1998-11-04T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7c20624e-7ee2-47d9-bd62-20be4b49c30f/ACHRAF-HAKIMI_400721_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/22c6ca49-7262-4799-8a9f-530e427321ac/HAKIMI-Achraf_400721"
       },
       {
         "fifaId": "411680",
@@ -9968,12 +9968,12 @@ export const teams = {
         "birthDate": "1997-11-14T00:00:00Z",
         "heightCm": 183,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/2af3931e-4d61-468e-9cf7-9628036182f8/NOUSSAIR-MAZRAOUI_411680_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/000d2b43-36ff-4fe5-90d8-23c96e555c56/MAZRAOUI-Noussair_411680"
       },
       {
         "fifaId": "372266",
         "name": "Sofyan AMRABAT",
-        "shortName": "S. AMRABAT",
+        "shortName": "AMRABAT",
         "jerseyNumber": 4,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -9981,20 +9981,20 @@ export const teams = {
         "birthDate": "1996-08-21T00:00:00Z",
         "heightCm": 185,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/991319f7-5ca6-4084-bbdf-3df8ccc5342a/SOFYAN-AMRABAT_372266_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/cf6efacc-6c34-4679-b833-b2c5371b4ee6/AMRABAT-Sofyan_372266"
       },
       {
-        "fifaId": "441304",
-        "name": "Nayef AGUERD",
-        "shortName": "AGUERD",
+        "fifaId": "395760",
+        "name": "Marwane SAADANE",
+        "shortName": "SAADANE",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
         "club": "",
-        "birthDate": "1996-03-30T00:00:00Z",
-        "heightCm": 190,
-        "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/fa48e61c-4893-4a78-af03-b22086216388/NAYEF-AGUERD_441304_Front"
+        "birthDate": "1992-01-17T00:00:00Z",
+        "heightCm": 185,
+        "weightKg": 79,
+        "photoUrl": "https://digitalhub.fifa.com/transform/d46e989c-a503-485f-b507-57705654cd55/MARWANE-SAADANE_395760"
       },
       {
         "fifaId": "485760",
@@ -10007,7 +10007,7 @@ export const teams = {
         "birthDate": "2007-10-02T00:00:00Z",
         "heightCm": 185,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8f9b457e-78f5-4d0a-8775-7d1e46285e44/AYYOUB-BOUADDI_485760_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/37fafcb6-10c1-4e8d-b2a7-898ae14fa1a3/BOUADDI-Ayyoub_485760"
       },
       {
         "fifaId": "494293",
@@ -10020,7 +10020,7 @@ export const teams = {
         "birthDate": "2005-05-09T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/40a80a88-c79f-480c-8375-cc101766a1e6/CHEMSDINE-TALBI_494293_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b6d54dcf-25e8-4e0f-a155-60e051b4a86e/TALBI-Chemsdine_494293"
       },
       {
         "fifaId": "441307",
@@ -10033,12 +10033,12 @@ export const teams = {
         "birthDate": "2000-04-19T00:00:00Z",
         "heightCm": 182,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b5769941-ba91-42fd-94b1-4757d79f19b1/AZZEDINE-OUNAHI_441307_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f823c3da-d540-436c-9b56-bfccdc4b51bc/OUNAHI-Azzedine_441307"
       },
       {
         "fifaId": "433426",
         "name": "Soufiane RAHIMI",
-        "shortName": "S. RAHIMI",
+        "shortName": "RAHIMI",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -10046,7 +10046,7 @@ export const teams = {
         "birthDate": "1996-06-02T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/91f6fe92-275b-48bf-b850-d7b734b69036/SOUFIANE-RAHIMI_433426_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7de765a2-f6c6-4d70-badd-a929c4cab547/RAHIMI-Soufiane_433426"
       },
       {
         "fifaId": "430740",
@@ -10059,7 +10059,7 @@ export const teams = {
         "birthDate": "1999-08-03T00:00:00Z",
         "heightCm": 170,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/19d9446f-a9da-48d4-9723-2f228d9ff40c/BRAHIM-DIAZ_430740_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b05c2233-cb0a-4abc-9413-e56ad25f0899/DIAZ-Brahim_430740"
       },
       {
         "fifaId": "448598",
@@ -10072,12 +10072,12 @@ export const teams = {
         "birthDate": "2001-01-28T00:00:00Z",
         "heightCm": 185,
         "weightKg": 81,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ab26bc45-da52-4b2b-859b-85b1abab7517/ISMAEL-SAIBARI_448598_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/250526c6-26b5-4425-8a21-231c7952e34d/SAIBARI-Ismael_448598"
       },
       {
         "fifaId": "395755",
         "name": "Munir EL KAJOUI",
-        "shortName": "Munir EL KAJOUI",
+        "shortName": "EL KAJOUI",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -10085,7 +10085,7 @@ export const teams = {
         "birthDate": "1989-05-10T00:00:00Z",
         "heightCm": 190,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d4c4e00c-9c9e-4f83-b557-4c55e9f54d3b/MUNIR-EL-KAJOUI_395755_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/20f762ed-3248-4b2d-8a4c-5f1e3891291f/EL-KAJOUI-Munir_395755"
       },
       {
         "fifaId": "485756",
@@ -10098,12 +10098,12 @@ export const teams = {
         "birthDate": "2001-12-31T00:00:00Z",
         "heightCm": 171,
         "weightKg": 69,
-        "photoUrl": "https://digitalhub.fifa.com/transform/80dd16d6-5cbf-4784-a499-96b3dec1a582/ZAKARIA-EL-OUAHDI_485756_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/beeb6801-c7ca-401a-b1ab-21db95f44198/EL-OUAHDI-Zakaria_485756"
       },
       {
         "fifaId": "403083",
         "name": "Issa Diop",
-        "shortName": "DIOP",
+        "shortName": "ISSA",
         "jerseyNumber": 14,
         "position": "DF",
         "positionLabel": "Defender",
@@ -10111,7 +10111,7 @@ export const teams = {
         "birthDate": "1997-01-09T00:00:00Z",
         "heightCm": 194,
         "weightKg": 88,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a7f43fe5-2f05-4b55-b560-8f7ae9c177e4/ISSA-DIOP_403083_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a89dc777-6262-4c1e-8b22-a9a9e5bf7300/DIOP-Issa_403083"
       },
       {
         "fifaId": "505097",
@@ -10124,7 +10124,7 @@ export const teams = {
         "birthDate": "2005-10-06T00:00:00Z",
         "heightCm": 187,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7b152cb3-d7c3-4ea6-8104-5d4f6bf3a0b7/SAMIR-EL-MOURABET_505097_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c4672ea-a846-45f7-ae85-85ec7559a30c/EL-MOURABET-Samir_505097"
       },
       {
         "fifaId": "505112",
@@ -10137,20 +10137,20 @@ export const teams = {
         "birthDate": "2005-11-22T00:00:00Z",
         "heightCm": 172,
         "weightKg": 56,
-        "photoUrl": "https://digitalhub.fifa.com/transform/de73ff3a-a222-409e-8410-e32fb6ee92dc/GESSIME-YASSINE_505112_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/dd763e4f-0cfe-44b1-8e18-ea842260c807/YASSINE-Gessime_505112"
       },
       {
-        "fifaId": "441310",
-        "name": "Abde EZZALZOULI",
-        "shortName": "EZZALZOULI",
+        "fifaId": "524320",
+        "name": "Amine SBAI",
+        "shortName": "SBAÏ",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
         "club": "",
-        "birthDate": "2001-12-17T00:00:00Z",
-        "heightCm": 177,
-        "weightKg": 73,
-        "photoUrl": "https://digitalhub.fifa.com/transform/dc4c581c-2bd4-4412-9d5f-186d6cd23a2c/ABDE-EZZALZOULI_441310_Front"
+        "birthDate": "2000-11-05T00:00:00Z",
+        "heightCm": 175,
+        "weightKg": 72,
+        "photoUrl": "https://digitalhub.fifa.com/transform/d75890bc-bbe6-46a2-ab20-5655effe3479/AMINE-SBAI_524320"
       },
       {
         "fifaId": "448607",
@@ -10163,7 +10163,7 @@ export const teams = {
         "birthDate": "2003-06-17T00:00:00Z",
         "heightCm": 186,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a55a74a8-006e-4bc9-85ee-d49b3ef1b151/CHADI-RIAD_448607_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/074f7da4-2459-4f56-b245-0b496782d067/RIAD-Chadi_448607"
       },
       {
         "fifaId": "494742",
@@ -10176,7 +10176,7 @@ export const teams = {
         "birthDate": "1998-09-20T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a419363f-72ff-45ec-a0b8-e0f4046c4e37/YOUSSEF-BELAMMARI_494742_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/616a2660-9465-4f4f-a565-e354f3890a81/BELAMMARI-Youssef_494742"
       },
       {
         "fifaId": "411678",
@@ -10189,7 +10189,7 @@ export const teams = {
         "birthDate": "1993-06-25T00:00:00Z",
         "heightCm": 182,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d7f476ce-f1ef-4cfb-a196-456ba3fe9049/AYOUB-EL-KAABI_411678_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/207a8ba8-3f3f-4f86-9730-335f21c1924f/EL-KAABI-Ayoub_411678"
       },
       {
         "fifaId": "523288",
@@ -10202,12 +10202,12 @@ export const teams = {
         "birthDate": "2004-11-30T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5e371aad-5d7c-4bb8-8651-ea5865ff9ed5/AYOUB-AMAIMOUNI_523288_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/54730a6f-bb75-4909-b3c3-37441159d78e/AMAIMOUNI-Ayoub_523288"
       },
       {
         "fifaId": "371553",
         "name": "Ahmed Reda TAGNAOUTI",
-        "shortName": "Ahmed Reda TAGNAOUTI",
+        "shortName": "TAGNAOUTI",
         "jerseyNumber": 22,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -10215,7 +10215,7 @@ export const teams = {
         "birthDate": "1996-04-05T00:00:00Z",
         "heightCm": 194,
         "weightKg": 84,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a461929a-756a-4c28-ac3b-9ab07cdb1776/AHMED-REDA-TAGNAOUTI_371553_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3efabccf-6fc5-4192-b000-ea89f4b63c06/TAGNAOUTI-Ahmed-Reda_371553"
       },
       {
         "fifaId": "448612",
@@ -10228,7 +10228,7 @@ export const teams = {
         "birthDate": "2004-05-10T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/7df121cf-0ae6-48a7-8baa-660beb8c9ccc/BILAL-EL-KHANNOUSS_448612_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8e73a0cb-8200-4870-b0bc-12901de8076f/EL-KHANNOUSS-Bilal_448612"
       },
       {
         "fifaId": "485740",
@@ -10241,7 +10241,7 @@ export const teams = {
         "birthDate": "2001-07-02T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4ddae0a8-6eab-4945-87de-f0ecee071603/NEIL-EL-AYNAOUI_485740_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3d04af2c-60a8-48c8-be3e-d13bf5373c0c/EL-AYNAOUI-Neil_485740"
       },
       {
         "fifaId": "485767",
@@ -10254,7 +10254,7 @@ export const teams = {
         "birthDate": "2003-03-05T00:00:00Z",
         "heightCm": 189,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b014ab82-e651-406f-8f12-6b1cdcb2ff23/REDOUANE-HALHAL_485767_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e515f777-c663-46b0-87e3-9f467c48184f/HALHAL-Redouane_485767"
       },
       {
         "fifaId": "424071",
@@ -10267,7 +10267,7 @@ export const teams = {
         "birthDate": "2002-01-18T00:00:00Z",
         "heightCm": 181,
         "weightKg": 66,
-        "photoUrl": "https://digitalhub.fifa.com/transform/628aa186-2569-43ba-adfa-725af5d6650d/ANASS-SALAH-EDDINE_424071_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/06a01d87-4cc8-4a19-b4c3-b4902454e44e/SALAH-EDDINE-Anass_424071"
       }
     ]
   },
@@ -10277,10 +10277,10 @@ export const teams = {
     "name": "Netherlands",
     "group": "Group F",
     "confederation": "UEFA",
-    "fifaRank": 7,
+    "fifaRank": 8,
     "attack": 90,
     "defense": 91,
-    "form": 87,
+    "form": 86,
     "coach": "Ronald KOEMAN",
     "flagUrl": "https://flagcdn.com/nl.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/NED",
@@ -10296,7 +10296,7 @@ export const teams = {
         "birthDate": "2002-08-18T00:00:00Z",
         "heightCm": 193,
         "weightKg": 89,
-        "photoUrl": "https://digitalhub.fifa.com/transform/44bfd693-27d5-4d36-823e-5ff0e6cd2524/_424081"
+        "photoUrl": "https://digitalhub.fifa.com/transform/44bfd693-27d5-4d36-823e-5ff0e6cd2524/VERBRUGGEN-Bart_424081"
       },
       {
         "fifaId": "483553",
@@ -10309,7 +10309,7 @@ export const teams = {
         "birthDate": "2000-07-18T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1248c411-1f1f-436d-9731-3b1c3b6db0e6/GEERTRUIDA-Lutsharel_483553"
       },
       {
         "fifaId": "402044",
@@ -10335,7 +10335,7 @@ export const teams = {
         "birthDate": "1991-07-08T00:00:00Z",
         "heightCm": 195,
         "weightKg": 92,
-        "photoUrl": "https://digitalhub.fifa.com/transform/df0e21eb-c210-4ea6-ab2c-0ac13635a9f8/_397786"
+        "photoUrl": "https://digitalhub.fifa.com/transform/df0e21eb-c210-4ea6-ab2c-0ac13635a9f8/VAN-DIJK-Virgil_397786"
       },
       {
         "fifaId": "336088",
@@ -10361,7 +10361,7 @@ export const teams = {
         "birthDate": "2000-06-08T00:00:00Z",
         "heightCm": 189,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/eb113fdd-d066-44a9-a0dc-7bf075fdc57f/_489517"
+        "photoUrl": "https://digitalhub.fifa.com/transform/eb113fdd-d066-44a9-a0dc-7bf075fdc57f/VAN-HECKE-Jan-Paul_489517"
       },
       {
         "fifaId": "478364",
@@ -10400,7 +10400,7 @@ export const teams = {
         "birthDate": "1992-08-07T00:00:00Z",
         "heightCm": 197,
         "weightKg": 90,
-        "photoUrl": "https://digitalhub.fifa.com/transform/3b0de826-85e3-4404-9dbc-6e6ac7675ae3/_448159"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3b0de826-85e3-4404-9dbc-6e6ac7675ae3/WEGHORST-Wout_448159"
       },
       {
         "fifaId": "336098",
@@ -10452,7 +10452,7 @@ export const teams = {
         "birthDate": "2003-01-17T00:00:00Z",
         "heightCm": 193,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/557e5592-2bf9-4d43-8d51-ee7e2881cb65/ROEFS-Robin_506028"
       },
       {
         "fifaId": "483526",
@@ -10465,7 +10465,7 @@ export const teams = {
         "birthDate": "1998-07-29T00:00:00Z",
         "heightCm": 178,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/3f7090ee-2e95-4b6c-a098-729b07484fb2/_483526"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3f7090ee-2e95-4b6c-a098-729b07484fb2/REIJNDERS-Tijjani_483526"
       },
       {
         "fifaId": "448140",
@@ -10478,7 +10478,7 @@ export const teams = {
         "birthDate": "2001-04-19T00:00:00Z",
         "heightCm": 193,
         "weightKg": 81,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f9f50877-4cd1-4ab9-83d8-2908ad6fbc70/_448140"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f9f50877-4cd1-4ab9-83d8-2908ad6fbc70/VAN-DE-VEN-Micky_448140"
       },
       {
         "fifaId": "448157",
@@ -10491,7 +10491,7 @@ export const teams = {
         "birthDate": "1997-12-22T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/79d54014-e674-49c2-8b01-94958f41743a/_448157"
+        "photoUrl": "https://digitalhub.fifa.com/transform/79d54014-e674-49c2-8b01-94958f41743a/TIL-Guus_448157"
       },
       {
         "fifaId": "448153",
@@ -10517,7 +10517,7 @@ export const teams = {
         "birthDate": "1999-01-19T00:00:00Z",
         "heightCm": 178,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/15ebb030-92ea-4165-aa63-5136719b5c7f/_433066"
+        "photoUrl": "https://digitalhub.fifa.com/transform/15ebb030-92ea-4165-aa63-5136719b5c7f/MALEN-Donyell_433066"
       },
       {
         "fifaId": "424051",
@@ -10595,7 +10595,7 @@ export const teams = {
         "birthDate": "2001-10-30T00:00:00Z",
         "heightCm": 172,
         "weightKg": 63,
-        "photoUrl": "https://digitalhub.fifa.com/transform/86e9f724-fc5f-4969-92e3-ac658dafacdd/_489518"
+        "photoUrl": "https://digitalhub.fifa.com/transform/86e9f724-fc5f-4969-92e3-ac658dafacdd/SUMMERVILLE-Crysencio_489518"
       },
       {
         "fifaId": "483512",
@@ -10608,7 +10608,7 @@ export const teams = {
         "birthDate": "2006-03-07T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/16b4bf89-fc63-492a-afd1-6f400e8eed92/_483512"
+        "photoUrl": "https://digitalhub.fifa.com/transform/16b4bf89-fc63-492a-afd1-6f400e8eed92/HATO-Jorrel_483512"
       },
       {
         "fifaId": "484859",
@@ -10621,7 +10621,7 @@ export const teams = {
         "birthDate": "2001-06-17T00:00:00Z",
         "heightCm": 176,
         "weightKg": 71,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ac98da17-3346-4d88-b52f-4ce34c82f587/_484859"
+        "photoUrl": "https://digitalhub.fifa.com/transform/ac98da17-3346-4d88-b52f-4ce34c82f587/TIMBER-Quinten_484859"
       }
     ]
   },
@@ -10642,7 +10642,7 @@ export const teams = {
       {
         "fifaId": "368535",
         "name": "Max CROCOMBE",
-        "shortName": "Max CROCOMBE",
+        "shortName": "CROCOMBE",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -10650,7 +10650,7 @@ export const teams = {
         "birthDate": "1993-08-12T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0d8fc4f9-7330-4eaa-bbf0-7dfccbec09db/CROCOMBE-Max_368535"
       },
       {
         "fifaId": "331463",
@@ -10663,7 +10663,7 @@ export const teams = {
         "birthDate": "1994-01-10T00:00:00Z",
         "heightCm": 179,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2fd43bf7-76f0-4733-88d4-5d5ca820e91c/PAYNE-Tim_331463"
       },
       {
         "fifaId": "440748",
@@ -10676,7 +10676,7 @@ export const teams = {
         "birthDate": "1994-11-28T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0f1a06e9-76d0-480c-950a-667f11d41171/DE-VRIES-Francis_440748"
       },
       {
         "fifaId": "482775",
@@ -10689,7 +10689,7 @@ export const teams = {
         "birthDate": "2005-01-27T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/14976514-36f8-43b9-80c8-67fb73d13d6b/BINDON-Tyler_482775"
       },
       {
         "fifaId": "261367",
@@ -10702,7 +10702,7 @@ export const teams = {
         "birthDate": "1988-08-18T00:00:00Z",
         "heightCm": 191,
         "weightKg": 95,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e4d41670-878d-4717-b07c-84d09a5f6938/BOXALL-Michael_261367"
       },
       {
         "fifaId": "390181",
@@ -10715,25 +10715,25 @@ export const teams = {
         "birthDate": "1999-04-27T00:00:00Z",
         "heightCm": 182,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/37f084e5-faf4-4447-bdf1-c7ac8b0fa6e8/BELL-Joe_390181"
       },
       {
-        "fifaId": "423596",
-        "name": "Matthew GARBETT",
-        "shortName": "Matthew GARBETT",
+        "fifaId": "390205",
+        "name": "Logan ROGERSON",
+        "shortName": "ROGERSON",
         "jerseyNumber": 7,
-        "position": "MF",
-        "positionLabel": "Midfielder",
+        "position": "FW",
+        "positionLabel": "Forward",
         "club": "",
-        "birthDate": "2002-04-13T00:00:00Z",
-        "heightCm": 192,
+        "birthDate": "1998-05-28T00:00:00Z",
+        "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/009066e3-bc4c-48e9-af6c-1a7065946bd5/LOGAN-ROGERSON_390205"
       },
       {
         "fifaId": "423595",
         "name": "Marko STAMENIC",
-        "shortName": "Marko STAMENIC",
+        "shortName": "STAMENIC",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -10741,7 +10741,7 @@ export const teams = {
         "birthDate": "2002-02-19T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b0e38724-034f-4d1e-a08a-def455a86569/STAMENIC-Marko_423595"
       },
       {
         "fifaId": "274078",
@@ -10754,7 +10754,7 @@ export const teams = {
         "birthDate": "1991-12-07T00:00:00Z",
         "heightCm": 191,
         "weightKg": 94,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/431bf921-6e73-469f-87bd-3fb2c010966e/WOOD-Chris_274078"
       },
       {
         "fifaId": "390209",
@@ -10767,7 +10767,7 @@ export const teams = {
         "birthDate": "1999-02-20T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3c43e6c2-50b4-4cb3-ba2e-e94f9a928edd/SINGH-Sarpreet_390209"
       },
       {
         "fifaId": "405454",
@@ -10780,12 +10780,12 @@ export const teams = {
         "birthDate": "2000-05-01T00:00:00Z",
         "heightCm": 176,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fe32736f-5d5f-4870-8db3-5b4560835f53/JUST-Elijah_405454"
       },
       {
         "fifaId": "423574",
         "name": "Alex PAULSEN",
-        "shortName": "Alex PAULSEN",
+        "shortName": "PAULSEN",
         "jerseyNumber": 12,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -10793,7 +10793,7 @@ export const teams = {
         "birthDate": "2002-07-04T00:00:00Z",
         "heightCm": 193,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/10106faa-f53a-4898-b03a-6688ff48cf53/PAULSEN-Alex_423574"
       },
       {
         "fifaId": "405469",
@@ -10806,7 +10806,7 @@ export const teams = {
         "birthDate": "2000-09-27T00:00:00Z",
         "heightCm": 182,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0954fe05-e301-4ec1-a8ad-2aaccc60d8a7/CACACE-Liberato_405469"
       },
       {
         "fifaId": "371142",
@@ -10819,12 +10819,12 @@ export const teams = {
         "birthDate": "1996-06-12T00:00:00Z",
         "heightCm": 180,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cc41974e-475a-4ba0-bb88-ec792a18c3ab/RUFER-Alex_371142"
       },
       {
         "fifaId": "419572",
         "name": "Nando PIJNAKER",
-        "shortName": "Nando PIJNAKER",
+        "shortName": "PIJNAKER",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -10832,7 +10832,7 @@ export const teams = {
         "birthDate": "1999-02-25T00:00:00Z",
         "heightCm": 185,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/73a44115-3c98-4cb3-b1d8-4e20cdc7ba23/PIJNAKER-Nando_419572"
       },
       {
         "fifaId": "463580",
@@ -10845,7 +10845,7 @@ export const teams = {
         "birthDate": "2003-09-23T00:00:00Z",
         "heightCm": 190,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/99c5d1bb-fd52-4ce3-a0e0-8f2e8b1083cf/SURMAN-Finn_463580"
       },
       {
         "fifaId": "269592",
@@ -10858,12 +10858,12 @@ export const teams = {
         "birthDate": "1990-02-19T00:00:00Z",
         "heightCm": 171,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/485b38ee-9a46-4494-b518-952574e944e6/BARBAROUSES-Kosta_269592"
       },
       {
         "fifaId": "419577",
         "name": "Ben WAINE",
-        "shortName": "Ben WAINE",
+        "shortName": "WAINE",
         "jerseyNumber": 18,
         "position": "FW",
         "positionLabel": "Forward",
@@ -10871,12 +10871,12 @@ export const teams = {
         "birthDate": "2001-06-11T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88f867f6-433a-4846-a145-fc06b8aac544/WAINE-Ben_419577"
       },
       {
         "fifaId": "423575",
         "name": "Ben OLD",
-        "shortName": "Ben OLD",
+        "shortName": "OLD",
         "jerseyNumber": 19,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -10884,7 +10884,7 @@ export const teams = {
         "birthDate": "2002-08-13T00:00:00Z",
         "heightCm": 173,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/40fc67b2-858c-4985-9db3-ef1e32b864e9/OLD-Ben_423575"
       },
       {
         "fifaId": "390196",
@@ -10897,7 +10897,7 @@ export const teams = {
         "birthDate": "1999-04-30T00:00:00Z",
         "heightCm": 180,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e2c1ff8e-bc45-46aa-b217-a6c2c588c497/McCOWATT-Callum_390196"
       },
       {
         "fifaId": "416652",
@@ -10910,7 +10910,7 @@ export const teams = {
         "birthDate": "2002-08-19T00:00:00Z",
         "heightCm": 176,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/22bc60f6-3a5a-4df2-8493-b3193cf0cf22/RANDALL-Jesse_416652"
       },
       {
         "fifaId": "390218",
@@ -10923,12 +10923,12 @@ export const teams = {
         "birthDate": "1999-01-16T00:00:00Z",
         "heightCm": 196,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a9766a27-9d3c-4856-8462-396d87ee2335/WOUD-Michael_390218"
       },
       {
         "fifaId": "336641",
         "name": "Ryan THOMAS",
-        "shortName": "Thomas",
+        "shortName": "THOMAS",
         "jerseyNumber": 23,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -10936,12 +10936,12 @@ export const teams = {
         "birthDate": "1994-12-20T00:00:00Z",
         "heightCm": 176,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/daf68d11-59d7-46f3-98ec-25a359c8a3a9/THOMAS-Ryan_336641"
       },
       {
         "fifaId": "419567",
         "name": "Callan ELLIOT",
-        "shortName": "Callan ELLIOT",
+        "shortName": "ELLIOT",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
@@ -10949,7 +10949,7 @@ export const teams = {
         "birthDate": "1999-07-07T00:00:00Z",
         "heightCm": 177,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0758a55c-7ba4-4988-bcd8-c2401d5fc9d1/ELLIOT-Callan_419567"
       },
       {
         "fifaId": "484817",
@@ -10962,7 +10962,7 @@ export const teams = {
         "birthDate": "2002-07-24T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d63e6762-f433-47f1-82b3-be3627b12941/BAYLISS-Lachlan_484817"
       },
       {
         "fifaId": "274102",
@@ -10975,7 +10975,7 @@ export const teams = {
         "birthDate": "1990-03-31T00:00:00Z",
         "heightCm": 188,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a0a2def6-be1c-4394-973e-25d82ed70792/SMITH-Tommy_274102"
       }
     ]
   },
@@ -10996,7 +10996,7 @@ export const teams = {
       {
         "fifaId": "373235",
         "name": "Orjan NYLAND",
-        "shortName": "Nyland",
+        "shortName": "NYLAND",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -11004,7 +11004,7 @@ export const teams = {
         "birthDate": "1990-09-10T00:00:00Z",
         "heightCm": 192,
         "weightKg": 91,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4abc883f-1368-46d6-8849-308d06b641e6/NYLAND-Orjan_373235"
       },
       {
         "fifaId": "433067",
@@ -11017,7 +11017,7 @@ export const teams = {
         "birthDate": "1996-05-05T00:00:00Z",
         "heightCm": 188,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b1ea3949-8267-4285-b1ed-200204779d50/THORSBY-Morten_433067"
       },
       {
         "fifaId": "483516",
@@ -11030,7 +11030,7 @@ export const teams = {
         "birthDate": "1998-04-17T00:00:00Z",
         "heightCm": 198,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/28de8091-50a6-4c54-9e7b-62788b087a3a/AJER-Kristoffer_483516"
       },
       {
         "fifaId": "419672",
@@ -11043,7 +11043,7 @@ export const teams = {
         "birthDate": "1999-11-28T00:00:00Z",
         "heightCm": 183,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/548ecd96-6fc9-40f2-b020-7b3a02391341/OSTIGARD-Leo_419672"
       },
       {
         "fifaId": "483505",
@@ -11056,7 +11056,7 @@ export const teams = {
         "birthDate": "2002-04-23T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/27678ee5-00fb-4d48-ac88-402cab97d566/MOLLER-WOLFE-David_483505"
       },
       {
         "fifaId": "483442",
@@ -11069,7 +11069,7 @@ export const teams = {
         "birthDate": "1997-11-24T00:00:00Z",
         "heightCm": 178,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/aa692fb8-40c4-4273-a583-46ca3f57c34c/BERG-Patrick_483442"
       },
       {
         "fifaId": "398588",
@@ -11082,7 +11082,7 @@ export const teams = {
         "birthDate": "1995-12-05T00:00:00Z",
         "heightCm": 196,
         "weightKg": 96,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/23bcc976-2dbc-4fe2-b844-1878ff0cd354/SORLOTH-Alexander_398588"
       },
       {
         "fifaId": "404645",
@@ -11095,12 +11095,12 @@ export const teams = {
         "birthDate": "1998-02-14T00:00:00Z",
         "heightCm": 195,
         "weightKg": 96,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b7cf7654-f43e-4993-975e-5a2a0d5633f8/BERGE-Sander_404645"
       },
       {
         "fifaId": "419652",
         "name": "Erling HAALAND",
-        "shortName": "HAALAND",
+        "shortName": "BRAUT HAALAND",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -11108,12 +11108,12 @@ export const teams = {
         "birthDate": "2000-07-21T00:00:00Z",
         "heightCm": 195,
         "weightKg": 94,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ee269811-9f84-401f-99b8-e953a2704ebb/HAALAND-Erling_419652"
       },
       {
         "fifaId": "400716",
         "name": "Martin ODEGAARD",
-        "shortName": "ODEGAARD",
+        "shortName": "ØDEGAARD",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11121,12 +11121,12 @@ export const teams = {
         "birthDate": "1998-12-17T00:00:00Z",
         "heightCm": 178,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2b895db6-7f67-4436-b8da-54bdf0dd2e2b/ODEGAARD-Martin_400716"
       },
       {
         "fifaId": "419662",
         "name": "Jorgen STRAND LARSEN",
-        "shortName": "Jorgen STRAND LARSEN",
+        "shortName": "STRAND LARSEN",
         "jerseyNumber": 11,
         "position": "FW",
         "positionLabel": "Forward",
@@ -11134,7 +11134,7 @@ export const teams = {
         "birthDate": "2000-02-06T00:00:00Z",
         "heightCm": 193,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/116d01b5-9d0d-4456-a5a8-0e63a16b9862/STRAND-LARSEN-Jorgen_419662"
       },
       {
         "fifaId": "514479",
@@ -11147,7 +11147,7 @@ export const teams = {
         "birthDate": "2002-11-29T00:00:00Z",
         "heightCm": 193,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c7cb7af6-fa0d-4795-bdba-c53bed58e3fa/TANGVIK-Sander_514479"
       },
       {
         "fifaId": "483535",
@@ -11160,7 +11160,7 @@ export const teams = {
         "birthDate": "1997-07-30T00:00:00Z",
         "heightCm": 187,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b6e7f73a-c70c-4f7c-b0a4-37c8961fb019/SELVIK-Egil_483535"
       },
       {
         "fifaId": "483497",
@@ -11173,7 +11173,7 @@ export const teams = {
         "birthDate": "1995-12-10T00:00:00Z",
         "heightCm": 181,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bf9f1d6-b7ec-4c50-9337-059f6eb0c097/AURSNES-Fredrik_483497"
       },
       {
         "fifaId": "483530",
@@ -11186,7 +11186,7 @@ export const teams = {
         "birthDate": "1998-08-21T00:00:00Z",
         "heightCm": 180,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d46985d1-90f0-4e2a-91f2-d00c0c98d796/BJORKAN-Fredrik-Andre_483530"
       },
       {
         "fifaId": "494625",
@@ -11199,7 +11199,7 @@ export const teams = {
         "birthDate": "2000-07-16T00:00:00Z",
         "heightCm": 184,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c96cbed-5df4-46f9-b1f4-b9abbbe7e9d1/HOLMGREN-PEDERSEN-Marcus_494625"
       },
       {
         "fifaId": "491244",
@@ -11212,7 +11212,7 @@ export const teams = {
         "birthDate": "1999-01-12T00:00:00Z",
         "heightCm": 192,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e7b048fd-7217-470a-9820-eb8b6eab0286/HEGGEM-Torbjorn_491244"
       },
       {
         "fifaId": "419681",
@@ -11225,7 +11225,7 @@ export const teams = {
         "birthDate": "1999-03-13T00:00:00Z",
         "heightCm": 189,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4680df24-b4b3-46e5-9b38-01800898afa5/THORSTVEDT-Kristian_419681"
       },
       {
         "fifaId": "494627",
@@ -11238,7 +11238,7 @@ export const teams = {
         "birthDate": "2002-05-02T00:00:00Z",
         "heightCm": 188,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/46e2bce8-3733-457f-8307-9fd06eeda4ce/AASGAARD-Thelo_494627"
       },
       {
         "fifaId": "483448",
@@ -11251,7 +11251,7 @@ export const teams = {
         "birthDate": "2005-04-17T00:00:00Z",
         "heightCm": 183,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8522d4db-c622-4f88-9b98-62753ca74eec/NUSA-Antonio_483448"
       },
       {
         "fifaId": "494626",
@@ -11264,7 +11264,7 @@ export const teams = {
         "birthDate": "2004-06-01T00:00:00Z",
         "heightCm": 177,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/22f44194-f9c4-46c1-8621-f9680f7d73bc/SCHJELDERUP-Andreas_494626"
       },
       {
         "fifaId": "477470",
@@ -11277,12 +11277,12 @@ export const teams = {
         "birthDate": "2003-07-12T00:00:00Z",
         "heightCm": 177,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8cadf37e-ea31-43d7-bc0d-935e74adfe95/BOBB-Oscar_477470"
       },
       {
         "fifaId": "419654",
         "name": "Jens Petter HAUGE",
-        "shortName": "Jens Petter HAUGE",
+        "shortName": "HAUGE",
         "jerseyNumber": 23,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11290,7 +11290,7 @@ export const teams = {
         "birthDate": "1999-10-12T00:00:00Z",
         "heightCm": 184,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6230b1c1-3c6f-4cfc-9afd-440e1cf3df09/HAUGE-Jens-Petter_419654"
       },
       {
         "fifaId": "489696",
@@ -11303,7 +11303,7 @@ export const teams = {
         "birthDate": "2001-02-02T00:00:00Z",
         "heightCm": 190,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/31dda581-ef96-4ab5-a82d-9f5f59a3dd31/LANGAS-Sondre_489696"
       },
       {
         "fifaId": "520112",
@@ -11316,7 +11316,7 @@ export const teams = {
         "birthDate": "2003-05-08T00:00:00Z",
         "heightCm": 194,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2990fade-76fd-431e-b7ec-6551ca61de8c/FALCHENER-Henrik_520112"
       },
       {
         "fifaId": "483496",
@@ -11329,7 +11329,7 @@ export const teams = {
         "birthDate": "1997-11-17T00:00:00Z",
         "heightCm": 186,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cf3ebe3b-012d-411b-af4e-ba0b59bb9e17/RYERSON-Julian_483496"
       }
     ]
   },
@@ -11339,10 +11339,10 @@ export const teams = {
     "name": "Panama",
     "group": "Group L",
     "confederation": "CONCACAF",
-    "fifaRank": 33,
+    "fifaRank": 34,
     "attack": 82,
     "defense": 84,
-    "form": 80,
+    "form": 79,
     "coach": "Thomas CHRISTIANSEN",
     "flagUrl": "https://flagcdn.com/pa.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/PAN",
@@ -11350,7 +11350,7 @@ export const teams = {
       {
         "fifaId": "267702",
         "name": "Luis MEJIA",
-        "shortName": "Mejia",
+        "shortName": "MEJIA",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -11358,7 +11358,7 @@ export const teams = {
         "birthDate": "1991-03-16T00:00:00Z",
         "heightCm": 193,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2adff111-751a-46e3-b3c3-e3e37c8416cd/MEJIA-Luis_267702"
       },
       {
         "fifaId": "441242",
@@ -11371,7 +11371,7 @@ export const teams = {
         "birthDate": "1998-04-02T00:00:00Z",
         "heightCm": 174,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b6125765-d10e-468b-a80a-be2118629de6/BLACKMAN-Cesar_441242"
       },
       {
         "fifaId": "418715",
@@ -11384,12 +11384,12 @@ export const teams = {
         "birthDate": "2001-06-03T00:00:00Z",
         "heightCm": 189,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ba65e55e-dd66-4931-bae7-ca55b6f0c719/CORDOBA-Jose_418715"
       },
       {
         "fifaId": "385030",
         "name": "Fidel ESCOBAR",
-        "shortName": "ESCOBAR",
+        "shortName": "F. ESCOBAR",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -11397,7 +11397,7 @@ export const teams = {
         "birthDate": "1995-01-09T00:00:00Z",
         "heightCm": 184,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0163854c-2dc3-4f41-8994-af78cc54ad9f/ESCOBAR-Fidel_385030"
       },
       {
         "fifaId": "480313",
@@ -11410,12 +11410,12 @@ export const teams = {
         "birthDate": "2001-10-19T00:00:00Z",
         "heightCm": 195,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9252feca-b71a-4c49-be3c-80a366e02c51/FARINA-Edgardo_480313"
       },
       {
         "fifaId": "395581",
         "name": "Cristian MARTINEZ",
-        "shortName": "Cristian Martínez",
+        "shortName": "MARTÍNEZ",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11423,12 +11423,12 @@ export const teams = {
         "birthDate": "1997-02-06T00:00:00Z",
         "heightCm": 170,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/153e5b43-6e20-486d-bf4c-d0ff9615e9c6/MARTINEZ-Cristian_395581"
       },
       {
         "fifaId": "411176",
         "name": "Jose Luis RODRIGUEZ",
-        "shortName": "J. RODRIGUEZ",
+        "shortName": "J.L. RODRÍGUEZ",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11436,7 +11436,7 @@ export const teams = {
         "birthDate": "1998-06-19T00:00:00Z",
         "heightCm": 180,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/61c1c941-31d5-456d-b55f-dc30700adba9/RODRIGUEZ-Jose-Luis_411176"
       },
       {
         "fifaId": "385833",
@@ -11449,7 +11449,7 @@ export const teams = {
         "birthDate": "1998-11-28T00:00:00Z",
         "heightCm": 171,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e65ebda4-7a66-4117-98d1-f97c1bda19d5/CARRASQUILLA-Adalberto_385833"
       },
       {
         "fifaId": "418747",
@@ -11462,12 +11462,12 @@ export const teams = {
         "birthDate": "1999-03-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1f4bd86b-0e56-41f3-9f80-5e7388ff9848/RODRIGUEZ-Tomas_418747"
       },
       {
         "fifaId": "372342",
         "name": "Ismael DIAZ",
-        "shortName": "DIAZ",
+        "shortName": "ISMAEL",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11475,12 +11475,12 @@ export const teams = {
         "birthDate": "1997-05-12T00:00:00Z",
         "heightCm": 184,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5d8477c7-2f01-40fd-bc37-fbb35a936957/DIAZ-Ismael_372342"
       },
       {
         "fifaId": "400416",
         "name": "Edgar Yoel BARCENAS",
-        "shortName": "Edgar Yoel BARCENAS",
+        "shortName": "BÁRCENAS",
         "jerseyNumber": 11,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11488,7 +11488,7 @@ export const teams = {
         "birthDate": "1993-10-23T00:00:00Z",
         "heightCm": 175,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c34b4b07-7452-4e8b-a429-ad73f1f9277d/BARCENAS-Edgar-Yoel_400416"
       },
       {
         "fifaId": "441402",
@@ -11501,7 +11501,7 @@ export const teams = {
         "birthDate": "1994-02-23T00:00:00Z",
         "heightCm": 189,
         "weightKg": 91,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7ad848a3-35dc-465c-b10b-e3ef9dcc7813/SAMUDIO-Cesar_441402"
       },
       {
         "fifaId": "480310",
@@ -11514,7 +11514,7 @@ export const teams = {
         "birthDate": "1997-01-26T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eba19de2-1ee7-4c78-83c4-f273a6202f2e/RAMOS-Jiovany_480310"
       },
       {
         "fifaId": "418729",
@@ -11527,7 +11527,7 @@ export const teams = {
         "birthDate": "2000-02-03T00:00:00Z",
         "heightCm": 184,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/498810de-6369-469e-8df9-db21395d1ee0/HARVEY-Carlos_418729"
       },
       {
         "fifaId": "337232",
@@ -11540,7 +11540,7 @@ export const teams = {
         "birthDate": "1991-03-31T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/15739adf-0945-4a5d-bafa-abfaa784cce9/DAVIS-Eric_337232"
       },
       {
         "fifaId": "441240",
@@ -11553,7 +11553,7 @@ export const teams = {
         "birthDate": "1998-10-16T00:00:00Z",
         "heightCm": 187,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7cb0d726-e204-4173-830c-0384eb857207/ANDRADE-Andres_441240"
       },
       {
         "fifaId": "411174",
@@ -11566,7 +11566,7 @@ export const teams = {
         "birthDate": "1993-08-18T00:00:00Z",
         "heightCm": 184,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b120b6ef-1340-49c3-9400-dbe883606d5e/FAJARDO-Jose_411174"
       },
       {
         "fifaId": "337251",
@@ -11579,7 +11579,7 @@ export const teams = {
         "birthDate": "1991-04-13T00:00:00Z",
         "heightCm": 180,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88587975-f375-48cb-bd3d-662e2095c8ca/WATERMAN-Cecilio_337251"
       },
       {
         "fifaId": "271116",
@@ -11592,7 +11592,7 @@ export const teams = {
         "birthDate": "1987-12-18T00:00:00Z",
         "heightCm": 165,
         "weightKg": 62,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/98334cd9-f4b4-4f2f-9b57-5cc547a75ec8/QUINTERO-Alberto_271116"
       },
       {
         "fifaId": "269514",
@@ -11605,7 +11605,7 @@ export const teams = {
         "birthDate": "1990-02-10T00:00:00Z",
         "heightCm": 184,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c0f17753-49b2-481c-8924-9f9f1b081bcf/GODOY-Anibal_269514"
       },
       {
         "fifaId": "441243",
@@ -11618,7 +11618,7 @@ export const teams = {
         "birthDate": "1996-01-28T00:00:00Z",
         "heightCm": 160,
         "weightKg": 57,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6a0310f0-a008-4d4e-adc9-d46fbf9ece31/YANIS-Cesar_441243"
       },
       {
         "fifaId": "441241",
@@ -11631,12 +11631,12 @@ export const teams = {
         "birthDate": "1994-12-25T00:00:00Z",
         "heightCm": 191,
         "weightKg": 98,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/050825b5-4cad-4874-8aa9-fdf8bda50819/MOSQUERA-Orlando_441241"
       },
       {
         "fifaId": "385031",
         "name": "Amir MURILLO",
-        "shortName": "Amir MURILLO",
+        "shortName": "A. MURILLO",
         "jerseyNumber": 23,
         "position": "DF",
         "positionLabel": "Defender",
@@ -11644,7 +11644,7 @@ export const teams = {
         "birthDate": "1996-02-11T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/018c385a-4ec9-457e-8c6b-71ed2be9c0fd/MURILLO-Amir_385031"
       },
       {
         "fifaId": "466669",
@@ -11657,7 +11657,7 @@ export const teams = {
         "birthDate": "2001-06-21T00:00:00Z",
         "heightCm": 185,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cb7b28b7-dbcb-4240-a32d-c5e6cd289240/LONDONO-Azarias_466669"
       },
       {
         "fifaId": "344582",
@@ -11670,7 +11670,7 @@ export const teams = {
         "birthDate": "1992-04-03T00:00:00Z",
         "heightCm": 190,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c49e9539-7f3a-4566-bc73-0a1d80f69c85/MILLER-Roderick_344582"
       },
       {
         "fifaId": "441239",
@@ -11683,7 +11683,7 @@ export const teams = {
         "birthDate": "1998-09-01T00:00:00Z",
         "heightCm": 171,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b324619d-d774-4bb5-876b-40845697efe8/GUTIERREZ-Jorge_441239"
       }
     ]
   },
@@ -11693,7 +11693,7 @@ export const teams = {
     "name": "Paraguay",
     "group": "Group D",
     "confederation": "CONMEBOL",
-    "fifaRank": 40,
+    "fifaRank": 41,
     "attack": 85,
     "defense": 85,
     "form": 79,
@@ -11704,7 +11704,7 @@ export const teams = {
       {
         "fifaId": "318647",
         "name": "Gatito FERNANDEZ",
-        "shortName": "Gatito FERNANDEZ",
+        "shortName": "FERNÁNDEZ",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -11712,7 +11712,7 @@ export const teams = {
         "birthDate": "1988-03-29T00:00:00Z",
         "heightCm": 191,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d606fc1a-1644-428f-ada8-69c93198e5b3/FERNANDEZ-Gatito_318647"
       },
       {
         "fifaId": "486875",
@@ -11725,7 +11725,7 @@ export const teams = {
         "birthDate": "1991-04-17T00:00:00Z",
         "heightCm": 189,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3640b6b7-6993-46be-a35e-e6620579e3c7/VELAZQUEZ-Gustavo_486875"
       },
       {
         "fifaId": "431202",
@@ -11738,7 +11738,7 @@ export const teams = {
         "birthDate": "1996-12-26T00:00:00Z",
         "heightCm": 190,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2b408b3b-5027-445e-9b55-6139deed7bea/ALDERETE-Omar_431202"
       },
       {
         "fifaId": "479601",
@@ -11751,12 +11751,12 @@ export const teams = {
         "birthDate": "2000-06-01T00:00:00Z",
         "heightCm": 187,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b465c59f-b480-4f3d-8f30-bb61a29aa6cb/CACERES-Juan-Jose_479601"
       },
       {
         "fifaId": "394829",
         "name": "Fabian BALBUENA",
-        "shortName": "Fabían Balbuena",
+        "shortName": "BALBUENA",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
@@ -11764,7 +11764,7 @@ export const teams = {
         "birthDate": "1991-08-23T00:00:00Z",
         "heightCm": 188,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eac9ab63-eeed-412a-9ba7-4c5e6be05852/BALBUENA-Fabian_394829"
       },
       {
         "fifaId": "369749",
@@ -11777,7 +11777,7 @@ export const teams = {
         "birthDate": "1993-02-09T00:00:00Z",
         "heightCm": 184,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/241fe8c3-a33e-411a-8eca-e81cc3fba926/ALONSO-Junior_369749"
       },
       {
         "fifaId": "463125",
@@ -11790,7 +11790,7 @@ export const teams = {
         "birthDate": "1999-08-31T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fb29327f-14b3-4b8f-af4e-3816404afaed/SOSA-Ramon_463125"
       },
       {
         "fifaId": "463128",
@@ -11803,12 +11803,12 @@ export const teams = {
         "birthDate": "2003-03-27T00:00:00Z",
         "heightCm": 183,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88e45d01-241d-4d9d-8b40-3f2cb2963d4d/GOMEZ-Diego_463128"
       },
       {
         "fifaId": "369768",
         "name": "Antonio SANABRIA",
-        "shortName": "Sanabria",
+        "shortName": "SANABRIA",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -11816,12 +11816,12 @@ export const teams = {
         "birthDate": "1996-03-04T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/97bc175a-1e5c-417f-ab23-492237ddb3ab/SANABRIA-Antonio_369768"
       },
       {
         "fifaId": "369761",
         "name": "Miguel ALMIRON",
-        "shortName": "ALMIRON",
+        "shortName": "ALMIRÓN",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11829,7 +11829,7 @@ export const teams = {
         "birthDate": "1994-02-10T00:00:00Z",
         "heightCm": 178,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/62600270-27f4-432a-8f1f-1014124829c1/ALMIRON-Miguel_369761"
       },
       {
         "fifaId": "495046",
@@ -11842,7 +11842,7 @@ export const teams = {
         "birthDate": "2001-06-22T00:00:00Z",
         "heightCm": 175,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/20e6d2dd-4d4a-418b-ae0f-0cbcb299d61b/MAURICIO_495046"
       },
       {
         "fifaId": "494531",
@@ -11855,7 +11855,7 @@ export const teams = {
         "birthDate": "2000-06-11T00:00:00Z",
         "heightCm": 190,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/29bae713-62ca-48da-8655-9c2caa0e728d/GILL-Orlando_494531"
       },
       {
         "fifaId": "520066",
@@ -11868,12 +11868,12 @@ export const teams = {
         "birthDate": "1996-07-20T00:00:00Z",
         "heightCm": 192,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2039b54f-7036-444c-90d0-da1f89780077/CANALE-Jose_520066"
       },
       {
         "fifaId": "385306",
         "name": "Andres CUBAS",
-        "shortName": "Andres CUBAS",
+        "shortName": "CUBAS",
         "jerseyNumber": 14,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11881,12 +11881,12 @@ export const teams = {
         "birthDate": "1996-05-11T00:00:00Z",
         "heightCm": 166,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5f115675-51fb-4e0c-ac8c-7226b762b4a1/CUBAS-Andres_385306"
       },
       {
         "fifaId": "369744",
         "name": "Gustavo GOMEZ",
-        "shortName": "G. GOMEZ",
+        "shortName": "G. GÓMEZ",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -11894,7 +11894,7 @@ export const teams = {
         "birthDate": "1993-05-06T00:00:00Z",
         "heightCm": 179,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d37c65ce-135e-4bd4-b870-2c2548b93e2d/GOMEZ-Gustavo_369744"
       },
       {
         "fifaId": "476348",
@@ -11907,12 +11907,12 @@ export const teams = {
         "birthDate": "2001-07-11T00:00:00Z",
         "heightCm": 180,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/720524b9-bfc5-4139-a873-cba0a35bfa95/BOBADILLA-Damian_476348"
       },
       {
         "fifaId": "386458",
         "name": "Alejandro ROMERO GAMARRA",
-        "shortName": "Alejandro ROMERO GAMARRA",
+        "shortName": "R. GAMARRA",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
@@ -11920,7 +11920,7 @@ export const teams = {
         "birthDate": "1995-01-11T00:00:00Z",
         "heightCm": 165,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f1ba51b5-2593-413f-9d87-a464060e20ff/ROMERO-GAMARRA-Alejandro_386458"
       },
       {
         "fifaId": "485802",
@@ -11933,7 +11933,7 @@ export const teams = {
         "birthDate": "1995-06-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/14209263-2bf9-442b-8d6b-485492f712dd/ARCE-Alex_485802"
       },
       {
         "fifaId": "441234",
@@ -11946,12 +11946,12 @@ export const teams = {
         "birthDate": "2004-01-23T00:00:00Z",
         "heightCm": 168,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/aa8ef158-6636-46a9-a6fb-185a2f92ad95/ENCISO-Julio_441234"
       },
       {
         "fifaId": "406205",
         "name": "Braian OJEDA",
-        "shortName": "B.OJEDA",
+        "shortName": "OJEDA",
         "jerseyNumber": 20,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -11959,7 +11959,7 @@ export const teams = {
         "birthDate": "2000-06-27T00:00:00Z",
         "heightCm": 173,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4075346b-2148-424c-b178-1a7cdd863bd2/OJEDA-Braian_406205"
       },
       {
         "fifaId": "463127",
@@ -11972,12 +11972,12 @@ export const teams = {
         "birthDate": "1991-07-09T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/58eb53dc-567a-489a-b2f9-3a905f5841b7/AVALOS-Gabriel_463127"
       },
       {
         "fifaId": "447991",
         "name": "Gaston OLVEIRA",
-        "shortName": "G. OLVEIRA",
+        "shortName": "OLVEIRA",
         "jerseyNumber": 22,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -11985,7 +11985,7 @@ export const teams = {
         "birthDate": "1993-04-21T00:00:00Z",
         "heightCm": 191,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/732355e7-ab77-473e-b0eb-25ac3fcdaac2/OLVEIRA-Gaston_447991"
       },
       {
         "fifaId": "424422",
@@ -11998,7 +11998,7 @@ export const teams = {
         "birthDate": "2002-02-11T00:00:00Z",
         "heightCm": 175,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ce774da7-eea7-475e-8526-8227b5068dc3/GALARZA-Matias_424422"
       },
       {
         "fifaId": "485804",
@@ -12011,7 +12011,7 @@ export const teams = {
         "birthDate": "2001-09-21T00:00:00Z",
         "heightCm": 189,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ccf6784f-8528-4d47-ba72-500d47ac51af/CABALLERO-Gustavo_485804"
       },
       {
         "fifaId": "489417",
@@ -12024,7 +12024,7 @@ export const teams = {
         "birthDate": "1999-08-14T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9b776bee-7e1b-47b0-b4ef-526ff72ac93f/PITTA-Isidro_489417"
       },
       {
         "fifaId": "505495",
@@ -12037,7 +12037,7 @@ export const teams = {
         "birthDate": "2005-07-26T00:00:00Z",
         "heightCm": 173,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e9ad29de-acf1-4cfd-b387-7edf7f480db4/MAIDANA-Alexandro_505495"
       }
     ]
   },
@@ -12058,7 +12058,7 @@ export const teams = {
       {
         "fifaId": "403001",
         "name": "DIOGO COSTA",
-        "shortName": "D. COSTA",
+        "shortName": "DIOGO COSTA",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -12066,12 +12066,12 @@ export const teams = {
         "birthDate": "1999-09-19T00:00:00Z",
         "heightCm": 188,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c3541e5-a8cb-458c-b368-7f57c1b5ae03/DIOGO-COSTA_403001"
       },
       {
         "fifaId": "395212",
         "name": "NELSON SEMEDO",
-        "shortName": "Semedo",
+        "shortName": "N. SEMEDO",
         "jerseyNumber": 2,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12079,12 +12079,12 @@ export const teams = {
         "birthDate": "1993-11-16T00:00:00Z",
         "heightCm": 179,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7b97ea5c-f883-424a-9133-eead7e175b00/NELSON-SEMEDO_395212"
       },
       {
         "fifaId": "384752",
         "name": "RUBEN DIAS",
-        "shortName": "RÚBEN",
+        "shortName": "RÚBEN DIAS",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12092,7 +12092,7 @@ export const teams = {
         "birthDate": "1997-05-14T00:00:00Z",
         "heightCm": 187,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7eab2fa3-e7d1-4876-aaaa-a44a9e923750/RUBEN-DIAS_384752"
       },
       {
         "fifaId": "492358",
@@ -12105,7 +12105,7 @@ export const teams = {
         "birthDate": "2002-05-16T00:00:00Z",
         "heightCm": 187,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e8840a7f-2bc5-44fb-a7bc-15d7a605691c/TOMAS-ARAUJO_492358"
       },
       {
         "fifaId": "403002",
@@ -12118,7 +12118,7 @@ export const teams = {
         "birthDate": "1999-03-18T00:00:00Z",
         "heightCm": 184,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d9eaa8b4-91e3-4c4f-b501-4082718f5323/DIOGO-DALOT_403002"
       },
       {
         "fifaId": "441148",
@@ -12131,7 +12131,7 @@ export const teams = {
         "birthDate": "1998-08-27T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/49ae9c75-e5f8-404a-8576-81e52d4c8338/MATHEUS-NUNES_441148"
       },
       {
         "fifaId": "201200",
@@ -12144,7 +12144,7 @@ export const teams = {
         "birthDate": "1985-02-05T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7b63f223-fda2-4d56-b218-f143f0abd2d8/CRISTIANO-RONALDO_201200"
       },
       {
         "fifaId": "395206",
@@ -12157,7 +12157,7 @@ export const teams = {
         "birthDate": "1994-09-08T00:00:00Z",
         "heightCm": 183,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4a31c35d-c697-4c1a-ac51-a120b82a3d83/BRUNO-FERNANDES_395206"
       },
       {
         "fifaId": "448081",
@@ -12170,7 +12170,7 @@ export const teams = {
         "birthDate": "2001-06-20T00:00:00Z",
         "heightCm": 185,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/040f6a55-0f54-430e-a03b-bb994ee40921/GONCALO-RAMOS_448081"
       },
       {
         "fifaId": "395205",
@@ -12183,7 +12183,7 @@ export const teams = {
         "birthDate": "1994-08-10T00:00:00Z",
         "heightCm": 173,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/97535989-5b6f-414b-a582-54a0c48df12a/BERNARDO-SILVA_395205"
       },
       {
         "fifaId": "418535",
@@ -12196,7 +12196,7 @@ export const teams = {
         "birthDate": "1999-11-10T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e1fd310b-cac5-47ef-95e9-9d0b8b41ba2f/JOAO-FELIX_418535"
       },
       {
         "fifaId": "368689",
@@ -12209,7 +12209,7 @@ export const teams = {
         "birthDate": "1993-01-17T00:00:00Z",
         "heightCm": 192,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/167fd8ff-0a3f-4c15-adc8-859e9d81caa3/JOSE-SA_368689"
       },
       {
         "fifaId": "489704",
@@ -12222,12 +12222,12 @@ export const teams = {
         "birthDate": "2003-07-29T00:00:00Z",
         "heightCm": 188,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/556c6a9a-facb-4a04-8b68-15bee3974c9f/RENATO-VEIGA_489704"
       },
       {
         "fifaId": "441146",
         "name": "GONCALO INACIO",
-        "shortName": "GONCALO INACIO",
+        "shortName": "G. INÁCIO",
         "jerseyNumber": 14,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12235,7 +12235,7 @@ export const teams = {
         "birthDate": "2001-08-25T00:00:00Z",
         "heightCm": 185,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/636fe280-77cd-4db8-8c43-e499e1489e31/GONCALO-INACIO_441146"
       },
       {
         "fifaId": "484141",
@@ -12248,12 +12248,12 @@ export const teams = {
         "birthDate": "2004-09-27T00:00:00Z",
         "heightCm": 171,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c79cf261-45b2-484b-860f-9adac3ed7d17/JOAO-NEVES_484141"
       },
       {
         "fifaId": "418561",
         "name": "FRANCISCO TRINCAO",
-        "shortName": "FRANCISCO TRINCAO",
+        "shortName": "TRINCÃO",
         "jerseyNumber": 16,
         "position": "FW",
         "positionLabel": "Forward",
@@ -12261,7 +12261,7 @@ export const teams = {
         "birthDate": "1999-12-29T00:00:00Z",
         "heightCm": 184,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3aaa45cd-d807-4825-9145-3b1865a009bb/FRANCISCO-TRINCAO_418561"
       },
       {
         "fifaId": "418550",
@@ -12274,7 +12274,7 @@ export const teams = {
         "birthDate": "1999-06-10T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a5a760a7-7b47-42ed-8302-3ea75dbe9fc4/RAFAEL-LEAO_418550"
       },
       {
         "fifaId": "418548",
@@ -12287,7 +12287,7 @@ export const teams = {
         "birthDate": "2000-03-09T00:00:00Z",
         "heightCm": 174,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e4e58acb-f7af-402c-a7b8-e284583ce14f/PEDRO-NETO_418548"
       },
       {
         "fifaId": "384751",
@@ -12300,7 +12300,7 @@ export const teams = {
         "birthDate": "1996-11-29T00:00:00Z",
         "heightCm": 179,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ebae7760-2b89-4f53-bc2a-38b1b276f85b/GONCALO-GUEDES_384751"
       },
       {
         "fifaId": "368649",
@@ -12313,12 +12313,12 @@ export const teams = {
         "birthDate": "1994-05-27T00:00:00Z",
         "heightCm": 173,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bb6c8016-d4b5-4434-9bba-1ec8cac37300/JOAO-CANCELO_368649"
       },
       {
         "fifaId": "395216",
         "name": "RUBEN NEVES",
-        "shortName": "NEVES",
+        "shortName": "R. NEVES",
         "jerseyNumber": 21,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -12326,7 +12326,7 @@ export const teams = {
         "birthDate": "1997-03-13T00:00:00Z",
         "heightCm": 183,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/884a330c-be4c-442d-becb-2d601c7574d1/RUBEN-NEVES_395216"
       },
       {
         "fifaId": "448092",
@@ -12339,7 +12339,7 @@ export const teams = {
         "birthDate": "1994-02-07T00:00:00Z",
         "heightCm": 191,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/11360803-25b9-4af9-b4a1-5916e0cd03cb/RUI-SILVA_448092"
       },
       {
         "fifaId": "441149",
@@ -12352,12 +12352,12 @@ export const teams = {
         "birthDate": "2000-02-13T00:00:00Z",
         "heightCm": 170,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8d21116d-608f-409b-932b-71c1ee1a043c/VITINHA_441149"
       },
       {
         "fifaId": "491216",
         "name": "SAMU COSTA",
-        "shortName": "SAMÚ",
+        "shortName": "SAMU",
         "jerseyNumber": 24,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12365,7 +12365,7 @@ export const teams = {
         "birthDate": "2000-11-27T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/38256f2e-7139-4848-b609-051bb4623b71/SAMU-COSTA_491216"
       },
       {
         "fifaId": "433195",
@@ -12378,7 +12378,7 @@ export const teams = {
         "birthDate": "2002-06-19T00:00:00Z",
         "heightCm": 177,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f8d5d7b8-bb64-4427-80d1-911d68b2dd1a/NUNO-MENDES_433195"
       },
       {
         "fifaId": "485081",
@@ -12391,7 +12391,7 @@ export const teams = {
         "birthDate": "2002-12-14T00:00:00Z",
         "heightCm": 166,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1cb86e09-cf4e-4b60-8849-09d17dd1f8ad/FRANCISCO-CONCEICAO_485081"
       }
     ]
   },
@@ -12401,10 +12401,10 @@ export const teams = {
     "name": "Qatar",
     "group": "Group B",
     "confederation": "AFC",
-    "fifaRank": 55,
+    "fifaRank": 56,
     "attack": 81,
     "defense": 78,
-    "form": 76,
+    "form": 75,
     "coach": "Julen LOPETEGUI",
     "flagUrl": "https://flagcdn.com/qa.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/QAT",
@@ -12412,7 +12412,7 @@ export const teams = {
       {
         "fifaId": "419459",
         "name": "MAHMOUD ABUNADA",
-        "shortName": "MAHMOUD ABUNADA",
+        "shortName": "ABUNADA",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -12420,7 +12420,7 @@ export const teams = {
         "birthDate": "2000-02-05T00:00:00Z",
         "heightCm": 185,
         "weightKg": 81,
-        "photoUrl": "https://digitalhub.fifa.com/transform/d9930e9a-6f7e-44d0-80f1-adb0dc44b7b8/MAHMOUD-ABUNADA_419459_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/86cd9af3-c09a-4bcd-9830-fed9d7b19ab6/MAHMOUD-ABUNADA_419459"
       },
       {
         "fifaId": "416051",
@@ -12433,12 +12433,12 @@ export const teams = {
         "birthDate": "1990-08-06T00:00:00Z",
         "heightCm": 180,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/c5a3ca53-9799-48cf-847f-fa528207cfc2/PEDRO-MIGUEL_416051_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5bd982c9-0644-4fe3-836a-2b2d9b88db36/PEDRO-MIGUEL_416051"
       },
       {
         "fifaId": "356673",
         "name": "LUCAS MENDES",
-        "shortName": "LUCAS MENDES",
+        "shortName": "L.MENDES",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12446,7 +12446,7 @@ export const teams = {
         "birthDate": "1990-07-03T00:00:00Z",
         "heightCm": 179,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6bf2325a-1d3f-4c94-9cfd-e39fd4838072/LUCAS-MENDES_356673_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/49a8906a-91a9-4527-b453-dbb1fe508c61/LUCAS-MENDES_356673"
       },
       {
         "fifaId": "512791",
@@ -12459,7 +12459,7 @@ export const teams = {
         "birthDate": "1997-12-22T00:00:00Z",
         "heightCm": 178,
         "weightKg": 57,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0f0efbfc-09e5-43d0-8479-fa87ee47055a/ISSA-LAYE_512791_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/542d2f64-858e-4597-8f77-719b40da16dd/ISSA-LAYE_512791"
       },
       {
         "fifaId": "419473",
@@ -12472,7 +12472,7 @@ export const teams = {
         "birthDate": "2002-02-20T00:00:00Z",
         "heightCm": 181,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/dd14e4fb-7c97-42de-b368-6862a3d9c3dc/JASSEM-GABER_419473_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/14edcf5c-c52c-4a12-8078-40032f99dbd0/JASSEM-GABER_419473"
       },
       {
         "fifaId": "345059",
@@ -12485,12 +12485,12 @@ export const teams = {
         "birthDate": "1990-01-01T00:00:00Z",
         "heightCm": 179,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cec8065b-884b-4100-b4ce-932eca7eb0eb/ABDULAZIZ-HATEM_345059_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/618c02bf-ef05-4651-bd3a-10ee566afcab/ABDULAZIZ-HATEM_345059"
       },
       {
         "fifaId": "353251",
         "name": "AHMED ALAAELDIN",
-        "shortName": "Alaaeldin",
+        "shortName": "ALAAELDIN",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -12498,7 +12498,7 @@ export const teams = {
         "birthDate": "1993-01-31T00:00:00Z",
         "heightCm": 179,
         "weightKg": 66,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5016b7bd-cbe0-4490-8721-721756f0665d/AHMED-ALAAELDIN_353251_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7a0a40ba-22fe-4585-8c3a-6bb981c6dfb4/AHMED-ALAAELDIN_353251"
       },
       {
         "fifaId": "429063",
@@ -12511,7 +12511,7 @@ export const teams = {
         "birthDate": "1994-08-19T00:00:00Z",
         "heightCm": 180,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/eebdee5f-4e0a-4bc6-9f2d-7368090d0827/EDMILSON-JUNIOR_429063_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/45fa6cc3-85e1-45eb-8881-3b31bcddc992/EDMILSON-JUNIOR_429063"
       },
       {
         "fifaId": "385070",
@@ -12524,7 +12524,7 @@ export const teams = {
         "birthDate": "1993-12-20T00:00:00Z",
         "heightCm": 192,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/dfda9afd-79ea-4949-8b67-4fe562ab544d/MOHAMMED-MUNTARI_385070_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8a9260d2-027a-4716-af4b-7e5f2983e652/MOHAMMED-MUNTARI_385070"
       },
       {
         "fifaId": "284190",
@@ -12537,7 +12537,7 @@ export const teams = {
         "birthDate": "1990-12-11T00:00:00Z",
         "heightCm": 174,
         "weightKg": 62,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ecc5c2b9-6698-477f-b3eb-5e8fe561cf63/HASSAN-ALHAYDOS_284190_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/521889b3-16a2-48ef-92d4-6978a9e05cc6/HASSAN-ALHAYDOS_284190"
       },
       {
         "fifaId": "386347",
@@ -12550,7 +12550,7 @@ export const teams = {
         "birthDate": "1996-11-18T00:00:00Z",
         "heightCm": 176,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/81fce314-d9ab-4ad5-a3e6-f5344d644e78/AKRAM-AFIF_386347_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b5995ed9-3969-48a1-abc7-abd8df77abda/AKRAM-AFIF_386347"
       },
       {
         "fifaId": "354861",
@@ -12563,7 +12563,7 @@ export const teams = {
         "birthDate": "1990-09-16T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/09e7705e-54a5-41fd-908a-6138734292db/KARIM-BOUDIAF_354861_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d73feeea-8ce1-447c-a008-c9b71e1e6295/KARIM-BOUDIAF_354861"
       },
       {
         "fifaId": "510991",
@@ -12576,7 +12576,7 @@ export const teams = {
         "birthDate": "2005-03-11T00:00:00Z",
         "heightCm": 181,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/18fcae0b-7c6b-420c-bb81-3b5e7cf18cd4/AYOUB-ALOUI_510991_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/bdeaddf2-602f-47d1-a3f0-a85abc80c3ff/AYOUB-ALOUI_510991"
       },
       {
         "fifaId": "419441",
@@ -12589,7 +12589,7 @@ export const teams = {
         "birthDate": "1999-08-25T00:00:00Z",
         "heightCm": 188,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/1ce4a65c-2237-45a7-9acb-6ae86440e334/HOMAM-AHMED_419441_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a182a95-d4c3-4618-838e-d374bbc576ba/HOMAM-AHMED_419441"
       },
       {
         "fifaId": "419463",
@@ -12602,7 +12602,7 @@ export const teams = {
         "birthDate": "1999-08-06T00:00:00Z",
         "heightCm": 171,
         "weightKg": 63,
-        "photoUrl": "https://digitalhub.fifa.com/transform/632b09b2-1f62-469d-8812-7eba36a39ecf/YUSUF-ABDURISAG_419463_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a114c943-718b-4345-b9da-54f1b8eb923c/YUSUF-ABDURISAG_419463"
       },
       {
         "fifaId": "385067",
@@ -12615,7 +12615,7 @@ export const teams = {
         "birthDate": "1990-07-09T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/af35d6f8-7831-4265-8cc8-8ac5a625986e/BOUALEM-KHOUKHI_385067_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/c3e4cf4b-06b4-4c6b-9370-a64d8a4c8bfb/BOUALEM-KHOUKHI_385067"
       },
       {
         "fifaId": "419436",
@@ -12628,12 +12628,12 @@ export const teams = {
         "birthDate": "2000-09-22T00:00:00Z",
         "heightCm": 175,
         "weightKg": 60,
-        "photoUrl": "https://digitalhub.fifa.com/transform/dc5c2c17-4270-48ec-af28-87feddc3332b/AHMED-ALGANEHI_419436_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e46c2cdd-7a8e-45c1-ab4f-9e09cb686245/AHMED-ALGANEHI_419436"
       },
       {
         "fifaId": "386387",
         "name": "SULTAN ALBRAKE",
-        "shortName": "SULTAN ALBRAKE",
+        "shortName": "SULTAN",
         "jerseyNumber": 18,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12641,7 +12641,7 @@ export const teams = {
         "birthDate": "1996-04-07T00:00:00Z",
         "heightCm": 178,
         "weightKg": 65,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0c556dce-14ef-4494-8629-f34cbfbf5cae/SULTAN-ALBRAKE_386387_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/333bc183-dd03-4b3a-8ee6-410a32c12e57/SULTAN-ALBRAKE_386387"
       },
       {
         "fifaId": "386366",
@@ -12654,7 +12654,7 @@ export const teams = {
         "birthDate": "1996-08-19T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": "https://digitalhub.fifa.com/transform/841280b4-0ca5-4d30-8fb2-6784bb7d8bf6/ALMOEZ-ALI_386366_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e49165f0-de52-4f7b-bb9a-689e7c4d4bd3/ALMOEZ-ALI_386366"
       },
       {
         "fifaId": "433394",
@@ -12667,7 +12667,7 @@ export const teams = {
         "birthDate": "1993-01-25T00:00:00Z",
         "heightCm": 171,
         "weightKg": 67,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8de6a0f8-7462-4d7f-bcd7-858404feecb1/AHMED-FATHY_433394_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f465c1f2-aa85-4bc7-bf8d-4d5805b19cd9/AHMED-FATHY_433394"
       },
       {
         "fifaId": "419461",
@@ -12680,7 +12680,7 @@ export const teams = {
         "birthDate": "1999-04-24T00:00:00Z",
         "heightCm": 186,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cabec542-d3e9-4ad5-bbec-ea975017a700/SALAH-ZAKARIA_419461_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/92c49982-ca93-4853-93ea-5f5a3d6a256d/SALAH-ZAKARIA_419461"
       },
       {
         "fifaId": "416056",
@@ -12693,12 +12693,12 @@ export const teams = {
         "birthDate": "1998-02-14T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/9f98ea05-75e9-4154-95a0-7c35f23012e2/MESHAAL-BARSHAM_416056_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b5f22cd1-218d-478b-b4a3-f3b2fb832c39/MESHAAL-BARSHAM_416056"
       },
       {
         "fifaId": "386348",
         "name": "ASSIM MADIBO",
-        "shortName": "A. MADIBO",
+        "shortName": "MADIBO",
         "jerseyNumber": 23,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -12706,7 +12706,7 @@ export const teams = {
         "birthDate": "1996-10-22T00:00:00Z",
         "heightCm": 168,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/831b2467-3a90-48d9-bbef-e166a5666247/ASSIM-MADIBO_386348_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/2b2c6d70-e76e-41d8-baff-36ba0965fca3/ASSIM-MADIBO_386348"
       },
       {
         "fifaId": "486639",
@@ -12719,7 +12719,7 @@ export const teams = {
         "birthDate": "2006-06-16T00:00:00Z",
         "heightCm": 166,
         "weightKg": 58,
-        "photoUrl": "https://digitalhub.fifa.com/transform/8f124904-9128-45cb-bb90-27af82b2ea29/TAHSIN-JAMSHID_486639_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/109e4fa0-f82a-4da0-8cf9-75d90a55b600/TAHSIN-JAMSHID_486639"
       },
       {
         "fifaId": "486614",
@@ -12732,7 +12732,7 @@ export const teams = {
         "birthDate": "2003-08-15T00:00:00Z",
         "heightCm": 182,
         "weightKg": 67,
-        "photoUrl": "https://digitalhub.fifa.com/transform/e1ddfc0b-fb0b-48c7-bf90-0849b228873e/ALHASHMI-ALHUSSEIN_486614_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/0565d28e-d1e2-4c0a-9f61-5992e3ed7202/ALHASHMI-ALHUSSEIN_486614"
       },
       {
         "fifaId": "498458",
@@ -12745,7 +12745,7 @@ export const teams = {
         "birthDate": "2002-10-25T00:00:00Z",
         "heightCm": 180,
         "weightKg": 68,
-        "photoUrl": "https://digitalhub.fifa.com/transform/33ae8770-f3b9-4dbe-8410-90fd019d3561/MOHAMED-MANAI_498458_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/67e02103-4569-4a5c-a7a2-1f9b42cab1a5/MOHAMED-MANAI_498458"
       }
     ]
   },
@@ -12774,7 +12774,7 @@ export const teams = {
         "birthDate": "2000-05-10T00:00:00Z",
         "heightCm": 186,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6b95e954-e3fd-4ba9-a171-690c9626eced/NAWAF-ALAQIDI_419287"
       },
       {
         "fifaId": "419326",
@@ -12787,7 +12787,7 @@ export const teams = {
         "birthDate": "1999-10-02T00:00:00Z",
         "heightCm": 169,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3b436722-501d-4098-8daf-b298d010c530/ALI-MAJRASHI_419326"
       },
       {
         "fifaId": "433439",
@@ -12800,7 +12800,7 @@ export const teams = {
         "birthDate": "1996-04-24T00:00:00Z",
         "heightCm": 177,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/27fa9b34-d37d-4416-a35f-fb6d234e9e8c/ALI-LAJAMI_433439"
       },
       {
         "fifaId": "403312",
@@ -12813,7 +12813,7 @@ export const teams = {
         "birthDate": "1997-01-15T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3ec8a8ea-beb5-4f8b-b8f6-66030bda5c4e/ABDULELAH-ALAMRI_403312"
       },
       {
         "fifaId": "403335",
@@ -12826,12 +12826,12 @@ export const teams = {
         "birthDate": "1999-02-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e64a0c6b-4cc6-4ffb-bc98-b4af95bed8bf/ALTAMBAKTI-Hassan_403335"
       },
       {
         "fifaId": "403319",
         "name": "NASSER ALDAWSARI",
-        "shortName": "NASSER D.",
+        "shortName": "NASSER",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -12839,7 +12839,7 @@ export const teams = {
         "birthDate": "1998-12-19T00:00:00Z",
         "heightCm": 178,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/81e654c7-8273-4e1f-b909-62613fbf14ea/NASSER-ALDAWSARI_403319"
       },
       {
         "fifaId": "436537",
@@ -12852,12 +12852,12 @@ export const teams = {
         "birthDate": "2003-06-20T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c09997bc-1439-46be-a1f4-226d436e9eda/MUSAB-ALJUWAYR_436537"
       },
       {
         "fifaId": "430512",
         "name": "AIMAN YAHYA",
-        "shortName": "AIMAN YAHYA",
+        "shortName": "AIMAN",
         "jerseyNumber": 8,
         "position": "FW",
         "positionLabel": "Forward",
@@ -12865,7 +12865,7 @@ export const teams = {
         "birthDate": "2001-05-14T00:00:00Z",
         "heightCm": 173,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/af0837e0-63e3-47e7-9b24-9676dcdf3c5c/AIMAN-YAHYA_430512"
       },
       {
         "fifaId": "419291",
@@ -12878,7 +12878,7 @@ export const teams = {
         "birthDate": "2000-05-14T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9d59c398-9c66-4dad-b20d-9694a0f74dd4/FERAS-ALBRIKAN_419291"
       },
       {
         "fifaId": "339745",
@@ -12891,7 +12891,7 @@ export const teams = {
         "birthDate": "1991-08-19T00:00:00Z",
         "heightCm": 173,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d167ee25-02d4-48c1-b6bf-ec1eea3a1633/SALEM-ALDAWSARI_339745"
       },
       {
         "fifaId": "425804",
@@ -12904,7 +12904,7 @@ export const teams = {
         "birthDate": "1993-11-01T00:00:00Z",
         "heightCm": 184,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a912d91a-f467-4d57-a2fc-7937f8cafb66/SALEH-ALSHEHRI_425804"
       },
       {
         "fifaId": "419281",
@@ -12917,7 +12917,7 @@ export const teams = {
         "birthDate": "1999-07-18T00:00:00Z",
         "heightCm": 172,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/66d9e01f-7f5e-4bef-b5bd-68d1ce4d9849/SAUD-ABDULHAMID_419281"
       },
       {
         "fifaId": "430518",
@@ -12930,12 +12930,12 @@ export const teams = {
         "birthDate": "1999-09-16T00:00:00Z",
         "heightCm": 173,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/66433f37-d71a-4b14-ba06-da9d762320b4/NAWAF-BU-WASHL_430518"
       },
       {
         "fifaId": "401924",
         "name": "HASSAN KADISH",
-        "shortName": "HASSAN KADESH",
+        "shortName": "KADISH",
         "jerseyNumber": 14,
         "position": "DF",
         "positionLabel": "Defender",
@@ -12943,7 +12943,7 @@ export const teams = {
         "birthDate": "1992-09-26T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fc41abe4-036c-4c99-aa2a-b56ddece0c2d/HASSAN-KADISH_401924"
       },
       {
         "fifaId": "411624",
@@ -12956,7 +12956,7 @@ export const teams = {
         "birthDate": "1996-08-16T00:00:00Z",
         "heightCm": 175,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/16fa6436-2787-4e0c-b661-8fc766d029d6/ABDULLAH-ALKHAIBARI_411624"
       },
       {
         "fifaId": "436538",
@@ -12969,7 +12969,7 @@ export const teams = {
         "birthDate": "2001-11-11T00:00:00Z",
         "heightCm": 180,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/401feff3-37fd-40a9-90f6-d987eb3a8e40/ZIYAD-ALJOHANI_436538"
       },
       {
         "fifaId": "419300",
@@ -12982,7 +12982,7 @@ export const teams = {
         "birthDate": "2000-11-08T00:00:00Z",
         "heightCm": 171,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ab5b27fd-b17e-43a1-bd85-78119d057dab/KHALID-ALGHANNAM_419300"
       },
       {
         "fifaId": "523333",
@@ -12995,12 +12995,12 @@ export const teams = {
         "birthDate": "1995-12-03T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2fb42f50-394b-46d4-9038-9d9b09564b98/ALA-ALHAJJI_523333"
       },
       {
         "fifaId": "419302",
         "name": "ABDULLAH ALHAMDDAN",
-        "shortName": "A. HAMDDAN",
+        "shortName": "ALHAMDDAN",
         "jerseyNumber": 19,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13008,7 +13008,7 @@ export const teams = {
         "birthDate": "1999-09-13T00:00:00Z",
         "heightCm": 186,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2bdfc07a-ee4d-46f1-bc76-a69bd5d9e9be/ABDULLAH-ALHAMDDAN_419302"
       },
       {
         "fifaId": "494800",
@@ -13021,7 +13021,7 @@ export const teams = {
         "birthDate": "1994-10-17T00:00:00Z",
         "heightCm": 172,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f360115a-08e8-451c-9fb0-2af3944cd37a/SULTAN-MANDASH_494800"
       },
       {
         "fifaId": "396885",
@@ -13034,12 +13034,12 @@ export const teams = {
         "birthDate": "1991-10-10T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/be2d88f0-e368-49ef-9a33-c7585955c495/MOHAMMED-ALOWAIS_396885"
       },
       {
         "fifaId": "339746",
         "name": "AHMED ALKASSAR",
-        "shortName": "Ahmed Al-Kassar",
+        "shortName": "ALKASSAR",
         "jerseyNumber": 22,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -13047,7 +13047,7 @@ export const teams = {
         "birthDate": "1991-05-08T00:00:00Z",
         "heightCm": 178,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1354d5cd-4cb5-4494-9033-efd38b3f1ac0/AHMED-ALKASSAR_339746"
       },
       {
         "fifaId": "407993",
@@ -13060,7 +13060,7 @@ export const teams = {
         "birthDate": "1994-09-22T00:00:00Z",
         "heightCm": 191,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c3eb4162-fd6d-41f1-aad4-1b632b266f19/MOHAMED-KANNO_407993"
       },
       {
         "fifaId": "419303",
@@ -13073,7 +13073,7 @@ export const teams = {
         "birthDate": "2000-02-20T00:00:00Z",
         "heightCm": 177,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0d671a6b-7632-46ee-91c7-39c01ee4b00c/MOTEB-ALHARBI_419303"
       },
       {
         "fifaId": "494506",
@@ -13086,7 +13086,7 @@ export const teams = {
         "birthDate": "2001-07-21T00:00:00Z",
         "heightCm": 184,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0e99f4e8-6619-4e4c-8970-0443d31b83a0/JEHAD-THIKRI_494506"
       },
       {
         "fifaId": "512183",
@@ -13099,7 +13099,7 @@ export const teams = {
         "birthDate": "2002-08-11T00:00:00Z",
         "heightCm": 170,
         "weightKg": 62,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8aee29b9-06b4-4b46-b529-3bb6adf5f9a6/MOHAMMED-ABU-ALSHAMAT_512183"
       }
     ]
   },
@@ -13109,10 +13109,10 @@ export const teams = {
     "name": "Scotland",
     "group": "Group C",
     "confederation": "UEFA",
-    "fifaRank": 43,
+    "fifaRank": 42,
     "attack": 85,
     "defense": 86,
-    "form": 77,
+    "form": 80,
     "coach": "Steve CLARKE",
     "flagUrl": "https://flagcdn.com/gb-sct.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/SCO",
@@ -13146,7 +13146,7 @@ export const teams = {
       {
         "fifaId": "401339",
         "name": "Andy ROBERTSON",
-        "shortName": "Andy ROBERTSON",
+        "shortName": "ROBERTSON",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -13185,7 +13185,7 @@ export const teams = {
       {
         "fifaId": "401712",
         "name": "Kieran Tierney",
-        "shortName": "Tierney",
+        "shortName": "TIERNEY",
         "jerseyNumber": 6,
         "position": "DF",
         "positionLabel": "Defender",
@@ -13463,7 +13463,7 @@ export const teams = {
     "name": "Senegal",
     "group": "Group I",
     "confederation": "CAF",
-    "fifaRank": 14,
+    "fifaRank": 15,
     "attack": 89,
     "defense": 89,
     "form": 84,
@@ -13482,7 +13482,7 @@ export const teams = {
         "birthDate": "1999-11-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3b022d7d-d20e-42de-a08d-9e678dab3bc6/DIOUF-Yehvann_494277"
       },
       {
         "fifaId": "499800",
@@ -13495,7 +13495,7 @@ export const teams = {
         "birthDate": "2005-08-29T00:00:00Z",
         "heightCm": 194,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3abb3fa8-05e3-4973-adb7-ef4b941b8ec1/SARR-Mamadou_499800"
       },
       {
         "fifaId": "339820",
@@ -13508,7 +13508,7 @@ export const teams = {
         "birthDate": "1991-06-20T00:00:00Z",
         "heightCm": 186,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/538bee26-1d47-4a95-a0f0-5d706f741e07/KOULIBALY-Kalidou_339820"
       },
       {
         "fifaId": "370171",
@@ -13521,7 +13521,7 @@ export const teams = {
         "birthDate": "1992-06-04T00:00:00Z",
         "heightCm": 192,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d8107e3c-87b1-452f-9f6a-a704145d2d51/SECK-Abdoulaye_370171"
       },
       {
         "fifaId": "332314",
@@ -13534,12 +13534,12 @@ export const teams = {
         "birthDate": "1989-09-26T00:00:00Z",
         "heightCm": 174,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4d275801-8b11-4fcc-bed0-ace70703da2d/IDRISSA-GANA-GUEYE_332314_1"
       },
       {
         "fifaId": "448825",
         "name": "Pathe CISS",
-        "shortName": "PATHE",
+        "shortName": "P.I. CISS",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -13547,12 +13547,12 @@ export const teams = {
         "birthDate": "1994-03-16T00:00:00Z",
         "heightCm": 186,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fa3c3939-ed3d-46f5-9474-39fe481be534/CISS-Pathe_448825"
       },
       {
         "fifaId": "484698",
         "name": "Assane DIAO",
-        "shortName": "DIAO",
+        "shortName": "A. DIAO",
         "jerseyNumber": 7,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13560,7 +13560,7 @@ export const teams = {
         "birthDate": "2005-09-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2b8bf568-c645-4cbc-995a-5980c82e393b/DIAO-Assane_484698"
       },
       {
         "fifaId": "464842",
@@ -13573,12 +13573,12 @@ export const teams = {
         "birthDate": "2004-01-01T00:00:00Z",
         "heightCm": 174,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b8bad481-9270-4f53-92fd-ec70fbb7a06e/CAMARA-Lamine_464842"
       },
       {
         "fifaId": "418781",
         "name": "Bamba DIENG",
-        "shortName": "Bamba DIENG",
+        "shortName": "BAMBA",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13586,12 +13586,12 @@ export const teams = {
         "birthDate": "2000-03-23T00:00:00Z",
         "heightCm": 178,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1c4c9caa-ee5b-49ef-afaf-159f1046f0eb/DIENG-Bamba_418781"
       },
       {
         "fifaId": "353790",
         "name": "Sadio MANE",
-        "shortName": "MANE",
+        "shortName": "MANÉ",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13599,12 +13599,12 @@ export const teams = {
         "birthDate": "1992-04-10T00:00:00Z",
         "heightCm": 175,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e0f75257-7c12-4777-a0d6-87b5d30f5548/MANE-Sadio_353790"
       },
       {
         "fifaId": "418795",
         "name": "Nicolas JACKSON",
-        "shortName": "N.JACKSON",
+        "shortName": "N. JACKSON",
         "jerseyNumber": 11,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13612,12 +13612,12 @@ export const teams = {
         "birthDate": "2001-06-20T00:00:00Z",
         "heightCm": 187,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/27569451-1271-4fb3-86ee-51e88e913ec7/JACKSON-Nicolas_418795"
       },
       {
         "fifaId": "486168",
         "name": "Cherif NDIAYE",
-        "shortName": "CHERIF",
+        "shortName": "CHÉRIF",
         "jerseyNumber": 12,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13625,12 +13625,12 @@ export const teams = {
         "birthDate": "1996-01-23T00:00:00Z",
         "heightCm": 190,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7839c6fe-1ef4-4201-84d7-4540216e1588/NDIAYE-Cherif_486168"
       },
       {
         "fifaId": "448815",
         "name": "Iliman NDIAYE",
-        "shortName": "ILIMAN",
+        "shortName": "NDIAYE",
         "jerseyNumber": 13,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13638,12 +13638,12 @@ export const teams = {
         "birthDate": "2000-03-06T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6e228075-d552-4471-80b9-6beb5f574ac6/NDIAYE-Iliman_448815"
       },
       {
         "fifaId": "430671",
         "name": "Ismail JAKOBS",
-        "shortName": "Ismail JAKOBS",
+        "shortName": "JAKOBS",
         "jerseyNumber": 14,
         "position": "DF",
         "positionLabel": "Defender",
@@ -13651,12 +13651,12 @@ export const teams = {
         "birthDate": "1999-08-17T00:00:00Z",
         "heightCm": 184,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a24c412d-22cb-4d33-a341-e7f5e731756a/JAKOBS-Ismail_430671"
       },
       {
         "fifaId": "403642",
         "name": "Krepin DIATTA",
-        "shortName": "KREPIN",
+        "shortName": "DIATTA",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -13664,7 +13664,7 @@ export const teams = {
         "birthDate": "1999-02-25T00:00:00Z",
         "heightCm": 173,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/29d66b6d-0e3d-4613-b399-d75741b2585d/DIATTA-Krepin_403642"
       },
       {
         "fifaId": "433806",
@@ -13677,12 +13677,12 @@ export const teams = {
         "birthDate": "1992-03-01T00:00:00Z",
         "heightCm": 194,
         "weightKg": 97,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9093beeb-51a2-4e1d-b700-73e094c6949c/MENDY-Edouard_433806"
       },
       {
         "fifaId": "418798",
         "name": "Pape Matar SARR",
-        "shortName": "Pape Matar SARR",
+        "shortName": "P.M. SARR",
         "jerseyNumber": 17,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -13690,7 +13690,7 @@ export const teams = {
         "birthDate": "2002-09-14T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/60281798-1792-4113-ba5c-fbfd3299270f/SARR-Pape-Matar_418798"
       },
       {
         "fifaId": "401889",
@@ -13703,12 +13703,12 @@ export const teams = {
         "birthDate": "1998-02-25T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/695226c6-92b8-4aa6-995e-dcdd2d08eb96/SARR-Ismaila_401889"
       },
       {
         "fifaId": "430690",
         "name": "Moussa Niakhate",
-        "shortName": "NIAKHATE",
+        "shortName": "NIAKHATÉ",
         "jerseyNumber": 19,
         "position": "DF",
         "positionLabel": "Defender",
@@ -13716,12 +13716,12 @@ export const teams = {
         "birthDate": "1996-03-08T00:00:00Z",
         "heightCm": 190,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8f89704d-50da-430b-b9dd-1775cf3c0f29/NIAKHATE-Moussa_430690"
       },
       {
         "fifaId": "496358",
         "name": "Ibrahim MBAYE",
-        "shortName": "MBAYE",
+        "shortName": "I. MBAYE",
         "jerseyNumber": 20,
         "position": "FW",
         "positionLabel": "Forward",
@@ -13729,7 +13729,7 @@ export const teams = {
         "birthDate": "2008-01-24T00:00:00Z",
         "heightCm": 175,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1583bcf3-3a11-4ebe-a9ef-18aba9e7f32b/MBAYE-Ibrahim_496358"
       },
       {
         "fifaId": "486130",
@@ -13742,7 +13742,7 @@ export const teams = {
         "birthDate": "2004-01-03T00:00:00Z",
         "heightCm": 178,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/87016310-d872-4f1d-b60a-2c9e702190d7/DIARRA-Habib_486130"
       },
       {
         "fifaId": "523354",
@@ -13755,12 +13755,12 @@ export const teams = {
         "birthDate": "2007-12-31T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/957881a0-4f0a-4ff8-baf4-e0c73f844244/NDIAYE-Bara-Sapoko_523354"
       },
       {
         "fifaId": "448821",
         "name": "Mory DIAW",
-        "shortName": "MORY",
+        "shortName": "DIAW",
         "jerseyNumber": 23,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -13768,7 +13768,7 @@ export const teams = {
         "birthDate": "1993-06-22T00:00:00Z",
         "heightCm": 197,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/79100f28-7542-4023-b782-e40ecd748f93/DIAW-Mory_448821"
       },
       {
         "fifaId": "494279",
@@ -13781,7 +13781,7 @@ export const teams = {
         "birthDate": "2004-05-27T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6e92b02c-cd04-4c63-a901-36d050c5f772/MENDY-Antoine_494279"
       },
       {
         "fifaId": "464865",
@@ -13794,7 +13794,7 @@ export const teams = {
         "birthDate": "2004-12-29T00:00:00Z",
         "heightCm": 177,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/39400519-512a-43ef-97f2-7760d679aea5/DIOUF-El-Hadji-Malick_464865"
       },
       {
         "fifaId": "431788",
@@ -13807,7 +13807,7 @@ export const teams = {
         "birthDate": "1999-01-24T00:00:00Z",
         "heightCm": 189,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ce2a3833-450c-413b-990f-7c76132e4913/GUEYE-Pape_431788"
       }
     ]
   },
@@ -13836,7 +13836,7 @@ export const teams = {
         "birthDate": "1992-01-21T00:00:00Z",
         "heightCm": 184,
         "weightKg": 84,
-        "photoUrl": "https://digitalhub.fifa.com/transform/b95f9142-251c-4943-911c-9c8d7ad8dd1c/_395986"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b95f9142-251c-4943-911c-9c8d7ad8dd1c/WILLIAMS-Ronwen_395986"
       },
       {
         "fifaId": "510850",
@@ -13992,7 +13992,7 @@ export const teams = {
         "birthDate": "1999-03-03T00:00:00Z",
         "heightCm": 197,
         "weightKg": 87,
-        "photoUrl": "https://digitalhub.fifa.com/transform/200f1c50-a60a-4c33-ad94-b4dabd605f35/_390475"
+        "photoUrl": "https://digitalhub.fifa.com/transform/200f1c50-a60a-4c33-ad94-b4dabd605f35/SITHOLE-Sphephelo_390475"
       },
       {
         "fifaId": "504199",
@@ -14018,7 +14018,7 @@ export const teams = {
         "birthDate": "1995-12-19T00:00:00Z",
         "heightCm": 174,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f13ebf2a-3cac-4af7-bd73-2b70ed5ecc1a/_481242"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f13ebf2a-3cac-4af7-bd73-2b70ed5ecc1a/RAYNERS-Iqraam_481242"
       },
       {
         "fifaId": "494246",
@@ -14036,7 +14036,7 @@ export const teams = {
       {
         "fifaId": "430917",
         "name": "Evidence MAKGOPA",
-        "shortName": "Evidence MAKGOPA",
+        "shortName": "MAKGPA",
         "jerseyNumber": 17,
         "position": "FW",
         "positionLabel": "Forward",
@@ -14070,7 +14070,7 @@ export const teams = {
         "birthDate": "1995-09-22T00:00:00Z",
         "heightCm": 172,
         "weightKg": 79,
-        "photoUrl": "https://digitalhub.fifa.com/transform/1fb66990-444a-4e4b-9047-41c2542ea91a/_463221"
+        "photoUrl": "https://digitalhub.fifa.com/transform/1fb66990-444a-4e4b-9047-41c2542ea91a/SIBISI-Nkosinathi_463221"
       },
       {
         "fifaId": "463218",
@@ -14101,7 +14101,7 @@ export const teams = {
       {
         "fifaId": "395059",
         "name": "Ricardo GOSS",
-        "shortName": "Ricardo GOSS",
+        "shortName": "GOSS",
         "jerseyNumber": 22,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -14174,7 +14174,7 @@ export const teams = {
     "fifaRank": 2,
     "attack": 92,
     "defense": 92,
-    "form": 87,
+    "form": 88,
     "coach": "Luis DE LA FUENTE",
     "flagUrl": "https://flagcdn.com/es.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/ESP",
@@ -14190,7 +14190,7 @@ export const teams = {
         "birthDate": "1995-09-15T00:00:00Z",
         "heightCm": 186,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2a0b3279-e7c5-44c9-8f13-897d085e83bf/RAYA-David_447853"
       },
       {
         "fifaId": "484728",
@@ -14203,12 +14203,12 @@ export const teams = {
         "birthDate": "2003-06-20T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/fd21bf4f-bf7d-4917-8afd-3def8e7e5069/PUBILL-Marc_484728"
       },
       {
         "fifaId": "391297",
         "name": "Alex GRIMALDO",
-        "shortName": "Alex GRIMALDO",
+        "shortName": "GRIMALDO",
         "jerseyNumber": 3,
         "position": "DF",
         "positionLabel": "Defender",
@@ -14216,7 +14216,7 @@ export const teams = {
         "birthDate": "1995-09-20T00:00:00Z",
         "heightCm": 171,
         "weightKg": 67,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5517003d-ede4-43f5-a595-68e9bd17f6ca/GRIMALDO-Alex_391297"
       },
       {
         "fifaId": "405562",
@@ -14229,7 +14229,7 @@ export const teams = {
         "birthDate": "2001-01-09T00:00:00Z",
         "heightCm": 183,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/96536fc5-7d12-442c-89ba-c7ccdae45d61/GARCIA-Eric_405562"
       },
       {
         "fifaId": "382739",
@@ -14242,12 +14242,12 @@ export const teams = {
         "birthDate": "1995-01-30T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ab948683-40c0-4af1-9038-b7f24da3ffc2/LLORENTE-Marcos_382739"
       },
       {
         "fifaId": "430733",
         "name": "Mikel MERINO",
-        "shortName": "Mikel MERINO",
+        "shortName": "MERINO",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -14255,7 +14255,7 @@ export const teams = {
         "birthDate": "1996-06-22T00:00:00Z",
         "heightCm": 188,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bcc810b0-5c45-4781-809e-beae8b68e1d8/MERINO-Mikel_430733"
       },
       {
         "fifaId": "405545",
@@ -14268,12 +14268,12 @@ export const teams = {
         "birthDate": "2000-02-29T00:00:00Z",
         "heightCm": 183,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/aa65d133-f0fb-4379-9b1b-6c9dc2f40195/TORRES-Ferran_405545"
       },
       {
         "fifaId": "430718",
         "name": "Fabian RUIZ",
-        "shortName": "FABIAN",
+        "shortName": "FABIÁN",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -14281,7 +14281,7 @@ export const teams = {
         "birthDate": "1996-04-03T00:00:00Z",
         "heightCm": 188,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c40ded96-190d-41c8-90f2-6a253a63b33d/RUIZ-Fabian_430718"
       },
       {
         "fifaId": "447866",
@@ -14294,12 +14294,12 @@ export const teams = {
         "birthDate": "2004-08-05T00:00:00Z",
         "heightCm": 173,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4a8278cb-43c6-4a1a-8aa8-896c67daf977/GAVI_447866"
       },
       {
         "fifaId": "430750",
         "name": "Dani OLMO",
-        "shortName": "Dani OLMO",
+        "shortName": "OLMO",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -14307,7 +14307,7 @@ export const teams = {
         "birthDate": "1998-05-07T00:00:00Z",
         "heightCm": 179,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c3f3e67a-90c1-469a-a4e1-263a470db989/OLMO-Dani_430750"
       },
       {
         "fifaId": "423658",
@@ -14320,7 +14320,7 @@ export const teams = {
         "birthDate": "2002-10-20T00:00:00Z",
         "heightCm": 174,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/40328b78-c5b4-4c63-a11e-e5d1491793ef/PINO-Yeremy_423658"
       },
       {
         "fifaId": "430144",
@@ -14333,7 +14333,7 @@ export const teams = {
         "birthDate": "1999-09-13T00:00:00Z",
         "heightCm": 173,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2c33b0c7-c399-4eac-98b2-66f35e77886a/PORRO-Pedro_430144"
       },
       {
         "fifaId": "484691",
@@ -14346,7 +14346,7 @@ export const teams = {
         "birthDate": "2001-05-04T00:00:00Z",
         "heightCm": 194,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/08439f96-c835-4b28-9fc5-7e90d4e82738/GARCIA-Joan_484691"
       },
       {
         "fifaId": "335999",
@@ -14359,12 +14359,12 @@ export const teams = {
         "birthDate": "1994-05-27T00:00:00Z",
         "heightCm": 191,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e923ca38-381d-4187-9d40-9f5f72434530/LAPORTE-Aymeric_335999"
       },
       {
         "fifaId": "447860",
         "name": "Alex BAENA",
-        "shortName": "ÁLEX B.",
+        "shortName": "ALEX B.",
         "jerseyNumber": 15,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -14372,7 +14372,7 @@ export const teams = {
         "birthDate": "2001-07-20T00:00:00Z",
         "heightCm": 172,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/19c2a085-e986-4c5b-8af7-aa98f7adc36e/BAENA-Alex_447860"
       },
       {
         "fifaId": "411375",
@@ -14385,7 +14385,7 @@ export const teams = {
         "birthDate": "1996-06-22T00:00:00Z",
         "heightCm": 190,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/295ab5b2-4dbf-42b9-918b-04fb4ae0ec0a/RODRI_411375"
       },
       {
         "fifaId": "447855",
@@ -14398,12 +14398,12 @@ export const teams = {
         "birthDate": "2002-07-12T00:00:00Z",
         "heightCm": 181,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1792665e-37cb-421d-969b-e6a3edbd8d76/WILLIAMS-Nico_447855"
       },
       {
         "fifaId": "430754",
         "name": "Martin ZUBIMENDI",
-        "shortName": "Martin ZUBIMENDI",
+        "shortName": "ZUBIMENDI",
         "jerseyNumber": 18,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -14411,7 +14411,7 @@ export const teams = {
         "birthDate": "1999-02-02T00:00:00Z",
         "heightCm": 181,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/640def2c-056d-4b6d-8bcc-613b77f99160/ZUBIMENDI-Martin_430754"
       },
       {
         "fifaId": "484320",
@@ -14424,7 +14424,7 @@ export const teams = {
         "birthDate": "2007-07-13T00:00:00Z",
         "heightCm": 183,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/37b631d3-c340-4590-91a8-bb00bd5f1e89/YAMAL-Lamine_484320"
       },
       {
         "fifaId": "423646",
@@ -14437,12 +14437,12 @@ export const teams = {
         "birthDate": "2002-11-25T00:00:00Z",
         "heightCm": 174,
         "weightKg": 68,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/75a5861e-008f-460c-81e4-8085fa2cc961/PEDRI_423646"
       },
       {
         "fifaId": "430751",
         "name": "Mikel OYARZABAL",
-        "shortName": "Mikel OYARZABAL",
+        "shortName": "OYARZABAL",
         "jerseyNumber": 21,
         "position": "FW",
         "positionLabel": "Forward",
@@ -14450,7 +14450,7 @@ export const teams = {
         "birthDate": "1997-04-21T00:00:00Z",
         "heightCm": 181,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2f46ed20-b155-4201-8b97-badbc3619450/OYARZABAL-Mikel_430751"
       },
       {
         "fifaId": "474973",
@@ -14463,12 +14463,12 @@ export const teams = {
         "birthDate": "2007-01-22T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/02b8f052-fa36-41a9-807e-e8f7c6a96d61/CUBARSI-Pau_474973"
       },
       {
         "fifaId": "430753",
         "name": "Unai SIMON",
-        "shortName": "Unai SIMON",
+        "shortName": "UNAI SIMÓN",
         "jerseyNumber": 23,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -14476,7 +14476,7 @@ export const teams = {
         "birthDate": "1997-06-11T00:00:00Z",
         "heightCm": 190,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/41e0f920-bd7d-4bd6-882b-c83ed33e3f26/SIMON-Unai_430753"
       },
       {
         "fifaId": "430735",
@@ -14489,12 +14489,12 @@ export const teams = {
         "birthDate": "1998-07-22T00:00:00Z",
         "heightCm": 173,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3bc6b871-a4b2-4201-8885-a77420f4c7c9/CUCURELLA-Marc_430735"
       },
       {
         "fifaId": "492859",
         "name": "Victor MUNOZ",
-        "shortName": "VÍCTOR MUÑOZ",
+        "shortName": "VICTOR M.V.",
         "jerseyNumber": 25,
         "position": "FW",
         "positionLabel": "Forward",
@@ -14502,7 +14502,7 @@ export const teams = {
         "birthDate": "2003-07-13T00:00:00Z",
         "heightCm": 173,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/73c58323-50f9-463b-88f0-abce4d69067c/MUNOZ-Victor_492859"
       },
       {
         "fifaId": "447864",
@@ -14515,7 +14515,7 @@ export const teams = {
         "birthDate": "1993-01-17T00:00:00Z",
         "heightCm": 187,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e90fda84-dae1-44e9-b030-9ce63b11b2d4/IGLESIAS-Borja_447864"
       }
     ]
   },
@@ -14528,7 +14528,7 @@ export const teams = {
     "fifaRank": 38,
     "attack": 87,
     "defense": 87,
-    "form": 82,
+    "form": 80,
     "coach": "Graham POTTER",
     "flagUrl": "https://flagcdn.com/se.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/SWE",
@@ -14544,7 +14544,7 @@ export const teams = {
         "birthDate": "1998-07-11T00:00:00Z",
         "heightCm": 197,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c93a418b-3456-4b0f-b0e0-8cb27004aebb/WIDELL-ZETTERSTROM-Jacob_489685"
       },
       {
         "fifaId": "483304",
@@ -14557,7 +14557,7 @@ export const teams = {
         "birthDate": "2000-04-10T00:00:00Z",
         "heightCm": 193,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/12a80a14-c33d-480f-8742-315485c114c1/LAGERBIELKE-Gustaf_483304"
       },
       {
         "fifaId": "395283",
@@ -14570,7 +14570,7 @@ export const teams = {
         "birthDate": "1994-07-17T00:00:00Z",
         "heightCm": 187,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/88b96376-9f31-40fd-a0fc-ae12aab484c4/LINDELOF-Victor_395283"
       },
       {
         "fifaId": "483312",
@@ -14583,7 +14583,7 @@ export const teams = {
         "birthDate": "1999-01-13T00:00:00Z",
         "heightCm": 191,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0daf43d1-2714-4cc3-ab8b-3cf2020bf150/HIEN-Isak_483312"
       },
       {
         "fifaId": "483276",
@@ -14596,7 +14596,7 @@ export const teams = {
         "birthDate": "1999-04-29T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/43fd52e9-e3a9-46f6-8432-7bfbbb394678/GUDMUNDSSON-Gabriel_483276"
       },
       {
         "fifaId": "514639",
@@ -14609,7 +14609,7 @@ export const teams = {
         "birthDate": "1997-10-16T00:00:00Z",
         "heightCm": 190,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/58eb2743-907e-4e6d-8020-28c8767e5cdc/JOHANSSON-Herman_514639"
       },
       {
         "fifaId": "489689",
@@ -14622,7 +14622,7 @@ export const teams = {
         "birthDate": "2006-02-02T00:00:00Z",
         "heightCm": 187,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bd927d6a-bb9d-4424-9e96-53c2ebc7220b/BERGVALL-Lucas_489689"
       },
       {
         "fifaId": "491255",
@@ -14635,7 +14635,7 @@ export const teams = {
         "birthDate": "2002-02-12T00:00:00Z",
         "heightCm": 183,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/49dbfd16-1871-40c2-94d5-995f9e38cc04/SVENSSON-Daniel_491255"
       },
       {
         "fifaId": "430150",
@@ -14648,7 +14648,7 @@ export const teams = {
         "birthDate": "1999-09-21T00:00:00Z",
         "heightCm": 190,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c6ffe63b-aefd-43b8-bd9d-3c6e31a8f418/ISAK-Alexander_430150"
       },
       {
         "fifaId": "502946",
@@ -14661,7 +14661,7 @@ export const teams = {
         "birthDate": "2001-07-08T00:00:00Z",
         "heightCm": 187,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e464be99-48c1-41a9-b5aa-2c5760f1d302/NYGREN-Benjamin_502946"
       },
       {
         "fifaId": "441137",
@@ -14674,7 +14674,7 @@ export const teams = {
         "birthDate": "2002-04-27T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/38e8d10e-aa56-4837-a589-35bc4dcc23a3/ELANGA-Anthony_441137"
       },
       {
         "fifaId": "483264",
@@ -14687,7 +14687,7 @@ export const teams = {
         "birthDate": "1998-09-14T00:00:00Z",
         "heightCm": 187,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c311a4ac-f9ad-48d3-99dc-b9c53345d0f9/JOHANSSON-Viktor_483264"
       },
       {
         "fifaId": "395286",
@@ -14700,7 +14700,7 @@ export const teams = {
         "birthDate": "1993-09-30T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eb495b7c-f859-40c2-9327-9478faf03c24/SEMA-Ken_395286"
       },
       {
         "fifaId": "483319",
@@ -14713,7 +14713,7 @@ export const teams = {
         "birthDate": "1998-10-21T00:00:00Z",
         "heightCm": 187,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/23439c93-9021-4c30-b8b1-45141ad89e8c/EKDAL-Hjalmar_483319"
       },
       {
         "fifaId": "441132",
@@ -14726,12 +14726,12 @@ export const teams = {
         "birthDate": "1995-06-01T00:00:00Z",
         "heightCm": 185,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7c4b343c-446c-4d27-ab62-bb85ee559985/STARFELT-Carl_441132"
       },
       {
         "fifaId": "441135",
         "name": "Jesper KARLSTROM",
-        "shortName": "Jesper KARLSTROM",
+        "shortName": "KARLSTRÖM",
         "jerseyNumber": 16,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -14739,7 +14739,7 @@ export const teams = {
         "birthDate": "1995-06-21T00:00:00Z",
         "heightCm": 182,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0ed50024-cb6d-4fa5-bc7c-ba8a9afa7fd3/KARLSTROM-Jesper_441135"
       },
       {
         "fifaId": "483327",
@@ -14752,7 +14752,7 @@ export const teams = {
         "birthDate": "1998-06-04T00:00:00Z",
         "heightCm": 189,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ca3d75bf-7e31-4269-9933-b296eb3f5bff/GYOKERES-Viktor_483327"
       },
       {
         "fifaId": "489688",
@@ -14765,7 +14765,7 @@ export const teams = {
         "birthDate": "2003-10-06T00:00:00Z",
         "heightCm": 172,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ac9ed8a6-7b39-4962-8245-b80556224ca0/AYARI-Yasin_489688"
       },
       {
         "fifaId": "433795",
@@ -14778,7 +14778,7 @@ export const teams = {
         "birthDate": "1999-01-05T00:00:00Z",
         "heightCm": 186,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0d003261-373c-46f2-90c6-34d700c027f6/SVANBERG-Mattias_433795"
       },
       {
         "fifaId": "493061",
@@ -14791,7 +14791,7 @@ export const teams = {
         "birthDate": "1997-01-08T00:00:00Z",
         "heightCm": 192,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7f7bf320-92e1-4267-bc6b-56f2ec37e94f/SMITH-Eric_493061"
       },
       {
         "fifaId": "502945",
@@ -14804,7 +14804,7 @@ export const teams = {
         "birthDate": "1998-09-08T00:00:00Z",
         "heightCm": 184,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/165d5004-48b5-4a8c-86ee-d7c982b9b96c/BERNHARDSSON-Alexander_502945"
       },
       {
         "fifaId": "503047",
@@ -14817,7 +14817,7 @@ export const teams = {
         "birthDate": "2002-11-21T00:00:00Z",
         "heightCm": 187,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7bd98883-dd6c-4e8f-954e-af31d070eac7/ZENELI-Besfort_503047"
       },
       {
         "fifaId": "360496",
@@ -14830,7 +14830,7 @@ export const teams = {
         "birthDate": "1989-06-23T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/747828c3-0592-411d-889a-9a59ae78e0b6/NORDFELDT-Kristoffer_360496"
       },
       {
         "fifaId": "519958",
@@ -14843,7 +14843,7 @@ export const teams = {
         "birthDate": "2002-06-22T00:00:00Z",
         "heightCm": 185,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/12d24b4c-5628-4013-8f4d-bddea4ae2258/STROUD-Elliot_519958"
       },
       {
         "fifaId": "489691",
@@ -14856,7 +14856,7 @@ export const teams = {
         "birthDate": "1997-05-23T00:00:00Z",
         "heightCm": 197,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ba9d4008-fe99-49d2-afb3-c3a9d7a97da8/NILSSON-Gustaf_489691"
       },
       {
         "fifaId": "514202",
@@ -14869,7 +14869,7 @@ export const teams = {
         "birthDate": "1998-07-01T00:00:00Z",
         "heightCm": 174,
         "weightKg": 63,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9a70800c-37c4-4cd9-b195-f307dbaad09b/ALI-Taha_514202"
       }
     ]
   },
@@ -14882,7 +14882,7 @@ export const teams = {
     "fifaRank": 19,
     "attack": 88,
     "defense": 88,
-    "form": 83,
+    "form": 84,
     "coach": "Murat YAKIN",
     "flagUrl": "https://flagcdn.com/ch.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/SUI",
@@ -14898,7 +14898,7 @@ export const teams = {
         "birthDate": "1997-12-06T00:00:00Z",
         "heightCm": 196,
         "weightKg": 91,
-        "photoUrl": "https://digitalhub.fifa.com/transform/de7fbb86-4244-4610-bd5d-ceacfbee17fb/GREGOR-KOBEL_448107_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/8c199208-00cd-46ca-877b-f0fd4fb08e31/KOBEL-Gregor_448107"
       },
       {
         "fifaId": "493221",
@@ -14911,7 +14911,7 @@ export const teams = {
         "birthDate": "1998-03-24T00:00:00Z",
         "heightCm": 182,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/6ade45b3-039a-4f58-8d7f-82da23a74fc2/MIRO-MUHEIM_493221_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/d3efd73b-690b-417d-a645-0a45b5c00bc8/MUHEIM-Miro_493221"
       },
       {
         "fifaId": "356412",
@@ -14924,7 +14924,7 @@ export const teams = {
         "birthDate": "1993-03-05T00:00:00Z",
         "heightCm": 183,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/47229f84-1214-4147-8db1-b18e6dc21862/SILVAN-WIDMER_356412_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/41a8791f-677e-4106-b2e4-9d71011c561d/WIDMER-Silvan_356412"
       },
       {
         "fifaId": "398509",
@@ -14937,7 +14937,7 @@ export const teams = {
         "birthDate": "1996-09-30T00:00:00Z",
         "heightCm": 189,
         "weightKg": 85,
-        "photoUrl": "https://digitalhub.fifa.com/transform/69248cfd-7812-4599-8555-e4d38062046c/NICO-ELVEDI_398509_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/5631cb24-dba7-44dd-ac2c-1c67b14d7649/ELVEDI-Nico_398509"
       },
       {
         "fifaId": "405178",
@@ -14950,7 +14950,7 @@ export const teams = {
         "birthDate": "1995-07-19T00:00:00Z",
         "heightCm": 188,
         "weightKg": 95,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4046a00a-3079-4559-baac-564822232f04/MANUEL-AKANJI_405178_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/3a90610e-9f70-434a-b8b0-450a1ea81d75/AKANJI-Manuel_405178"
       },
       {
         "fifaId": "401448",
@@ -14963,7 +14963,7 @@ export const teams = {
         "birthDate": "1996-11-20T00:00:00Z",
         "heightCm": 189,
         "weightKg": 77,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a6ad5e16-bf2e-49ae-ad22-2e59d9470e5c/DENIS-ZAKARIA_401448_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/e47d229b-d092-4759-82e0-0e5f88b2c894/ZAKARIA-Denis_401448"
       },
       {
         "fifaId": "393480",
@@ -14976,7 +14976,7 @@ export const teams = {
         "birthDate": "1997-02-14T00:00:00Z",
         "heightCm": 184,
         "weightKg": 86,
-        "photoUrl": "https://digitalhub.fifa.com/transform/303a6f6f-7a52-4434-8c05-5f4bc86dae8c/BREEL-EMBOLO_393480_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b2483096-041c-489b-a1c5-6d930f380909/EMBOLO-Breel_393480"
       },
       {
         "fifaId": "402021",
@@ -14989,7 +14989,7 @@ export const teams = {
         "birthDate": "1992-04-15T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/939ada6e-2e3a-4264-b559-322a82d5eff8/REMO-FREULER_402021_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/821a56dc-683d-4326-a784-21e25428a18f/FREULER-Remo_402021"
       },
       {
         "fifaId": "502727",
@@ -15002,7 +15002,7 @@ export const teams = {
         "birthDate": "2005-10-14T00:00:00Z",
         "heightCm": 182,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/623d7130-da25-42e0-9072-68bff513312c/JOHAN-MANZAMBI_502727_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727"
       },
       {
         "fifaId": "311558",
@@ -15015,7 +15015,7 @@ export const teams = {
         "birthDate": "1992-09-27T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/cbd9f59b-9377-45f4-be08-3b93d3e1ba47/GRANIT-XHAKA_311558_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/a6c333cc-3042-4094-9ec0-094479b8ca3a/XHAKA-Granit_311558"
       },
       {
         "fifaId": "448114",
@@ -15028,7 +15028,7 @@ export const teams = {
         "birthDate": "2000-10-25T00:00:00Z",
         "heightCm": 184,
         "weightKg": 72,
-        "photoUrl": "https://digitalhub.fifa.com/transform/4aa1db24-b86c-44df-bc50-938a9d44241f/DAN-NDOYE_448114_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b536dbbe-88a2-4caf-97c0-6baac25c43fe/NDOYE-Dan_448114"
       },
       {
         "fifaId": "402022",
@@ -15041,7 +15041,7 @@ export const teams = {
         "birthDate": "1994-06-06T00:00:00Z",
         "heightCm": 190,
         "weightKg": 88,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5f68c728-50f3-4b3a-9b94-e8bc3ec1617d/YVON-MVOGO_402022_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/66a48e5b-90b7-48fa-94b6-f91d76c28962/MVOGO-Yvon_402022"
       },
       {
         "fifaId": "313559",
@@ -15054,7 +15054,7 @@ export const teams = {
         "birthDate": "1992-08-25T00:00:00Z",
         "heightCm": 182,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/eeb19cce-ef74-4fb8-8692-c1a5d944f740/RICARDO-RODRIGUEZ_313559_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/07f27983-8eee-43f3-b68c-b45b6f806785/RODRIGUEZ-Ricardo_313559"
       },
       {
         "fifaId": "448120",
@@ -15067,12 +15067,12 @@ export const teams = {
         "birthDate": "2002-07-30T00:00:00Z",
         "heightCm": 181,
         "weightKg": 75,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ab457177-d7c0-476c-a424-b8d39a9f5cf3/ARDON-JASHARI_448120_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9e9fc9ed-5b8e-4c1e-a4e3-c29201d34dae/JASHARI-Ardon_448120"
       },
       {
         "fifaId": "411226",
         "name": "Djibril SOW",
-        "shortName": "Djibril SOW",
+        "shortName": "SOW",
         "jerseyNumber": 15,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15080,7 +15080,7 @@ export const teams = {
         "birthDate": "1997-02-06T00:00:00Z",
         "heightCm": 183,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/28c106e7-6992-4b92-9778-44840c2eaacc/DJIBRIL-SOW_411226_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/64b86b6f-824e-4ef9-aa1e-43cfff2a7df1/SOW-Djibril_411226"
       },
       {
         "fifaId": "448124",
@@ -15093,7 +15093,7 @@ export const teams = {
         "birthDate": "1993-11-11T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f27201de-472c-4d65-82e1-456d8f855f02/CHRISTIAN-FASSNACHT_448124_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7ece88c1-0971-4298-a4f1-00547bf2c889/FASSNACHT-Christian_448124"
       },
       {
         "fifaId": "448131",
@@ -15106,12 +15106,12 @@ export const teams = {
         "birthDate": "1998-08-05T00:00:00Z",
         "heightCm": 179,
         "weightKg": 70,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a73225bd-2f17-4bbb-a152-20920fc8b94e/RUBEN-VARGAS_448131_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/625f7ce0-81a9-4bab-9b18-c9ec395b5096/VARGAS-Ruben_448131"
       },
       {
         "fifaId": "448136",
         "name": "Eray COEMERT",
-        "shortName": "Eray COEMERT",
+        "shortName": "CÖMERT",
         "jerseyNumber": 18,
         "position": "DF",
         "positionLabel": "Defender",
@@ -15119,7 +15119,7 @@ export const teams = {
         "birthDate": "1998-02-04T00:00:00Z",
         "heightCm": 183,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a0d4e3be-4e60-4013-a7d9-855e21e2a155/ERAY-COEMERT_448136_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/9b17e0f6-f09e-417d-9829-857d7a7d1fa3/COEMERT-Eray_448136"
       },
       {
         "fifaId": "448127",
@@ -15132,7 +15132,7 @@ export const teams = {
         "birthDate": "2000-05-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": "https://digitalhub.fifa.com/transform/5ec59cc0-f2e9-4478-94d6-1d36cd28609a/NOAH-OKAFOR_448127_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/dd8abcd7-7775-4f67-9e25-eaa6e7cb2b97/OKAFOR-Noah_448127"
       },
       {
         "fifaId": "433147",
@@ -15145,7 +15145,7 @@ export const teams = {
         "birthDate": "1997-01-06T00:00:00Z",
         "heightCm": 183,
         "weightKg": 76,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a680cf21-59ba-4c93-97bd-14cd91aa8bcb/MICHEL-AEBISCHER_433147_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/33ced9ed-c3fd-4933-bc83-4a7a1465a94f/AEBISCHER-Michel_433147"
       },
       {
         "fifaId": "484862",
@@ -15158,7 +15158,7 @@ export const teams = {
         "birthDate": "2002-07-03T00:00:00Z",
         "heightCm": 189,
         "weightKg": 89,
-        "photoUrl": "https://digitalhub.fifa.com/transform/f4e8a6c2-f9e6-4e9e-9628-113ab0cd6415/MARVIN-KELLER_484862_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/4c9ca839-ca31-4d4c-a620-3a5117c5efa8/KELLER-Marvin_484862"
       },
       {
         "fifaId": "448103",
@@ -15171,7 +15171,7 @@ export const teams = {
         "birthDate": "2002-02-16T00:00:00Z",
         "heightCm": 181,
         "weightKg": 74,
-        "photoUrl": "https://digitalhub.fifa.com/transform/32565cfc-34e3-413d-8a10-65f476a47f83/FABIAN-RIEDER_448103_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/7e5b9fb5-dfcf-47e7-b185-ebd6d915e0be/RIEDER-Fabian_448103"
       },
       {
         "fifaId": "448112",
@@ -15184,7 +15184,7 @@ export const teams = {
         "birthDate": "2000-12-04T00:00:00Z",
         "heightCm": 183,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/0674d47b-d151-4673-a901-a27950790ad2/ZEKI-AMDOUNI_448112_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/64a9489f-28d0-40ca-9592-3cda9cb7cac5/AMDOUNI-Zeki_448112"
       },
       {
         "fifaId": "484864",
@@ -15197,7 +15197,7 @@ export const teams = {
         "birthDate": "2003-07-31T00:00:00Z",
         "heightCm": 194,
         "weightKg": 98,
-        "photoUrl": "https://digitalhub.fifa.com/transform/29738852-1cbb-422e-9e63-a1697ae4acf4/AURELE-AMENDA_484864_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/f38da0cf-fda0-4f52-838c-0bb40ab279c8/AMENDA-Aurele_484864"
       },
       {
         "fifaId": "510908",
@@ -15210,7 +15210,7 @@ export const teams = {
         "birthDate": "2003-06-02T00:00:00Z",
         "heightCm": 187,
         "weightKg": 83,
-        "photoUrl": "https://digitalhub.fifa.com/transform/a09e7a82-1c2e-4caa-91d6-7136fe830950/LUCA-JAQUEZ_510908_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/2f3d611d-71c6-40ac-bc76-fdad78fe3c5e/JAQUEZ-Luca_510908"
       },
       {
         "fifaId": "448104",
@@ -15223,7 +15223,7 @@ export const teams = {
         "birthDate": "1996-12-27T00:00:00Z",
         "heightCm": 190,
         "weightKg": 82,
-        "photoUrl": "https://digitalhub.fifa.com/transform/ddf6d1dc-6c8f-4601-980d-44e555e99c7d/CEDRIC-ITTEN_448104_Front"
+        "photoUrl": "https://digitalhub.fifa.com/transform/b9cc3593-aa7e-4f6f-b22b-2cdeae513a1e/ITTEN-Cedric_448104"
       }
     ]
   },
@@ -15233,11 +15233,11 @@ export const teams = {
     "name": "Tunisia",
     "group": "Group F",
     "confederation": "CAF",
-    "fifaRank": 44,
+    "fifaRank": 45,
     "attack": 83,
     "defense": 84,
-    "form": 79,
-    "coach": "Sabri LAMOUCHI",
+    "form": 77,
+    "coach": "Herve RENARD",
     "flagUrl": "https://flagcdn.com/tn.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/TUN",
     "players": [
@@ -15252,7 +15252,7 @@ export const teams = {
         "birthDate": "2001-08-25T00:00:00Z",
         "heightCm": 189,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7047e775-2f2c-4ea2-9ca6-6fc23363c591/CHAMAKH-Mouhib_520245"
       },
       {
         "fifaId": "433362",
@@ -15265,7 +15265,7 @@ export const teams = {
         "birthDate": "1993-12-20T00:00:00Z",
         "heightCm": 177,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8ff3509c-8a73-40ea-ac0e-1beed4560b23/ABDI-Ali_433362"
       },
       {
         "fifaId": "433380",
@@ -15278,7 +15278,7 @@ export const teams = {
         "birthDate": "1998-05-26T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/253ef705-760c-457f-afde-067d2fb39010/TALBI-Montassar_433380"
       },
       {
         "fifaId": "433367",
@@ -15291,7 +15291,7 @@ export const teams = {
         "birthDate": "2001-12-20T00:00:00Z",
         "heightCm": 188,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2f586126-6a63-4e5b-9f85-6e15800449d9/REKIK-Omar_433367"
       },
       {
         "fifaId": "516043",
@@ -15304,7 +15304,7 @@ export const teams = {
         "birthDate": "2004-07-17T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7cbb37f5-5dcd-4fa9-919e-f3fe4f843868/AROUS-Adam_516043"
       },
       {
         "fifaId": "411653",
@@ -15317,7 +15317,7 @@ export const teams = {
         "birthDate": "1995-06-19T00:00:00Z",
         "heightCm": 186,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9a7aa138-5845-4890-aa20-43f4021160ed/BRONN-Dylan_411653"
       },
       {
         "fifaId": "448662",
@@ -15330,7 +15330,7 @@ export const teams = {
         "birthDate": "1999-02-10T00:00:00Z",
         "heightCm": 187,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5ffd95df-83a5-4768-9331-0842c3f433b6/ACHOURI-Elias_448662"
       },
       {
         "fifaId": "482885",
@@ -15343,7 +15343,7 @@ export const teams = {
         "birthDate": "1999-12-27T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2037123b-a7b7-4922-adcd-37607cd92c43/SAAD-Elias_482885"
       },
       {
         "fifaId": "494374",
@@ -15356,12 +15356,12 @@ export const teams = {
         "birthDate": "1997-06-18T00:00:00Z",
         "heightCm": 191,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2565fb18-c785-4773-8d83-81c6fd25da1d/MASTOURI-Hazem_494374"
       },
       {
         "fifaId": "433378",
         "name": "Hannibal MEJBRI",
-        "shortName": "MEJBRI",
+        "shortName": "HANNIBAL",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15369,7 +15369,7 @@ export const teams = {
         "birthDate": "2003-01-21T00:00:00Z",
         "heightCm": 177,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/856f0cc0-6dcc-48bc-a8db-f4fe26d8ae06/MEJBRI-Hannibal_433378"
       },
       {
         "fifaId": "464484",
@@ -15382,12 +15382,12 @@ export const teams = {
         "birthDate": "2004-04-10T00:00:00Z",
         "heightCm": 180,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cd471dba-dc7d-4688-9021-e704b66cec76/GHARBI-Ismael_464484"
       },
       {
         "fifaId": "441362",
         "name": "Mortadha BEN OUANES",
-        "shortName": "Mortadha BEN OUANES",
+        "shortName": "BEN OUANES",
         "jerseyNumber": 12,
         "position": "DF",
         "positionLabel": "Defender",
@@ -15395,7 +15395,7 @@ export const teams = {
         "birthDate": "1994-07-02T00:00:00Z",
         "heightCm": 188,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b9afdecd-b04d-4224-be9b-50643fc77299/BEN-OUANES-Mortadha_441362"
       },
       {
         "fifaId": "336459",
@@ -15408,7 +15408,7 @@ export const teams = {
         "birthDate": "1994-01-27T00:00:00Z",
         "heightCm": 188,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/21f404b3-b430-489b-819c-c0460a2c3590/KHEDIRA-Rani_336459"
       },
       {
         "fifaId": "512039",
@@ -15421,12 +15421,12 @@ export const teams = {
         "birthDate": "2005-02-02T00:00:00Z",
         "heightCm": 174,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9b51ba77-1740-47cc-93f1-1529287d27ea/AYARI-Khalil_512039"
       },
       {
         "fifaId": "479781",
         "name": "Mohamed HADJ MAHMOUD",
-        "shortName": "BELHADJ MAHMOUD",
+        "shortName": "HADJ MAHMOUD",
         "jerseyNumber": 15,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15434,7 +15434,7 @@ export const teams = {
         "birthDate": "2000-04-24T00:00:00Z",
         "heightCm": 179,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bcdeb1a5-6411-40c5-bac8-576703796438/HADJ-MAHMOUD-Mohamed_479781"
       },
       {
         "fifaId": "433365",
@@ -15447,7 +15447,7 @@ export const teams = {
         "birthDate": "1997-01-28T00:00:00Z",
         "heightCm": 188,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/90030173-815d-4411-8eac-20fb42834f9d/DAHMEN-Aymen_433365"
       },
       {
         "fifaId": "411658",
@@ -15460,7 +15460,7 @@ export const teams = {
         "birthDate": "1995-05-10T00:00:00Z",
         "heightCm": 185,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e2ba8e19-b4ab-435f-b12c-e56d655c31e6/SKHIRI-Ellyes_411658"
       },
       {
         "fifaId": "520247",
@@ -15473,7 +15473,7 @@ export const teams = {
         "birthDate": "2007-09-17T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/15445a99-9bc9-41c4-8d6f-c46ac25b3d5d/ELLOUMI-Rayan_520247"
       },
       {
         "fifaId": "494375",
@@ -15486,7 +15486,7 @@ export const teams = {
         "birthDate": "1996-05-08T00:00:00Z",
         "heightCm": 185,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cf52c447-03a8-450b-a4b8-e238b1e3c071/CHAOUAT-Firas_494375"
       },
       {
         "fifaId": "419189",
@@ -15499,7 +15499,7 @@ export const teams = {
         "birthDate": "1999-02-22T00:00:00Z",
         "heightCm": 181,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6ffa54d7-e23d-400d-a90a-960903c63f8b/VALERY-Yan_419189"
       },
       {
         "fifaId": "425607",
@@ -15512,7 +15512,7 @@ export const teams = {
         "birthDate": "1995-12-15T00:00:00Z",
         "heightCm": 181,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cb5fcd59-cbd1-4e4f-b5e7-f9adc81441e5/BEN-HMIDA-Mohamed-Amine_425607"
       },
       {
         "fifaId": "372294",
@@ -15525,7 +15525,7 @@ export const teams = {
         "birthDate": "1996-06-13T00:00:00Z",
         "heightCm": 189,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/69fa6a49-0e30-42d4-afe1-83d6e38c1eed/BEN-HESSEN-Sabri_372294"
       },
       {
         "fifaId": "506335",
@@ -15538,7 +15538,7 @@ export const teams = {
         "birthDate": "2004-09-04T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0f6a863a-959a-40ec-a07f-0c77d7c5a322/NEFFATI-Moutaz_506335"
       },
       {
         "fifaId": "520246",
@@ -15551,7 +15551,7 @@ export const teams = {
         "birthDate": "2004-06-09T00:00:00Z",
         "heightCm": 191,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8ecb6694-a3aa-4efe-b13d-64a020109ec2/CHIKHAOUI-Raed_520246"
       },
       {
         "fifaId": "433361",
@@ -15564,7 +15564,7 @@ export const teams = {
         "birthDate": "2001-03-16T00:00:00Z",
         "heightCm": 188,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5a0e929e-a66f-4563-849e-c7bb62591b5d/SLIMANE-Anis_433361"
       },
       {
         "fifaId": "504502",
@@ -15577,7 +15577,7 @@ export const teams = {
         "birthDate": "2002-07-13T00:00:00Z",
         "heightCm": 182,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/29d9d0d2-28ec-4c0c-9861-a9d8062d5f9d/TOUNEKTI-Sebastian_504502"
       }
     ]
   },
@@ -15590,7 +15590,7 @@ export const teams = {
     "fifaRank": 22,
     "attack": 88,
     "defense": 87,
-    "form": 84,
+    "form": 83,
     "coach": "Vincenzo MONTELLA",
     "flagUrl": "https://flagcdn.com/tr.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/TUR",
@@ -15598,7 +15598,7 @@ export const teams = {
       {
         "fifaId": "360498",
         "name": "Mert GUNOK",
-        "shortName": "Mert GUNOK",
+        "shortName": "MERT",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -15606,7 +15606,7 @@ export const teams = {
         "birthDate": "1989-03-01T00:00:00Z",
         "heightCm": 196,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1ce10157-fad1-435e-b21d-b4f25a483bc1/GUNOK-Mert_360498"
       },
       {
         "fifaId": "433072",
@@ -15619,7 +15619,7 @@ export const teams = {
         "birthDate": "1997-02-17T00:00:00Z",
         "heightCm": 180,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/903b63c2-ab06-47b8-911c-bf4f026601fd/CELIK-Zeki_433072"
       },
       {
         "fifaId": "441179",
@@ -15632,12 +15632,12 @@ export const teams = {
         "birthDate": "1998-03-05T00:00:00Z",
         "heightCm": 190,
         "weightKg": 89,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/905e3e12-72e9-440d-96f5-0b3a48aebe92/DEMIRAL-Merih_441179"
       },
       {
         "fifaId": "401167",
         "name": "Caglar SOYUNCU",
-        "shortName": "Söyüncü",
+        "shortName": "ÇAĞLAR",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -15645,7 +15645,7 @@ export const teams = {
         "birthDate": "1996-05-23T00:00:00Z",
         "heightCm": 185,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1b2e4fe1-8aec-4473-845b-d0ccb4e20a3a/SOYUNCU-Caglar_401167"
       },
       {
         "fifaId": "389907",
@@ -15658,12 +15658,12 @@ export const teams = {
         "birthDate": "1998-01-11T00:00:00Z",
         "heightCm": 182,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1e968b8d-1b4c-4bce-86b7-8a4ad87eef3a/OZCAN-Salih_389907"
       },
       {
         "fifaId": "433118",
         "name": "Orkun KOKCU",
-        "shortName": "KÖKCÜ",
+        "shortName": "ORKUN KÖKÇÜ",
         "jerseyNumber": 6,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15671,7 +15671,7 @@ export const teams = {
         "birthDate": "2000-12-29T00:00:00Z",
         "heightCm": 175,
         "weightKg": 82,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/90a510ff-865f-4293-a59b-8a92e12a89b0/KOKCU-Orkun_433118"
       },
       {
         "fifaId": "441188",
@@ -15684,7 +15684,7 @@ export const teams = {
         "birthDate": "1998-10-21T00:00:00Z",
         "heightCm": 172,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9cccf7c0-ebfc-4b65-8587-74742f5a9992/AKTURKOGLU-Kerem_441188"
       },
       {
         "fifaId": "484087",
@@ -15697,12 +15697,12 @@ export const teams = {
         "birthDate": "2005-02-25T00:00:00Z",
         "heightCm": 175,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e2f26175-13ac-4850-acd7-6408de06ce19/GULER-Arda_484087"
       },
       {
         "fifaId": "495347",
         "name": "Deniz GUL",
-        "shortName": "GUL",
+        "shortName": "DENİZ GÜL",
         "jerseyNumber": 9,
         "position": "FW",
         "positionLabel": "Forward",
@@ -15710,12 +15710,12 @@ export const teams = {
         "birthDate": "2004-07-02T00:00:00Z",
         "heightCm": 192,
         "weightKg": 92,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/92368352-f3ab-459f-bb72-4a7e432dd39a/GUL-Deniz_495347"
       },
       {
         "fifaId": "369304",
         "name": "Hakan CALHANOGLU",
-        "shortName": "CALHANOGLU",
+        "shortName": "ÇALHANOĞLU",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15723,7 +15723,7 @@ export const teams = {
         "birthDate": "1994-02-08T00:00:00Z",
         "heightCm": 178,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f192cf34-173f-47b3-9748-981bd3f21275/CALHANOGLU-Hakan_369304"
       },
       {
         "fifaId": "484112",
@@ -15736,7 +15736,7 @@ export const teams = {
         "birthDate": "2005-05-04T00:00:00Z",
         "heightCm": 187,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7dff809e-a965-4b36-a7b5-8da772fc96a5/YILDIZ-Kenan_484112"
       },
       {
         "fifaId": "441180",
@@ -15749,7 +15749,7 @@ export const teams = {
         "birthDate": "1998-04-14T00:00:00Z",
         "heightCm": 198,
         "weightKg": 90,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f8c86015-cce5-4965-9d7c-183ef908079a/BAYINDIR-Altay_441180"
       },
       {
         "fifaId": "484065",
@@ -15762,7 +15762,7 @@ export const teams = {
         "birthDate": "2000-07-07T00:00:00Z",
         "heightCm": 181,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/9e9cf618-403b-4984-801d-3e82f0e11d3e/ELMALI-Eren_484065"
       },
       {
         "fifaId": "484082",
@@ -15775,12 +15775,12 @@ export const teams = {
         "birthDate": "1994-09-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 91,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/de2b1023-3aee-4233-b83d-07f94fd288d4/BARDAKCI-Abdulkerim_484082"
       },
       {
         "fifaId": "406249",
         "name": "Ozan KABAK",
-        "shortName": "OZAN",
+        "shortName": "OZAN KABAK",
         "jerseyNumber": 15,
         "position": "DF",
         "positionLabel": "Defender",
@@ -15788,7 +15788,7 @@ export const teams = {
         "birthDate": "2000-03-25T00:00:00Z",
         "heightCm": 187,
         "weightKg": 87,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c42910db-c5e6-4706-bc99-1e08456bd3ef/KABAK-Ozan_406249"
       },
       {
         "fifaId": "484092",
@@ -15801,7 +15801,7 @@ export const teams = {
         "birthDate": "1999-01-26T00:00:00Z",
         "heightCm": 183,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1f8b0453-0b84-4eea-9c24-9cd992611aed/YUKSEK-Ismail_484092"
       },
       {
         "fifaId": "472877",
@@ -15814,7 +15814,7 @@ export const teams = {
         "birthDate": "1995-07-15T00:00:00Z",
         "heightCm": 180,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4661ea5f-9a56-4047-bbcf-6748250e0ebe/KAHVECI-Irfan-Can_472877"
       },
       {
         "fifaId": "430120",
@@ -15827,7 +15827,7 @@ export const teams = {
         "birthDate": "1999-04-03T00:00:00Z",
         "heightCm": 184,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/61f43913-2824-4711-9838-0d620f393353/MULDUR-Mert_430120"
       },
       {
         "fifaId": "406231",
@@ -15840,7 +15840,7 @@ export const teams = {
         "birthDate": "2000-07-07T00:00:00Z",
         "heightCm": 173,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/32587fe7-0e67-4aa1-8b07-3a1618183e80/AKGUN-Yunus_406231"
       },
       {
         "fifaId": "484113",
@@ -15853,7 +15853,7 @@ export const teams = {
         "birthDate": "1999-10-07T00:00:00Z",
         "heightCm": 174,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c69621e7-9ba5-438d-89dc-7871b6e0f611/KADIOGLU-Ferdi_484113"
       },
       {
         "fifaId": "484139",
@@ -15866,12 +15866,12 @@ export const teams = {
         "birthDate": "2000-05-23T00:00:00Z",
         "heightCm": 186,
         "weightKg": 86,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/49e46d17-bf69-41b1-a8df-5aeabf137c7d/YILMAZ-Baris-Alper_484139"
       },
       {
         "fifaId": "336170",
         "name": "Kaan Ayhan",
-        "shortName": "Ayhan",
+        "shortName": "KAAN",
         "jerseyNumber": 22,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -15879,7 +15879,7 @@ export const teams = {
         "birthDate": "1994-11-10T00:00:00Z",
         "heightCm": 185,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e9747d8e-47e9-45f3-b3b7-d3caf1ba1ecf/AYHAN-Kaan_336170"
       },
       {
         "fifaId": "441181",
@@ -15892,7 +15892,7 @@ export const teams = {
         "birthDate": "1996-04-05T00:00:00Z",
         "heightCm": 191,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6cedaf47-2a99-4e31-bb0d-46ce78df26a6/CAKIR-Ugurcan_441181"
       },
       {
         "fifaId": "486076",
@@ -15905,7 +15905,7 @@ export const teams = {
         "birthDate": "2000-10-27T00:00:00Z",
         "heightCm": 183,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b29233e3-0131-45eb-96e4-ad77044a1959/AYDIN-Oguz_486076"
       },
       {
         "fifaId": "484072",
@@ -15918,7 +15918,7 @@ export const teams = {
         "birthDate": "1994-03-13T00:00:00Z",
         "heightCm": 190,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/72f4dcdb-4463-412b-8ea1-9cb25d4fe44d/AKAYDIN-Samet_484072"
       },
       {
         "fifaId": "486074",
@@ -15931,7 +15931,7 @@ export const teams = {
         "birthDate": "2005-11-11T00:00:00Z",
         "heightCm": 186,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/18128593-2c01-460e-9db1-9212fa7dc369/UZUN-Can_486074"
       }
     ]
   },
@@ -15941,10 +15941,10 @@ export const teams = {
     "name": "Uruguay",
     "group": "Group H",
     "confederation": "CONMEBOL",
-    "fifaRank": 17,
-    "attack": 88,
+    "fifaRank": 16,
+    "attack": 89,
     "defense": 89,
-    "form": 84,
+    "form": 85,
     "coach": "Marcelo BIELSA",
     "flagUrl": "https://flagcdn.com/uy.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/URU",
@@ -15952,7 +15952,7 @@ export const teams = {
       {
         "fifaId": "368664",
         "name": "Sergio ROCHET",
-        "shortName": "ROCHET",
+        "shortName": "S. ROCHET",
         "jerseyNumber": 1,
         "position": "GK",
         "positionLabel": "Goalkeeper",
@@ -15960,7 +15960,7 @@ export const teams = {
         "birthDate": "1993-03-23T00:00:00Z",
         "heightCm": 189,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b5a98e25-83d4-441e-9c25-0eb4581277dc/ROCHET-Sergio_368664"
       },
       {
         "fifaId": "368655",
@@ -15973,7 +15973,7 @@ export const teams = {
         "birthDate": "1995-01-20T00:00:00Z",
         "heightCm": 186,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/977da143-5380-497d-85f7-d6e5ca34b27c/GIMENEZ-Jose-Maria_368655"
       },
       {
         "fifaId": "419108",
@@ -15986,7 +15986,7 @@ export const teams = {
         "birthDate": "1999-08-18T00:00:00Z",
         "heightCm": 180,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f959cef5-7f3b-4baa-af52-c8972780fbce/CACERES-Sebastian_419108"
       },
       {
         "fifaId": "419101",
@@ -15999,7 +15999,7 @@ export const teams = {
         "birthDate": "1999-03-07T00:00:00Z",
         "heightCm": 185,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/41008beb-38a3-46e0-9229-229d0afc8db7/ARAUJO-Ronald_419101"
       },
       {
         "fifaId": "441623",
@@ -16012,7 +16012,7 @@ export const teams = {
         "birthDate": "2001-04-11T00:00:00Z",
         "heightCm": 182,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4ff94bd7-9c21-4338-be92-bad080e8d541/UGARTE-Manuel_441623"
       },
       {
         "fifaId": "386538",
@@ -16025,12 +16025,12 @@ export const teams = {
         "birthDate": "1997-06-25T00:00:00Z",
         "heightCm": 187,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/148bf081-d6bb-4b52-8db0-9231126fa762/BENTANCUR-Rodrigo_386538"
       },
       {
         "fifaId": "402898",
         "name": "Nicolas DE LA CRUZ",
-        "shortName": "DE LA CRUZ",
+        "shortName": "N. DE LA CRUZ",
         "jerseyNumber": 7,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16038,12 +16038,12 @@ export const teams = {
         "birthDate": "1997-06-01T00:00:00Z",
         "heightCm": 167,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7694c9e6-d4f9-4f60-8173-5a3a79bcaaa2/DE-LA-CRUZ-Nicolas_402898"
       },
       {
         "fifaId": "402884",
         "name": "Federico VALVERDE",
-        "shortName": "VALVERDE",
+        "shortName": "F. VALVERDE",
         "jerseyNumber": 8,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16051,7 +16051,7 @@ export const teams = {
         "birthDate": "1998-07-22T00:00:00Z",
         "heightCm": 182,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bc29f114-2d51-4605-ae7a-eadf774e9d38/VALVERDE-Federico_402884"
       },
       {
         "fifaId": "419126",
@@ -16064,12 +16064,12 @@ export const teams = {
         "birthDate": "1999-06-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/078805a6-5fbe-44f3-a58c-ed3837ca5665/NUNEZ-Darwin_419126"
       },
       {
         "fifaId": "368652",
         "name": "Giorgian DE ARRASCAETA",
-        "shortName": "DE ARRASCAETA",
+        "shortName": "G. DE ARRASCAETA",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16077,7 +16077,7 @@ export const teams = {
         "birthDate": "1994-06-01T00:00:00Z",
         "heightCm": 177,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ddf1b0a3-7ee9-4da9-b89e-773dc228fa58/DE-ARRASCAETA-Giorgian_368652"
       },
       {
         "fifaId": "439956",
@@ -16090,7 +16090,7 @@ export const teams = {
         "birthDate": "2001-12-20T00:00:00Z",
         "heightCm": 174,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/51b7eeb6-cac1-48cd-9ed3-4a18b34c5d90/PELLISTRI-Facundo_439956"
       },
       {
         "fifaId": "402897",
@@ -16103,7 +16103,7 @@ export const teams = {
         "birthDate": "1997-09-06T00:00:00Z",
         "heightCm": 185,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/39573fa9-f716-4703-b772-cf1892d1b748/MELE-Santiago_402897"
       },
       {
         "fifaId": "368660",
@@ -16116,12 +16116,12 @@ export const teams = {
         "birthDate": "1993-03-24T00:00:00Z",
         "heightCm": 174,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5e8ec886-a385-4ca6-9e90-d16b13c37534/VARELA-Guillermo_368660"
       },
       {
         "fifaId": "402876",
         "name": "Agustin CANOBBIO",
-        "shortName": "A. CANNOBIO",
+        "shortName": "A. CANOBBIO",
         "jerseyNumber": 14,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16129,7 +16129,7 @@ export const teams = {
         "birthDate": "1998-10-01T00:00:00Z",
         "heightCm": 176,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5985fa52-e467-4c1c-95f2-355bd1cb3925/CANOBBIO-Agustin_402876"
       },
       {
         "fifaId": "473062",
@@ -16142,7 +16142,7 @@ export const teams = {
         "birthDate": "1999-08-17T00:00:00Z",
         "heightCm": 184,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0cf69c75-fc91-401b-a1f3-f8f833c87eed/MARTINEZ-Emiliano_473062"
       },
       {
         "fifaId": "402893",
@@ -16155,12 +16155,12 @@ export const teams = {
         "birthDate": "1997-10-31T00:00:00Z",
         "heightCm": 174,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/704d2d9d-1b5f-4296-87f4-b7b591a58116/OLIVERA-Mathias_402893"
       },
       {
         "fifaId": "402895",
         "name": "Matias VINA",
-        "shortName": "VIÑA",
+        "shortName": "M. VIÑA",
         "jerseyNumber": 17,
         "position": "DF",
         "positionLabel": "Defender",
@@ -16168,7 +16168,7 @@ export const teams = {
         "birthDate": "1997-11-09T00:00:00Z",
         "heightCm": 180,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b8714c68-0892-4c4f-8a51-deabf1e13879/VINA-Matias_402895"
       },
       {
         "fifaId": "419132",
@@ -16181,12 +16181,12 @@ export const teams = {
         "birthDate": "2000-05-20T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c6c94193-1372-4e11-94b5-35bcdd575e62/RODRIGUEZ-Brian_419132"
       },
       {
         "fifaId": "332897",
         "name": "Rodrigo AGUIRRE",
-        "shortName": "AGUIRRE",
+        "shortName": "R. AGUIRRE",
         "jerseyNumber": 19,
         "position": "FW",
         "positionLabel": "Forward",
@@ -16194,12 +16194,12 @@ export const teams = {
         "birthDate": "1994-10-01T00:00:00Z",
         "heightCm": 182,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eadeb58a-387f-4979-ae12-23a0296c172c/AGUIRRE-Rodrigo_332897"
       },
       {
         "fifaId": "419100",
         "name": "Maxi ARAUJO",
-        "shortName": "Maxi ARAUJO",
+        "shortName": "M. ARAUJO",
         "jerseyNumber": 20,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16207,7 +16207,7 @@ export const teams = {
         "birthDate": "2000-02-15T00:00:00Z",
         "heightCm": 176,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f1a7af03-ada1-4642-927c-5fe06844c89c/ARAUJO-Maxi_419100"
       },
       {
         "fifaId": "477536",
@@ -16220,12 +16220,12 @@ export const teams = {
         "birthDate": "1998-06-30T00:00:00Z",
         "heightCm": 181,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d89cb053-d9ce-4999-91da-7e9b58f2682a/VINAS-Federico_477536"
       },
       {
         "fifaId": "439538",
         "name": "Joaquin PIQUEREZ",
-        "shortName": "PIQUEREZ",
+        "shortName": "J. PIQUEREZ",
         "jerseyNumber": 22,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16233,7 +16233,7 @@ export const teams = {
         "birthDate": "1998-08-24T00:00:00Z",
         "heightCm": 185,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/327d3db2-1e08-4b63-8026-90c136c51612/PIQUEREZ-Joaquin_439538"
       },
       {
         "fifaId": "229498",
@@ -16246,7 +16246,7 @@ export const teams = {
         "birthDate": "1986-06-16T00:00:00Z",
         "heightCm": 190,
         "weightKg": 74,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bec34ba5-7129-44fe-b108-bc57a1fd3257/MUSLERA-Fernando_229498"
       },
       {
         "fifaId": "402904",
@@ -16259,12 +16259,12 @@ export const teams = {
         "birthDate": "1998-11-09T00:00:00Z",
         "heightCm": 191,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/cb547d8e-b176-46d1-8ae0-d53d106d168c/BUENO-Santiago_402904"
       },
       {
         "fifaId": "419134",
         "name": "Juan Manuel SANABRIA",
-        "shortName": "Juan Manuel SANABRIA",
+        "shortName": "J.M. SANABRIA",
         "jerseyNumber": 25,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16272,7 +16272,7 @@ export const teams = {
         "birthDate": "2000-03-29T00:00:00Z",
         "heightCm": 170,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ad89e83d-ec32-4c30-a78f-1255d03ac0ed/SANABRIA-Juan-Manuel_419134"
       },
       {
         "fifaId": "419142",
@@ -16285,7 +16285,7 @@ export const teams = {
         "birthDate": "1999-08-12T00:00:00Z",
         "heightCm": 175,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4b33d4cb-ddc9-4183-abbb-1f848e8c14a8/ZALAZAR-Rodrigo_419142"
       }
     ]
   },
@@ -16295,7 +16295,7 @@ export const teams = {
     "name": "USA",
     "group": "Group D",
     "confederation": "CONCACAF",
-    "fifaRank": 16,
+    "fifaRank": 17,
     "attack": 89,
     "defense": 89,
     "form": 84,
@@ -16314,7 +16314,7 @@ export const teams = {
         "birthDate": "1994-06-24T00:00:00Z",
         "heightCm": 190,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/01fb042f-5de5-41df-8104-7445672fdca5/TURNER-Matt_448217"
       },
       {
         "fifaId": "406280",
@@ -16327,7 +16327,7 @@ export const teams = {
         "birthDate": "2000-11-03T00:00:00Z",
         "heightCm": 173,
         "weightKg": 62,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5ee00bd8-552e-4e02-b680-b16534e53493/DEST-Sergino_406280"
       },
       {
         "fifaId": "419062",
@@ -16340,12 +16340,12 @@ export const teams = {
         "birthDate": "2000-03-28T00:00:00Z",
         "heightCm": 189,
         "weightKg": 93,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/54036d3d-1588-4634-944b-a7c2d97d0b76/RICHARDS-Chris_419062"
       },
       {
         "fifaId": "390238",
         "name": "Tyler ADAMS",
-        "shortName": "Tyler ADAMS",
+        "shortName": "ADAMS",
         "jerseyNumber": 4,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16353,7 +16353,7 @@ export const teams = {
         "birthDate": "1999-02-14T00:00:00Z",
         "heightCm": 175,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/7fdbded2-aa27-44b1-9bf1-ff1d17c58f86/ADAMS-Tyler_390238"
       },
       {
         "fifaId": "441251",
@@ -16366,7 +16366,7 @@ export const teams = {
         "birthDate": "1997-08-08T00:00:00Z",
         "heightCm": 183,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/62363054-d9e0-4926-9404-90b975d56647/ROBINSON-Antonee_441251"
       },
       {
         "fifaId": "390272",
@@ -16379,7 +16379,7 @@ export const teams = {
         "birthDate": "1998-08-12T00:00:00Z",
         "heightCm": 190,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e14ee5aa-4770-492a-9e51-95343310e5d9/TRUSTY-Auston_390272"
       },
       {
         "fifaId": "419068",
@@ -16392,7 +16392,7 @@ export const teams = {
         "birthDate": "2002-11-13T00:00:00Z",
         "heightCm": 187,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b30d701d-d9eb-4b2d-8db4-6841fc9ed1a9/REYNA-Giovanni_419068"
       },
       {
         "fifaId": "390259",
@@ -16405,7 +16405,7 @@ export const teams = {
         "birthDate": "1998-08-28T00:00:00Z",
         "heightCm": 180,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/4406f0ad-8f60-4a98-89c0-89797bfe804d/McKENNIE-Weston_390259"
       },
       {
         "fifaId": "419082",
@@ -16418,12 +16418,12 @@ export const teams = {
         "birthDate": "2003-01-09T00:00:00Z",
         "heightCm": 185,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2a7c4d85-fa83-40ec-a953-d4cebbd63480/PEPI-Ricardo_419082"
       },
       {
         "fifaId": "390267",
         "name": "Christian PULISIC",
-        "shortName": "Christian PULISIC",
+        "shortName": "PULISIC",
         "jerseyNumber": 10,
         "position": "FW",
         "positionLabel": "Forward",
@@ -16431,7 +16431,7 @@ export const teams = {
         "birthDate": "1998-09-18T00:00:00Z",
         "heightCm": 177,
         "weightKg": 73,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/34d1c247-2a09-4fd6-87bc-71ec687a54aa/PULISIC-Christian_390267"
       },
       {
         "fifaId": "419055",
@@ -16444,7 +16444,7 @@ export const teams = {
         "birthDate": "2000-10-22T00:00:00Z",
         "heightCm": 177,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8352f743-68bc-4077-ad83-5cd22f1a62dd/AARONSON-Brenden_419055"
       },
       {
         "fifaId": "436599",
@@ -16457,7 +16457,7 @@ export const teams = {
         "birthDate": "1997-03-14T00:00:00Z",
         "heightCm": 187,
         "weightKg": 88,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/30b49573-5890-4dc2-8e78-a8ab7d00d43e/ROBINSON-Miles_436599"
       },
       {
         "fifaId": "339510",
@@ -16470,7 +16470,7 @@ export const teams = {
         "birthDate": "1987-10-05T00:00:00Z",
         "heightCm": 186,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/964be907-1e8e-49ec-bd7f-7085cf7d79d3/REAM-Tim_339510"
       },
       {
         "fifaId": "499912",
@@ -16483,7 +16483,7 @@ export const teams = {
         "birthDate": "2001-05-10T00:00:00Z",
         "heightCm": 175,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/ef9aedbe-e6e8-4eba-9e62-beac982879ef/BERHALTER-Sebastian_499912"
       },
       {
         "fifaId": "385994",
@@ -16496,7 +16496,7 @@ export const teams = {
         "birthDate": "1995-06-03T00:00:00Z",
         "heightCm": 173,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8b0d52a9-62d1-4e23-9a23-e786cfde39dd/ROLDAN-Cristian_385994"
       },
       {
         "fifaId": "464542",
@@ -16509,7 +16509,7 @@ export const teams = {
         "birthDate": "2004-08-09T00:00:00Z",
         "heightCm": 188,
         "weightKg": 81,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/554008b5-0520-4b67-8cab-c72ba087471f/FREEMAN-Alex_464542"
       },
       {
         "fifaId": "448214",
@@ -16522,7 +16522,7 @@ export const teams = {
         "birthDate": "2002-05-28T00:00:00Z",
         "heightCm": 187,
         "weightKg": 71,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c8c38ca3-7100-4bca-88e7-4ea66fd86ff7/TILLMAN-Malik_448214"
       },
       {
         "fifaId": "486390",
@@ -16535,7 +16535,7 @@ export const teams = {
         "birthDate": "2001-04-19T00:00:00Z",
         "heightCm": 185,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3670d375-3a2f-41c8-8c5a-9c9bbd8f93f4/ARFSTEN-Max_486390"
       },
       {
         "fifaId": "390276",
@@ -16548,7 +16548,7 @@ export const teams = {
         "birthDate": "1998-03-27T00:00:00Z",
         "heightCm": 191,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/31951bf6-a6b5-4646-b489-a2ca3fd4e550/WRIGHT-Haji_390276"
       },
       {
         "fifaId": "466624",
@@ -16561,12 +16561,12 @@ export const teams = {
         "birthDate": "2001-07-03T00:00:00Z",
         "heightCm": 179,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/bd47db79-966e-4eba-a8da-f6ba01148f27/BALOGUN-Folarin_466624"
       },
       {
         "fifaId": "406304",
         "name": "Timothy WEAH",
-        "shortName": "T. WEAH",
+        "shortName": "WEAH",
         "jerseyNumber": 21,
         "position": "FW",
         "positionLabel": "Forward",
@@ -16574,7 +16574,7 @@ export const teams = {
         "birthDate": "2000-02-22T00:00:00Z",
         "heightCm": 183,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c0dcfa0a-b862-4cd2-9c33-034bd18dc231/WEAH-Timothy_406304"
       },
       {
         "fifaId": "419077",
@@ -16587,7 +16587,7 @@ export const teams = {
         "birthDate": "1999-02-25T00:00:00Z",
         "heightCm": 186,
         "weightKg": 84,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/492ad87d-f9a1-449e-9361-64323405107b/McKENZIE-Mark_419077"
       },
       {
         "fifaId": "423700",
@@ -16600,7 +16600,7 @@ export const teams = {
         "birthDate": "2002-12-31T00:00:00Z",
         "heightCm": 184,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/86a32b0d-9007-4451-bbc6-a383a284f32f/SCALLY-Joe_423700"
       },
       {
         "fifaId": "499913",
@@ -16613,7 +16613,7 @@ export const teams = {
         "birthDate": "1998-09-02T00:00:00Z",
         "heightCm": 198,
         "weightKg": 85,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c46f695b-3acc-4360-abf4-3110ff60d86e/FREESE-Matt_499913"
       },
       {
         "fifaId": "464546",
@@ -16626,7 +16626,7 @@ export const teams = {
         "birthDate": "2004-03-03T00:00:00Z",
         "heightCm": 193,
         "weightKg": 83,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/843ccc00-8c38-4a4e-91ba-a25694677cf0/BRADY-Chris_464546"
       },
       {
         "fifaId": "390278",
@@ -16639,7 +16639,7 @@ export const teams = {
         "birthDate": "1998-02-07T00:00:00Z",
         "heightCm": 167,
         "weightKg": 66,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c23fe669-c31a-45e3-b5b2-bbe9ecb8b4de/ZENDEJAS-Alex_390278"
       }
     ]
   },
@@ -16652,7 +16652,7 @@ export const teams = {
     "fifaRank": 50,
     "attack": 82,
     "defense": 84,
-    "form": 78,
+    "form": 77,
     "coach": "Fabio CANNAVARO",
     "flagUrl": "https://flagcdn.com/uz.svg",
     "fifaFlagUrl": "https://api.fifa.com/api/v3/picture/flags-png-l/UZB",
@@ -16668,7 +16668,7 @@ export const teams = {
         "birthDate": "1991-01-04T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/c3025d34-eb01-4b77-85bd-127f692514c8/YUSUPOV-Utkir_479077"
       },
       {
         "fifaId": "464924",
@@ -16694,12 +16694,12 @@ export const teams = {
         "birthDate": "1997-04-19T00:00:00Z",
         "heightCm": 180,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d87a603d-2a55-4ffd-b51b-c7d2d65dec58/ALIJONOV-Khojiakbar_479079"
       },
       {
         "fifaId": "385139",
         "name": "Farrukh SAYFIEV",
-        "shortName": "Sayfiev",
+        "shortName": "SAYFIEV",
         "jerseyNumber": 4,
         "position": "DF",
         "positionLabel": "Defender",
@@ -16707,12 +16707,12 @@ export const teams = {
         "birthDate": "1991-01-17T00:00:00Z",
         "heightCm": 183,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/2db8b1e8-a601-41ad-aaf5-051040c9325c/SAYFIEV-Farrukh_385139"
       },
       {
         "fifaId": "371415",
         "name": "Rustam ASHURMATOV",
-        "shortName": "Rustam ASHURMATOV",
+        "shortName": "ASHURMATOV",
         "jerseyNumber": 5,
         "position": "DF",
         "positionLabel": "Defender",
@@ -16720,7 +16720,7 @@ export const teams = {
         "birthDate": "1996-07-07T00:00:00Z",
         "heightCm": 186,
         "weightKg": 79,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8f306071-778f-4a11-bb29-76de06ba7a30/ASHURMATOV-Rustam_371415"
       },
       {
         "fifaId": "479106",
@@ -16733,7 +16733,7 @@ export const teams = {
         "birthDate": "1999-04-02T00:00:00Z",
         "heightCm": 180,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/acea76c2-8e6c-4335-90da-062b53054ec0/MOZGOVOY-Akmal_479106"
       },
       {
         "fifaId": "371348",
@@ -16746,7 +16746,7 @@ export const teams = {
         "birthDate": "1996-06-22T00:00:00Z",
         "heightCm": 183,
         "weightKg": 70,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/eb1daf2f-c27b-45a4-a574-7ac0abd24061/SHUKUROV-Otabek_371348"
       },
       {
         "fifaId": "368545",
@@ -16759,12 +16759,12 @@ export const teams = {
         "birthDate": "1993-10-16T00:00:00Z",
         "heightCm": 171,
         "weightKg": 58,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/457a0153-becf-4cf5-ab9c-9c3be220327a/ISKANDEROV-Jamshid_368545"
       },
       {
         "fifaId": "371345",
         "name": "Odiljon XAMROBEKOV",
-        "shortName": "Odiljon XAMROBEKOV",
+        "shortName": "XAMROBEKOV",
         "jerseyNumber": 9,
         "position": "MF",
         "positionLabel": "Midfielder",
@@ -16772,20 +16772,20 @@ export const teams = {
         "birthDate": "1996-02-13T00:00:00Z",
         "heightCm": 180,
         "weightKg": 69,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/3653b567-3520-45f9-b757-4f13a939ef39/XAMROBEKOV-Odiljon_371345"
       },
       {
-        "fifaId": "368560",
-        "name": "Jaloliddin Masharipov",
-        "shortName": "MASHARIPOV",
+        "fifaId": "484303",
+        "name": "Ruslanbek JIYANOV",
+        "shortName": "JIYANOV",
         "jerseyNumber": 10,
         "position": "MF",
         "positionLabel": "Midfielder",
         "club": "",
-        "birthDate": "1993-09-01T00:00:00Z",
-        "heightCm": 174,
-        "weightKg": 63,
-        "photoUrl": ""
+        "birthDate": "2001-06-05T00:00:00Z",
+        "heightCm": 176,
+        "weightKg": 64,
+        "photoUrl": "https://digitalhub.fifa.com/transform/fa770cc8-4001-45ea-9087-2ab624e7ff79/RUSLANBEK-JIYANOV_484303"
       },
       {
         "fifaId": "479080",
@@ -16798,7 +16798,7 @@ export const teams = {
         "birthDate": "2000-12-19T00:00:00Z",
         "heightCm": 181,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d7b6d477-eacd-4954-8662-07a51b5f29fa/URUNOV-Oston_479080"
       },
       {
         "fifaId": "479110",
@@ -16811,7 +16811,7 @@ export const teams = {
         "birthDate": "2001-03-20T00:00:00Z",
         "heightCm": 182,
         "weightKg": 77,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/1f1bfea3-5228-4270-ad8d-c1c8f08ef522/NEMATOV-Abduvohid_479110"
       },
       {
         "fifaId": "479075",
@@ -16824,7 +16824,7 @@ export const teams = {
         "birthDate": "1998-07-23T00:00:00Z",
         "heightCm": 183,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/a985d3f1-344f-45c8-947c-e8e458dca32c/NASRULLAEV-Sherzod_479075"
       },
       {
         "fifaId": "385475",
@@ -16837,7 +16837,7 @@ export const teams = {
         "birthDate": "1995-06-29T00:00:00Z",
         "heightCm": 190,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/d311d575-b59c-4d9f-8825-b506b0aa3c49/SHOMURODOV-Eldor_385475"
       },
       {
         "fifaId": "479084",
@@ -16850,7 +16850,7 @@ export const teams = {
         "birthDate": "1992-11-30T00:00:00Z",
         "heightCm": 185,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/42481984-3ded-4b43-854c-28b38e79718e/ESHMURODOV-Umar_479084"
       },
       {
         "fifaId": "385472",
@@ -16863,7 +16863,7 @@ export const teams = {
         "birthDate": "1995-06-23T00:00:00Z",
         "heightCm": 189,
         "weightKg": 78,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/b358c6ce-2f88-4210-8035-4c33186ac486/ERGASHEV-Botirali_385472"
       },
       {
         "fifaId": "371393",
@@ -16876,7 +16876,7 @@ export const teams = {
         "birthDate": "1996-07-24T00:00:00Z",
         "heightCm": 178,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/e49aa204-3009-462c-920b-c9dfcd8b9c03/KHAMDAMOV-Dostonbek_371393"
       },
       {
         "fifaId": "479042",
@@ -16889,7 +16889,7 @@ export const teams = {
         "birthDate": "1997-09-01T00:00:00Z",
         "heightCm": 181,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f771f66d-6eb1-41ec-aa83-644325f6b8fa/ABDULLAEV-Abdulla_479042"
       },
       {
         "fifaId": "479086",
@@ -16902,7 +16902,7 @@ export const teams = {
         "birthDate": "1998-02-22T00:00:00Z",
         "heightCm": 178,
         "weightKg": 64,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/8ab4a549-fd61-4a4c-810a-c04ebd897062/GANIEV-Azizjon_479086"
       },
       {
         "fifaId": "481220",
@@ -16915,7 +16915,7 @@ export const teams = {
         "birthDate": "1997-10-30T00:00:00Z",
         "heightCm": 181,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/f9f09a67-08e1-43dc-8ad8-5e5e3aaa291d/AMONOV-Azizbek_481220"
       },
       {
         "fifaId": "368546",
@@ -16928,7 +16928,7 @@ export const teams = {
         "birthDate": "1993-04-30T00:00:00Z",
         "heightCm": 185,
         "weightKg": 76,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/5e05ab4f-a3c8-4086-b1a1-54ec0f4ee475/SERGEEV-Igor_368546"
       },
       {
         "fifaId": "464933",
@@ -16941,7 +16941,7 @@ export const teams = {
         "birthDate": "2003-10-03T00:00:00Z",
         "heightCm": 167,
         "weightKg": 55,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/184c6d22-8ce0-4701-8582-39e1653b77f8/FAYZULLAEV-Abbosbek_464933"
       },
       {
         "fifaId": "464897",
@@ -16954,7 +16954,7 @@ export const teams = {
         "birthDate": "2003-02-01T00:00:00Z",
         "heightCm": 190,
         "weightKg": 75,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0b3fd6fd-f931-45b7-ab1d-38b1751cb0a2/ESANOV-Sherzod_464897"
       },
       {
         "fifaId": "475260",
@@ -16967,7 +16967,7 @@ export const teams = {
         "birthDate": "2007-08-07T00:00:00Z",
         "heightCm": 172,
         "weightKg": 65,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/0b62bdac-feaf-4b23-a22b-31a73c68a475/KARIMOV-Behruzjon_475260"
       },
       {
         "fifaId": "518264",
@@ -16980,7 +16980,7 @@ export const teams = {
         "birthDate": "2000-03-27T00:00:00Z",
         "heightCm": 187,
         "weightKg": 72,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/6f9231dd-bc07-4ab3-a1f4-dd96ce3aa5b4/ULMASALIYEV-Avazbek_518264"
       },
       {
         "fifaId": "464906",
@@ -16993,7 +16993,7 @@ export const teams = {
         "birthDate": "2004-01-18T00:00:00Z",
         "heightCm": 190,
         "weightKg": 80,
-        "photoUrl": ""
+        "photoUrl": "https://digitalhub.fifa.com/transform/67fe075a-e8c6-4169-846b-6d436d647014/UROZOV-Jakhongir_464906"
       }
     ]
   }
@@ -18031,7 +18031,7 @@ export const matches = [
     "kickoff": "2026-06-29T20:30:00Z",
     "localKickoff": "2026-06-29T16:30:00Z",
     "venue": "Boston Stadium, Boston",
-    "homeTeamId": null,
+    "homeTeamId": "ger",
     "awayTeamId": null,
     "homePlaceholder": "1E",
     "awayPlaceholder": "3ABCDF"
@@ -18101,7 +18101,7 @@ export const matches = [
     "kickoff": "2026-07-01T01:00:00Z",
     "localKickoff": "2026-06-30T19:00:00Z",
     "venue": "Mexico City Stadium, Mexico City",
-    "homeTeamId": null,
+    "homeTeamId": "mex",
     "awayTeamId": null,
     "homePlaceholder": "1A",
     "awayPlaceholder": "3CEFHI"
@@ -18129,7 +18129,7 @@ export const matches = [
     "kickoff": "2026-07-02T00:00:00Z",
     "localKickoff": "2026-07-01T17:00:00Z",
     "venue": "San Francisco Bay Area Stadium, San Francisco Bay Area",
-    "homeTeamId": null,
+    "homeTeamId": "usa",
     "awayTeamId": null,
     "homePlaceholder": "1D",
     "awayPlaceholder": "3BEFIJ"
@@ -18461,14 +18461,14 @@ export const matches = [
 export const dataSource = {
   "name": "FIFA API",
   "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-  "generatedAt": "2026-06-09T08:19:36.381Z",
+  "generatedAt": "2026-06-22T07:39:08.586Z",
   "idCompetition": "17",
   "idSeason": "285023",
   "teamRatings": {
     "name": "FIFA ranking + Transfermarkt positional market value estimates",
     "fifaRankingUrl": "https://api.fifa.com/api/v3/rankings?gender=1&count=300&language=en",
-    "fifaRankingPubDate": "2026-04-01T13:00:00+00:00",
-    "generatedAt": "2026-06-10T05:16:46.925Z",
+    "fifaRankingPubDate": "2026-06-11T10:00:00+00:00",
+    "generatedAt": "2026-06-22T07:40:04.356Z",
     "model": "FIFA rank blended with log-scaled Transfermarkt player market values by position."
   }
 };

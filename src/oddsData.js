@@ -4,246 +4,158 @@
 export const worldCupOddsSource = {
   name: "World Cup Odds",
   sourceUrl: "https://wc-2026.com/world-cup-odds/#match-odds",
-  syncedAt: "2026-06-20T08:18:52.859Z"
+  syncedAt: "2026-06-24T12:01:14.497Z"
 };
 
 export const worldCupOddsByMatchId = {
   "400021444": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "3.55",
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "3.72",
     "draw": "4.00",
-    "awayWin": "2.04"
+    "awayWin": "1.98"
   },
   "400021445": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "5.85",
-    "draw": "3.95",
-    "awayWin": "1.64"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "5.70",
+    "draw": "3.90",
+    "awayWin": "1.69"
   },
   "400021448": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.45",
-    "draw": "4.75",
-    "awayWin": "7.50"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.41",
+    "draw": "5.40",
+    "awayWin": "7.70"
   },
   "400021451": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.50",
-    "draw": "3.05",
-    "awayWin": "3.30"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "2.40",
+    "draw": "3.17",
+    "awayWin": "3.45"
   },
   "400021452": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.17",
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.16",
     "draw": "7.50",
-    "awayWin": "15.00"
+    "awayWin": "17.00"
   },
   "400021455": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "7.50",
-    "draw": "4.90",
-    "awayWin": "1.36"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "9.50",
+    "draw": "5.60",
+    "awayWin": "1.33"
   },
   "400021459": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.70",
-    "draw": "3.45",
-    "awayWin": "1.94"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "3.25",
+    "draw": "4.10",
+    "awayWin": "1.88"
   },
   "400021461": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.50",
-    "draw": "2.30",
-    "awayWin": "3.40"
-  },
-  "400021465": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.12",
-    "draw": "10.00",
-    "awayWin": "18.00"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "2.85",
+    "draw": "2.20",
+    "awayWin": "3.75"
   },
   "400021466": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "4.10",
-    "draw": "3.35",
-    "awayWin": "1.54"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "3.55",
+    "draw": "4.00",
+    "awayWin": "1.82"
   },
   "400021468": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "22.50",
-    "draw": "8.50",
-    "awayWin": "1.15"
-  },
-  "400021469": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.49",
-    "draw": "4.40",
-    "awayWin": "5.75"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "19.00",
+    "draw": "8.20",
+    "awayWin": "1.18"
   },
   "400021471": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.17",
-    "draw": "3.50",
-    "awayWin": "3.50"
-  },
-  "400021472": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.72",
-    "draw": "4.10",
-    "awayWin": "4.70"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.92",
+    "draw": "3.53",
+    "awayWin": "4.54"
   },
   "400021473": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "11.00",
-    "draw": "5.25",
-    "awayWin": "1.34"
-  },
-  "400021475": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "6.25",
-    "draw": "3.85",
-    "awayWin": "1.53"
-  },
-  "400021477": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.43",
-    "draw": "4.77",
-    "awayWin": "7.68"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "25.00",
+    "draw": "9.50",
+    "awayWin": "1.14"
   },
   "400021479": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.14",
-    "draw": "3.08",
-    "awayWin": "3.82"
-  },
-  "400021480": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "5.75",
-    "draw": "4.10",
-    "awayWin": "1.54"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "2.39",
+    "draw": "2.74",
+    "awayWin": "3.63"
   },
   "400021481": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "14.00",
-    "draw": "6.25",
-    "awayWin": "1.25"
-  },
-  "400021483": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.10",
-    "draw": "12.60",
-    "awayWin": "39.00"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "16.00",
+    "draw": "7.50",
+    "awayWin": "1.21"
   },
   "400021484": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "6.50",
-    "draw": "4.30",
-    "awayWin": "1.50"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "7.20",
+    "draw": "4.20",
+    "awayWin": "1.47"
   },
   "400021485": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.85",
-    "draw": "3.60",
-    "awayWin": "2.35"
-  },
-  "400021487": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.45",
-    "draw": "4.10",
-    "awayWin": "8.00"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "2.40",
+    "draw": "3.40",
+    "awayWin": "2.90"
   },
   "400021489": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "4.39",
-    "draw": "3.66",
-    "awayWin": "1.78"
-  },
-  "400021491": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.41",
-    "draw": "3.55",
-    "awayWin": "3.13"
-  },
-  "400021492": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.08",
-    "draw": "10.00",
-    "awayWin": "26.00"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "4.70",
+    "draw": "4.30",
+    "awayWin": "1.69"
   },
   "400021493": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.32",
-    "draw": "5.25",
-    "awayWin": "12.00"
-  },
-  "400021494": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.56",
-    "draw": "3.80",
-    "awayWin": "6.00"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.25",
+    "draw": "6.55",
+    "awayWin": "14.00"
   },
   "400021495": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
+    "updatedText": "更新于 11 分 前",
     "homeWin": "15.00",
     "draw": "7.50",
     "awayWin": "1.17"
@@ -251,81 +163,517 @@ export const worldCupOddsByMatchId = {
   "400021497": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.60",
-    "draw": "2.80",
-    "awayWin": "2.25"
-  },
-  "400021499": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "6.26",
-    "draw": "4.25",
-    "awayWin": "1.61"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "3.65",
+    "draw": "2.30",
+    "awayWin": "2.65"
   },
   "400021500": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "2.20",
-    "draw": "3.60",
-    "awayWin": "3.40"
-  },
-  "400021501": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.50",
-    "draw": "4.35",
-    "awayWin": "8.00"
-  },
-  "400021503": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.17",
-    "draw": "7.25",
-    "awayWin": "13.50"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.81",
+    "draw": "4.28",
+    "awayWin": "4.20"
   },
   "400021505": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "3.55",
-    "draw": "3.50",
-    "awayWin": "2.10"
-  },
-  "400021506": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.21",
-    "draw": "6.50",
-    "awayWin": "11.50"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "3.80",
+    "draw": "3.85",
+    "awayWin": "1.88"
   },
   "400021508": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "10.00",
-    "draw": "7.20",
-    "awayWin": "1.22"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "15.00",
+    "draw": "7.80",
+    "awayWin": "1.16"
   },
   "400021509": {
     "source": "World Cup Odds",
     "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "1.60",
-    "draw": "4.00",
-    "awayWin": "5.50"
-  },
-  "400021511": {
-    "source": "World Cup Odds",
-    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds",
-    "updatedText": "更新于 1 分 前",
-    "homeWin": "6.00",
-    "draw": "4.00",
-    "awayWin": "1.52"
+    "updatedText": "更新于 11 分 前",
+    "homeWin": "1.70",
+    "draw": "3.40",
+    "awayWin": "5.80"
   }
 };
+
+export const worldCupChampionOdds = [
+  {
+    "rank": 1,
+    "teamId": "fra",
+    "teamName": "France",
+    "teamNameZh": "法国",
+    "odds": "5.08",
+    "secondaryOdds": "5.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 2,
+    "teamId": "esp",
+    "teamName": "Spain",
+    "teamNameZh": "西班牙",
+    "odds": "6.60",
+    "secondaryOdds": "6.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 3,
+    "teamId": "arg",
+    "teamName": "Argentina",
+    "teamNameZh": "阿根廷",
+    "odds": "7.54",
+    "secondaryOdds": "7.50",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 4,
+    "teamId": "eng",
+    "teamName": "England",
+    "teamNameZh": "英格兰",
+    "odds": "7.92",
+    "secondaryOdds": "7.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 5,
+    "teamId": "por",
+    "teamName": "Portugal",
+    "teamNameZh": "葡萄牙",
+    "odds": "11.10",
+    "secondaryOdds": "11.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 6,
+    "teamId": "ger",
+    "teamName": "Germany",
+    "teamNameZh": "德国",
+    "odds": "15.40",
+    "secondaryOdds": "15.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 7,
+    "teamId": "ned",
+    "teamName": "Netherlands",
+    "teamNameZh": "荷兰",
+    "odds": "16.80",
+    "secondaryOdds": "15.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 8,
+    "teamId": "bra",
+    "teamName": "Brazil",
+    "teamNameZh": "巴西",
+    "odds": "17.20",
+    "secondaryOdds": "15.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 9,
+    "teamId": "nor",
+    "teamName": "Norway",
+    "teamNameZh": "挪威",
+    "odds": "34.00",
+    "secondaryOdds": "29.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 10,
+    "teamId": "usa",
+    "teamName": "USA",
+    "teamNameZh": "美国",
+    "odds": "34.00",
+    "secondaryOdds": "34.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 11,
+    "teamId": "mar",
+    "teamName": "Morocco",
+    "teamNameZh": "摩洛哥",
+    "odds": "40.80",
+    "secondaryOdds": "29.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 12,
+    "teamId": "jpn",
+    "teamName": "Japan",
+    "teamNameZh": "日本",
+    "odds": "44.60",
+    "secondaryOdds": "41.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 13,
+    "teamId": "col",
+    "teamName": "Colombia",
+    "teamNameZh": "哥伦比亚",
+    "odds": "46.20",
+    "secondaryOdds": "41.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 14,
+    "teamId": "bel",
+    "teamName": "Belgium",
+    "teamNameZh": "比利时",
+    "odds": "56.60",
+    "secondaryOdds": "51.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 15,
+    "teamId": "mex",
+    "teamName": "Mexico",
+    "teamNameZh": "墨西哥",
+    "odds": "65.60",
+    "secondaryOdds": "51.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 16,
+    "teamId": "sui",
+    "teamName": "Switzerland",
+    "teamNameZh": "瑞士",
+    "odds": "96.60",
+    "secondaryOdds": "81.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 17,
+    "teamId": "cro",
+    "teamName": "Croatia",
+    "teamNameZh": "克罗地亚",
+    "odds": "144.60",
+    "secondaryOdds": "101.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 18,
+    "teamId": "civ",
+    "teamName": "Côte d'Ivoire",
+    "teamNameZh": "科特迪瓦",
+    "odds": "170.60",
+    "secondaryOdds": "151.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 19,
+    "teamId": "can",
+    "teamName": "Canada",
+    "teamNameZh": "加拿大",
+    "odds": "179.60",
+    "secondaryOdds": "126.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 20,
+    "teamId": "sen",
+    "teamName": "Senegal",
+    "teamNameZh": "塞内加尔",
+    "odds": "189.60",
+    "secondaryOdds": "151.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 21,
+    "teamId": "swe",
+    "teamName": "Sweden",
+    "teamNameZh": "瑞典",
+    "odds": "248.60",
+    "secondaryOdds": "151.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 22,
+    "teamId": "aus",
+    "teamName": "Australia",
+    "teamNameZh": "澳大利亚",
+    "odds": "258.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 23,
+    "teamId": "aut",
+    "teamName": "Austria",
+    "teamNameZh": "奥地利",
+    "odds": "267.60",
+    "secondaryOdds": "151.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 24,
+    "teamId": "egy",
+    "teamName": "Egypt",
+    "teamNameZh": "埃及",
+    "odds": "282.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 25,
+    "teamId": "kor",
+    "teamName": "Korea Republic",
+    "teamNameZh": "韩国",
+    "odds": "322.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 26,
+    "teamId": "ecu",
+    "teamName": "Ecuador",
+    "teamNameZh": "厄瓜多尔",
+    "odds": "328.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 27,
+    "teamId": "uru",
+    "teamName": "Uruguay",
+    "teamNameZh": "乌拉圭",
+    "odds": "332.60",
+    "secondaryOdds": "201.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 28,
+    "teamId": "sco",
+    "teamName": "Scotland",
+    "teamNameZh": "苏格兰",
+    "odds": "438.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 29,
+    "teamId": "gha",
+    "teamName": "Ghana",
+    "teamNameZh": "加纳",
+    "odds": "458.60",
+    "secondaryOdds": "351.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 30,
+    "teamId": "par",
+    "teamName": "Paraguay",
+    "teamNameZh": "巴拉圭",
+    "odds": "462.60",
+    "secondaryOdds": "251.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 31,
+    "teamId": "alg",
+    "teamName": "Algeria",
+    "teamNameZh": "阿尔及利亚",
+    "odds": "634.60",
+    "secondaryOdds": "501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 32,
+    "teamId": "cze",
+    "teamName": "Czechia",
+    "teamNameZh": "捷克",
+    "odds": "670.60",
+    "secondaryOdds": "501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 33,
+    "teamId": "bih",
+    "teamName": "Bosnia and Herzegovina",
+    "teamNameZh": "波黑",
+    "odds": "720.60",
+    "secondaryOdds": "501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 34,
+    "teamId": "irn",
+    "teamName": "IR Iran",
+    "teamNameZh": "伊朗",
+    "odds": "850.60",
+    "secondaryOdds": "751.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 35,
+    "teamId": "cod",
+    "teamName": "Congo DR",
+    "teamNameZh": "刚果民主共和国",
+    "odds": "900.60",
+    "secondaryOdds": "751.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 36,
+    "teamId": "ksa",
+    "teamName": "Saudi Arabia",
+    "teamNameZh": "沙特阿拉伯",
+    "odds": "900.60",
+    "secondaryOdds": "1,001.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 37,
+    "teamId": "nzl",
+    "teamName": "New Zealand",
+    "teamNameZh": "新西兰",
+    "odds": "1,200.60",
+    "secondaryOdds": "1,001.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 38,
+    "teamId": "cpv",
+    "teamName": "Cabo Verde",
+    "teamNameZh": "佛得角",
+    "odds": "1,200.60",
+    "secondaryOdds": "1,001.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 39,
+    "teamId": "rsa",
+    "teamName": "South Africa",
+    "teamNameZh": "南非",
+    "odds": "1,400.60",
+    "secondaryOdds": "1,501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 40,
+    "teamId": "uzb",
+    "teamName": "Uzbekistan",
+    "teamNameZh": "乌兹别克斯坦",
+    "odds": "1,625.50",
+    "secondaryOdds": "-",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 41,
+    "teamId": "irq",
+    "teamName": "Iraq",
+    "teamNameZh": "伊拉克",
+    "odds": "1,700.60",
+    "secondaryOdds": "2,501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 42,
+    "teamId": "cuw",
+    "teamName": "Curaçao",
+    "teamNameZh": "库拉索",
+    "odds": "1,900.60",
+    "secondaryOdds": "2,501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  },
+  {
+    "rank": 43,
+    "teamId": "qat",
+    "teamName": "Qatar",
+    "teamNameZh": "卡塔尔",
+    "odds": "2,100.60",
+    "secondaryOdds": "3,501.00",
+    "updatedText": "赔率更新时间: 2026-06-24 19:47:20 (北京时间)",
+    "source": "World Cup Odds",
+    "sourceUrl": "https://wc-2026.com/world-cup-odds/#match-odds"
+  }
+];

@@ -1,4 +1,4 @@
-import { worldCupOddsByMatchId, worldCupOddsSource } from "./oddsData.js";
+import { worldCupChampionOdds, worldCupOddsByMatchId, worldCupOddsSource } from "./oddsData.js";
 
 export const WORLD_CUP_ODDS_URL = worldCupOddsSource.sourceUrl;
 
@@ -31,6 +31,14 @@ export function getMatchOdds(match) {
         value: odds?.awayWin ?? null
       }
     ]
+  };
+}
+
+export function getChampionOdds(limit = worldCupChampionOdds.length) {
+  return {
+    source: worldCupOddsSource.name,
+    sourceUrl: WORLD_CUP_ODDS_URL,
+    items: worldCupChampionOdds.slice(0, limit)
   };
 }
 

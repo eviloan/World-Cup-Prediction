@@ -426,6 +426,7 @@ button {
 .selected-match,
 .scoreboard,
 .odds-panel,
+.champion-odds-panel,
 .prediction-controls,
 .prediction-closed,
 .prediction-result {
@@ -493,7 +494,22 @@ button {
     var(--surface-strong);
 }
 
-.odds-heading {
+.champion-odds-panel {
+  border: 1px solid rgba(248, 223, 99, 0.24);
+  border-radius: 8px;
+  padding: 14px;
+  background:
+    linear-gradient(135deg, rgba(248, 223, 99, 0.12), rgba(255, 59, 18, 0.08), rgba(49, 84, 245, 0.1)),
+    rgba(6, 9, 21, 0.58);
+}
+
+.champion-odds-page-panel {
+  margin: 0;
+  padding: 18px;
+}
+
+.odds-heading,
+.champion-odds-heading {
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -501,12 +517,14 @@ button {
   margin-bottom: 12px;
 }
 
-.odds-heading h3 {
+.odds-heading h3,
+.champion-odds-heading h3 {
   margin: 2px 0 0;
   font-size: 17px;
 }
 
-.odds-heading a {
+.odds-heading a,
+.champion-odds-heading a {
   color: var(--gold);
   font-size: 12px;
   font-weight: 900;
@@ -518,6 +536,45 @@ button {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
+}
+
+.champion-odds-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.champion-odds-page-panel .champion-odds-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.champion-odds-row {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: rgba(6, 9, 21, 0.52);
+}
+
+.champion-odds-row span,
+.champion-odds-row em {
+  color: var(--gold);
+  font-style: normal;
+  font-weight: 950;
+}
+
+.champion-odds-row strong {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .odds-cell {
@@ -690,6 +747,75 @@ button {
   align-items: start;
 }
 
+.player-leaderboards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.leaderboard-card {
+  padding: 14px;
+}
+
+.leaderboard-title {
+  margin-bottom: 10px;
+}
+
+.leaderboard-title h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.leaderboard-list {
+  display: grid;
+  gap: 8px;
+}
+
+.leaderboard-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) minmax(78px, 0.42fr) auto;
+  gap: 9px;
+  align-items: center;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: rgba(6, 9, 21, 0.44);
+}
+
+.leaderboard-row span,
+.leaderboard-row em {
+  color: var(--gold);
+  font-style: normal;
+  font-weight: 950;
+}
+
+.leaderboard-row strong {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leaderboard-row small {
+  overflow: hidden;
+  color: var(--muted);
+  font-weight: 750;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leaderboard-source {
+  grid-column: 1 / -1;
+  margin: -2px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .reasoning {
   margin: 0;
   padding-left: 18px;
@@ -720,36 +846,57 @@ button {
   font-weight: 900;
 }
 
-.group-teams {
+.standings-table {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  gap: 4px;
 }
 
-.team-tab {
-  display: flex;
+.standings-row {
+  display: grid;
+  grid-template-columns: 24px minmax(118px, 1fr) repeat(6, minmax(26px, 0.34fr));
+  gap: 6px;
+  align-items: center;
+  min-width: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 7px 8px;
+  color: var(--muted);
+  background: rgba(6, 9, 21, 0.28);
+  text-align: center;
+}
+
+button.standings-row {
+  width: 100%;
+}
+
+.standings-row strong {
+  display: inline-flex;
   align-items: center;
   gap: 6px;
   min-width: 0;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 8px 10px;
-  color: var(--muted);
-  background: var(--surface-strong);
+  color: var(--ink);
   text-align: left;
 }
 
-.team-tab span {
+.standings-row strong span {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.team-tab.active {
-  border-color: rgba(0, 94, 184, 0.48);
-  color: var(--blue);
-  background: var(--blue-soft);
+.standings-head {
+  color: var(--gold);
+  background: rgba(248, 223, 99, 0.08);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.standings-row.active {
+  border-color: rgba(98, 242, 211, 0.5);
+  color: var(--green-strong);
+  background: rgba(98, 242, 211, 0.12);
 }
 
 .team-summary h3 {
@@ -1087,7 +1234,7 @@ button {
 
   .page-tabs {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     position: sticky;
     top: 0;
     z-index: 20;
@@ -1125,6 +1272,7 @@ button {
   .selected-match,
   .scoreboard,
   .odds-panel,
+  .champion-odds-panel,
   .prediction-controls,
   .prediction-closed,
   .prediction-result {
@@ -1201,7 +1349,16 @@ button {
     padding: 10px;
   }
 
-  .odds-heading {
+  .champion-odds-panel {
+    padding: 10px;
+  }
+
+  .champion-odds-page-panel {
+    margin: 0;
+  }
+
+  .odds-heading,
+  .champion-odds-heading {
     align-items: center;
     margin-bottom: 9px;
   }
@@ -1219,6 +1376,20 @@ button {
   }
 
   .odds-cell.pending strong {
+    font-size: 13px;
+  }
+
+  .champion-odds-list {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .champion-odds-page-panel .champion-odds-list {
+    grid-template-columns: 1fr;
+  }
+
+  .champion-odds-row {
+    padding: 7px 8px;
     font-size: 13px;
   }
 
@@ -1265,12 +1436,41 @@ button {
     font-size: 19px;
   }
 
-  .group-teams {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .teams-layout {
     gap: 12px;
+  }
+
+  .player-leaderboards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .leaderboard-card {
+    padding: 10px;
+  }
+
+  .leaderboard-title {
+    margin-bottom: 8px;
+  }
+
+  .leaderboard-title h3 {
+    font-size: 16px;
+  }
+
+  .leaderboard-list {
+    gap: 6px;
+  }
+
+  .leaderboard-row {
+    grid-template-columns: 22px minmax(0, 1fr) 54px auto;
+    gap: 6px;
+    padding: 7px 8px;
+    font-size: 12px;
+  }
+
+  .leaderboard-source {
+    font-size: 11px;
   }
 
   .teams-panel {
@@ -1288,9 +1488,15 @@ button {
     padding: 8px;
   }
 
-  .team-tab {
-    padding: 7px 8px;
-    font-size: 13px;
+  .standings-row {
+    grid-template-columns: 20px minmax(96px, 1fr) repeat(6, 24px);
+    gap: 4px;
+    padding: 6px 5px;
+    font-size: 12px;
+  }
+
+  .standings-head {
+    font-size: 10px;
   }
 
   .team-heading {

@@ -3,18 +3,18 @@ import test from "node:test";
 
 import { groupMatchesByDate, toggleFavoriteMatch } from "../src/matchSchedule.js";
 
-test("groupMatchesByDate splits matches by kickoff date", () => {
+test("groupMatchesByDate splits and sorts matches by Beijing date and time", () => {
   const groups = groupMatchesByDate([
-    { id: "1", kickoff: "2026-06-11T20:00:00Z" },
-    { id: "2", kickoff: "2026-06-11T23:00:00Z" },
-    { id: "3", kickoff: "2026-06-12T20:00:00Z" }
+    { id: "late", kickoff: "2026-06-11T23:00:00Z" },
+    { id: "early", kickoff: "2026-06-11T16:00:00Z" },
+    { id: "next-day", kickoff: "2026-06-12T20:00:00Z" }
   ]);
 
   assert.deepEqual(
     groups.map((group) => [group.key, group.matches.map((match) => match.id)]),
     [
-      ["2026-06-11", ["1", "2"]],
-      ["2026-06-12", ["3"]]
+      ["2026-06-12", ["early", "late"]],
+      ["2026-06-13", ["next-day"]]
     ]
   );
 });

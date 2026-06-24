@@ -22,6 +22,7 @@
       <nav class="page-tabs" aria-label="页面切换">
         <button class="page-tab active" type="button" data-page-tab="predict">比赛预测</button>
         <button class="page-tab" type="button" data-page-tab="teams">球队与名单</button>
+        <button class="page-tab" type="button" data-page-tab="champion-odds">冠军赔率</button>
       </nav>
 
       <main>
@@ -59,7 +60,7 @@
                   <textarea
                     id="rules-input"
                     rows="5"
-                    placeholder="例如：优先考虑近期伤病、连续客场、淘汰赛保守倾向、主场压力等。"
+                    placeholder="例如：优先考虑近期伤病、连续客场、淘汰赛保守倾向、主场压力等。如果不填写会采取默认规则。"
                   ></textarea>
                 </label>
 
@@ -78,6 +79,7 @@
             <p class="eyebrow">Teams</p>
             <h2 id="teams-title">球队与名单</h2>
           </div>
+          <div class="player-leaderboards" id="player-leaderboards"></div>
           <div class="teams-layout">
             <section class="panel teams-panel" aria-label="球队分组">
               <div class="team-tabs" id="team-tabs"></div>
@@ -86,6 +88,14 @@
               <div class="team-detail" id="team-detail"></div>
             </section>
           </div>
+        </section>
+
+        <section class="page-view" data-page="champion-odds" aria-labelledby="champion-odds-title">
+          <div class="section-heading">
+            <p class="eyebrow">Tournament Odds</p>
+            <h2 id="champion-odds-title">世界杯冠军赔率</h2>
+          </div>
+          <section class="champion-odds-panel champion-odds-page-panel" id="champion-odds-panel" aria-live="polite" aria-label="世界杯冠军赔率"></section>
         </section>
       </main>
     </div>
