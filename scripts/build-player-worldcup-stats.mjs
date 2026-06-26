@@ -25,7 +25,8 @@ export const playerWorldCupStatsSource = {
   name: "FIFA",
   sourceUrl: "${FIFA_LIVE_URL}",
   syncedAt: ${JSON.stringify(new Date().toISOString())},
-  matches: ${liveMatches.length}
+  matches: ${liveMatches.length},
+  assistsAvailable: ${data.assistsAvailable}
 };
 
 export const playerWorldCupStatsByFifaId = ${JSON.stringify(data.playerWorldCupStatsByFifaId, null, 2)};

@@ -62,6 +62,7 @@ test("buildPlayerWorldCupStatsData derives appearances goals assists and minutes
   assert.equal(data.playerWorldCupStatsByFifaId["3"].stats.minutesPlayed, 98);
   assert.equal(data.goalLeaderboard[0].fifaId, "1");
   assert.equal(data.assistLeaderboard[0].fifaId, "2");
+  assert.equal(data.assistsAvailable, true);
 });
 
 test("buildPlayerWorldCupStatsData keeps roster players at zero when official match data is absent", () => {
@@ -75,4 +76,5 @@ test("buildPlayerWorldCupStatsData keeps roster players at zero when official ma
   });
   assert.deepEqual(data.goalLeaderboard, []);
   assert.deepEqual(data.assistLeaderboard, []);
+  assert.equal(data.assistsAvailable, false);
 });

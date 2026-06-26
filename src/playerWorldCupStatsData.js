@@ -4,8 +4,9 @@
 export const playerWorldCupStatsSource = {
   name: "FIFA",
   sourceUrl: "https://api.fifa.com/api/v3/live/football",
-  syncedAt: "2026-06-24T12:06:59.138Z",
-  matches: 48
+  syncedAt: "2026-06-26T04:18:39.476Z",
+  matches: 60,
+  assistsAvailable: false
 };
 
 export const playerWorldCupStatsByFifaId = {
@@ -39,10 +40,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 19
     }
   },
   "215553": {
@@ -75,10 +76,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 292
     }
   },
   "229397": {
@@ -219,10 +220,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 291
     }
   },
   "275917": {
@@ -231,10 +232,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 294
     }
   },
   "284190": {
@@ -243,10 +244,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 10
+      "minutesPlayed": 65
     }
   },
   "288961": {
@@ -279,10 +280,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 23
     }
   },
   "295922": {
@@ -291,10 +292,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 294
     }
   },
   "297266": {
@@ -327,10 +328,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 63
+      "minutesPlayed": 126
     }
   },
   "306538": {
@@ -351,10 +352,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 126
+      "minutesPlayed": 223
     }
   },
   "308300": {
@@ -387,10 +388,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "308386": {
@@ -399,10 +400,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 162
     }
   },
   "310116": {
@@ -423,10 +424,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "313559": {
@@ -435,10 +436,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 187
+      "minutesPlayed": 284
     }
   },
   "314197": {
@@ -447,10 +448,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 21
     }
   },
   "314255": {
@@ -555,10 +556,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "332314": {
@@ -603,10 +604,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "335656": {
@@ -615,10 +616,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "335658": {
@@ -627,10 +628,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 15
     }
   },
   "335807": {
@@ -639,10 +640,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 20
     }
   },
   "335999": {
@@ -675,10 +676,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 16
+      "minutesPlayed": 112
     }
   },
   "336098": {
@@ -687,10 +688,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 51
+      "minutesPlayed": 70
     }
   },
   "336170": {
@@ -699,10 +700,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 1,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 11
     }
   },
   "336425": {
@@ -735,10 +736,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 91
+      "minutesPlayed": 158
     }
   },
   "336472": {
@@ -795,10 +796,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 9
+      "minutesPlayed": 25
     }
   },
   "339112": {
@@ -927,10 +928,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "346743": {
@@ -963,10 +964,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 14
+      "minutesPlayed": 110
     }
   },
   "353235": {
@@ -987,10 +988,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 38
+      "minutesPlayed": 56
     }
   },
   "353790": {
@@ -1011,10 +1012,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 38
+      "minutesPlayed": 110
     }
   },
   "355642": {
@@ -1035,10 +1036,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 35
+      "minutesPlayed": 119
     }
   },
   "356189": {
@@ -1059,10 +1060,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 86
+      "minutesPlayed": 109
     }
   },
   "356532": {
@@ -1119,10 +1120,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 297
     }
   },
   "358003": {
@@ -1299,10 +1300,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 279
     }
   },
   "368535": {
@@ -1527,10 +1528,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 294
     }
   },
   "369749": {
@@ -1539,10 +1540,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 204
     }
   },
   "369761": {
@@ -1671,10 +1672,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 274
     }
   },
   "371736": {
@@ -1719,10 +1720,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 194
     }
   },
   "372090": {
@@ -1755,10 +1756,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "372294": {
@@ -1839,10 +1840,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 173
+      "minutesPlayed": 237
     }
   },
   "375600": {
@@ -1863,10 +1864,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 278
     }
   },
   "376285": {
@@ -1935,10 +1936,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 122
+      "minutesPlayed": 220
     }
   },
   "380005": {
@@ -2067,10 +2068,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 295
     }
   },
   "385070": {
@@ -2127,10 +2128,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 294
     }
   },
   "385472": {
@@ -2223,10 +2224,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 63
     }
   },
   "386347": {
@@ -2235,10 +2236,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 157
+      "minutesPlayed": 254
     }
   },
   "386348": {
@@ -2259,10 +2260,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 25
     }
   },
   "386387": {
@@ -2271,10 +2272,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 60
+      "minutesPlayed": 157
     }
   },
   "386413": {
@@ -2283,10 +2284,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 241
     }
   },
   "386458": {
@@ -2403,10 +2404,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 71
+      "minutesPlayed": 98
     }
   },
   "389784": {
@@ -2415,10 +2416,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 145
+      "minutesPlayed": 209
     }
   },
   "389867": {
@@ -2463,10 +2464,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 14
+      "minutesPlayed": 29
     }
   },
   "389907": {
@@ -2475,10 +2476,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 17
+      "minutesPlayed": 116
     }
   },
   "390181": {
@@ -2559,10 +2560,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 189
+      "minutesPlayed": 275
     }
   },
   "390267": {
@@ -2571,10 +2572,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 41
     }
   },
   "390272": {
@@ -2583,10 +2584,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 19
+      "minutesPlayed": 118
     }
   },
   "390276": {
@@ -2607,10 +2608,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 23
     }
   },
   "390475": {
@@ -2619,10 +2620,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 98
+      "minutesPlayed": 195
     }
   },
   "390525": {
@@ -2679,10 +2680,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 156
     }
   },
   "390650": {
@@ -2691,10 +2692,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 192
+      "minutesPlayed": 289
     }
   },
   "390670": {
@@ -2703,10 +2704,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 121
+      "minutesPlayed": 179
     }
   },
   "391297": {
@@ -2727,10 +2728,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 149
+      "minutesPlayed": 215
     }
   },
   "393480": {
@@ -2739,10 +2740,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 187
+      "minutesPlayed": 272
     }
   },
   "394376": {
@@ -2763,10 +2764,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 101
+      "minutesPlayed": 132
     }
   },
   "394500": {
@@ -2811,10 +2812,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 32
     }
   },
   "395050": {
@@ -2823,10 +2824,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 174
+      "minutesPlayed": 271
     }
   },
   "395059": {
@@ -2859,10 +2860,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 278
     }
   },
   "395088": {
@@ -2871,10 +2872,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 259
     }
   },
   "395113": {
@@ -2955,10 +2956,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 280
     }
   },
   "395286": {
@@ -2967,10 +2968,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 23
     }
   },
   "395321": {
@@ -2979,10 +2980,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 128
+      "minutesPlayed": 160
     }
   },
   "395414": {
@@ -3027,10 +3028,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 98
+      "minutesPlayed": 195
     }
   },
   "395550": {
@@ -3123,10 +3124,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "396158": {
@@ -3195,10 +3196,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 118
     }
   },
   "397786": {
@@ -3207,10 +3208,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 289
     }
   },
   "397894": {
@@ -3231,10 +3232,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "398569": {
@@ -3303,10 +3304,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 136
     }
   },
   "400514": {
@@ -3315,10 +3316,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 195
     }
   },
   "400634": {
@@ -3327,10 +3328,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 119
+      "minutesPlayed": 216
     }
   },
   "400716": {
@@ -3351,10 +3352,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 297
     }
   },
   "401023": {
@@ -3363,10 +3364,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 186
     }
   },
   "401131": {
@@ -3387,10 +3388,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 15
     }
   },
   "401334": {
@@ -3399,10 +3400,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 170
+      "minutesPlayed": 260
     }
   },
   "401339": {
@@ -3423,10 +3424,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 170
+      "minutesPlayed": 268
     }
   },
   "401444": {
@@ -3471,10 +3472,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 161
+      "minutesPlayed": 194
     }
   },
   "401712": {
@@ -3483,10 +3484,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 60
+      "minutesPlayed": 157
     }
   },
   "401889": {
@@ -3543,10 +3544,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 187
+      "minutesPlayed": 284
     }
   },
   "402022": {
@@ -3591,10 +3592,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 2,
       "assists": 0,
-      "minutesPlayed": 90
+      "minutesPlayed": 157
     }
   },
   "402772": {
@@ -3603,10 +3604,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 214
     }
   },
   "402817": {
@@ -3783,10 +3784,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 50
+      "minutesPlayed": 84
     }
   },
   "402979": {
@@ -3795,10 +3796,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 13
     }
   },
   "402985": {
@@ -3807,10 +3808,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 7
+      "minutesPlayed": 20
     }
   },
   "403001": {
@@ -3939,10 +3940,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 292
     }
   },
   "403289": {
@@ -3963,10 +3964,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 22
+      "minutesPlayed": 54
     }
   },
   "403304": {
@@ -4035,10 +4036,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 178
+      "minutesPlayed": 275
     }
   },
   "403596": {
@@ -4047,10 +4048,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 194
     }
   },
   "403616": {
@@ -4083,10 +4084,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 38
     }
   },
   "404353": {
@@ -4095,10 +4096,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 156
+      "minutesPlayed": 254
     }
   },
   "404645": {
@@ -4119,10 +4120,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 128
+      "minutesPlayed": 161
     }
   },
   "405175": {
@@ -4143,10 +4144,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "405263": {
@@ -4191,10 +4192,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 175
+      "minutesPlayed": 250
     }
   },
   "405527": {
@@ -4203,10 +4204,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 19
+      "minutesPlayed": 94
     }
   },
   "405528": {
@@ -4215,10 +4216,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 45
+      "minutesPlayed": 143
     }
   },
   "405530": {
@@ -4227,10 +4228,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 292
     }
   },
   "405545": {
@@ -4275,10 +4276,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
-      "goals": 2,
+      "appearances": 3,
+      "goals": 4,
       "assists": 0,
-      "minutesPlayed": 182
+      "minutesPlayed": 279
     }
   },
   "405755": {
@@ -4311,10 +4312,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "405877": {
@@ -4335,10 +4336,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 171
+      "minutesPlayed": 238
     }
   },
   "405881": {
@@ -4371,10 +4372,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 151
+      "minutesPlayed": 236
     }
   },
   "406135": {
@@ -4419,10 +4420,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "406280": {
@@ -4431,10 +4432,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 152
+      "minutesPlayed": 175
     }
   },
   "406281": {
@@ -4455,10 +4456,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 27
+      "minutesPlayed": 85
     }
   },
   "406595": {
@@ -4527,10 +4528,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 148
+      "minutesPlayed": 238
     }
   },
   "407993": {
@@ -4635,10 +4636,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 26
+      "minutesPlayed": 100
     }
   },
   "411301": {
@@ -4647,10 +4648,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "411367": {
@@ -4659,10 +4660,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 241
     }
   },
   "411375": {
@@ -4755,10 +4756,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 162
+      "minutesPlayed": 258
     }
   },
   "411678": {
@@ -4767,10 +4768,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 70
     }
   },
   "411680": {
@@ -4779,10 +4780,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 177
+      "minutesPlayed": 193
     }
   },
   "411726": {
@@ -4791,10 +4792,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 125
+      "minutesPlayed": 191
     }
   },
   "412144": {
@@ -4815,10 +4816,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 295
     }
   },
   "416056": {
@@ -4851,10 +4852,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 66
+      "minutesPlayed": 91
     }
   },
   "416652": {
@@ -4923,10 +4924,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 291
     }
   },
   "418535": {
@@ -5127,10 +5128,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 293
     }
   },
   "419055": {
@@ -5139,10 +5140,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 76
     }
   },
   "419062": {
@@ -5163,10 +5164,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 26
+      "minutesPlayed": 102
     }
   },
   "419077": {
@@ -5175,10 +5176,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "419082": {
@@ -5187,10 +5188,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 101
+      "minutesPlayed": 200
     }
   },
   "419100": {
@@ -5319,10 +5320,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 169
+      "minutesPlayed": 265
     }
   },
   "419211": {
@@ -5343,10 +5344,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 120
+      "minutesPlayed": 182
     }
   },
   "419225": {
@@ -5451,10 +5452,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 42
     }
   },
   "419441": {
@@ -5475,10 +5476,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 295
     }
   },
   "419461": {
@@ -5631,10 +5632,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 156
+      "minutesPlayed": 228
     }
   },
   "422968": {
@@ -5655,10 +5656,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 182
+      "minutesPlayed": 278
     }
   },
   "423574": {
@@ -5727,10 +5728,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 19
+      "minutesPlayed": 95
     }
   },
   "423855": {
@@ -5751,10 +5752,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 291
     }
   },
   "423880": {
@@ -5787,10 +5788,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 44
+      "minutesPlayed": 141
     }
   },
   "424031": {
@@ -5799,10 +5800,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 266
     }
   },
   "424036": {
@@ -5811,10 +5812,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 293
     }
   },
   "424047": {
@@ -5823,10 +5824,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 132
     }
   },
   "424051": {
@@ -5835,10 +5836,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
-      "goals": 2,
+      "appearances": 3,
+      "goals": 3,
       "assists": 0,
-      "minutesPlayed": 85
+      "minutesPlayed": 162
     }
   },
   "424056": {
@@ -5859,10 +5860,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 21
+      "minutesPlayed": 104
     }
   },
   "424081": {
@@ -5871,10 +5872,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 289
     }
   },
   "424106": {
@@ -5907,10 +5908,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 90
+      "minutesPlayed": 180
     }
   },
   "424556": {
@@ -5943,10 +5944,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 261
     }
   },
   "425701": {
@@ -6015,10 +6016,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 293
     }
   },
   "428886": {
@@ -6051,10 +6052,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 88
+      "minutesPlayed": 167
     }
   },
   "429095": {
@@ -6075,10 +6076,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
-      "goals": 1,
+      "appearances": 3,
+      "goals": 2,
       "assists": 0,
-      "minutesPlayed": 163
+      "minutesPlayed": 260
     }
   },
   "429392": {
@@ -6111,10 +6112,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 168
+      "minutesPlayed": 265
     }
   },
   "429639": {
@@ -6135,10 +6136,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 98
     }
   },
   "429642": {
@@ -6147,10 +6148,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 124
+      "minutesPlayed": 222
     }
   },
   "430070": {
@@ -6171,10 +6172,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 95
+      "minutesPlayed": 111
     }
   },
   "430098": {
@@ -6207,10 +6208,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 116
+      "minutesPlayed": 125
     }
   },
   "430138": {
@@ -6219,10 +6220,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 144
+      "minutesPlayed": 218
     }
   },
   "430144": {
@@ -6243,10 +6244,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "430150": {
@@ -6255,10 +6256,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 186
+      "minutesPlayed": 284
     }
   },
   "430176": {
@@ -6267,10 +6268,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 177
+      "minutesPlayed": 273
     }
   },
   "430194": {
@@ -6279,10 +6280,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 34
     }
   },
   "430196": {
@@ -6303,10 +6304,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 13
+      "minutesPlayed": 110
     }
   },
   "430387": {
@@ -6315,10 +6316,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 20
+      "minutesPlayed": 43
     }
   },
   "430401": {
@@ -6327,10 +6328,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 75
+      "minutesPlayed": 98
     }
   },
   "430407": {
@@ -6339,10 +6340,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 66
+      "minutesPlayed": 164
     }
   },
   "430413": {
@@ -6351,10 +6352,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 168
+      "minutesPlayed": 234
     }
   },
   "430437": {
@@ -6375,10 +6376,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 292
     }
   },
   "430442": {
@@ -6387,10 +6388,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 292
     }
   },
   "430450": {
@@ -6411,10 +6412,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 292
     }
   },
   "430465": {
@@ -6507,10 +6508,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 32
+      "minutesPlayed": 63
     }
   },
   "430601": {
@@ -6519,10 +6520,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "430605": {
@@ -6531,10 +6532,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 161
+      "minutesPlayed": 258
     }
   },
   "430609": {
@@ -6543,10 +6544,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 2,
-      "goals": 2,
+      "appearances": 3,
+      "goals": 3,
       "assists": 0,
-      "minutesPlayed": 104
+      "minutesPlayed": 180
     }
   },
   "430624": {
@@ -6591,10 +6592,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 24
+      "minutesPlayed": 122
     }
   },
   "430658": {
@@ -6627,10 +6628,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 267
     }
   },
   "430671": {
@@ -6663,10 +6664,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 180
+      "minutesPlayed": 279
     }
   },
   "430698": {
@@ -6735,10 +6736,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 147
+      "minutesPlayed": 217
     }
   },
   "430750": {
@@ -6795,10 +6796,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 17
+      "minutesPlayed": 51
     }
   },
   "430763": {
@@ -6807,10 +6808,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 71
+      "minutesPlayed": 134
     }
   },
   "430766": {
@@ -6843,10 +6844,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 194
     }
   },
   "430834": {
@@ -6879,10 +6880,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 54
+      "minutesPlayed": 151
     }
   },
   "431196": {
@@ -6915,10 +6916,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 282
     }
   },
   "431208": {
@@ -7023,10 +7024,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 115
     }
   },
   "431696": {
@@ -7035,10 +7036,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 280
     }
   },
   "431698": {
@@ -7047,10 +7048,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 173
     }
   },
   "431781": {
@@ -7059,10 +7060,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 176
     }
   },
   "431788": {
@@ -7119,10 +7120,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 70
+      "minutesPlayed": 142
     }
   },
   "433067": {
@@ -7143,10 +7144,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 80
+      "minutesPlayed": 164
     }
   },
   "433074": {
@@ -7203,10 +7204,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 75
+      "minutesPlayed": 163
     }
   },
   "433147": {
@@ -7215,10 +7216,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 137
+      "minutesPlayed": 160
     }
   },
   "433161": {
@@ -7239,10 +7240,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 146
+      "minutesPlayed": 153
     }
   },
   "433195": {
@@ -7263,10 +7264,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 248
     }
   },
   "433362": {
@@ -7275,10 +7276,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 187
+      "minutesPlayed": 283
     }
   },
   "433365": {
@@ -7287,10 +7288,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 97
+      "minutesPlayed": 193
     }
   },
   "433367": {
@@ -7311,10 +7312,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 290
     }
   },
   "433380": {
@@ -7323,10 +7324,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 290
     }
   },
   "433394": {
@@ -7335,10 +7336,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 138
+      "minutesPlayed": 217
     }
   },
   "433426": {
@@ -7347,10 +7348,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 26
+      "minutesPlayed": 55
     }
   },
   "433439": {
@@ -7491,10 +7492,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 190
+      "minutesPlayed": 229
     }
   },
   "433667": {
@@ -7515,10 +7516,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 101
+      "minutesPlayed": 198
     }
   },
   "433679": {
@@ -7539,10 +7540,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 112
+      "minutesPlayed": 193
     }
   },
   "433724": {
@@ -7563,10 +7564,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 101
+      "minutesPlayed": 165
     }
   },
   "433755": {
@@ -7587,10 +7588,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "433795": {
@@ -7719,10 +7720,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "436612": {
@@ -7731,10 +7732,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 289
     }
   },
   "436628": {
@@ -7755,10 +7756,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 182
+      "minutesPlayed": 279
     }
   },
   "436863": {
@@ -7887,10 +7888,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 11
     }
   },
   "441135": {
@@ -7911,10 +7912,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
-      "goals": 1,
+      "appearances": 3,
+      "goals": 2,
       "assists": 0,
-      "minutesPlayed": 48
+      "minutesPlayed": 146
     }
   },
   "441146": {
@@ -7983,10 +7984,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 98
+      "minutesPlayed": 162
     }
   },
   "441170": {
@@ -7995,10 +7996,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 292
     }
   },
   "441171": {
@@ -8043,10 +8044,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 295
     }
   },
   "441188": {
@@ -8067,10 +8068,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 189
+      "minutesPlayed": 285
     }
   },
   "441236": {
@@ -8079,10 +8080,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 293
     }
   },
   "441239": {
@@ -8163,10 +8164,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 197
+      "minutesPlayed": 294
     }
   },
   "441255": {
@@ -8187,10 +8188,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 3,
       "assists": 0,
-      "minutesPlayed": 161
+      "minutesPlayed": 258
     }
   },
   "441258": {
@@ -8211,10 +8212,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 61
+      "minutesPlayed": 100
     }
   },
   "441260": {
@@ -8235,10 +8236,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 115
+      "minutesPlayed": 212
     }
   },
   "441307": {
@@ -8247,10 +8248,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 154
+      "minutesPlayed": 183
     }
   },
   "441313": {
@@ -8355,10 +8356,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 29
     }
   },
   "441402": {
@@ -8451,10 +8452,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "442433": {
@@ -8475,10 +8476,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "447853": {
@@ -8559,10 +8560,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 292
     }
   },
   "448015": {
@@ -8571,10 +8572,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 38
+      "minutesPlayed": 96
     }
   },
   "448051": {
@@ -8631,10 +8632,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 9
+      "minutesPlayed": 21
     }
   },
   "448107": {
@@ -8643,10 +8644,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "448112": {
@@ -8667,10 +8668,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 137
+      "minutesPlayed": 154
     }
   },
   "448120": {
@@ -8691,10 +8692,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 12
     }
   },
   "448127": {
@@ -8727,10 +8728,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
-      "goals": 1,
+      "appearances": 3,
+      "goals": 2,
       "assists": 0,
-      "minutesPlayed": 105
+      "minutesPlayed": 185
     }
   },
   "448136": {
@@ -8763,10 +8764,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 64
+      "minutesPlayed": 88
     }
   },
   "448151": {
@@ -8787,10 +8788,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 174
+      "minutesPlayed": 258
     }
   },
   "448153": {
@@ -8799,10 +8800,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 6
+      "minutesPlayed": 18
     }
   },
   "448157": {
@@ -8967,10 +8968,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 181
+      "minutesPlayed": 194
     }
   },
   "448217": {
@@ -8979,10 +8980,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "448252": {
@@ -9003,10 +9004,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 293
     }
   },
   "448295": {
@@ -9039,10 +9040,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 118
+      "minutesPlayed": 152
     }
   },
   "448312": {
@@ -9051,10 +9052,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 68
+      "minutesPlayed": 153
     }
   },
   "448332": {
@@ -9147,10 +9148,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 294
     }
   },
   "448364": {
@@ -9219,10 +9220,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 58
     }
   },
   "448402": {
@@ -9243,10 +9244,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 65
+      "minutesPlayed": 79
     }
   },
   "448420": {
@@ -9351,10 +9352,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "jpn",
     "teamName": "Japan",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 171
+      "minutesPlayed": 269
     }
   },
   "448569": {
@@ -9399,10 +9400,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 68
+      "minutesPlayed": 142
     }
   },
   "448598": {
@@ -9411,10 +9412,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
-      "goals": 2,
+      "appearances": 3,
+      "goals": 3,
       "assists": 0,
-      "minutesPlayed": 172
+      "minutesPlayed": 242
     }
   },
   "448607": {
@@ -9423,10 +9424,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 297
     }
   },
   "448612": {
@@ -9435,10 +9436,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 163
+      "minutesPlayed": 262
     }
   },
   "448662": {
@@ -9447,10 +9448,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 32
+      "minutesPlayed": 61
     }
   },
   "448815": {
@@ -9495,10 +9496,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 26
+      "minutesPlayed": 60
     }
   },
   "461788": {
@@ -9531,10 +9532,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 9
+      "minutesPlayed": 76
     }
   },
   "463128": {
@@ -9543,10 +9544,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 146
+      "minutesPlayed": 236
     }
   },
   "463218": {
@@ -9555,10 +9556,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "463221": {
@@ -9579,10 +9580,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 84
+      "minutesPlayed": 159
     }
   },
   "463236": {
@@ -9591,10 +9592,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 61
+      "minutesPlayed": 78
     }
   },
   "463282": {
@@ -9663,10 +9664,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ecu",
     "teamName": "Ecuador",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 197
     }
   },
   "463468": {
@@ -9747,10 +9748,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 32
+      "minutesPlayed": 47
     }
   },
   "463780": {
@@ -9831,10 +9832,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 118
+      "minutesPlayed": 185
     }
   },
   "464114": {
@@ -9867,10 +9868,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 56
+      "minutesPlayed": 86
     }
   },
   "464339": {
@@ -9927,10 +9928,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 110
+      "minutesPlayed": 185
     }
   },
   "464533": {
@@ -9951,10 +9952,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 221
     }
   },
   "464546": {
@@ -9975,10 +9976,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 109
+      "minutesPlayed": 206
     }
   },
   "464842": {
@@ -10059,10 +10060,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 171
+      "minutesPlayed": 268
     }
   },
   "466340": {
@@ -10071,10 +10072,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 192
+      "minutesPlayed": 289
     }
   },
   "466346": {
@@ -10083,10 +10084,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 7
     }
   },
   "466350": {
@@ -10095,10 +10096,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 192
+      "minutesPlayed": 289
     }
   },
   "466352": {
@@ -10179,10 +10180,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 27
+      "minutesPlayed": 47
     }
   },
   "466382": {
@@ -10239,10 +10240,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 107
+      "minutesPlayed": 165
     }
   },
   "466835": {
@@ -10263,10 +10264,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 275
     }
   },
   "466844": {
@@ -10347,10 +10348,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 9
     }
   },
   "472908": {
@@ -10359,10 +10360,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 292
     }
   },
   "473050": {
@@ -10419,10 +10420,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bra",
     "teamName": "Brazil",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 56
+      "minutesPlayed": 138
     }
   },
   "475195": {
@@ -10479,10 +10480,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 105
     }
   },
   "477470": {
@@ -10527,10 +10528,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 30
     }
   },
   "477778": {
@@ -10575,10 +10576,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "477817": {
@@ -10599,10 +10600,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 108
+      "minutesPlayed": 205
     }
   },
   "477827": {
@@ -10791,10 +10792,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 24
     }
   },
   "479042": {
@@ -10947,10 +10948,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 13
+      "minutesPlayed": 45
     }
   },
   "479389": {
@@ -10983,10 +10984,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 160
+      "minutesPlayed": 256
     }
   },
   "479781": {
@@ -10995,10 +10996,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 25
+      "minutesPlayed": 54
     }
   },
   "480310": {
@@ -11031,10 +11032,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 168
+      "minutesPlayed": 265
     }
   },
   "480966": {
@@ -11067,10 +11068,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 95
+      "minutesPlayed": 127
     }
   },
   "481180": {
@@ -11127,10 +11128,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 142
+      "minutesPlayed": 164
     }
   },
   "481610": {
@@ -11295,10 +11296,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 193
     }
   },
   "482976": {
@@ -11319,10 +11320,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 292
     }
   },
   "482984": {
@@ -11403,10 +11404,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 154
+      "minutesPlayed": 241
     }
   },
   "483304": {
@@ -11415,10 +11416,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 291
     }
   },
   "483312": {
@@ -11427,10 +11428,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 230
     }
   },
   "483319": {
@@ -11451,10 +11452,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 291
     }
   },
   "483442": {
@@ -11571,10 +11572,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 129
+      "minutesPlayed": 201
     }
   },
   "483530": {
@@ -11631,10 +11632,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "483961": {
@@ -11643,10 +11644,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 34
+      "minutesPlayed": 44
     }
   },
   "483966": {
@@ -11655,10 +11656,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 160
+      "minutesPlayed": 257
     }
   },
   "483990": {
@@ -11691,10 +11692,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 94
+      "minutesPlayed": 135
     }
   },
   "484012": {
@@ -11703,10 +11704,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 292
     }
   },
   "484022": {
@@ -11727,10 +11728,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 82
+      "minutesPlayed": 172
     }
   },
   "484051": {
@@ -11739,10 +11740,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 43
+      "minutesPlayed": 140
     }
   },
   "484065": {
@@ -11751,10 +11752,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 28
+      "minutesPlayed": 127
     }
   },
   "484072": {
@@ -11787,10 +11788,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 183
+      "minutesPlayed": 282
     }
   },
   "484087": {
@@ -11799,10 +11800,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 295
     }
   },
   "484092": {
@@ -11823,10 +11824,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 280
     }
   },
   "484113": {
@@ -11847,10 +11848,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 189
     }
   },
   "484141": {
@@ -11979,10 +11980,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 25
     }
   },
   "484849": {
@@ -12003,10 +12004,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 34
     }
   },
   "484851": {
@@ -12015,10 +12016,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 3,
       "assists": 0,
-      "minutesPlayed": 70
+      "minutesPlayed": 108
     }
   },
   "484859": {
@@ -12147,10 +12148,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 273
     }
   },
   "485080": {
@@ -12183,10 +12184,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 112
+      "minutesPlayed": 193
     }
   },
   "485324": {
@@ -12207,10 +12208,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 157
+      "minutesPlayed": 254
     }
   },
   "485379": {
@@ -12219,10 +12220,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 7
     }
   },
   "485409": {
@@ -12279,10 +12280,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 156
+      "minutesPlayed": 223
     }
   },
   "485666": {
@@ -12315,10 +12316,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 49
+      "minutesPlayed": 132
     }
   },
   "485677": {
@@ -12339,10 +12340,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 281
     }
   },
   "485756": {
@@ -12375,10 +12376,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 99
     }
   },
   "485802": {
@@ -12387,10 +12388,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 37
+      "minutesPlayed": 66
     }
   },
   "485804": {
@@ -12411,10 +12412,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 39
+      "minutesPlayed": 54
     }
   },
   "486076": {
@@ -12423,10 +12424,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tur",
     "teamName": "Türkiye",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 90
     }
   },
   "486080": {
@@ -12435,10 +12436,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 292
     }
   },
   "486081": {
@@ -12447,10 +12448,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 78
+      "minutesPlayed": 165
     }
   },
   "486082": {
@@ -12459,10 +12460,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 106
+      "minutesPlayed": 203
     }
   },
   "486130": {
@@ -12507,10 +12508,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 98
+      "minutesPlayed": 178
     }
   },
   "486168": {
@@ -12567,10 +12568,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "486268": {
@@ -12591,10 +12592,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 160
+      "minutesPlayed": 244
     }
   },
   "486317": {
@@ -12603,10 +12604,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 105
+      "minutesPlayed": 202
     }
   },
   "486390": {
@@ -12651,10 +12652,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 52
+      "minutesPlayed": 148
     }
   },
   "486929": {
@@ -12663,10 +12664,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 105
+      "minutesPlayed": 144
     }
   },
   "489300": {
@@ -12675,10 +12676,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 294
     }
   },
   "489417": {
@@ -12699,10 +12700,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 193
+      "minutesPlayed": 289
     }
   },
   "489518": {
@@ -12711,10 +12712,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ned",
     "teamName": "Netherlands",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 166
+      "minutesPlayed": 190
     }
   },
   "489520": {
@@ -12723,10 +12724,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 195
+      "minutesPlayed": 258
     }
   },
   "489521": {
@@ -12735,10 +12736,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "489523": {
@@ -12795,10 +12796,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 98
     }
   },
   "489688": {
@@ -12807,10 +12808,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 176
+      "minutesPlayed": 274
     }
   },
   "489689": {
@@ -12819,10 +12820,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 74
+      "minutesPlayed": 135
     }
   },
   "489691": {
@@ -12963,10 +12964,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 7
+      "minutesPlayed": 30
     }
   },
   "491269": {
@@ -12999,10 +13000,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 194
+      "minutesPlayed": 291
     }
   },
   "492358": {
@@ -13023,10 +13024,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 170
+      "minutesPlayed": 234
     }
   },
   "492716": {
@@ -13083,10 +13084,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "can",
     "teamName": "Canada",
     "stats": {
-      "appearances": 1,
-      "goals": 0,
+      "appearances": 2,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 36
+      "minutesPlayed": 59
     }
   },
   "493983": {
@@ -13131,10 +13132,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 140
+      "minutesPlayed": 237
     }
   },
   "494277": {
@@ -13263,10 +13264,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 1,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 90
     }
   },
   "494375": {
@@ -13275,10 +13276,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 46
+      "minutesPlayed": 67
     }
   },
   "494411": {
@@ -13335,10 +13336,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 294
     }
   },
   "494557": {
@@ -13347,10 +13348,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 292
     }
   },
   "494625": {
@@ -13407,10 +13408,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 172
+      "minutesPlayed": 269
     }
   },
   "494742": {
@@ -13443,10 +13444,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 179
+      "minutesPlayed": 240
     }
   },
   "495046": {
@@ -13455,10 +13456,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 99
+      "minutesPlayed": 195
     }
   },
   "495054": {
@@ -13575,10 +13576,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 161
+      "minutesPlayed": 173
     }
   },
   "498439": {
@@ -13611,10 +13612,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 1,
       "assists": 0,
-      "minutesPlayed": 120
+      "minutesPlayed": 138
     }
   },
   "498514": {
@@ -13695,10 +13696,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "usa",
     "teamName": "USA",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 124
+      "minutesPlayed": 223
     }
   },
   "499913": {
@@ -13719,10 +13720,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 32
+      "minutesPlayed": 104
     }
   },
   "500038": {
@@ -13731,10 +13732,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mex",
     "teamName": "Mexico",
     "stats": {
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 1,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 78
     }
   },
   "502245": {
@@ -13755,10 +13756,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 2,
-      "goals": 2,
+      "appearances": 3,
+      "goals": 3,
       "assists": 0,
-      "minutesPlayed": 59
+      "minutesPlayed": 144
     }
   },
   "502945": {
@@ -13767,10 +13768,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 145
+      "minutesPlayed": 220
     }
   },
   "502946": {
@@ -13779,10 +13780,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 119
+      "minutesPlayed": 130
     }
   },
   "503047": {
@@ -13815,10 +13816,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 35
     }
   },
   "504199": {
@@ -13827,10 +13828,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "504200": {
@@ -13863,10 +13864,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "tun",
     "teamName": "Tunisia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 89
+      "minutesPlayed": 95
     }
   },
   "504931": {
@@ -13875,10 +13876,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 96
     }
   },
   "504990": {
@@ -13887,10 +13888,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 2,
-      "goals": 0,
+      "appearances": 3,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 113
+      "minutesPlayed": 195
     }
   },
   "505097": {
@@ -13899,10 +13900,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 44
+      "minutesPlayed": 60
     }
   },
   "505112": {
@@ -13911,10 +13912,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "mar",
     "teamName": "Morocco",
     "stats": {
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 1,
+      "goals": 1,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 29
     }
   },
   "505495": {
@@ -13959,10 +13960,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "rsa",
     "teamName": "South Africa",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 196
+      "minutesPlayed": 293
     }
   },
   "506069": {
@@ -14007,10 +14008,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 56
+      "minutesPlayed": 86
     }
   },
   "506277": {
@@ -14067,10 +14068,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 171
+      "minutesPlayed": 248
     }
   },
   "506473": {
@@ -14079,10 +14080,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 20
     }
   },
   "506481": {
@@ -14139,10 +14140,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 100
+      "minutesPlayed": 199
     }
   },
   "510850": {
@@ -14163,10 +14164,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sui",
     "teamName": "Switzerland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 12
+      "minutesPlayed": 86
     }
   },
   "510922": {
@@ -14175,10 +14176,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 184
+      "minutesPlayed": 251
     }
   },
   "510989": {
@@ -14271,10 +14272,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cuw",
     "teamName": "Curaçao",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 192
+      "minutesPlayed": 289
     }
   },
   "511710": {
@@ -14295,10 +14296,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "kor",
     "teamName": "Korea Republic",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 97
     }
   },
   "511875": {
@@ -14391,10 +14392,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "qat",
     "teamName": "Qatar",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 198
+      "minutesPlayed": 295
     }
   },
   "514070": {
@@ -14439,10 +14440,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "ger",
     "teamName": "Germany",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 38
     }
   },
   "514202": {
@@ -14463,10 +14464,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "civ",
     "teamName": "Côte d'Ivoire",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 120
+      "minutesPlayed": 217
     }
   },
   "514326": {
@@ -14571,10 +14572,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "aus",
     "teamName": "Australia",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 23
+      "minutesPlayed": 35
     }
   },
   "518264": {
@@ -14631,10 +14632,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "swe",
     "teamName": "Sweden",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 39
+      "minutesPlayed": 114
     }
   },
   "519985": {
@@ -14643,10 +14644,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 0,
+      "appearances": 1,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 0
+      "minutesPlayed": 56
     }
   },
   "520034": {
@@ -14715,10 +14716,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "par",
     "teamName": "Paraguay",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 9
+      "minutesPlayed": 21
     }
   },
   "520068": {
@@ -14787,10 +14788,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "sco",
     "teamName": "Scotland",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 17
+      "minutesPlayed": 24
     }
   },
   "520218": {
@@ -14871,10 +14872,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "bih",
     "teamName": "Bosnia and Herzegovina",
     "stats": {
-      "appearances": 1,
-      "goals": 1,
+      "appearances": 2,
+      "goals": 2,
       "assists": 0,
-      "minutesPlayed": 8
+      "minutesPlayed": 42
     }
   },
   "523007": {
@@ -14895,10 +14896,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "cze",
     "teamName": "Czechia",
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 139
+      "minutesPlayed": 149
     }
   },
   "523173": {
@@ -14919,10 +14920,10 @@ export const playerWorldCupStatsByFifaId = {
     "teamId": "hai",
     "teamName": "Haiti",
     "stats": {
-      "appearances": 1,
+      "appearances": 2,
       "goals": 0,
       "assists": 0,
-      "minutesPlayed": 96
+      "minutesPlayed": 115
     }
   },
   "523236": {
@@ -15004,6 +15005,20 @@ export const goalLeaderboard = [
   },
   {
     "rank": 2,
+    "fifaId": "405742",
+    "name": "VINICIUS JUNIOR",
+    "teamId": "bra",
+    "teamName": "Brazil",
+    "value": 4,
+    "stats": {
+      "appearances": 3,
+      "goals": 4,
+      "assists": 0,
+      "minutesPlayed": 279
+    }
+  },
+  {
+    "rank": 3,
     "fifaId": "419652",
     "name": "Erling HAALAND",
     "teamId": "nor",
@@ -15017,7 +15032,7 @@ export const goalLeaderboard = [
     }
   },
   {
-    "rank": 3,
+    "rank": 4,
     "fifaId": "389867",
     "name": "Kylian MBAPPE",
     "teamId": "fra",
@@ -15031,35 +15046,161 @@ export const goalLeaderboard = [
     }
   },
   {
-    "rank": 4,
+    "rank": 5,
     "fifaId": "441257",
     "name": "Jonathan DAVID",
     "teamId": "can",
     "teamName": "Canada",
     "value": 3,
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 3,
       "assists": 0,
-      "minutesPlayed": 161
+      "minutesPlayed": 258
     }
   },
   {
-    "rank": 5,
+    "rank": 6,
+    "fifaId": "448598",
+    "name": "Ismael SAIBARI",
+    "teamId": "mar",
+    "teamName": "Morocco",
+    "value": 3,
+    "stats": {
+      "appearances": 3,
+      "goals": 3,
+      "assists": 0,
+      "minutesPlayed": 242
+    }
+  },
+  {
+    "rank": 7,
+    "fifaId": "430609",
+    "name": "MATHEUS CUNHA",
+    "teamId": "bra",
+    "teamName": "Brazil",
+    "value": 3,
+    "stats": {
+      "appearances": 3,
+      "goals": 3,
+      "assists": 0,
+      "minutesPlayed": 180
+    }
+  },
+  {
+    "rank": 8,
+    "fifaId": "424051",
+    "name": "Brian BROBBEY",
+    "teamId": "ned",
+    "teamName": "Netherlands",
+    "value": 3,
+    "stats": {
+      "appearances": 3,
+      "goals": 3,
+      "assists": 0,
+      "minutesPlayed": 162
+    }
+  },
+  {
+    "rank": 9,
+    "fifaId": "502727",
+    "name": "Johan MANZAMBI",
+    "teamId": "sui",
+    "teamName": "Switzerland",
+    "value": 3,
+    "stats": {
+      "appearances": 3,
+      "goals": 3,
+      "assists": 0,
+      "minutesPlayed": 144
+    }
+  },
+  {
+    "rank": 10,
     "fifaId": "484851",
     "name": "Deniz UNDAV",
     "teamId": "ger",
     "teamName": "Germany",
     "value": 3,
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 3,
       "assists": 0,
-      "minutesPlayed": 70
+      "minutesPlayed": 108
     }
   },
   {
-    "rank": 6,
+    "rank": 11,
+    "fifaId": "489688",
+    "name": "Yasin AYARI",
+    "teamId": "swe",
+    "teamName": "Sweden",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 274
+    }
+  },
+  {
+    "rank": 12,
+    "fifaId": "448557",
+    "name": "Daichi KAMADA",
+    "teamId": "jpn",
+    "teamName": "Japan",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 269
+    }
+  },
+  {
+    "rank": 13,
+    "fifaId": "429157",
+    "name": "Julian QUINONES",
+    "teamId": "mex",
+    "teamName": "Mexico",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 260
+    }
+  },
+  {
+    "rank": 14,
+    "fifaId": "448152",
+    "name": "Cody GAKPO",
+    "teamId": "ned",
+    "teamName": "Netherlands",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 258
+    }
+  },
+  {
+    "rank": 15,
+    "fifaId": "430413",
+    "name": "Ayase UEDA",
+    "teamId": "jpn",
+    "teamName": "Japan",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 234
+    }
+  },
+  {
+    "rank": 16,
     "fifaId": "431200",
     "name": "Daniel MUNOZ",
     "teamId": "col",
@@ -15073,7 +15214,7 @@ export const goalLeaderboard = [
     }
   },
   {
-    "rank": 7,
+    "rank": 17,
     "fifaId": "201200",
     "name": "CRISTIANO RONALDO",
     "teamId": "por",
@@ -15087,21 +15228,35 @@ export const goalLeaderboard = [
     }
   },
   {
-    "rank": 8,
-    "fifaId": "405742",
-    "name": "VINICIUS JUNIOR",
-    "teamId": "bra",
-    "teamName": "Brazil",
+    "rank": 18,
+    "fifaId": "489518",
+    "name": "Crysencio SUMMERVILLE",
+    "teamId": "ned",
+    "teamName": "Netherlands",
     "value": 2,
     "stats": {
-      "appearances": 2,
+      "appearances": 3,
       "goals": 2,
       "assists": 0,
-      "minutesPlayed": 182
+      "minutesPlayed": 190
     }
   },
   {
-    "rank": 9,
+    "rank": 19,
+    "fifaId": "448131",
+    "name": "Ruben VARGAS",
+    "teamId": "sui",
+    "teamName": "Switzerland",
+    "value": 2,
+    "stats": {
+      "appearances": 3,
+      "goals": 2,
+      "assists": 0,
+      "minutesPlayed": 185
+    }
+  },
+  {
+    "rank": 20,
     "fifaId": "405454",
     "name": "Elijah JUST",
     "teamId": "nzl",
@@ -15112,160 +15267,6 @@ export const goalLeaderboard = [
       "goals": 2,
       "assists": 0,
       "minutesPlayed": 181
-    }
-  },
-  {
-    "rank": 10,
-    "fifaId": "401889",
-    "name": "Ismaila SARR",
-    "teamId": "sen",
-    "teamName": "Senegal",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 176
-    }
-  },
-  {
-    "rank": 11,
-    "fifaId": "489688",
-    "name": "Yasin AYARI",
-    "teamId": "swe",
-    "teamName": "Sweden",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 176
-    }
-  },
-  {
-    "rank": 12,
-    "fifaId": "448152",
-    "name": "Cody GAKPO",
-    "teamId": "ned",
-    "teamName": "Netherlands",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 174
-    }
-  },
-  {
-    "rank": 13,
-    "fifaId": "448598",
-    "name": "Ismael SAIBARI",
-    "teamId": "mar",
-    "teamName": "Morocco",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 172
-    }
-  },
-  {
-    "rank": 14,
-    "fifaId": "448557",
-    "name": "Daichi KAMADA",
-    "teamId": "jpn",
-    "teamName": "Japan",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 171
-    }
-  },
-  {
-    "rank": 15,
-    "fifaId": "430413",
-    "name": "Ayase UEDA",
-    "teamId": "jpn",
-    "teamName": "Japan",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 168
-    }
-  },
-  {
-    "rank": 16,
-    "fifaId": "489518",
-    "name": "Crysencio SUMMERVILLE",
-    "teamId": "ned",
-    "teamName": "Netherlands",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 166
-    }
-  },
-  {
-    "rank": 17,
-    "fifaId": "466624",
-    "name": "Folarin BALOGUN",
-    "teamId": "usa",
-    "teamName": "USA",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 162
-    }
-  },
-  {
-    "rank": 18,
-    "fifaId": "419100",
-    "name": "Maxi ARAUJO",
-    "teamId": "uru",
-    "teamName": "Uruguay",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 162
-    }
-  },
-  {
-    "rank": 19,
-    "fifaId": "395186",
-    "name": "AYMEN HUSSEIN",
-    "teamId": "irq",
-    "teamName": "Iraq",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 124
-    }
-  },
-  {
-    "rank": 20,
-    "fifaId": "390670",
-    "name": "Cyle LARIN",
-    "teamId": "can",
-    "teamName": "Canada",
-    "value": 2,
-    "stats": {
-      "appearances": 2,
-      "goals": 2,
-      "assists": 0,
-      "minutesPlayed": 121
     }
   }
 ];

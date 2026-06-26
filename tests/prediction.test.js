@@ -7,6 +7,7 @@ import {
   predictMatch,
   normalizeProbabilities
 } from "../src/prediction.js";
+import { teamTournamentStatsById } from "../src/matchResultsData.js";
 import { worldCupOddsByMatchId } from "../src/oddsData.js";
 
 const match = {
@@ -150,10 +151,12 @@ test("buildKimiMessages includes current tournament results as prediction contex
   const baseline = createLocalPrediction(currentFormMatch, currentFormTeams);
   const messages = buildKimiMessages(currentFormMatch, currentFormTeams, "", baseline);
   const payload = JSON.parse(messages[1].content);
+  const homeStats = teamTournamentStatsById[currentFormMatch.homeTeamId];
+  const awayStats = teamTournamentStatsById[currentFormMatch.awayTeamId];
 
-  assert.equal(payload.currentTournament.home.played, 2);
-  assert.equal(payload.currentTournament.away.points, 6);
-  assert.deepEqual(payload.currentTournament.away.form, ["W", "W"]);
+  assert.equal(payload.currentTournament.home.played, homeStats.played);
+  assert.equal(payload.currentTournament.away.points, awayStats.points);
+  assert.deepEqual(payload.currentTournament.away.form, awayStats.form);
   assert.match(payload.instructions.join("\n"), /current tournament/i);
 });
 

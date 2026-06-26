@@ -22,6 +22,7 @@
       <nav class="page-tabs" aria-label="页面切换">
         <button class="page-tab active" type="button" data-page-tab="predict">比赛预测</button>
         <button class="page-tab" type="button" data-page-tab="teams">球队与名单</button>
+        <button class="page-tab" type="button" data-page-tab="bracket">32强对阵</button>
         <button class="page-tab" type="button" data-page-tab="champion-odds">冠军赔率</button>
       </nav>
 
@@ -96,6 +97,16 @@
             <h2 id="champion-odds-title">世界杯冠军赔率</h2>
           </div>
           <section class="champion-odds-panel champion-odds-page-panel" id="champion-odds-panel" aria-live="polite" aria-label="世界杯冠军赔率"></section>
+        </section>
+
+        <section class="page-view" data-page="bracket" aria-labelledby="bracket-title">
+          <div class="section-heading">
+            <p class="eyebrow">Knockout Bracket</p>
+            <h2 id="bracket-title">32强实时树状对阵图</h2>
+          </div>
+          <section class="panel bracket-panel" aria-label="32强实时树状对阵图">
+            <div class="bracket-board" id="bracket-board"></div>
+          </section>
         </section>
       </main>
     </div>

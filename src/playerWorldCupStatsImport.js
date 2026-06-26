@@ -21,11 +21,13 @@ export function buildPlayerWorldCupStatsData({ teams, liveMatches }) {
   }
 
   const rankedPlayers = Object.values(playerWorldCupStatsByFifaId);
+  const assistLeaderboard = buildLeaderboard(rankedPlayers, "assists");
 
   return {
     playerWorldCupStatsByFifaId,
     goalLeaderboard: buildLeaderboard(rankedPlayers, "goals"),
-    assistLeaderboard: buildLeaderboard(rankedPlayers, "assists")
+    assistLeaderboard,
+    assistsAvailable: assistLeaderboard.length > 0
   };
 }
 

@@ -577,6 +577,189 @@ button {
   white-space: nowrap;
 }
 
+.bracket-panel {
+  padding: 18px;
+  overflow: hidden;
+}
+
+.bracket-board {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.bracket-track {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 48px;
+  align-items: flex-start;
+  width: max-content;
+  min-width: max-content;
+  padding-right: 18px;
+}
+
+.bracket-round {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 340px;
+  width: 340px;
+  max-width: 340px;
+  gap: 12px;
+  scroll-snap-align: start;
+}
+
+.bracket-round:not(:last-child)::after {
+  display: none;
+}
+
+.bracket-round-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid rgba(248, 223, 99, 0.26);
+  border-radius: 8px;
+  padding: 9px 10px;
+  background: rgba(248, 223, 99, 0.08);
+}
+
+.bracket-round-title h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.bracket-round-title span {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.bracket-match-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-content: start;
+  height: auto;
+}
+
+.bracket-match {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  background:
+    linear-gradient(135deg, rgba(98, 242, 211, 0.08), rgba(6, 9, 21, 0.2)),
+    var(--surface-strong);
+}
+
+.bracket-match::after {
+  display: none;
+}
+
+.bracket-round:last-child .bracket-match::after {
+  display: none;
+}
+
+.bracket-match.finished {
+  border-color: rgba(248, 223, 99, 0.34);
+}
+
+.bracket-match-meta,
+.bracket-match-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.bracket-match-meta {
+  margin-bottom: 8px;
+}
+
+.bracket-match-meta span,
+.bracket-match-footer span {
+  color: var(--gold);
+  font-weight: 950;
+}
+
+.bracket-match-meta small,
+.bracket-match-footer small {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bracket-side {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 7px 8px;
+  background: rgba(6, 9, 21, 0.42);
+}
+
+.bracket-side + .bracket-side {
+  margin-top: 6px;
+}
+
+.bracket-side strong {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bracket-side strong small {
+  border: 1px solid rgba(248, 223, 99, 0.28);
+  border-radius: 999px;
+  padding: 2px 5px;
+  color: var(--gold);
+  background: rgba(248, 223, 99, 0.1);
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.bracket-side span {
+  text-align: right;
+  color: var(--ink);
+  font-weight: 950;
+}
+
+.bracket-side.placeholder {
+  border-color: rgba(168, 198, 187, 0.16);
+  color: var(--muted);
+  border-style: dashed;
+}
+
+.bracket-side.winner {
+  border-color: rgba(248, 223, 99, 0.42);
+  background: rgba(248, 223, 99, 0.12);
+}
+
+.bracket-side.projected {
+  border-color: rgba(98, 242, 211, 0.22);
+}
+
+.bracket-match-footer {
+  margin-top: 8px;
+}
+
 .odds-cell {
   min-width: 0;
   border: 1px solid var(--line);
@@ -1234,7 +1417,7 @@ button.standings-row {
 
   .page-tabs {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     position: sticky;
     top: 0;
     z-index: 20;
@@ -1243,7 +1426,8 @@ button.standings-row {
   }
 
   .page-tab {
-    padding: 9px 10px;
+    padding: 9px 7px;
+    font-size: 12px;
   }
 
   .schedule-panel,
@@ -1391,6 +1575,76 @@ button.standings-row {
   .champion-odds-row {
     padding: 7px 8px;
     font-size: 13px;
+  }
+
+  .bracket-panel {
+    padding: 10px;
+  }
+
+  .bracket-board {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+
+  .bracket-track {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 48px;
+    align-items: flex-start;
+    width: max-content;
+    min-width: max-content;
+    padding: 0 18px 0 0;
+  }
+
+  .bracket-round:not(:last-child)::after {
+    display: none;
+  }
+
+  .bracket-round {
+    flex: 0 0 340px;
+    width: 340px;
+    max-width: 340px;
+    gap: 12px;
+    scroll-snap-align: start;
+  }
+
+  .bracket-round + .bracket-round {
+    margin-top: 0;
+  }
+
+  .bracket-round-title {
+    min-height: 38px;
+    padding: 8px;
+  }
+
+  .bracket-round-title h3 {
+    font-size: 14px;
+  }
+
+  .bracket-match-list {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    height: auto;
+    gap: 14px;
+  }
+
+  .bracket-match {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .bracket-match::after {
+    display: none;
+  }
+
+  .bracket-side {
+    padding: 8px 9px;
+    font-size: 12px;
   }
 
   .rules-box {

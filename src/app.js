@@ -1,4 +1,5 @@
 import { matches as localMatches, teams as localTeams, serializeMatch } from "./data.js";
+import { buildKnockoutBracket } from "./bracket.js";
 import { getFlagUrl } from "./flags.js";
 import { formatDisplayName, formatMarketValue, formatStat } from "./formatters.js";
 import { groupMatchesByDate, toggleFavoriteMatch } from "./matchSchedule.js";
@@ -39,6 +40,7 @@ const elements = {
   scoreboard: document.querySelector("#scoreboard"),
   oddsPanel: document.querySelector("#odds-panel"),
   championOddsPanel: document.querySelector("#champion-odds-panel"),
+  bracketBoard: document.querySelector("#bracket-board"),
   predictionControls: document.querySelector("#prediction-controls"),
   predictionClosed: document.querySelector("#prediction-closed"),
   rulesInput: document.querySelector("#rules-input"),
@@ -127,6 +129,7 @@ function render() {
   renderSelectedMatch();
   renderTeams();
   renderChampionOdds();
+  renderBracket();
 }
 
 function renderPage() {
@@ -242,6 +245,58 @@ function renderChampionOdds() {
       }
     </div>
     <p class="odds-note">${championOdds.items[0]?.updatedText ?? "等待赔率源同步"}</p>
+  `;
+}
+
+function renderBracket() {
+  const rounds = buildKnockoutBracket(state.matches, state.teams);
+  elements.bracketBoard.innerHTML = `
+    <div class="bracket-track">
+      ${rounds
+        .map(
+          (round) => `
+            <section class="bracket-round" aria-label="${round.label}">
+              <div class="bracket-round-title">
+                <h3>${round.label}</h3>
+                <span>${round.matches.length} 场</span>
+              </div>
+              <div class="bracket-match-list">
+                ${round.matches.map((match) => bracketMatchCard(match)).join("")}
+              </div>
+            </section>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function bracketMatchCard(match) {
+  return `
+    <article class="bracket-match ${match.status}" data-match-id="${match.id}">
+      <div class="bracket-match-meta">
+        <span>#${match.matchNumber}</span>
+        <small>${formatDate(match.kickoff)}</small>
+      </div>
+      ${bracketSideRow(match.home)}
+      ${bracketSideRow(match.away)}
+      <div class="bracket-match-footer">
+        <span>${match.score || "vs"}</span>
+        <small>${match.venue || "Venue TBD"}</small>
+      </div>
+    </article>
+  `;
+}
+
+function bracketSideRow(side) {
+  return `
+    <div class="bracket-side ${side.placeholder ? "placeholder" : ""} ${side.projected ? "projected" : ""} ${side.isWinner ? "winner" : ""}">
+      <strong>
+        ${side.team ? flagImage(side.team) : ""}${side.label}
+        ${side.projected ? `<small>${side.sourceLabel}</small>` : ""}
+      </strong>
+      <span>${side.score ?? ""}</span>
+    </div>
   `;
 }
 
@@ -367,12 +422,19 @@ function renderTeams() {
 function renderPlayerLeaderboards() {
   elements.playerLeaderboards.innerHTML = `
     ${leaderboardCard("世界杯进球榜", goalLeaderboard, "球")}
-    ${leaderboardCard("世界杯助攻榜", assistLeaderboard, "次")}
+    ${leaderboardCard(
+      "世界杯助攻榜",
+      assistLeaderboard,
+      "次",
+      playerWorldCupStatsSource.assistsAvailable
+        ? "暂无数据"
+        : "FIFA 官方 live 数据暂未提供助攻球员字段，待官网同步后自动生成。"
+    )}
     <p class="leaderboard-source">球员出场、进球、助攻、分钟数据来源：${playerWorldCupStatsSource.name} 官方比赛数据。</p>
   `;
 }
 
-function leaderboardCard(title, items, unit) {
+function leaderboardCard(title, items, unit, emptyText = "暂无数据") {
   return `
     <section class="panel leaderboard-card" aria-label="${title}">
       <div class="leaderboard-title">
@@ -395,7 +457,7 @@ function leaderboardCard(title, items, unit) {
                   `
                 )
                 .join("")
-            : `<p class="muted">暂无数据</p>`
+            : `<p class="muted">${emptyText}</p>`
         }
       </div>
     </section>
